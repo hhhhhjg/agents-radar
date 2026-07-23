@@ -44,9 +44,14 @@ async function sendToOneWebhook(webhookUrl: string, title: string, content: stri
     const body = await res.text();
     throw new Error(`Feishu API ${res.status}: ${body}`);
   }
+
+  const body = (await res.json().catch(() => null)) as { code?: number; msg?: string } | null;
+  if (body?.code !== undefined && body.code !== 0) {
+    throw new Error(`Feishu API business error ${body.code}: ${body.msg ?? "unknown error"}`);
+  }
 }
 
-async function sendFeishu(title: string, content: string): Promise<void> {
+export async function sendFeishu(title: string, content: string): Promise<void> {
   const urls = getWebhookUrls();
   const results = await Promise.allSettled(urls.map((url) => sendToOneWebhook(url, title, content)));
   const failures = results.filter((r) => r.status === "rejected");

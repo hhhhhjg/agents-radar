@@ -8,7 +8,7 @@ on:
   workflow_dispatch:
     inputs:
       test_feishu:
-        description: Send the latest existing report to FEISHU_WEBHOOK_URLS_2 only
+        description: Generate a fresh research radar and send it to FEISHU_WEBHOOK_URLS_2 only
         required: false
         default: false
         type: boolean
@@ -46,16 +46,33 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Send latest report to Feishu test group
+      - name: Generate fresh research radar
+        env:
+          LLM_PROVIDER: openai
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+          OPENAI_MODEL: ${{ vars.OPENAI_MODEL || 'deepseek-chat' }}
+          LLM_CONCURRENCY: ${{ vars.LLM_CONCURRENCY || '1' }}
+          LLM_MIN_INTERVAL_MS: ${{ vars.LLM_MIN_INTERVAL_MS || '22000' }}
+          DIGEST_REPO: ${{ github.repository }}
+        run: |
+          pnpm research-radar
+
+      - name: Send fresh research radar to Feishu test group
         env:
           FEISHU_WEBHOOK_URLS: ${{ secrets.FEISHU_WEBHOOK_URLS_2 }}
-          PAGES_URL: https://hhhhhjg.github.io/agents-radar
         run: |
           if [ -z "$FEISHU_WEBHOOK_URLS" ]; then
             echo "::error::FEISHU_WEBHOOK_URLS_2 is not configured"
             exit 1
           fi
-          pnpm notify:feishu
+          pnpm notify:feishu:research-preview
+
+      - name: Upload generated research radar
+        uses: actions/upload-artifact@v4
+        with:
+          name: research-radar-preview
+          path: digests/*/ai-arxiv*.md
 
   digest:
     if: ${{ github.event_name != 'workflow_dispatch' || inputs.test_feishu != true }}
