@@ -70,7 +70,10 @@ export function buildFeishuMessage(
 
   const icon = isMonthly ? "📆" : isWeekly ? "📅" : "📡";
   const suffix = isMonthly ? " 月报" : isWeekly ? " 周报" : "";
-  const lines: string[] = [`${icon} **agents-radar${suffix} · ${date}**`];
+  const lines: string[] = [
+    "<at id=all></at>",
+    `${icon} **agents-radar${suffix} · ${date}**`,
+  ];
 
   const dailyReports = baseReports.filter((r) => !r.includes("weekly") && !r.includes("monthly"));
   const ordered = [
