@@ -111,7 +111,7 @@ jobs:
           LLM_MIN_INTERVAL_MS: ${{ vars.LLM_MIN_INTERVAL_MS || '22000' }}
           PRODUCTHUNT_TOKEN: ${{ secrets.PRODUCTHUNT_TOKEN }}
           DIGEST_REPO: ${{ github.repository }}
-        run: pnpm start
+        run: pnpm research-radar
 
       - name: Commit digest files
         run: |
