@@ -4,7 +4,7 @@ on:
   schedule:
     # UTC 周日到周四 22:45 = 北京时间周一到周五 06:45 (UTC+8)
     # 提前启动，给低限流 LLM 留出 1.5-2 小时生成和推送时间。
-    - cron: "45 22 * * *"
+    - cron: "00 22 * * *"
   workflow_dispatch:
 
 concurrency:
