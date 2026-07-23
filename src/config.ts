@@ -113,7 +113,7 @@ export function toResearchTopic(e: RawResearchTopic): ResearchTopic {
       "cs.AI",
       "cs.LG",
     ],
-    maxItems: Math.max(1, Math.min(10, e.max_items ?? 5)),
+    maxItems: Math.max(1, Math.min(25, e.max_items ?? 5)),
   };
 }
 

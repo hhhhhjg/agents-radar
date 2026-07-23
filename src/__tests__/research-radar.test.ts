@@ -36,6 +36,7 @@ describe("research topics radar prompt", () => {
     const prompt = buildArxivPrompt(data, "2026-07-23", "zh");
     expect(prompt).toContain("具身智能 / 具身导航");
     expect(prompt).toContain("Dynamic Navigation with Spatial Memory");
+    expect(prompt).toContain("每个方向最多保留 5 篇高相关论文");
     expect(prompt).toContain("同一论文如果匹配多个方向，只放入最相关的一个方向");
   });
 });

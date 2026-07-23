@@ -655,7 +655,7 @@ ${papersText}
 
 Generate a concise Research Topics Radar in English:
 1. **Today's Overview** — 3-5 sentences summarizing the strongest signals across the configured topics.
-2. **Research Areas** — Follow the configured group/topic hierarchy above. For each topic, keep at most 3 highly relevant papers. Each item must include the title with ArXiv link, abbreviated authors, publication date, one-sentence contribution, and one-sentence relevance to that topic.
+2. **Research Areas** — Follow the configured group/topic hierarchy above. For each topic, keep at most 5 highly relevant papers. Each item must include the title with ArXiv link, abbreviated authors, publication date, one-sentence contribution, and one-sentence relevance to that topic.
 3. **Cross-Topic Signals** — 3-5 bullets on methods or ideas connecting multiple topics.
 4. **Priority Reading** — At most 3 papers worth reading in full, with a concrete reason.
 
@@ -680,7 +680,7 @@ ${papersText}
 
 请生成一份结构清晰的《研究方向 Radar》：
 1. **今日总览** — 用 3～5 句话概括所有已配置方向中最强的研究信号。
-2. **分方向情报** — 严格按照上面的一级板块和研究方向组织内容。每个方向最多保留 3 篇高相关论文；每篇包含标题及 ArXiv 链接、作者缩写、发布日期、一句话核心贡献和一句话与该方向的关联。
+2. **分方向情报** — 严格按照上面的一级板块和研究方向组织内容。每个方向最多保留 5 篇高相关论文；每篇包含标题及 ArXiv 链接、作者缩写、发布日期、一句话核心贡献和一句话与该方向的关联。
 3. **跨方向信号** — 用 3～5 条总结同时影响多个方向的方法或趋势。
 4. **优先精读** — 最多推荐 3 篇值得完整阅读的论文，并说明具体理由。
 
