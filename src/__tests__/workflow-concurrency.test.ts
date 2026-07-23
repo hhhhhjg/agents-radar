@@ -24,4 +24,12 @@ describe("digest workflow concurrency", () => {
       queue: "max",
     });
   });
+
+  it("uses the direct research report sender for test and production Feishu messages", () => {
+    const filePath = path.join(process.cwd(), ".github", "workflows", "daily-digest.yml");
+    const workflow = fs.readFileSync(filePath, "utf-8");
+
+    expect(workflow.match(/pnpm notify:feishu:research-preview/g)).toHaveLength(2);
+    expect(workflow).toContain('FEISHU_TEST_MODE: "true"');
+  });
 });

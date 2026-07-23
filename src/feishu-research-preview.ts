@@ -1,6 +1,6 @@
 /**
- * Send the freshly generated Chinese research radar directly to the Feishu
- * test webhook. The report is split into multiple cards when necessary.
+ * Send the freshly generated Chinese research radar directly to Feishu.
+ * Test and production use the same chat report; test mode only adds a label.
  */
 
 import fs from "node:fs";
@@ -47,8 +47,33 @@ export function splitMarkdown(markdown: string, maxLength = MAX_CARD_MARKDOWN_LE
   return chunks;
 }
 
+export function buildResearchCard(
+  chunk: string,
+  index: number,
+  total: number,
+  dateStr: string,
+  isTest: boolean,
+  pagesUrl?: string,
+): { title: string; content: string } {
+  const mention = index === 0 ? "<at id=all></at>\n\n" : "";
+  const testLabel = index === 0 && isTest ? `**测试预览：以下内容由研究方向实时检索生成。**\n\n` : "";
+  const normalizedPagesUrl = pagesUrl?.replace(/\/$/, "");
+  const webLink =
+    index === 0 && !isTest && normalizedPagesUrl
+      ? `[查看网页汇总](${normalizedPagesUrl}/#${dateStr}/ai-arxiv)\n\n`
+      : "";
+  const title = `研究方向 Radar${isTest ? " 测试" : ""} · ${dateStr} (${index + 1}/${total})`;
+
+  return {
+    title,
+    content: `${mention}${testLabel}${webLink}${chunk}`,
+  };
+}
+
 async function main(): Promise<void> {
   const dateStr = process.env["DIGEST_DATE"]?.trim() || toCstDateStr(new Date());
+  const isTest = process.env["FEISHU_TEST_MODE"] === "true";
+  const pagesUrl = process.env["PAGES_URL"]?.replace(/\/$/, "");
   const reportPath = path.join("digests", dateStr, "ai-arxiv-chat.md");
   if (!fs.existsSync(reportPath)) {
     throw new Error(`Generated research report not found: ${reportPath}`);
@@ -58,10 +83,8 @@ async function main(): Promise<void> {
   const chunks = splitMarkdown(report);
 
   for (const [index, chunk] of chunks.entries()) {
-    const mention = index === 0 ? "<at id=all></at>\n\n" : "";
-    const heading = index === 0 ? `**测试预览：以下内容由新配置的研究方向实时检索生成。**\n\n` : "";
-    const title = `研究方向 Radar 测试 · ${dateStr} (${index + 1}/${chunks.length})`;
-    await sendFeishu(title, `${mention}${heading}${chunk}`);
+    const card = buildResearchCard(chunk, index, chunks.length, dateStr, isTest, pagesUrl);
+    await sendFeishu(card.title, card.content);
   }
 
   console.log(`[feishu-preview] Sent ${chunks.length} card(s) for ${dateStr}.`);
