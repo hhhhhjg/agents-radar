@@ -16,6 +16,15 @@ describe("research topics radar prompt", () => {
         arxivCategories: ["cs.RO", "cs.CV"],
         maxItems: 5,
       },
+      {
+        id: "event-camera",
+        group: "视觉感知",
+        name: "事件相机视觉感知",
+        nameEn: "Event Camera Perception",
+        keywords: ["event camera"],
+        arxivCategories: ["cs.CV"],
+        maxItems: 5,
+      },
     ],
     papers: [
       {
@@ -40,6 +49,10 @@ describe("research topics radar prompt", () => {
     expect(prompt).toContain("Dynamic Navigation with Spatial Memory");
     expect(prompt).toContain("每个方向最多保留 5 篇高相关论文");
     expect(prompt).toContain("同一论文如果匹配多个方向，只放入最相关的一个方向");
+    expect(prompt).toContain("具身导航：1 篇新文献，0 篇过去14天内已出现");
+    expect(prompt).toContain("事件相机视觉感知：0 篇新文献，0 篇过去14天内已出现");
+    expect(prompt).toContain("即使某方向没有新论文也必须列出");
+    expect(prompt).toContain("今日暂无新论文");
   });
 
   it("marks repeated papers prominently at the beginning of their entry", () => {
