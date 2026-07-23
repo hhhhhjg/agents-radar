@@ -666,13 +666,18 @@ ${papersText}
 
 Generate a concise Research Topics Radar in English:
 1. **Today's Overview** — Use one bullet for every configured research topic, following the configured order. Summarize what progressed today from its new papers. If a topic has zero new papers, still include it and explicitly write "No new papers today". Do not omit any topic.
-2. **Research Areas** — Follow the configured group/topic hierarchy above. For each topic, keep at most 5 highly relevant papers. Each item must include the title with ArXiv link, abbreviated authors, publication date, one-sentence contribution, and one-sentence relevance to that topic.
+2. **Research Areas** — Use the exact Markdown hierarchy below. For each topic, keep at most 5 highly relevant papers. Each item must include abbreviated authors, publication date, one-sentence contribution, and one-sentence relevance.
+   - Main direction: \`## Main Direction\`
+   - Sub-direction: \`### Sub-direction\`
+   - Paper title: \`#### [Paper Title](ArXiv URL)\`
 3. **Cross-Topic Signals** — 3-5 bullets on methods or ideas connecting multiple topics.
 4. **Priority Reading** — At most 3 papers worth reading in full, with a concrete reason.
 
 Rules:
 - Put new papers before repeated papers within each research topic.
 - Every repeated paper entry must begin with: 🔁 **[SEEN IN THE LAST 14 DAYS]**
+- Never combine a main direction and sub-direction in one heading with "/" or any separator.
+- Do not number direction headings or paper headings.
 - Relevance is more important than filling a quota. Omit weak matches and omit empty topics.
 - Do not create a generic "other" section.
 - If a paper matches multiple topics, place it only under the single best-fitting topic.
@@ -693,13 +698,18 @@ ${papersText}
 
 请生成一份结构清晰的《研究方向 Radar》：
 1. **今日总览** — 严格按照配置顺序，为每一个研究方向单独列一个要点，说明该方向今日从新论文中体现出的进展。即使某方向没有新论文也必须列出，并明确写“今日暂无新论文”。不得遗漏任何方向。
-2. **分方向情报** — 严格按照上面的一级板块和研究方向组织内容。每个方向最多保留 5 篇高相关论文；每篇包含标题及 ArXiv 链接、作者缩写、发布日期、一句话核心贡献和一句话与该方向的关联。
+2. **分方向情报** — 必须使用下面固定的 Markdown 阶梯层级。每个方向最多保留 5 篇高相关论文；每篇包含作者缩写、发布日期、一句话核心贡献和一句话与该方向的关联。
+   - 主方向：\`## 主方向名\`
+   - 子方向：\`### 子方向名\`
+   - 文献标题：\`#### [文献标题](ArXiv 链接)\`
 3. **跨方向信号** — 用 3～5 条总结同时影响多个方向的方法或趋势。
 4. **优先精读** — 最多推荐 3 篇值得完整阅读的论文，并说明具体理由。
 
 规则：
 - 每个研究方向内先列新文献，再列重复文献。
 - 每篇重复文献的条目必须以“🔁 **【过去14天内已出现】**”开头。
+- 禁止把主方向和子方向用“/”或其他分隔符写在同一个标题中。
+- 主方向、子方向和文献标题前不要添加数字序号。
 - 相关性优先，不为凑数量收录弱相关论文；没有高相关结果的方向直接隐藏。
 - 不要创建“其他”或“通用 AI”板块。
 - 同一论文如果匹配多个方向，只放入最相关的一个方向，避免重复。

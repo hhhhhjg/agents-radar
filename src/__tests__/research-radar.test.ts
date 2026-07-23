@@ -1,7 +1,11 @@
 import { describe, expect, it } from "vitest";
 import type { ArxivData } from "../arxiv.ts";
 import { buildArxivPrompt } from "../prompts-data.ts";
-import { annotateRepeatedArxivEntries, selectArxivDataForAudience } from "../report-savers.ts";
+import {
+  annotateRepeatedArxivEntries,
+  enforceArxivHeadingHierarchy,
+  selectArxivDataForAudience,
+} from "../report-savers.ts";
 
 describe("research topics radar prompt", () => {
   const data: ArxivData = {
@@ -57,10 +61,22 @@ describe("research topics radar prompt", () => {
 
   it("marks repeated papers prominently at the beginning of their entry", () => {
     const repeated = { ...data.papers[0]!, seenBefore: true };
-    const report = "## Embodied Navigation\n\n1. **Dynamic Navigation with Spatial Memory**\nDetails";
+    const report = "## Embodied Navigation\n\n#### **Dynamic Navigation with Spatial Memory**\nDetails";
 
     expect(annotateRepeatedArxivEntries(report, [repeated], "zh")).toContain(
-      "🔁 **【过去14天内已出现】** 1. **Dynamic Navigation with Spatial Memory**",
+      "#### 🔁 **【过去14天内已出现】** **Dynamic Navigation with Spatial Memory**",
+    );
+  });
+
+  it("enforces main, sub-direction, and paper heading levels", () => {
+    const report =
+      "#### 具身智能 / 具身导航\n" + "Dynamic Navigation with Spatial Memory\n" + "作者：Alice, Bob";
+
+    expect(enforceArxivHeadingHierarchy(report, data)).toBe(
+      "## 具身智能\n" +
+        "### 具身导航\n" +
+        "#### Dynamic Navigation with Spatial Memory\n" +
+        "作者：Alice, Bob",
     );
   });
 
@@ -72,5 +88,14 @@ describe("research topics radar prompt", () => {
 
     expect(selectArxivDataForAudience(repeatedData, "web").papers).toHaveLength(1);
     expect(selectArxivDataForAudience(repeatedData, "chat").papers).toHaveLength(0);
+  });
+
+  it("asks the model for the exact stepped Markdown hierarchy", () => {
+    const prompt = buildArxivPrompt(data, "2026-07-23", "zh");
+
+    expect(prompt).toContain("`## 主方向名`");
+    expect(prompt).toContain("`### 子方向名`");
+    expect(prompt).toContain("`#### [文献标题](ArXiv 链接)`");
+    expect(prompt).toContain("禁止把主方向和子方向");
   });
 });

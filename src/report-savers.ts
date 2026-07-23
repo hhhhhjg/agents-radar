@@ -244,6 +244,57 @@ export function selectArxivDataForAudience(arxivData: ArxivData, audience: "web"
     : arxivData;
 }
 
+export function enforceArxivHeadingHierarchy(markdown: string, arxivData: ArxivData): string {
+  const topicNames = new Set(
+    arxivData.topics.flatMap((topic) => [topic.name, topic.nameEn]).map((name) => name.trim()),
+  );
+  const groupNames = new Set(arxivData.topics.map((topic) => topic.group.trim()));
+  const lines = markdown.split("\n");
+  const output: string[] = [];
+  let activeGroup = "";
+
+  for (const line of lines) {
+    const headingText = line.replace(/^#{1,6}\s+/, "").trim();
+    const combined = headingText.match(/^(.+?)\s*(?:\/|／)\s*(.+?)$/);
+
+    if (combined && topicNames.has(combined[2]!.trim())) {
+      const group = combined[1]!.trim();
+      const topic = combined[2]!.trim();
+      if (activeGroup !== group) {
+        output.push(`## ${group}`);
+        activeGroup = group;
+      }
+      output.push(`### ${topic}`);
+      continue;
+    }
+
+    if (groupNames.has(headingText)) {
+      output.push(`## ${headingText}`);
+      activeGroup = headingText;
+      continue;
+    }
+
+    if (topicNames.has(headingText)) {
+      output.push(`### ${headingText}`);
+      continue;
+    }
+
+    const paper = arxivData.papers.find((candidate) => line.includes(candidate.title));
+    if (paper) {
+      const cleanTitleLine = line
+        .trim()
+        .replace(/^#{1,6}\s*/, "")
+        .replace(/^\d+\.\s*/, "");
+      output.push(`#### ${cleanTitleLine}`);
+      continue;
+    }
+
+    output.push(line);
+  }
+
+  return output.join("\n");
+}
+
 export function annotateRepeatedArxivEntries(
   markdown: string,
   repeatedPapers: ArxivPaper[],
@@ -255,7 +306,9 @@ export function annotateRepeatedArxivEntries(
   for (const paper of repeatedPapers) {
     const titleLine = lines.findIndex((line) => line.includes(paper.title));
     if (titleLine >= 0 && !lines[titleLine]!.includes(marker)) {
-      lines[titleLine] = `${marker} ${lines[titleLine]}`;
+      lines[titleLine] = lines[titleLine]!.startsWith("#### ")
+        ? `#### ${marker} ${lines[titleLine]!.slice(5)}`
+        : `${marker} ${lines[titleLine]}`;
     }
   }
 
@@ -294,6 +347,7 @@ export async function saveArxivReport(
           : "## 今日暂无新论文\n\n本次检索没有发现尚未在过去14天内推送过的高相关论文。";
     } else {
       summary = await callLlm(buildArxivPrompt(reportData, dateStr, lang));
+      summary = enforceArxivHeadingHierarchy(summary, reportData);
     }
 
     if (audience === "web" && repeatedPapers.length > 0) {
