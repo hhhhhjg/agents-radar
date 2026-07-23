@@ -1,0 +1,196 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-23T13:32:05.131Z",
+  "papers": {
+    "2607.20345": {
+      "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.20301": {
+      "title": "The Blessing of Dimensionality: How Near-Orthogonality in High-Dimensional Spaces Explains Temporal Portability",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.20205": {
+      "title": "Statistical Inference for Rank Allocation in Low-Rank Adaptation",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.20064": {
+      "title": "PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.20061": {
+      "title": "ReferTrack: Referring Then Tracking for Embodied Visual Tracking",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19967": {
+      "title": "When Shippers Become Algorithms: Candidate Exposure, Information Design, and the Concentration of LLM-Mediated Freight Markets",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19894": {
+      "title": "Defense Against LLM Backdoors using Critical Neuron Isolation Pruning",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19865": {
+      "title": "DocOps: A Verifiable Benchmark for Autonomous Agents in Complex Document Operations",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19765": {
+      "title": "Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19661": {
+      "title": "Leveraging ECRAM for Edge Continual Learning",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19653": {
+      "title": "PerfAgent: Profiler-Guided Iterative Refinement for Repository-Level Code Optimization",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19633": {
+      "title": "LENS: LLM-guided Environment Simplification for Planning and Control in Clutter",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19595": {
+      "title": "Twin Agent: Context Residual Compression for Privilege Separated Agents",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19510": {
+      "title": "Total Variation Distance Estimation in Autoregressive Models",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19506": {
+      "title": "Hybrid LLM-Guided Search for Quantum Reservoir Architecture Design",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19171": {
+      "title": "Point Ladder Tuning: Parameter-Efficient Hierarchical Adaptation for 3D Point Cloud Understanding",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19139": {
+      "title": "Text Template Tokens Are Implicit Semantic Registers in Diffusion Transformers",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19122": {
+      "title": "Code Division Modulation Layers Against Forgetting and Inference in Continual Gait Identification",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19449": {
+      "title": "Guardrails as Scapegoats: Auditing Unfaithful Safety Refusals in Tool-Augmented LLM Agents",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.19036": {
+      "title": "CoGoal3D: Collaborative 3D Object Detection with 3D-Aware Fusion and Refinement",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18985": {
+      "title": "Athena-Brain Technical Report: An Efficient Robot Brain for General Intelligence and Embodied Interactio",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18826": {
+      "title": "Cross-Agent Campaign Attribution: Linking Asynchronous Attacks Across LLM Agents",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18806": {
+      "title": "AI Tour Meeting: Group Travel Planning by LLM Agents",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18754": {
+      "title": "AgentDebugX: An Open-Source Toolkit for Failure Observability, Attribution, and Recovery in LLM Agents",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18716": {
+      "title": "Continual Video-MLLM Adaptation over Evolving Domains",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18659": {
+      "title": "Broken Gates: Re-evaluating Web Bot Defenses in the Age of LLM Agents",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18580": {
+      "title": "STeP: Signal Temporal Logic for Precise Specifications for Action Generation with Vision Language Models",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18578": {
+      "title": "Two-Stage Extrinsic Calibration of a Static Line-Scanning Lidar with a Rotary Platform",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18566": {
+      "title": "The Story Shapes the Agent: Narrative Priors in LLM Behavior",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18485": {
+      "title": "Trusted Credentials, Untrusted Behavior: Benchmarking LLM-Agent Security in High-Performance Computing",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18236": {
+      "title": "Patch Policy: Efficient Embodied Control via Dense Visual Representations",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18231": {
+      "title": "FM-VLA: Force-based Memory for Vision-Language-Action Models in Contact-Rich Manipulation",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18171": {
+      "title": "FlashRT: Agent Harness for Guiding Agents to Deploy Real-Time Multimodal Applications",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18164": {
+      "title": "A Continual Validation, Updating, and Decision-Making Framework for Self-Adaptive Digital Twins via Robust Model Predictive Control: A Case Study in Additive Manufacturing",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18130": {
+      "title": "Manifold-Constrained Hyper-Connections for Parameter-Efficient Finetuning",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18081": {
+      "title": "SelectInfer: Selective Neuron Loading and Computation for On-Device LLMs",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18063": {
+      "title": "Adaptive Adversaries: A Multi-Turn, Multi-LLM Benchmark for LLM Agent Security",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    },
+    "2607.18016": {
+      "title": "Closing the Loop in Humanoid VLA: Persistent 3D Object Tokens for Verifiable Loco-Manipulation",
+      "firstSeenAt": "2026-07-23T13:32:05.131Z",
+      "lastSeenAt": "2026-07-23T13:32:05.131Z"
+    }
+  }
+}
