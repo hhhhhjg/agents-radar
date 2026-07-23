@@ -618,14 +618,21 @@ export function buildArxivPrompt(data: ArxivData, dateStr: string, lang: Lang = 
         .filter((topic) => topic !== undefined)
         .map((topic) => (lang === "en" ? topic.nameEn : topic.name))
         .join(", ");
+      const memoryStatus = p.seenBefore
+        ? lang === "en"
+          ? "REPEATED — already seen within the last 14 days"
+          : "重复文献——过去14天内已经检索到"
+        : lang === "en"
+          ? "NEW — not seen within the last 14 days"
+          : "新文献——过去14天内未检索到";
       return lang === "en"
-        ? `${i + 1}. **${p.title}**\n` +
+        ? `${i + 1}. [${memoryStatus}] **${p.title}**\n` +
             `   Link: ${p.url}\n` +
             `   Authors: ${authors} | Categories: ${cats}\n` +
             `   Matched research topics: ${matchedTopics || "General AI"}\n` +
             `   Published: ${p.published.slice(0, 10)}\n` +
             `   Abstract: ${p.summary.slice(0, 300)}${p.summary.length > 300 ? "..." : ""}`
-        : `${i + 1}. **${p.title}**\n` +
+        : `${i + 1}. [${memoryStatus}] **${p.title}**\n` +
             `   链接: ${p.url}\n` +
             `   作者: ${authors} | 分类: ${cats}\n` +
             `   匹配研究方向: ${matchedTopics || "通用 AI"}\n` +
@@ -660,6 +667,8 @@ Generate a concise Research Topics Radar in English:
 4. **Priority Reading** — At most 3 papers worth reading in full, with a concrete reason.
 
 Rules:
+- Put new papers before repeated papers within each research topic.
+- Every repeated paper entry must begin with: 🔁 **[SEEN IN THE LAST 14 DAYS]**
 - Relevance is more important than filling a quota. Omit weak matches and omit empty topics.
 - Do not create a generic "other" section.
 - If a paper matches multiple topics, place it only under the single best-fitting topic.
@@ -685,6 +694,8 @@ ${papersText}
 4. **优先精读** — 最多推荐 3 篇值得完整阅读的论文，并说明具体理由。
 
 规则：
+- 每个研究方向内先列新文献，再列重复文献。
+- 每篇重复文献的条目必须以“🔁 **【过去14天内已出现】**”开头。
 - 相关性优先，不为凑数量收录弱相关论文；没有高相关结果的方向直接隐藏。
 - 不要创建“其他”或“通用 AI”板块。
 - 同一论文如果匹配多个方向，只放入最相关的一个方向，避免重复。

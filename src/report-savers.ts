@@ -30,7 +30,7 @@ import { saveWebState, type WebFetchResult, type WebState } from "./web.ts";
 import type { HnData } from "./hn.ts";
 import type { PhData } from "./ph.ts";
 import type { TrendingData } from "./trending.ts";
-import type { ArxivData } from "./arxiv.ts";
+import type { ArxivData, ArxivPaper } from "./arxiv.ts";
 import type { HfData } from "./hf.ts";
 import type { MedicalData } from "./medical.ts";
 import type { DevtoData } from "./devto.ts";
@@ -234,6 +234,34 @@ export async function savePhReport(
 // ArXiv report
 // ---------------------------------------------------------------------------
 
+export interface ArxivReportOptions {
+  audience?: "web" | "chat";
+}
+
+export function selectArxivDataForAudience(arxivData: ArxivData, audience: "web" | "chat"): ArxivData {
+  return audience === "chat"
+    ? { ...arxivData, papers: arxivData.papers.filter((paper) => !paper.seenBefore) }
+    : arxivData;
+}
+
+export function annotateRepeatedArxivEntries(
+  markdown: string,
+  repeatedPapers: ArxivPaper[],
+  lang: Lang,
+): string {
+  const marker = lang === "en" ? "🔁 **[SEEN IN THE LAST 14 DAYS]**" : "🔁 **【过去14天内已出现】**";
+  const lines = markdown.split("\n");
+
+  for (const paper of repeatedPapers) {
+    const titleLine = lines.findIndex((line) => line.includes(paper.title));
+    if (titleLine >= 0 && !lines[titleLine]!.includes(marker)) {
+      lines[titleLine] = `${marker} ${lines[titleLine]}`;
+    }
+  }
+
+  return lines.join("\n");
+}
+
 export async function saveArxivReport(
   arxivData: ArxivData,
   utcStr: string,
@@ -241,34 +269,67 @@ export async function saveArxivReport(
   digestRepo: string,
   footer: string,
   lang: Lang = "zh",
+  options: ArxivReportOptions = {},
 ): Promise<void> {
   if (!arxivData.fetchSuccess) {
     console.log(`  [arxiv/${lang}] No data available, skipping report.`);
     return;
   }
 
-  console.log(`  [arxiv/${lang}] Calling LLM for ArXiv report...`);
+  const audience = options.audience ?? "web";
+  const reportData = selectArxivDataForAudience(arxivData, audience);
+  const repeatedPapers = reportData.papers.filter((paper) => paper.seenBefore);
+  const newPaperCount = reportData.papers.length - repeatedPapers.length;
+
+  console.log(
+    `  [arxiv/${lang}/${audience}] Preparing ${reportData.papers.length} paper(s): ` +
+      `${newPaperCount} new, ${repeatedPapers.length} repeated.`,
+  );
   try {
-    const summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang));
-    const fileName = lang === "en" ? "ai-arxiv-en.md" : "ai-arxiv.md";
+    let summary: string;
+    if (audience === "chat" && reportData.papers.length === 0) {
+      summary =
+        lang === "en"
+          ? "## No new papers today\n\nNo newly discovered papers matched the configured research topics."
+          : "## 今日暂无新论文\n\n本次检索没有发现尚未在过去14天内推送过的高相关论文。";
+    } else {
+      summary = await callLlm(buildArxivPrompt(reportData, dateStr, lang));
+    }
+
+    if (audience === "web" && repeatedPapers.length > 0) {
+      summary = annotateRepeatedArxivEntries(summary, repeatedPapers, lang);
+    }
+
+    const fileName =
+      audience === "chat"
+        ? lang === "en"
+          ? "ai-arxiv-chat-en.md"
+          : "ai-arxiv-chat.md"
+        : lang === "en"
+          ? "ai-arxiv-en.md"
+          : "ai-arxiv.md";
     const topicCount = arxivData.topics.length;
     const groupCount = new Set(arxivData.topics.map((topic) => topic.group)).size;
     const header =
       lang === "en"
         ? `# ${ARXIV_REPORT.title[lang]} ${dateStr}\n\n` +
-          `> Source: [ArXiv](https://arxiv.org/) | ${groupCount} groups / ${topicCount} configured topics | ` +
-          `${arxivData.papers.length} matched papers | Generated: ${utcStr} UTC\n\n` +
+          `> Source: [ArXiv](https://arxiv.org/) | 3-day search window | ` +
+          `${groupCount} groups / ${topicCount} configured topics | ` +
+          `${newPaperCount} new + ${repeatedPapers.length} seen in the last 14 days | ` +
+          `Generated: ${utcStr} UTC\n\n` +
           `---\n\n`
         : `# ${ARXIV_REPORT.title[lang]} ${dateStr}\n\n` +
-          `> 数据来源：[ArXiv](https://arxiv.org/) | 配置 ${groupCount} 个板块 / ${topicCount} 个研究方向 | ` +
-          `匹配 ${arxivData.papers.length} 篇论文 | 生成时间：${utcStr} UTC\n\n` +
+          `> 数据来源：[ArXiv](https://arxiv.org/) | 统一检索近3天 | ` +
+          `配置 ${groupCount} 个板块 / ${topicCount} 个研究方向 | ` +
+          `${newPaperCount} 篇新文献 + ${repeatedPapers.length} 篇过去14天内已出现 | ` +
+          `生成时间：${utcStr} UTC\n\n` +
           `---\n\n`;
 
     const content = header + summary + footer;
 
     console.log(`  Saved ${saveFile(content, dateStr, fileName)}`);
 
-    if (digestRepo) {
+    if (digestRepo && audience === "web") {
       const title = ARXIV_REPORT.issueTitle(dateStr, lang);
       const label = ISSUE_LABELS.arxiv[lang];
       const url = await createGitHubIssue(title, content, label);

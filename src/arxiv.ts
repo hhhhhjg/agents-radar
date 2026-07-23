@@ -7,6 +7,7 @@
  */
 
 import type { ResearchTopic } from "./config.ts";
+import { loadArxivHistory, markPreviouslySeen, type ArxivHistory } from "./arxiv-history.ts";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -23,6 +24,8 @@ export interface ArxivPaper {
   url: string;
   pdfUrl: string;
   topicIds: string[];
+  seenBefore: boolean;
+  firstSeenAt?: string;
 }
 
 export interface ArxivData {
@@ -44,6 +47,7 @@ const CATEGORIES = ["cs.AI", "cs.CL", "cs.LG"];
 
 /** Delay between requests (ArXiv asks for 3s). */
 const REQUEST_DELAY_MS = 3000;
+export const ARXIV_LOOKBACK_DAYS = 3;
 
 // ---------------------------------------------------------------------------
 // XML helpers (lightweight, no dependency)
@@ -99,7 +103,19 @@ function parseEntry(entryXml: string): ArxivPaper | null {
   const url = id; // ArXiv id IS the URL (e.g. http://arxiv.org/abs/...)
   const pdfUrl = extractLinkHref(entryXml, "related") || id.replace("/abs/", "/pdf/");
 
-  return { id, title, summary, authors, published, updated, categories, url, pdfUrl, topicIds: [] };
+  return {
+    id,
+    title,
+    summary,
+    authors,
+    published,
+    updated,
+    categories,
+    url,
+    pdfUrl,
+    topicIds: [],
+    seenBefore: false,
+  };
 }
 
 // ---------------------------------------------------------------------------
@@ -110,7 +126,10 @@ async function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export async function fetchArxivData(topics: ResearchTopic[] = []): Promise<ArxivData> {
+export async function fetchArxivData(
+  topics: ResearchTopic[] = [],
+  history: ArxivHistory = loadArxivHistory(),
+): Promise<ArxivData> {
   const seen = new Map<string, ArxivPaper>();
   let fetchSuccess = false;
 
@@ -178,8 +197,8 @@ export async function fetchArxivData(topics: ResearchTopic[] = []): Promise<Arxi
     }
   }
 
-  // Three days accommodates ArXiv's publication delay and sparse niche topics.
-  const cutoff = Date.now() - 72 * 60 * 60 * 1000;
+  // Every topic uses the same rolling three-day publication window.
+  const cutoff = Date.now() - ARXIV_LOOKBACK_DAYS * 24 * 60 * 60 * 1000;
   const recent = [...seen.values()]
     .filter((p) => new Date(p.published).getTime() > cutoff)
     .sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
@@ -201,6 +220,17 @@ export async function fetchArxivData(topics: ResearchTopic[] = []): Promise<Arxi
     papers = recent.slice(0, ARXIV_MAX_RESULTS);
   }
 
-  console.log(`  [arxiv] ${papers.length} papers (from ${seen.size} unique)`);
+  markPreviouslySeen(papers, history);
+  papers.sort(
+    (a, b) =>
+      Number(a.seenBefore) - Number(b.seenBefore) ||
+      new Date(b.published).getTime() - new Date(a.published).getTime(),
+  );
+
+  const repeated = papers.filter((paper) => paper.seenBefore).length;
+  console.log(
+    `  [arxiv] ${papers.length} papers (from ${seen.size} unique; ` +
+      `${papers.length - repeated} new, ${repeated} seen in the last 14 days)`,
+  );
   return { papers, fetchSuccess, topics };
 }
