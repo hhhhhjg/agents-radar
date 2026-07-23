@@ -45,8 +45,10 @@ const API_URL = "https://export.arxiv.org/api/query";
 /** ArXiv categories to search. */
 const CATEGORIES = ["cs.AI", "cs.CL", "cs.LG"];
 
-/** Delay between requests (ArXiv asks for 3s). */
-const REQUEST_DELAY_MS = 3000;
+/** Be more conservative than ArXiv's minimum request interval. */
+export const ARXIV_REQUEST_DELAY_MS = 6000;
+export const ARXIV_RETRY_BASE_DELAY_MS = 15_000;
+export const ARXIV_MAX_ATTEMPTS = 4;
 export const ARXIV_LOOKBACK_DAYS = 3;
 
 // ---------------------------------------------------------------------------
@@ -126,6 +128,74 @@ async function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+export interface ArxivRequestOptions {
+  fetchImpl?: typeof fetch;
+  sleepImpl?: (ms: number) => Promise<void>;
+  maxAttempts?: number;
+  retryBaseDelayMs?: number;
+}
+
+function retryAfterMs(response: Response): number {
+  const value = response.headers.get("retry-after")?.trim();
+  if (!value) return 0;
+
+  const seconds = Number(value);
+  if (Number.isFinite(seconds)) return Math.max(0, seconds * 1000);
+
+  const date = Date.parse(value);
+  return Number.isNaN(date) ? 0 : Math.max(0, date - Date.now());
+}
+
+function isRetryableStatus(status: number): boolean {
+  return status === 429 || status === 500 || status === 502 || status === 503 || status === 504;
+}
+
+export async function fetchArxivResponse(
+  url: string,
+  label: string,
+  options: ArxivRequestOptions = {},
+): Promise<Response | null> {
+  const fetchImpl = options.fetchImpl ?? fetch;
+  const sleepImpl = options.sleepImpl ?? sleep;
+  const maxAttempts = options.maxAttempts ?? ARXIV_MAX_ATTEMPTS;
+  const retryBaseDelayMs = options.retryBaseDelayMs ?? ARXIV_RETRY_BASE_DELAY_MS;
+
+  for (let attempt = 1; attempt <= maxAttempts; attempt++) {
+    try {
+      const response = await fetchImpl(url, {
+        headers: { "User-Agent": "agents-radar/1.0" },
+      });
+      if (response.ok) return response;
+
+      if (!isRetryableStatus(response.status) || attempt === maxAttempts) {
+        console.error(`  [arxiv] ${label}: HTTP ${response.status} after ${attempt} attempt(s)`);
+        return null;
+      }
+
+      const delayMs = Math.max(retryBaseDelayMs * 2 ** (attempt - 1), retryAfterMs(response));
+      console.warn(
+        `  [arxiv] ${label}: HTTP ${response.status}; retry ${attempt + 1}/${maxAttempts} ` +
+          `in ${Math.ceil(delayMs / 1000)}s`,
+      );
+      await sleepImpl(delayMs);
+    } catch (error) {
+      if (attempt === maxAttempts) {
+        console.error(`  [arxiv] ${label}: request failed after ${attempt} attempt(s): ${error}`);
+        return null;
+      }
+
+      const delayMs = retryBaseDelayMs * 2 ** (attempt - 1);
+      console.warn(
+        `  [arxiv] ${label}: request error; retry ${attempt + 1}/${maxAttempts} ` +
+          `in ${Math.ceil(delayMs / 1000)}s: ${error}`,
+      );
+      await sleepImpl(delayMs);
+    }
+  }
+
+  return null;
+}
+
 export async function fetchArxivData(
   topics: ResearchTopic[] = [],
   history: ArxivHistory = loadArxivHistory(),
@@ -154,7 +224,7 @@ export async function fetchArxivData(
 
   for (let i = 0; i < queries.length; i++) {
     const query = queries[i]!;
-    if (i > 0) await sleep(REQUEST_DELAY_MS);
+    if (i > 0) await sleep(ARXIV_REQUEST_DELAY_MS);
 
     try {
       const params = new URLSearchParams({
@@ -164,14 +234,8 @@ export async function fetchArxivData(
         max_results: String(ARXIV_MAX_RESULTS_PER_QUERY),
       });
 
-      const resp = await fetch(`${API_URL}?${params}`, {
-        headers: { "User-Agent": "agents-radar/1.0" },
-      });
-
-      if (!resp.ok) {
-        console.error(`  [arxiv] ${query.label}: HTTP ${resp.status}`);
-        continue;
-      }
+      const resp = await fetchArxivResponse(`${API_URL}?${params}`, query.label);
+      if (!resp) continue;
 
       fetchSuccess = true;
       const xml = await resp.text();
