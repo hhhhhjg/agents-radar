@@ -56,6 +56,32 @@ skills_repo: custom/skills
     expect(config.skillsRepo).toBe("custom/skills");
   });
 
+  it("loads configurable research topics", () => {
+    vi.spyOn(fs, "existsSync").mockReturnValue(true);
+    vi.spyOn(fs, "readFileSync").mockReturnValue(`
+research_topics:
+  - id: embodied-navigation
+    group: 具身智能
+    name: 具身导航
+    name_en: Embodied Navigation
+    keywords: [embodied navigation, dynamic navigation]
+    arxiv_categories: [cs.RO, cs.CV]
+    max_items: 4
+`);
+    const config = loadConfig("test.yml");
+    expect(config.researchTopics).toEqual([
+      {
+        id: "embodied-navigation",
+        group: "具身智能",
+        name: "具身导航",
+        nameEn: "Embodied Navigation",
+        keywords: ["embodied navigation", "dynamic navigation"],
+        arxivCategories: ["cs.RO", "cs.CV"],
+        maxItems: 4,
+      },
+    ]);
+  });
+
   it("falls back to defaults for empty cli_repos", () => {
     vi.spyOn(fs, "existsSync").mockReturnValue(true);
     vi.spyOn(fs, "readFileSync").mockReturnValue("cli_repos: []");

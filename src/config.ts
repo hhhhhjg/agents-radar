@@ -19,11 +19,32 @@ interface RawRepoEntry {
   paginated?: boolean;
 }
 
+interface RawResearchTopic {
+  id: string;
+  group: string;
+  name: string;
+  name_en?: string;
+  keywords: string[];
+  arxiv_categories?: string[];
+  max_items?: number;
+}
+
 interface RawConfig {
   cli_repos?: RawRepoEntry[];
   skills_repo?: string;
   openclaw?: RawRepoEntry;
   openclaw_peers?: RawRepoEntry[];
+  research_topics?: RawResearchTopic[];
+}
+
+export interface ResearchTopic {
+  id: string;
+  group: string;
+  name: string;
+  nameEn: string;
+  keywords: string[];
+  arxivCategories: string[];
+  maxItems: number;
 }
 
 export interface RadarConfig {
@@ -31,6 +52,7 @@ export interface RadarConfig {
   skillsRepo: string;
   openclaw: RepoConfig;
   openclawPeers: RepoConfig[];
+  researchTopics: ResearchTopic[];
 }
 
 // ---------------------------------------------------------------------------
@@ -80,6 +102,21 @@ export function toRepoConfig(e: RawRepoEntry): RepoConfig {
   return { id: e.id, repo: e.repo, name: e.name, ...(e.paginated ? { paginated: true } : {}) };
 }
 
+export function toResearchTopic(e: RawResearchTopic): ResearchTopic {
+  return {
+    id: e.id.trim(),
+    group: e.group.trim(),
+    name: e.name.trim(),
+    nameEn: e.name_en?.trim() || e.name.trim(),
+    keywords: e.keywords.map((keyword) => keyword.trim()).filter(Boolean),
+    arxivCategories: e.arxiv_categories?.map((category) => category.trim()).filter(Boolean) ?? [
+      "cs.AI",
+      "cs.LG",
+    ],
+    maxItems: Math.max(1, Math.min(10, e.max_items ?? 5)),
+  };
+}
+
 export function loadConfig(configPath = "config.yml"): RadarConfig {
   const resolved = path.resolve(configPath);
 
@@ -90,6 +127,7 @@ export function loadConfig(configPath = "config.yml"): RadarConfig {
       skillsRepo: DEFAULT_SKILLS_REPO,
       openclaw: DEFAULT_OPENCLAW,
       openclawPeers: DEFAULT_OPENCLAW_PEERS,
+      researchTopics: [],
     };
   }
 
@@ -112,10 +150,25 @@ export function loadConfig(configPath = "config.yml"): RadarConfig {
       ? raw.openclaw_peers.map(toRepoConfig)
       : DEFAULT_OPENCLAW_PEERS;
 
+  const researchTopics =
+    Array.isArray(raw?.research_topics) && raw.research_topics.length > 0
+      ? raw.research_topics
+          .filter(
+            (topic) =>
+              typeof topic?.id === "string" &&
+              typeof topic?.group === "string" &&
+              typeof topic?.name === "string" &&
+              Array.isArray(topic?.keywords) &&
+              topic.keywords.length > 0,
+          )
+          .map(toResearchTopic)
+      : [];
+
   console.log(
     `[config] Loaded from ${configPath}: ` +
-      `${cliRepos.length} CLI repos, ${openclawPeers.length} OpenClaw peers`,
+      `${cliRepos.length} CLI repos, ${openclawPeers.length} OpenClaw peers, ` +
+      `${researchTopics.length} research topics`,
   );
 
-  return { cliRepos, skillsRepo, openclaw, openclawPeers };
+  return { cliRepos, skillsRepo, openclaw, openclawPeers, researchTopics };
 }

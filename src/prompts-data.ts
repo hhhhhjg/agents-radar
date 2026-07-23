@@ -607,85 +607,89 @@ ${productsText}
 // ---------------------------------------------------------------------------
 
 export function buildArxivPrompt(data: ArxivData, dateStr: string, lang: Lang = "zh"): string {
+  const topicById = new Map(data.topics.map((topic) => [topic.id, topic]));
   const papersText = data.papers
     .map((p, i) => {
       const authors =
         p.authors.length > 3 ? p.authors.slice(0, 3).join(", ") + " et al." : p.authors.join(", ");
       const cats = p.categories.slice(0, 3).join(", ");
+      const matchedTopics = p.topicIds
+        .map((id) => topicById.get(id))
+        .filter((topic) => topic !== undefined)
+        .map((topic) => (lang === "en" ? topic.nameEn : topic.name))
+        .join(", ");
       return lang === "en"
         ? `${i + 1}. **${p.title}**\n` +
             `   Link: ${p.url}\n` +
             `   Authors: ${authors} | Categories: ${cats}\n` +
+            `   Matched research topics: ${matchedTopics || "General AI"}\n` +
             `   Published: ${p.published.slice(0, 10)}\n` +
             `   Abstract: ${p.summary.slice(0, 300)}${p.summary.length > 300 ? "..." : ""}`
         : `${i + 1}. **${p.title}**\n` +
             `   链接: ${p.url}\n` +
             `   作者: ${authors} | 分类: ${cats}\n` +
+            `   匹配研究方向: ${matchedTopics || "通用 AI"}\n` +
             `   发布: ${p.published.slice(0, 10)}\n` +
             `   摘要: ${p.summary.slice(0, 300)}${p.summary.length > 300 ? "..." : ""}`;
     })
     .join("\n\n");
 
+  const topicPlan = data.topics
+    .map((topic) => {
+      const count = data.papers.filter((paper) => paper.topicIds.includes(topic.id)).length;
+      const topicName = lang === "en" ? topic.nameEn : topic.name;
+      return `- ${topic.group} / ${topicName}: ${count} candidate paper(s)`;
+    })
+    .join("\n");
+
   if (lang === "en") {
-    return `You are an AI research analyst. The following are recent AI-related papers from ArXiv as of ${dateStr} (${data.papers.length} papers from cs.AI, cs.CL, cs.LG):
+    return `You are a research intelligence analyst. The following are recent ArXiv papers matched against a lab's configured research interests as of ${dateStr}.
 
----
+## Configured research structure
+${topicPlan || "(No custom topics configured)"}
 
+## Candidate papers (${data.papers.length})
 ${papersText}
 
 ---
 
-Generate a structured ArXiv AI Research Digest in English:
+Generate a concise Research Topics Radar in English:
+1. **Today's Overview** — 3-5 sentences summarizing the strongest signals across the configured topics.
+2. **Research Areas** — Follow the configured group/topic hierarchy above. For each topic, keep at most 3 highly relevant papers. Each item must include the title with ArXiv link, abbreviated authors, publication date, one-sentence contribution, and one-sentence relevance to that topic.
+3. **Cross-Topic Signals** — 3-5 bullets on methods or ideas connecting multiple topics.
+4. **Priority Reading** — At most 3 papers worth reading in full, with a concrete reason.
 
-1. **Today's Highlights** — 3-5 sentences on the most significant research directions and breakthroughs
-
-2. **Key Papers** — Select 8-15 most important papers, organized by theme:
-   - 🧠 Large Language Models (architecture, training, alignment, evaluation)
-   - 🤖 Agents & Reasoning (planning, tool use, multi-agent, chain-of-thought)
-   - 🔧 Methods & Frameworks (new techniques, benchmarks, efficiency improvements)
-   - 📊 Applications (domain-specific, multimodal, code generation)
-
-   For each paper:
-   - Title (with ArXiv link)
-   - Authors (abbreviated)
-   - One sentence: key contribution and why it matters
-
-3. **Research Trend Signal** — 100-200 words on emerging research directions visible from today's submissions
-
-4. **Worth Deep Reading** — 2-3 papers most worth reading in full, with reasoning
-
-Style: English, concise and professional, preserve all ArXiv links.
+Rules:
+- Relevance is more important than filling a quota. Omit weak matches and omit empty topics.
+- Do not create a generic "other" section.
+- If a paper matches multiple topics, place it only under the single best-fitting topic.
+- Preserve every cited ArXiv link and do not invent claims beyond the abstract.
+- Keep the full report under 1,500 words.
 `;
   }
 
-  return `你是 AI 研究分析师。以下是 ${dateStr} ArXiv 上最新的 AI 相关论文（共 ${data.papers.length} 篇，来自 cs.AI、cs.CL、cs.LG）：
+  return `你是一名科研情报分析师。以下是截至 ${dateStr} 根据实验室研究兴趣定向检索到的 ArXiv 论文。
 
----
+## 已配置的研究方向结构
+${topicPlan || "（尚未配置自定义研究方向）"}
 
+## 候选论文（${data.papers.length} 篇）
 ${papersText}
 
 ---
 
-请生成一份结构清晰的《ArXiv AI 研究日报》，要求：
+请生成一份结构清晰的《研究方向 Radar》：
+1. **今日总览** — 用 3～5 句话概括所有已配置方向中最强的研究信号。
+2. **分方向情报** — 严格按照上面的一级板块和研究方向组织内容。每个方向最多保留 3 篇高相关论文；每篇包含标题及 ArXiv 链接、作者缩写、发布日期、一句话核心贡献和一句话与该方向的关联。
+3. **跨方向信号** — 用 3～5 条总结同时影响多个方向的方法或趋势。
+4. **优先精读** — 最多推荐 3 篇值得完整阅读的论文，并说明具体理由。
 
-1. **今日速览** — 3~5 句话，概括今日最值得关注的研究方向和突破
-
-2. **重点论文** — 选出 8~15 篇最重要的论文，按主题分类：
-   - 🧠 大语言模型（架构、训练、对齐、评估）
-   - 🤖 智能体与推理（规划、工具使用、多智能体、思维链）
-   - 🔧 方法与框架（新技术、基准测试、效率优化）
-   - 📊 应用（垂直领域、多模态、代码生成）
-
-   每篇论文包含：
-   - 标题（附 ArXiv 链接）
-   - 作者（缩写）
-   - 一句话说明：核心贡献和为什么值得关注
-
-3. **研究趋势信号** — 100~200 字，从今日投稿中观察到的新兴研究方向
-
-4. **值得精读** — 2~3 篇最值得完整阅读的论文，简述理由
-
-语言要求：中文，简洁专业，保留所有 ArXiv 链接。
+规则：
+- 相关性优先，不为凑数量收录弱相关论文；没有高相关结果的方向直接隐藏。
+- 不要创建“其他”或“通用 AI”板块。
+- 同一论文如果匹配多个方向，只放入最相关的一个方向，避免重复。
+- 保留所有引用论文的 ArXiv 链接，不得编造摘要之外的结论。
+- 中文专业简洁，全文控制在 2000 字以内。
 `;
 }
 

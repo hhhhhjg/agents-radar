@@ -70,15 +70,12 @@ export function buildFeishuMessage(
 
   const icon = isMonthly ? "📆" : isWeekly ? "📅" : "📡";
   const suffix = isMonthly ? " 月报" : isWeekly ? " 周报" : "";
-  const lines: string[] = [
-    "<at id=all></at>",
-    `${icon} **agents-radar${suffix} · ${date}**`,
-  ];
+  const lines: string[] = ["<at id=all></at>", `${icon} **agents-radar${suffix} · ${date}**`];
 
   const dailyReports = baseReports.filter((r) => !r.includes("weekly") && !r.includes("monthly"));
   const ordered = [
-    ...dailyReports.filter((r) => r === "ai-medical"),
-    ...dailyReports.filter((r) => r !== "ai-medical"),
+    ...dailyReports.filter((r) => r === "ai-arxiv"),
+    ...dailyReports.filter((r) => r !== "ai-arxiv"),
     ...baseReports.filter((r) => r.includes("weekly") || r.includes("monthly")),
   ];
 

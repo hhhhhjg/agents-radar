@@ -52,15 +52,15 @@ describe("buildFeishuMessage", () => {
     expect(msg).not.toContain("HN Community");
   });
 
-  it("renders the medical AI report with bilingual links", () => {
+  it("puts the configured research radar first", () => {
     const msg = buildFeishuMessage(
       "2026-07-13",
-      ["ai-cli", "ai-cli-en", "ai-medical", "ai-medical-en"],
+      ["ai-cli", "ai-cli-en", "ai-arxiv", "ai-arxiv-en"],
       BASE_URL,
     );
-    expect(msg).toContain(`[医疗 AI](${BASE_URL}/#2026-07-13/ai-medical)`);
-    expect(msg).toContain(`[Medical AI](${BASE_URL}/#2026-07-13/ai-medical-en)`);
-    expect(msg.indexOf("医疗 AI")).toBeLessThan(msg.indexOf("AI CLI 工具"));
+    expect(msg).toContain(`[研究方向 Radar](${BASE_URL}/#2026-07-13/ai-arxiv)`);
+    expect(msg).toContain(`[Research Topics Radar](${BASE_URL}/#2026-07-13/ai-arxiv-en)`);
+    expect(msg.indexOf("研究方向 Radar")).toBeLessThan(msg.indexOf("AI CLI 工具"));
   });
 
   it("includes Web UI and RSS links", () => {
