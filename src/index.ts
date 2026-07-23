@@ -37,7 +37,6 @@ import {
   savePhReport,
   saveArxivReport,
   saveHfReport,
-  saveMedicalReport,
   saveCommunityReport,
 } from "./report-savers.ts";
 import { loadWebState, fetchSiteContent, type WebFetchResult, type WebState } from "./web.ts";
@@ -46,7 +45,6 @@ import { fetchHnData, type HnData } from "./hn.ts";
 import { fetchPhData, type PhData } from "./ph.ts";
 import { fetchArxivData, type ArxivData } from "./arxiv.ts";
 import { fetchHfData, type HfData } from "./hf.ts";
-import { fetchMedicalData, type MedicalData } from "./medical.ts";
 import { fetchDevtoData, type DevtoData } from "./devto.ts";
 import { fetchLobstersData, type LobstersData } from "./lobsters.ts";
 import { loadConfig } from "./config.ts";
@@ -62,6 +60,7 @@ const {
   skillsRepo: CLAUDE_SKILLS_REPO,
   openclaw: OPENCLAW,
   openclawPeers: OPENCLAW_PEERS,
+  researchTopics: RESEARCH_TOPICS,
 } = loadConfig();
 
 // ---------------------------------------------------------------------------
@@ -90,13 +89,12 @@ async function fetchAllData(
   phData: PhData;
   arxivData: ArxivData;
   hfData: HfData;
-  medicalData: MedicalData;
   devtoData: DevtoData;
   lobstersData: LobstersData;
 }> {
   const allConfigs = [...CLI_REPOS, OPENCLAW, ...OPENCLAW_PEERS];
   console.log(
-    `  Tracking: ${allConfigs.map((r) => r.id).join(", ")}, claude-code-skills, web, hn, ph, arxiv, hf, medical, devto, lobsters`,
+    `  Tracking: ${allConfigs.map((r) => r.id).join(", ")}, claude-code-skills, web, hn, ph, research-radar, hf, devto, lobsters`,
   );
 
   const [
@@ -108,7 +106,6 @@ async function fetchAllData(
     phData,
     arxivData,
     hfData,
-    medicalData,
     devtoData,
     lobstersData,
   ] = await Promise.all([
@@ -165,16 +162,10 @@ async function fetchAllData(
     ),
     fetchHnData().catch((): HnData => ({ stories: [], fetchSuccess: false })),
     fetchPhData().catch((): PhData => ({ products: [], fetchSuccess: false })),
-    fetchArxivData().catch((): ArxivData => ({ papers: [], fetchSuccess: false })),
-    fetchHfData().catch((): HfData => ({ models: [], fetchSuccess: false })),
-    fetchMedicalData().catch(
-      (): MedicalData => ({
-        agents: [],
-        models: [],
-        articles: [],
-        sourceStatus: { github: false, huggingface: false, news: false },
-      }),
+    fetchArxivData(RESEARCH_TOPICS).catch(
+      (): ArxivData => ({ papers: [], fetchSuccess: false, topics: RESEARCH_TOPICS }),
     ),
+    fetchHfData().catch((): HfData => ({ models: [], fetchSuccess: false })),
     fetchDevtoData().catch((): DevtoData => ({ articles: [], fetchSuccess: false })),
     fetchLobstersData().catch((): LobstersData => ({ stories: [], fetchSuccess: false })),
   ]);
@@ -188,7 +179,6 @@ async function fetchAllData(
     phData,
     arxivData,
     hfData,
-    medicalData,
     devtoData,
     lobstersData,
   };
@@ -322,7 +312,6 @@ async function main(): Promise<void> {
     phData,
     arxivData,
     hfData,
-    medicalData,
     devtoData,
     lobstersData,
   } = await fetchAllData(since, webState);
@@ -456,8 +445,6 @@ async function main(): Promise<void> {
     saveArxivReport(arxivData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
     saveHfReport(hfData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
-    saveMedicalReport(medicalData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
-    saveMedicalReport(medicalData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("zh"), "zh"),
     saveCommunityReport(devtoData, lobstersData, utcStr, dateStr, digestRepo, autoGenFooter("en"), "en"),
   ]);
@@ -477,7 +464,6 @@ async function main(): Promise<void> {
     ["ai-ph", "ai-ph.md", "ai-ph-en.md"],
     ["ai-arxiv", "ai-arxiv.md", "ai-arxiv-en.md"],
     ["ai-hf", "ai-hf.md", "ai-hf-en.md"],
-    ["ai-medical", "ai-medical.md", "ai-medical-en.md"],
     ["ai-community", "ai-community.md", "ai-community-en.md"],
   ] as const) {
     const zh = readReport(zhFile);

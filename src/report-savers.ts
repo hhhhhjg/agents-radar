@@ -251,15 +251,17 @@ export async function saveArxivReport(
   try {
     const summary = await callLlm(buildArxivPrompt(arxivData, dateStr, lang));
     const fileName = lang === "en" ? "ai-arxiv-en.md" : "ai-arxiv.md";
+    const topicCount = arxivData.topics.length;
+    const groupCount = new Set(arxivData.topics.map((topic) => topic.group)).size;
     const header =
       lang === "en"
         ? `# ${ARXIV_REPORT.title[lang]} ${dateStr}\n\n` +
-          `> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | ` +
-          `${arxivData.papers.length} papers | Generated: ${utcStr} UTC\n\n` +
+          `> Source: [ArXiv](https://arxiv.org/) | ${groupCount} groups / ${topicCount} configured topics | ` +
+          `${arxivData.papers.length} matched papers | Generated: ${utcStr} UTC\n\n` +
           `---\n\n`
         : `# ${ARXIV_REPORT.title[lang]} ${dateStr}\n\n` +
-          `> 数据来源: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | ` +
-          `共 ${arxivData.papers.length} 篇论文 | 生成时间: ${utcStr} UTC\n\n` +
+          `> 数据来源：[ArXiv](https://arxiv.org/) | 配置 ${groupCount} 个板块 / ${topicCount} 个研究方向 | ` +
+          `匹配 ${arxivData.papers.length} 篇论文 | 生成时间：${utcStr} UTC\n\n` +
           `---\n\n`;
 
     const content = header + summary + footer;

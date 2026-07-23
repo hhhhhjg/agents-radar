@@ -1,9 +1,12 @@
 /**
  * ArXiv AI papers fetched via the ArXiv API (Atom feed).
  *
- * Strategy: query cs.AI + cs.CL + cs.LG categories for the newest papers,
- * sorted by submission date, filtered to last 48h.
+ * Strategy: when research_topics are configured, query each topic with its
+ * own keywords and categories. Results are tagged and capped per topic so one
+ * broad direction cannot crowd out the rest of the report.
  */
+
+import type { ResearchTopic } from "./config.ts";
 
 // ---------------------------------------------------------------------------
 // Types
@@ -19,11 +22,13 @@ export interface ArxivPaper {
   categories: string[];
   url: string;
   pdfUrl: string;
+  topicIds: string[];
 }
 
 export interface ArxivData {
   papers: ArxivPaper[];
   fetchSuccess: boolean;
+  topics: ResearchTopic[];
 }
 
 // ---------------------------------------------------------------------------
@@ -31,6 +36,7 @@ export interface ArxivData {
 // ---------------------------------------------------------------------------
 
 const ARXIV_MAX_RESULTS = 50;
+const ARXIV_MAX_RESULTS_PER_QUERY = 25;
 const API_URL = "https://export.arxiv.org/api/query";
 
 /** ArXiv categories to search. */
@@ -93,7 +99,7 @@ function parseEntry(entryXml: string): ArxivPaper | null {
   const url = id; // ArXiv id IS the URL (e.g. http://arxiv.org/abs/...)
   const pdfUrl = extractLinkHref(entryXml, "related") || id.replace("/abs/", "/pdf/");
 
-  return { id, title, summary, authors, published, updated, categories, url, pdfUrl };
+  return { id, title, summary, authors, published, updated, categories, url, pdfUrl, topicIds: [] };
 }
 
 // ---------------------------------------------------------------------------
@@ -104,19 +110,39 @@ async function sleep(ms: number): Promise<void> {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-export async function fetchArxivData(): Promise<ArxivData> {
+export async function fetchArxivData(topics: ResearchTopic[] = []): Promise<ArxivData> {
   const seen = new Map<string, ArxivPaper>();
+  let fetchSuccess = false;
 
-  for (let i = 0; i < CATEGORIES.length; i++) {
-    const cat = CATEGORIES[i]!;
+  const queries =
+    topics.length > 0
+      ? topics.map((topic) => {
+          const categoryQuery = topic.arxivCategories.map((category) => `cat:${category}`).join(" OR ");
+          const keywordQuery = topic.keywords
+            .map((keyword) => `all:"${keyword.replaceAll('"', " ")}"`)
+            .join(" OR ");
+          return {
+            id: topic.id,
+            label: topic.name,
+            query: `(${categoryQuery}) AND (${keywordQuery})`,
+          };
+        })
+      : CATEGORIES.map((category) => ({
+          id: "",
+          label: category,
+          query: `cat:${category}`,
+        }));
+
+  for (let i = 0; i < queries.length; i++) {
+    const query = queries[i]!;
     if (i > 0) await sleep(REQUEST_DELAY_MS);
 
     try {
       const params = new URLSearchParams({
-        search_query: `cat:${cat}`,
+        search_query: query.query,
         sortBy: "submittedDate",
         sortOrder: "descending",
-        max_results: String(ARXIV_MAX_RESULTS),
+        max_results: String(ARXIV_MAX_RESULTS_PER_QUERY),
       });
 
       const resp = await fetch(`${API_URL}?${params}`, {
@@ -124,34 +150,57 @@ export async function fetchArxivData(): Promise<ArxivData> {
       });
 
       if (!resp.ok) {
-        console.error(`  [arxiv] ${cat}: HTTP ${resp.status}`);
+        console.error(`  [arxiv] ${query.label}: HTTP ${resp.status}`);
         continue;
       }
 
+      fetchSuccess = true;
       const xml = await resp.text();
 
       // Split into entries
       const entryBlocks = xml.split("<entry>").slice(1);
       for (const block of entryBlocks) {
         const paper = parseEntry("<entry>" + block);
-        if (paper && !seen.has(paper.id)) {
-          seen.set(paper.id, paper);
+        if (paper) {
+          const existing = seen.get(paper.id);
+          if (existing) {
+            if (query.id && !existing.topicIds.includes(query.id)) existing.topicIds.push(query.id);
+          } else {
+            if (query.id) paper.topicIds.push(query.id);
+            seen.set(paper.id, paper);
+          }
         }
       }
 
-      console.log(`  [arxiv] ${cat}: ${entryBlocks.length} papers`);
+      console.log(`  [arxiv] ${query.label}: ${entryBlocks.length} candidates`);
     } catch (err) {
-      console.error(`  [arxiv] ${cat}: ${err}`);
+      console.error(`  [arxiv] ${query.label}: ${err}`);
     }
   }
 
-  // Filter to last 48h (ArXiv has a ~1-day publishing delay, so 24h would miss today's batch)
-  const cutoff = Date.now() - 48 * 60 * 60 * 1000;
-  const papers = [...seen.values()]
+  // Three days accommodates ArXiv's publication delay and sparse niche topics.
+  const cutoff = Date.now() - 72 * 60 * 60 * 1000;
+  const recent = [...seen.values()]
     .filter((p) => new Date(p.published).getTime() > cutoff)
-    .sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime())
-    .slice(0, ARXIV_MAX_RESULTS);
+    .sort((a, b) => new Date(b.published).getTime() - new Date(a.published).getTime());
+
+  let papers: ArxivPaper[];
+  if (topics.length > 0) {
+    const selected = new Map<string, ArxivPaper>();
+    for (const topic of topics) {
+      for (const paper of recent
+        .filter((item) => item.topicIds.includes(topic.id))
+        .slice(0, topic.maxItems)) {
+        selected.set(paper.id, paper);
+      }
+    }
+    papers = [...selected.values()].sort(
+      (a, b) => new Date(b.published).getTime() - new Date(a.published).getTime(),
+    );
+  } else {
+    papers = recent.slice(0, ARXIV_MAX_RESULTS);
+  }
 
   console.log(`  [arxiv] ${papers.length} papers (from ${seen.size} unique)`);
-  return { papers, fetchSuccess: papers.length > 0 };
+  return { papers, fetchSuccess, topics };
 }

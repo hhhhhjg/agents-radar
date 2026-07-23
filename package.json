@@ -5,6 +5,7 @@
   "packageManager": "pnpm@9.15.9",
   "scripts": {
     "start": "tsx src/index.ts",
+    "research-radar": "tsx src/research-radar.ts",
     "typecheck": "tsc --noEmit",
     "lint": "eslint src",
     "lint:fix": "eslint src --fix",
@@ -15,6 +16,7 @@
     "monthly": "tsx src/monthly.ts",
     "notify": "tsx src/notify.ts",
     "notify:feishu": "tsx src/feishu.ts",
+    "notify:feishu:research-preview": "tsx src/feishu-research-preview.ts",
     "close-stale": "tsx src/close-stale-issues.ts",
     "xiaohongshu": "tsx src/social.ts xiaohongshu",
     "wechat": "tsx src/social.ts wechat",

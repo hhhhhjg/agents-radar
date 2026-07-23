@@ -44,9 +44,14 @@ async function sendToOneWebhook(webhookUrl: string, title: string, content: stri
     const body = await res.text();
     throw new Error(`Feishu API ${res.status}: ${body}`);
   }
+
+  const body = (await res.json().catch(() => null)) as { code?: number; msg?: string } | null;
+  if (body?.code !== undefined && body.code !== 0) {
+    throw new Error(`Feishu API business error ${body.code}: ${body.msg ?? "unknown error"}`);
+  }
 }
 
-async function sendFeishu(title: string, content: string): Promise<void> {
+export async function sendFeishu(title: string, content: string): Promise<void> {
   const urls = getWebhookUrls();
   const results = await Promise.allSettled(urls.map((url) => sendToOneWebhook(url, title, content)));
   const failures = results.filter((r) => r.status === "rejected");
@@ -70,15 +75,12 @@ export function buildFeishuMessage(
 
   const icon = isMonthly ? "📆" : isWeekly ? "📅" : "📡";
   const suffix = isMonthly ? " 月报" : isWeekly ? " 周报" : "";
-  const lines: string[] = [
-    "<at id=all></at>",
-    `${icon} **agents-radar${suffix} · ${date}**`,
-  ];
+  const lines: string[] = ["<at id=all></at>", `${icon} **agents-radar${suffix} · ${date}**`];
 
   const dailyReports = baseReports.filter((r) => !r.includes("weekly") && !r.includes("monthly"));
   const ordered = [
-    ...dailyReports.filter((r) => r === "ai-medical"),
-    ...dailyReports.filter((r) => r !== "ai-medical"),
+    ...dailyReports.filter((r) => r === "ai-arxiv"),
+    ...dailyReports.filter((r) => r !== "ai-arxiv"),
     ...baseReports.filter((r) => r.includes("weekly") || r.includes("monthly")),
   ];
 

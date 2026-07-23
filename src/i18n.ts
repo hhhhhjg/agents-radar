@@ -82,9 +82,9 @@ export const PH_REPORT = {
 } as const;
 
 export const ARXIV_REPORT = {
-  title: t("ArXiv AI 研究日报", "ArXiv AI Research Digest"),
+  title: t("实验室研究方向 Radar", "Lab Research Topics Radar"),
   issueTitle: (dateStr: string, lang: Lang) =>
-    lang === "en" ? `📚 ArXiv AI Research Digest ${dateStr}` : `📚 ArXiv AI 研究日报 ${dateStr}`,
+    lang === "en" ? `📚 Lab Research Topics Radar ${dateStr}` : `📚 实验室研究方向 Radar ${dateStr}`,
 } as const;
 
 export const HF_REPORT = {
@@ -164,8 +164,8 @@ export const REPORT_LABELS: Record<string, string> = {
   "ai-hn-en": "Hacker News AI Community Digest",
   "ai-ph": "Product Hunt AI 产品日报",
   "ai-ph-en": "Product Hunt AI Products Digest",
-  "ai-arxiv": "ArXiv AI 研究日报",
-  "ai-arxiv-en": "ArXiv AI Research Digest",
+  "ai-arxiv": "实验室研究方向 Radar",
+  "ai-arxiv-en": "Lab Research Topics Radar",
   "ai-hf": "Hugging Face 热门模型日报",
   "ai-hf-en": "Hugging Face Trending Models Digest",
   "ai-medical": "医疗 AI 行业日报",
@@ -185,7 +185,7 @@ export const NOTIFY_LABELS: Record<string, Record<Lang, string>> = {
   "ai-trending": t("GitHub 趋势", "GitHub Trends"),
   "ai-hn": t("HN 社区动态", "HN Community"),
   "ai-ph": t("Product Hunt", "Product Hunt"),
-  "ai-arxiv": t("ArXiv 研究", "ArXiv Research"),
+  "ai-arxiv": t("研究方向 Radar", "Research Topics Radar"),
   "ai-hf": t("HF 模型", "HF Models"),
   "ai-medical": t("医疗 AI", "Medical AI"),
   "ai-community": t("技术社区", "Tech Community"),

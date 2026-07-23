@@ -2,6 +2,157 @@
 # Edit this file to customize which repositories are tracked.
 # Changes take effect on the next workflow run.
 
+# ── Research radar ────────────────────────────────────────────────────────────
+# Papers are queried by topic and grouped under the named research area.
+# max_items controls the candidate pool; the LLM keeps at most 5 strong papers.
+# Add or edit a topic here; no TypeScript changes are needed.
+
+research_topics:
+  # LLM Agent 与多智能体
+  - id: agent-engineering
+    group: LLM Agent 与多智能体
+    name: LLM Agent 工程
+    name_en: LLM Agent Engineering
+    keywords:
+      - LLM agent
+      - agent harness
+      - harness engineering
+      - context engineering
+      - meta-learning for agents
+    arxiv_categories: [cs.AI, cs.CL, cs.LG]
+    max_items: 15
+
+  - id: agent-self-improvement
+    group: LLM Agent 与多智能体
+    name: Agent 测试时扩展与自我改进
+    name_en: Agent Test-Time Scaling and Self-Improvement
+    keywords:
+      - test-time scaling
+      - test-time compute
+      - self-play
+      - adaptive goal generation
+      - agent self-improvement
+    arxiv_categories: [cs.AI, cs.CL, cs.LG]
+    max_items: 15
+
+  - id: agent-society
+    group: LLM Agent 与多智能体
+    name: LLM Agent Society
+    name_en: LLM Agent Societies
+    keywords:
+      - LLM agent society
+      - large-scale agent societies
+      - open-ended multi-agent learning
+      - agent-environment co-evolution
+      - self-organizing multi-agent systems
+      - heterogeneous multi-agent systems
+      - emergent institutions
+      - persistent multi-agent systems
+    arxiv_categories: [cs.AI, cs.MA, cs.LG]
+    max_items: 15
+
+  # 具身智能
+  - id: vision-language-action
+    group: 具身智能
+    name: 视觉-语言-动作模型
+    name_en: Vision-Language-Action Models
+    keywords:
+      - vision-language-action
+      - vision language action
+      - embodied agent
+      - embodied AI
+    arxiv_categories: [cs.RO, cs.AI, cs.CV, cs.LG]
+    max_items: 15
+
+  - id: embodied-navigation
+    group: 具身智能
+    name: 具身导航
+    name_en: Embodied Navigation
+    keywords:
+      - embodied navigation
+      - dynamic navigation
+      - object navigation
+      - vision-language navigation
+      - 3D feature fields
+      - spatial memory
+      - semantic retrieval
+      - scene understanding
+      - lifelong navigation
+      - long-horizon navigation
+    arxiv_categories: [cs.RO, cs.AI, cs.CV]
+    max_items: 15
+
+  # 模型压缩与持续学习
+  - id: llm-pruning
+    group: 模型压缩与持续学习
+    name: LLM 剪枝与推理优化
+    name_en: LLM Pruning and Inference Optimization
+    keywords:
+      - LLM pruning
+      - token-level pruning
+      - token pruning
+      - mixture-of-experts pruning
+      - MoE pruning
+      - inference optimization
+      - efficient LLM inference
+    arxiv_categories: [cs.CL, cs.LG, cs.AI]
+    max_items: 15
+
+  - id: mllm-pruning
+    group: 模型压缩与持续学习
+    name: 多模态大模型剪枝
+    name_en: Multimodal LLM Pruning
+    keywords:
+      - MLLM pruning
+      - multimodal LLM pruning
+      - visual token pruning
+      - visual encoder semantics
+      - training-free pruning
+      - efficient multimodal inference
+    arxiv_categories: [cs.CV, cs.CL, cs.LG, cs.AI]
+    max_items: 15
+
+  - id: continual-learning
+    group: 模型压缩与持续学习
+    name: 持续学习
+    name_en: Continual Learning
+    keywords:
+      - continual learning
+      - continual tuning
+      - parameter-efficient fine-tuning
+      - PEFT
+      - continual test-time adaptation
+      - federated continual learning
+    arxiv_categories: [cs.LG, cs.AI, cs.CL, cs.CV]
+    max_items: 15
+
+  # 视觉感知
+  - id: event-based-vision
+    group: 视觉感知
+    name: 事件相机视觉感知
+    name_en: Event-Based Vision
+    keywords:
+      - event camera
+      - event-based vision
+      - event-based object detection
+      - event-based object tracking
+      - event-based semantic segmentation
+    arxiv_categories: [cs.CV, cs.RO]
+    max_items: 15
+
+  - id: point-cloud-perception
+    group: 视觉感知
+    name: 3D 点云视觉感知
+    name_en: 3D Point Cloud Perception
+    keywords:
+      - 3D point cloud
+      - 3D object detection
+      - point cloud semantic segmentation
+      - point cloud instance segmentation
+      - 3D scene understanding
+    arxiv_categories: [cs.CV, cs.RO]
+    max_items: 15
+
 # ── AI CLI tools ──────────────────────────────────────────────────────────────
 # Tracked for per-tool digests and cross-tool comparison.
 # Each entry requires: id (filename slug), repo (owner/repo), name (display name).
