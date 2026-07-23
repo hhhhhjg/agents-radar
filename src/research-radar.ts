@@ -7,6 +7,7 @@
  */
 
 import { fetchArxivData } from "./arxiv.ts";
+import { loadArxivHistory, saveArxivHistory } from "./arxiv-history.ts";
 import { loadConfig } from "./config.ts";
 import { toCstDateStr, toUtcStr } from "./date.ts";
 import { autoGenFooter } from "./report.ts";
@@ -35,8 +36,15 @@ async function main(): Promise<void> {
   await Promise.all([
     saveArxivReport(arxivData, utcStr, dateStr, "", autoGenFooter("zh"), "zh"),
     saveArxivReport(arxivData, utcStr, dateStr, "", autoGenFooter("en"), "en"),
+    saveArxivReport(arxivData, utcStr, dateStr, "", autoGenFooter("zh"), "zh", {
+      audience: "chat",
+    }),
+    saveArxivReport(arxivData, utcStr, dateStr, "", autoGenFooter("en"), "en", {
+      audience: "chat",
+    }),
   ]);
 
+  saveArxivHistory(loadArxivHistory(), arxivData.papers, now);
   console.log(`[research-radar] Generated Chinese and English reports for ${dateStr}.`);
 }
 

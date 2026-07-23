@@ -49,7 +49,7 @@ export function splitMarkdown(markdown: string, maxLength = MAX_CARD_MARKDOWN_LE
 
 async function main(): Promise<void> {
   const dateStr = process.env["DIGEST_DATE"]?.trim() || toCstDateStr(new Date());
-  const reportPath = path.join("digests", dateStr, "ai-arxiv.md");
+  const reportPath = path.join("digests", dateStr, "ai-arxiv-chat.md");
   if (!fs.existsSync(reportPath)) {
     throw new Error(`Generated research report not found: ${reportPath}`);
   }
