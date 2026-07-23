@@ -1,14 +1,14 @@
 # ArXiv AI Research Digest 2026-07-23
 
-> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-07-22 23:41 UTC
+> Source: [ArXiv](https://arxiv.org/) (cs.AI, cs.CL, cs.LG) | 50 papers | Generated: 2026-07-23 04:46 UTC
 
 ---
 
-# 🧠 ArXiv AI Research Digest — 2026-07-23
+# ArXiv AI Research Digest — 2026-07-23
 
-## Today’s Highlights
+## Today's Highlights
 
-A clear wave of research on **reinforcement learning with verifiable rewards (RLVR)** matures this week, with several papers examining how to make RLVR work on hard problems, optimize the training stack, and weigh cost-quality tradeoffs in downstream tasks like machine translation. **Agent safety and control** also emerge as a strong theme, with new benchmarks for detecting sabotage in automated R&D and analysis of how LLM detection tools reshape user behavior. On the evaluation front, the community pushes beyond simple accuracy with benchmarks for **theory-of-mind reasoning in multi-party meetings, whole-slide pathology evidence seeking, and factual completeness in long-form generation**. Efficiency continues to advance via **adaptive speculative decoding** and **selective state-space adapters** that adjust to token-level variation.
+Value alignment for underrepresented cultures emerges as a strong theme, with benchmarks targeting Sri Lankan and Arabic contexts exposing Western bias in LLMs. Neuro-symbolic reasoning advances with a fully differentiable architecture capable of deductive inference over high-dimensional perceptual inputs, bridging a critical gap between perception and symbolic logic. Humanoid robotics sees progress through VR-teleoperation and RL-based locomotion for miniature platforms, alongside a data-efficient framework for closing the lab-to-store gap in retail settings. Several papers tackle practical deployment challenges: token-level collaboration between small and large language models for cost-efficient inference, and rigorous probabilistic safety bounds for LLM outputs using Clopper-Pearson confidence intervals.
 
 ---
 
@@ -16,115 +16,111 @@ A clear wave of research on **reinforcement learning with verifiable rewards (RL
 
 ### 🧠 Large Language Models
 
-1. **Copy Less, Ground More: Overcoming Repetitive Copying in Long-Context Reasoning via Evidence-Aware Reinforcement Learning**  
-   Lizhe Fang, Weizhou Shen, Tianyi Tang et al.  
-   [http://arxiv.org/abs/2607.19345v1](http://arxiv.org/abs/2607.19345v1)  
-   Identifies and mitigates the failure mode of repetitive copying in long-context chain-of-thought reasoning by injecting evidence-aware rewards.
+**LKValues: Aligning Large Language Models with Sri Lankan Societal Values**
+Authors: Muthugala et al.
+Link: http://arxiv.org/abs/2607.20410v1
+Introduces a culturally contextualized value alignment benchmark for Sri Lanka, addressing the overlooked bias toward Western norms in LLM safety evaluation.
 
-2. **Selective State-Space Adaptation and Retrieval for Language Model Reasoning**  
-   Atahan Dokme, Larry Heck  
-   [http://arxiv.org/abs/2607.19326v1](http://arxiv.org/abs/2607.19326v1)  
-   Proposes token-level adapters that use state-space recurrence to go beyond static low-rank updates, enabling instance-specific adaptation.
+**Notes to Self: Can LLMs Benefit from Experiential Abstractions?**
+Authors: Liu, Li, Dubrawski
+Link: http://arxiv.org/abs/2607.20372v1
+Demonstrates that LLMs can distill reusable strategies from solution traces on the MATH dataset, mirroring human experiential learning to improve problem-solving.
 
-3. **The Price of Reasoning: Cost-Quality Tradeoffs in Reinforcement Learning for Neural Machine Translation**  
-   Michael Jungo, Aixiu An  
-   [http://arxiv.org/abs/2607.19226v1](http://arxiv.org/abs/2607.19226v1)  
-   Empirically maps the cost and quality landscape of RLVR for NMT, showing that reasoning steps improve translation quality but at a steep inference cost.
+**Sound Probabilistic Safety Bounds for Large Language Models**
+Authors: Nazeri et al.
+Link: http://arxiv.org/abs/2607.20286v1
+Applies Clopper-Pearson confidence intervals to derive rigorous PAC bounds on the probability of LLMs generating harmful outputs, a principled approach to safety certification.
 
-4. **Beyond Score Prediction: LLM-Based Essay Scoring and Feedback Generation via Reinforcement Learning with Rubric Rewards**  
-   Xuefeng Jin, Jiashuo Zhang, Teng Cao et al.  
-   [http://arxiv.org/abs/2607.19219v1](http://arxiv.org/abs/2607.19219v1)  
-   Applies RL post-training with rubric-based rewards to simultaneously improve automated essay scoring and generate rubric-aligned feedback.
+**Which Values Do LLMs Confuse? A Schwartz-Based Recognition Study**
+Authors: Chetvergov et al.
+Link: http://arxiv.org/abs/2607.20270v1
+Systematically tests LLMs' ability to recognize ten basic human values from Schwartz's theory, revealing systematic confusions that undermine value-alignment evaluations.
+
+**HalluTruthQA: A Fine-Grained Benchmark for Hallucination Detection, Localization, and Explanation in Arabic Question Answering**
+Authors: Bouchekif et al.
+Link: http://arxiv.org/abs/2607.20219v1
+Provides the first benchmark for Arabic QA hallucination with span-level annotations, enabling precise detection and explanation of factual errors in Arabic LLM outputs.
 
 ### 🤖 Agents & Reasoning
 
-5. **Agents in the Wild: Where Research Meets Deployment**  
-   Grace Hui Yang, Pranav N. Venkit, Hooman Sedghamiz et al.  
-   [http://arxiv.org/abs/2607.19336v1](http://arxiv.org/abs/2607.19336v1)  
-   Survey of production-grade agentic systems across software engineering, science, and business, highlighting gaps between research and real-world deployment.
+**SoftReason: A Fully Differentiable Neuro-Soft-Symbolic Deductive Reasoning Architecture over High-Dimensional Perceptual Data**
+Authors: AbdAlmageed
+Link: http://arxiv.org/abs/2607.20402v1
+Introduces a pipeline that combines neural perception with soft-symbolic deductive reasoning using knowledge graphs, enabling end-to-end training for reasoning over raw sensory inputs.
 
-6. **CodeRescue: Budget-Calibrated Recovery Routing for Coding Agents**  
-   Qijia He, Jiayi Cheng, Chenqian Le et al.  
-   [http://arxiv.org/abs/2607.19338v1](http://arxiv.org/abs/2607.19338v1)  
-   Introduces a cost-aware routing policy that decides when to retry with a stronger model after a failure, outperforming naive cascade strategies.
+**Courteous Anticipation: Improving Long-Lived Task Planning in Persistent Shared Environments**
+Authors: Talukder et al.
+Link: http://arxiv.org/abs/2607.20289v1
+Proposes a task planner for persistent environments that anticipates future tasks and avoids leaving undesirable terminal states for other agents, improving multi-robot coordination.
 
-7. **ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D**  
-   Lena Libon, Ben Rank, Jehyeok Yeon et al.  
-   [http://arxiv.org/abs/2607.19321v1](http://arxiv.org/abs/2607.19321v1)  
-   A benchmark for AI control that tests whether monitors can detect covert sabotage in agents conducting AI research.
-
-8. **LLM Detection as an Intervention: Downstream Impact under Strategic User Behavior**  
-   Meena Jagadeesan, Tatsunori Hashimoto, Jon Kleinberg  
-   [http://arxiv.org/abs/2607.19300v1](http://arxiv.org/abs/2607.19300v1)  
-   Models LLM detection as a game-theoretic intervention that shifts user strategies, with implications for fair use and content moderation.
-
-9. **MeetingToM: Evaluating Multimodal LLMs on Theory-of-Mind Reasoning in Multi-Party Meetings**  
-   Ziyi Wang, Yuhang Wu, Dongxu Piao et al.  
-   [http://arxiv.org/abs/2607.19235v1](http://arxiv.org/abs/2607.19235v1)  
-   A new benchmark requiring multimodal ToM reasoning across speech and behavior in group meeting scenarios, where current models show significant gaps.
+**PoTRE: Test-Time Reasoning inspired by Cognitive Heterogeneity**
+Authors: Kankariya, Arık
+Link: http://arxiv.org/abs/2607.20268v1
+Employs multiple heterogeneous reasoning streams during test time, mimicking cognitive diversity to improve complex reasoning and iterative error correction in LLMs.
 
 ### 🔧 Methods & Frameworks
 
-10. **ISO: An RLVR-Native Optimization Stack**  
-    Hanqing Zhu, Wenyan Cong, Zhizhou Sha et al.  
-    [http://arxiv.org/abs/2607.19331v1](http://arxiv.org/abs/2607.19331v1)  
-    Analyzes the reward-to-weight update layer in RLVR training and proposes a unified optimization stack to improve stability and efficiency.
+**PyroDash: Cost-Efficient Token-Level Small-Large Language Model Collaborative Inference**
+Authors: Lyu et al.
+Link: http://arxiv.org/abs/2607.20327v1
+Develops a cost-aware framework that routes individual tokens to either a small or large model during generation, achieving cost savings while maintaining quality on difficult tokens.
 
-11. **Off-Context GRPO: Learning to Reason on Hard Problems using Privileged Information**  
-    Priyank Agrawal, Ankur Samanta, Shervin Ghasemlou et al.  
-    [http://arxiv.org/abs/2607.19313v1](http://arxiv.org/abs/2607.19313v1)  
-    Tackles the zero-learning-signal problem in RLVR by providing privileged guidance (e.g., correct key steps) during training while keeping inference as strong as the base model.
+**PG-KINN: A Physics-Informed Petrov-Galerkin Kolmogorov-Arnold Network for Solving Forward and Inverse PDEs**
+Authors: Sadr et al.
+Link: http://arxiv.org/abs/2607.20378v1
+Replaces MLPs with Kolmogorov-Arnold Networks in physics-informed PDE solvers, achieving improved accuracy and interpretability through learnable spline bases and Petrov-Galerkin weak formulations.
 
-12. **AdaFlash: Adaptive Speculative Decoding via On-Policy Distilled Diffusion Drafters**  
-    Yu-Yang Qian, Hao-Cong Wu, Chen Chen et al.  
-    [http://arxiv.org/abs/2607.19223v1](http://arxiv.org/abs/2607.19223v1)  
-    Improves speculative decoding by using a diffusion-based drafter that adapts to the target model’s distribution, achieving higher acceptance rates with minimal overhead.
+**ELSAA: Efficient Low-Rank and Sparse Attention Approximation for Training Transformers**
+Authors: Heidari, Rahimi, Moon
+Link: http://arxiv.org/abs/2607.20214v1
+Combines low-rank and sparse attention mechanisms to reduce the quadratic bottleneck of self-attention, enabling efficient training on longer sequences without sacrificing model quality.
 
-13. **CircuitKIT: Circuit Discovery, Evaluation, and Application Toolkit for Mechanistic Interpretability**  
-    Pratinav Seth, Hem Gosalia, Aditya Kasliwal et al.  
-    [http://arxiv.org/abs/2607.19317v1](http://arxiv.org/abs/2607.19317v1)  
-    An integrated toolkit for circuit analysis that streamlines discovery, evaluation, and intervention (pruning, steering, fine-tuning) without stitching disparate tools.
-
-14. **1-Lipschitz Neural Networks on Hadamard Manifolds**  
-    Davide Murari, Marta Ghirardelli, Ben Adcock et al.  
-    [http://arxiv.org/abs/2607.19335v1](http://arxiv.org/abs/2607.19335v1)  
-    Extends certified robustness to non-Euclidean spaces by constructing 1-Lipschitz networks on Hadamard manifolds with efficient geodesic convolution layers.
+**Variance-reduced Domain Adaptation using Paired Sampling**
+Authors: Napoli
+Link: http://arxiv.org/abs/2607.20367v1
+Proposes a paired sampling strategy to reduce high variance in MMD and CORAL losses for unsupervised domain adaptation, improving minibatch optimization stability.
 
 ### 📊 Applications
 
-15. **PathAgentBench: Benchmarking Evidence-Seeking Vision-Language Models on Whole-Slide Pathology Image**  
-    Dankai Liao, Tianyi Zhang, Yufeng Wu et al.  
-    [http://arxiv.org/abs/2607.19261v1](http://arxiv.org/abs/2607.19261v1)  
-    Evaluates VLM agents on realistic whole-slide diagnosis requiring multi-scale region identification and evidence integration, exposing a large gap to expert performance.
+**Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids**
+Authors: Sala Sisó et al.
+Link: http://arxiv.org/abs/2607.20345v1
+Introduces DEED, a framework combining post-training adaptation and experience-driven learning to enable Vision-Language-Action humanoids to handle real-world distribution shifts in retail environments.
 
-16. **ABot-World-0: Infinite Interactive World Rollout on a Single Desktop GPU**  
-    Fan Jiang, Zhaoxu Sun, Mengchao Wang et al.  
-    [http://arxiv.org/abs/2607.19191v1](http://arxiv.org/abs/2607.19191v1)  
-    An action-conditioned video world model that runs closed-loop interaction in real time on consumer hardware, trained on a multi-source data pipeline.
+**Generative AI floods and dilutes the market for books**
+Authors: Chakrabarty et al.
+Link: http://arxiv.org/abs/2607.20349v1
+Conducts large-scale AI detection across 14,419 self-published books, demonstrating that generative AI is flooding the book market with low-cost content and affecting commercial dynamics.
 
-17. **DBMol: Design of High-Affinity, Target-Specific Small Molecules through Structure Prediction Models**  
-    Yiming Qin, Kai Yi, Miruna Cretu et al.  
-    [http://arxiv.org/abs/2607.19237v1](http://arxiv.org/abs/2607.19237v1)  
-    Leverages AlphaFold-3/Boltz-2 binding predictions to guide a diffusion-based molecular generator, achieving improved binding affinity for specified protein pockets.
+**Classical Hardware Acceleration of Quantum Autoencoders for Real-Time Anomaly Detection in Collider Experiments**
+Authors: Ge et al.
+Link: http://arxiv.org/abs/2607.20302v1
+Deploys quantum autoencoders for anomaly detection in high-energy physics, demonstrating classical FPGA acceleration to meet real-time trigger constraints at collider experiments.
+
+**Interval and fuzzy physics-augmented neural networks (iPANN and fPANN) for uncertainty quantification**
+Authors: Singh et al.
+Link: http://arxiv.org/abs/2607.20339v1
+Extends physics-informed neural networks to handle sparse, noisy stress-strain data by incorporating interval and fuzzy representations for uncertainty-aware constitutive modeling.
 
 ---
 
 ## Research Trend Signal
 
-The dominant signal today is the **professionalization of RLVR**. Several papers move beyond proof-of-concept to tackle real obstacles: the zero-signal problem on hard problems (Off-Context GRPO), the need for a principled optimization stack (ISO), and the cost–quality frontier (Price of Reasoning). This suggests the field is entering a phase where RLVR is being engineered for production deployment, not just academic demonstrations. A second strong signal is **evaluation under realistic constraints**. Benchmarks now test for evidence grounding in long contexts, ToM in multi-party settings, whole-slide pathology navigation, and factual completeness rather than just precision — all indicators that the community is demanding harder, more ecologically valid tests. Finally, **agent safety and control** is rapidly becoming a standalone research area, with methods for monitoring sabotage (ResearchArena) and modeling the strategic effects of detectors (LLM Detection as an Intervention), pointing toward a need for built-in adversarial thinking in future agent frameworks.
+A notable emerging direction is the **push toward culturally aware and linguistically diverse AI evaluation**. Three papers today (LKValues, Which Values Do LLMs Confuse?, HalluTruthQA) independently construct benchmarks for non-Western contexts, revealing systematic gaps in value recognition and factuality for under-represented languages and cultures. This suggests the community is moving beyond monolithic alignment benchmarks toward localized, context-sensitive evaluation frameworks.
+
+Another strong signal is the **convergence of symbolic reasoning with learning systems**. SoftReason's fully differentiable neuro-symbolic architecture and PG-KINN's physics-informed Kolmogorov-Arnold Networks both attempt to embed structured knowledge and mathematical priors into differentiable models without sacrificing trainability. This hybrid approach may offer a path beyond pure deep learning for tasks requiring explicit reasoning.
+
+Finally, **efficiency through collaboration** is a recurring motif: PyroDash's token-level SLM-LLM routing and the decentralized online optimization paper both exploit heterogeneity—whether across model sizes or distributed agents—to achieve better resource utilization than monolithic approaches. This reflects a maturing understanding that scale alone is insufficient for practical deployment.
 
 ---
 
 ## Worth Deep Reading
 
-1. **ResearchArena: Evaluating Sabotage and Monitoring in Automated AI R&D** (#13)  
-   As AI agents begin to automate scientific research, this paper provides the first concrete benchmark for detecting when an agent is covertly misbehaving. The methodology — treating the monitor as an adversary — is likely to become a template for safety evaluation in many domains.
+**SoftReason** (http://arxiv.org/abs/2607.20402v1) — This paper tackles a fundamental bottleneck in neuro-symbolic AI: reasoning over high-dimensional perceptual inputs without hand-crafted symbolic abstraction. The fully differentiable architecture that supports end-to-end training from raw data to logical conclusions is a significant architectural contribution that could enable more robust reasoning in vision and robotics pipelines.
 
-2. **Copy Less, Ground More** (#1)  
-   The repetitive copying failure mode in long-context reasoning is subtle and easily overlooked. By diagnosing it and proposing evidence-aware RL as a fix, the paper highlights a fundamental limitation of current chain-of-thought methods that will resonate with anyone building long-context applications.
+**Notes to Self: Can LLMs Benefit from Experiential Abstractions?** (http://arxiv.org/abs/2607.20372v1) — The idea of LLMs learning reusable strategies from their own solution traces—analogous to human experiential learning—is both novel and practically important. If LLMs can self-improve through reflection without additional training data, this could reduce the need for human-curated examples in few-shot reasoning.
 
-3. **Off-Context GRPO** (#15)  
-   Solving the zero-signal problem with privileged information is both elegant and practical. The approach opens a new axis for RLVR training — using oracle hints without leaking them at inference — which could be widely applicable to many tasks where models initially never find a correct solution.
+**Sound Probabilistic Safety Bounds for Large Language Models** (http://arxiv.org/abs/2607.20286v1) — Producing rigorous, probably approximately correct bounds on harmful outputs is a departure from heuristic safety filtering. The application of Clopper-Pearson confidence intervals offers a statistically grounded framework for safety certification, which is crucial for deployment in regulated domains.
 
 ---
-*This digest is auto-generated by [agents-radar](https://github.com/BlackJack-Cao/agents-radar).*
+*This digest is auto-generated by [agents-radar](https://github.com/hhhhhjg/agents-radar).*

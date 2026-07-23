@@ -1,154 +1,131 @@
 # Hugging Face 热门模型日报 2026-07-23
 
-> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-07-22 23:41 UTC
+> 数据来源: [Hugging Face Hub](https://huggingface.co/) | 共 30 个模型 | 生成时间: 2026-07-23 04:46 UTC
 
 ---
 
-好的，这是为您生成的《Hugging Face 热门模型日报》。
+好的，作为AI模型生态分析师，以下是根据您提供的2026年7月23日数据生成的《Hugging Face热门模型日报》。
 
 ---
 
-### Hugging Face 热门模型日报 | 2026年07月23日
+### **Hugging Face 热门模型日报 | 2026年7月23日**
 
-#### 今日速览
+#### **今日速览**
 
-本周 HF 社区呈现三大热点：**多模态模型**全面爆发，以 **Google Gemma 4** 和 **Baidu Unlimited-OCR** 为首的模型在应用和基础能力上均取得领先；**大模型量化与蒸馏**活动达到峰值，社区对低比特（1-bit, 2-bit）模型的热情空前，**prism-ml** 和 **DavidAU** 等团队贡献了大量极低比特量化版本；**专业领域的开源模型**开始涌现，如 **NVIDIA** 的 ASR 流式模型和 **OpenBMB** 的机器人操纵模型，标志着 AI 生态向垂直场景的深入。
+本周Hugging Face生态呈现“多强争霸”局面。**智谱AI的GLM-5.2**以绝对优势登顶点赞榜，标志着国产MoE大模型的强势崛起。与此同时，**Google的Gemma-4**家族凭借海量下载量展现了其作为基础设施级模型的广泛影响力。多模态和OCR领域竞争白热化，以**百度Unlimited-OCR**和**HauhauCS**的Qwen3.6系列微调版为代表的模型下载量惊人。值得注意的是，社区量化活动持续活跃，**prism-ml**的Bonsai系列和**DavidAU**的超长命名模型代表了社区对极致压缩和个性化微调的追求。
 
 ---
 
-#### 热门模型分类
+#### **热门模型**
 
 ##### 🧠 语言模型（LLM、对话模型、指令微调）
 
-- **[zai-org/GLM-5.2](https://huggingface.co/zai-org/GLM-5.2)**
-  作者: zai-org | 点赞: 4,335 | 下载: 545,109
-  一句话：智谱AI的GLM系列最新旗舰，首次引入MoE-DSA架构，在对话和复杂推理任务上表现卓越，成为本周最受关注的纯语言模型之一。
+- **zai-org/GLM-5.2** [链接](https://huggingface.co/zai-org/GLM-5.2)
+  - 作者: zai-org | 点赞: 4,345 | 下载: 545,109
+  - 智谱AI推出的最新一代MoE大模型，凭借出色的对话能力和技术影响力，成为本周社区最受瞩目的模型。
 
-- **[Nanbeige/Nanbeige4.2-3B](https://huggingface.co/Nanbeige/Nanbeige4.2-3B)**
-  作者: Nanbeige | 点赞: 226 | 下载: 0
-  一句话：专为边缘部署设计的3B级小模型，虽然下载量暂为0，但新发布的架构值得关注，代表轻量化语言模型的趋势。
+- **google/gemma-4-31B-it** [链接](https://huggingface.co/google/gemma-4-31B-it)
+  - 作者: google | 点赞: 3,333 | 下载: 12,113,203
+  - Google开源的多模态版本Gemma-4，以庞大的下载量证明了其作为通用基座模型的强大生态号召力。
 
-- **[upstage/Solar-Open2-250B](https://huggingface.co/upstage/Solar-Open2-250B)**
-  作者: upstage | 点赞: 209 | 下载: 0
-  一句话：Upstage开源的超大规模语言模型，参数达250B，主打开放权重的企业级能力，是开源社区挑战闭源大模型的重量级选手。
+- **prism-ml/Bonsai-27B-gguf** [链接](https://huggingface.co/prism-ml/Bonsai-27B-gguf)
+  - 作者: prism-ml | 点赞: 601 | 下载: 1,404,962
+  - 27B参数且经过1-bit量化的极致压缩模型，展现了社区对高效推理和边缘部署的强烈需求。
 
-- **[poolside/Laguna-S-2.1](https://huggingface.co/poolside/Laguna-S-2.1)**
-  作者: poolside | 点赞: 383 | 下载: 3,056
-  一句话：面向代码生成的下一个版本模型，基于Transformer架构，是代码专用模型的强劲竞争者。
+- **upstage/Solar-Open2-250B** [链接](https://huggingface.co/upstage/Solar-Open2-250B)
+  - 作者: upstage | 点赞: 341 | 下载: 0
+  - Upstage推出的250B规模的开源模型，尽管下载量尚未累积，但其庞大的参数量代表了开源社区对“大而强”的追求。
 
-- **[Motif-Technologies/Motif-3-Beta](https://huggingface.co/Motif-Technologies/Motif-3-Beta)**
-  作者: Motif-Technologies | 点赞: 156 | 下载: 125
-  一句话：主打特征提取的基础模型，新一代嵌入与检索模型，在RAG和AI Agent场景有广阔应用前景。
+- **poolside/Laguna-S-2.1** [链接](https://huggingface.co/poolside/Laguna-S-2.1)
+  - 作者: poolside | 点赞: 411 | 下载: 3,056
+  - poolside公司推出的代码生成模型，专注特定编程场景，代表了垂直领域LLM的持续发展。
 
 ##### 🎨 多模态与生成（图像、视频、音频、文本到X）
 
-- **[google/gemma-4-31B-it](https://huggingface.co/google/gemma-4-31B-it)**
-  作者: google | 点赞: 3,327 | 下载: 12,113,203
-  一句话：Google最先进的多模态开源模型，支持图像与对话，13M次的下载量彰显其作为“最受欢迎开源多模态模型”的地位。
+- **baidu/Unlimited-OCR** [链接](https://huggingface.co/baidu/Unlimited-OCR)
+  - 作者: baidu | 点赞: 2,768 | 下载: 2,237,351
+  - 百度推出的通用OCR模型，以“Unlimited”为名，其海量下载量反映了市场对高效、精准文字识别工具的渴求。
 
-- **[baidu/Unlimited-OCR](https://huggingface.co/baidu/Unlimited-OCR)**
-  作者: baidu | 点赞: 2,703 | 下载: 2,237,351
-  一句话：百度推出的全能OCR模型，支持图像到文本的任意文字识别，下载量巨大，说明企业级文档处理需求旺盛。
+- **HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive** [链接](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)
+  - 作者: HauhauCS | 点赞: 3,011 | 下载: 1,997,690
+  - 基于Qwen3.6的激进风格微调版，下载量极高，体现了社区对特定角色扮演或生成风格的定制化需求。
 
-- **[HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive](https://huggingface.co/HauhauCS/Qwen3.6-35B-A3B-Uncensored-HauhauCS-Aggressive)**
-  作者: HauhauCS | 点赞: 2,999 | 下载: 1,997,690
-  一句话：基于Qwen3.6的MoE精调版，主打“无审查”与激进风格，量化后仍保持高下载量，体现了社区对特定风格化模型的追捧。
+- **empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF** [链接](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF)
+  - 作者: empero-ai | 点赞: 2,420 | 下载: 2,133,420
+  - 融合了Claude及Mythos风格的推理增强模型，表明结合多模型优点的“混血”模型是社区关注的热点。
 
-- **[empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF](https://huggingface.co/empero-ai/Qwythos-9B-Claude-Mythos-5-1M-GGUF)**
-  作者: empero-ai | 点赞: 2,416 | 下载: 2,133,420
-  一句话：社区融合精调的代表作，结合推理与创意风格，在GGUF格式下成为多模态对话和角色扮演的热门选择。
+- **thinkingmachines/Inkling** [链接](https://huggingface.co/thinkingmachines/Inkling)
+  - 作者: thinkingmachines | 点赞: 1,465 | 下载: 16,441
+  - 一个全新的原生多模态模型，在image-text-to-text任务上表现突出，代表着新兴创业公司在多模态赛道上的探索。
 
-- **[thinkingmachines/Inkling](https://huggingface.co/thinkingmachines/Inkling)**
-  作者: thinkingmachines | 点赞: 1,447 | 下载: 16,441
-  一句话：新一代多模态理解模型，支持图像与文本的无缝对话，被视为潜在的多模态Agent基础模型。
+- **nvidia/nemotron-3.5-asr-streaming-0.6b** [链接](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b)
+  - 作者: nvidia | 点赞: 914 | 下载: 590,230
+  - NVIDIA推出的流式语音识别模型，专注于实时、低延迟的应用场景，如语音助手和实时转录。
 
-- **[moonshotai/Kimi-K2.7-Code](https://huggingface.co/moonshotai/Kimi-K2.7-Code)**
-  作者: moonshotai | 点赞: 1,222 | 下载: 722,058
-  一句话：月之暗面推出的专为代码理解设计的多模态模型，结合了文本与图像推理，在代码场景中表现出色。
+- **microsoft/Mage-Flow** [链接](https://huggingface.co/microsoft/Mage-Flow)
+  - 作者: microsoft | 点赞: 135 | 下载: 0
+  - 微软发布的文本到图像生成模型，可能代表了其在图像生成领域的最新研究方向（如Flow-based模型）。
 
-- **[nvidia/Cosmos3-Edge](https://huggingface.co/nvidia/Cosmos3-Edge)**
-  作者: nvidia | 点赞: 89 | 下载: 6,623
-  一句话：NVIDIA发布的专为边缘设备优化的世界模型，在视频生成和理解方面性能出色。
+##### 🔧 专用模型（代码、数学、医疗、嵌入）
 
-- **[ATH-MaaS/OvisOCR2](https://huggingface.co/ATH-MaaS/OvisOCR2)**
-  作者: ATH-MaaS | 点赞: 249 | 下载: 17,162
-  一句话：基于Qwen架构的第二代OCR模型，专注于高精度文档识别。
+- **moonshotai/Kimi-K2.7-Code** [链接](https://huggingface.co/moonshotai/Kimi-K2.7-Code)
+  - 作者: moonshotai | 点赞: 1,227 | 下载: 722,058
+  - Moonshot AI（月之暗面）推出的代码专用模型，标志着Kimi家族向编程垂直领域的深入，下载量表明其性能受到认可。
 
-- **[microsoft/Mage-Flow](https://huggingface.co/microsoft/Mage-Flow)**
-  作者: microsoft | 点赞: 116 | 下载: 0
-  一句话：微软最新发布的文生图与图编辑框架，代表了Diffusion模型在可控生成领域的最新进展。
+- **openbmb/MiniCPM-RobotManip** [链接](https://huggingface.co/openbmb/MiniCPM-RobotManip)
+  - 作者: openbmb | 点赞: 157 | 下载: 58
+  - 面向机器人操作任务的VLA（视觉-语言-动作）模型，是AI从数字世界向物理世界延伸的前沿探索。
 
-##### 🔧 专用模型（代码、数学、医疗、嵌入、音频）
+- **OpenMOSS-Team/MOSS-Transcribe-Diarize** [链接](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize)
+  - 作者: OpenMOSS-Team | 点赞: 310 | 下载: 92,265
+  - 集成了转录与说话人分离功能的音频处理模型，展示了在复杂会议、访谈等场景下的实用价值。
 
-- **[nvidia/nemotron-3.5-asr-streaming-0.6b](https://huggingface.co/nvidia/nemotron-3.5-asr-streaming-0.6b)**
-  作者: nvidia | 点赞: 914 | 下载: 590,230
-  一句话：NVIDIA专为流式语音识别设计的0.6B轻量模型，端到端处理速度快，适用于实时会议和语音助手场景。
-
-- **[OpenMOSS-Team/MOSS-Transcribe-Diarize](https://huggingface.co/OpenMOSS-Team/MOSS-Transcribe-Diarize)**
-  作者: OpenMOSS-Team | 点赞: 308 | 下载: 92,265
-  一句话：集语音转录与说话人分离于一体的一站式音频文字模型，是音频数据处理领域的利器。
-
-- **[openbmb/MiniCPM-RobotManip](https://huggingface.co/openbmb/MiniCPM-RobotManip)**
-  作者: openbmb | 点赞: 154 | 下载: 58
-  一句话：OpenBMB的机器人操纵VLA模型，将视觉-语言模型应用于机器人控制，代表了具身智能的新方向。
-
-- **[openbmb/MiniCPM-RobotTrack](https://huggingface.co/openbmb/MiniCPM-RobotTrack)**
-  作者: openbmb | 点赞: 114 | 下载: 72
-  一句话：与RobotManip同系列的机器人跟踪模型，专注于视觉目标跟踪与环境理解。
-
-- **[conradlocke/krea2-identity-edit](https://huggingface.co/conradlocke/krea2-identity-edit)**
-  作者: conradlocke | 点赞: 495 | 下载: 0
-  一句话：基于Krea-2的LoRA插件，专门用于在图像编辑中保持人物身份特征，是AI图像后期处理的高阶工具。
-
-- **[nvidia/Nemotron-3-Embed-1B-BF16](https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16)**
-  作者: nvidia | 点赞: 102 | 下载: 93,021
-  一句话：NVIDIA最新的嵌入模型，专为文本语义相似度设计，是构建高质量RAG系统的核心组件。
+- **nvidia/Nemotron-3-Embed-1B-BF16** [链接](https://huggingface.co/nvidia/Nemotron-3-Embed-1B-BF16)
+  - 作者: nvidia | 点赞: 102 | 下载: 93,021
+  - NVIDIA的1B参数嵌入模型，专为语义相似度等检索任务设计，是构建RAG系统的基础组件。
 
 ##### 📦 微调与量化（社区微调、GGUF、AWQ）
 
-- **[prism-ml/Ternary-Bonsai-27B-gguf](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf)**
-  作者: prism-ml | 点赞: 940 | 下载: 432,196
-  一句话：全球首个主流2-bit三元量化模型，将27B模型压缩到极致，实现了在低端设备上运行大模型的可能。
+- **prism-ml/Ternary-Bonsai-27B-gguf** [链接](https://huggingface.co/prism-ml/Ternary-Bonsai-27B-gguf)
+  - 作者: prism-ml | 点赞: 952 | 下载: 432,196
+  - Bonsai系列的进阶版，采用了2-bit三值量化技术，在极低比特量化领域树立了新标杆。
 
-- **[prism-ml/Bonsai-27B-gguf](https://huggingface.co/prism-ml/Bonsai-27B-gguf)**
-  作者: prism-ml | 点赞: 594 | 下载: 1,404,962
-  一句话：进一步压缩的1-bit量化版Bonsai模型，下载量超百万，显示了社区对模型极致压榨与部署的热情。
+- **DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF** [链接](https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF)
+  - 作者: DavidAU | 点赞: 334 | 下载: 62,842
+  - 一个极具社区创意的超长命名模型，融合了多种微调技术（Unsloth、FP4等），代表了社区对“All-in-One”个性化模型的尝试。
 
-- **[DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF](https://huggingface.co/DavidAU/Qwen3.6-27B-Fable-Fusion-711-Uncensored-Heretic-NM-DAU-NEO-MAX-MTP-GGUF)**
-  作者: DavidAU | 点赞: 320 | 下载: 62,842
-  一句话：社区精调与量化的“集大成者”，融合了神话、长上下文、无审查等多种风格，是社区创意文化的典型产物。
+- **unsloth/Laguna-S-2.1-GGUF** [链接](https://huggingface.co/unsloth/Laguna-S-2.1-GGUF)
+  - 作者: unsloth | 点赞: 113 | 下载: 0
+  - 知名微调框架Unsloth对Laguna-S-2.1的GGUF量化版，反映了热门模型与高效微调/推理工具链的快速集成。
 
-- **[unsloth/inkling-GGUF](https://huggingface.co/unsloth/inkling-GGUF)**
-  作者: unsloth | 点赞: 120 | 下载: 7,377
-  一句话：将Inkling模型进行GGUF量化，方便用户使用llama.cpp等框架本地部署。
-
-- **[poolside/Laguna-S-2.1-GGUF](https://huggingface.co/poolside/Laguna-S-2.1-GGUF)**
-  作者: poolside | 点赞: 90 | 下载: 289
-  一句话：Laguna代码模型的量化版，便于开发者进行本地代码生成。
-
-- **[unsloth/Laguna-S-2.1-GGUF](https://huggingface.co/unsloth/Laguna-S-2.1-GGUF)**
-  作者: unsloth | 点赞: 105 | 下载: 0
-  一句话：另一版本的Laguna量化版，由量化工具提供商unsloth推出，确保兼容性与性能。
-
-- **[poolside/Laguna-S-2.1-NVFP4](https://huggingface.co/poolside/Laguna-S-2.1-NVFP4)**
-  作者: poolside | 点赞: 89 | 下载: 1,953
-  一句话：针对NVIDIA新硬件优化的4-bit浮点量化版，探索了新的低精度数据类型。
-
-- **[prism-ml/Bonsai-27B-mlx-1bit](https://huggingface.co/prism-ml/Bonsai-27B-mlx-1bit)**
-  作者: prism-ml | 点赞: 165 | 下载: 25,273
-  一句话：适配Apple Silicon的MLX框架1-bit量化版，满足了Mac用户本地运行极致低比特大模型的需求。
-
-- **[GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF](https://huggingface.co/GnLOLot/MiniCPM5-1B-Claude-Opus-Fable5-V2-Thinking-GGUF)**
-  作者: GnLOLot | 点赞: 153 | 下载: 51,746
-  一句话：基于MiniCPM-5的1B级小模型精调，主打“类Claude”的思考和叙事风格，证明了小模型也能通过精调实现风格迁移。
+- **Alissonerdx/LTX-Best-Face-ID** [链接](https://huggingface.co/Alissonerdx/LTX-Best-Face-ID)
+  - 作者: Alissonerdx | 点赞: 235 | 下载: 0
+  - 针对特定视频生成任务的LoRA模型，专注于人脸身份保持，是社区在AI视频领域填充细分功能的典型代表。
 
 ---
 
-#### 生态信号
+#### **生态信号**
 
-1.  **模型家族势头正旺**：本周**GLM-5.2**与**Google Gemma 4**构成了东西方两大“开源巨头”的对决。同时，**Qwen3.6**生态异常活跃，大量社区精调（Uncensored、Aggressive）和量化版本涌现，表明Qwen已成为社区最受欢迎的“原料”模型之一。**Laguna**（代码）和**Bonsai**（极致量化）形成了鲜明的两个专业方向。
-2.  **开源 vs 闭源**：**Solar-Open2-250B**和**GLM-5.2**等超大规模开放权重模型的发布，正在缩小与闭源模型在能力上的差距。但顶级模型的巨大参数量（250B）也带来了部署难题，这恰好催生了如**Ternary-Bonsai**这样“打破物理限制”的量化模型，形成了一种“开源-量化”的良性循环。
-3.  **量化活动趋势**：本周最显著的趋势是**“比特战争”**。社区已不满足于4-bit量化，**1-bit**和**2-bit**（三元量化）模型成为热点。这不仅是为了节省空间，更是为了在边缘设备（手机、笔记本）上运行强大模型。**prism-ml**无疑是这场战争的领
+1.  **模型家族势头：GLM与Qwen成两大主角。**
+    - **智谱GLM** (GLM-5.2) 作为国内开源势力的代表，其点赞数直接反映了极高的社区热度和认可度，证明了国产大模型开始在开源社区占据话语权。
+    - **Qwen家族** (Qwen3.x系列) 则成为社区微调的核心基座。从本次榜单来看，大量高下载量的模型（如HauhauCS、empero-ai、LuffyTheFox的模型）都基于Qwen-3.5/3.6进行二次开发和量化，其生态地位如同“AI世界的Android”。
+
+2.  **开源权重 vs 闭源：开源权重模型生态空前繁荣。**
+    - 榜单上的绝大多数模型都是开源权重或由开源基座衍生而来。这表明，社区目前不仅关注闭源API的调用，更倾向于拥有（Pytorch/Safetensors）和定制（GGUF/LoRA）模型权重。Google的Gemma-4和NVIDIA的Nemotron系列也遵循了这一趋势。
+
+3.  **量化与微调：追求极致效率与个性化。**
+    - **量化方向**，社区已不满足于传统的4-bit/8-bit，而是向1-bit（Bonsai）、2-bit（Ternary-Bonsai）等极限压缩发起挑战，目标是在消费级硬件上运行数十亿参数的模型。
+    - **微调方向**，“Uncensored”和特定角色/风格（如Heretic, Aggressive, Mythos）的微调模型层出不穷。这表明，除了通用性能，社区对模型的“个性”和“风格”有极强的定制需求。
 
 ---
-*本日报由 [agents-radar](https://github.com/BlackJack-Cao/agents-radar) 自动生成。*
+
+#### **值得探索**
+
+1.  **zai-org/GLM-5.2**：作为本周的“关注之王”，它是国内开源大模型技术的最新前沿成果。研究其MoE架构、对话策略和训练方法，对于理解大模型竞争格局和技术演进方向极具价值。**探索理由**：代表当前开源大模型的顶级技术力。
+
+2.  **google/gemma-4-31B-it**：尽管不是点赞最高，但其千万级的下载量是硬核的标志。作为Google最新最强的开源模型，它很可能成为未来无数应用和研究的起点。**探索理由**：极具潜力的基础设施级模型，了解其多模态能力对应用开发至关重要。
+
+3.  **openbmb/MiniCPM-RobotManip & openbmb/MiniCPM-RobotTrack**：这两个模型代表了AI领域一个激动人心的新方向——将大模型的能力（视觉、语言）直接赋能给机器人，实现物理世界的交互（操控、跟踪）。**探索理由**：这是AI从“数字大脑”迈向“物理大脑”的关键一步，值得所有关注AGI未来的研究者关注。
+
+---
+*本日报由 [agents-radar](https://github.com/hhhhhjg/agents-radar) 自动生成。*
