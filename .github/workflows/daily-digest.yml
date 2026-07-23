@@ -61,6 +61,7 @@ jobs:
       - name: Send fresh research radar to Feishu test group
         env:
           FEISHU_WEBHOOK_URLS: ${{ secrets.FEISHU_WEBHOOK_URLS_2 }}
+          FEISHU_TEST_MODE: "true"
         run: |
           if [ -z "$FEISHU_WEBHOOK_URLS" ]; then
             echo "::error::FEISHU_WEBHOOK_URLS_2 is not configured"
@@ -172,7 +173,7 @@ jobs:
         env:
           FEISHU_WEBHOOK_URLS: ${{ secrets.FEISHU_WEBHOOK_URLS }}
           PAGES_URL: ${{ steps.deployment.outputs.page_url }}
-        run: pnpm notify:feishu
+        run: pnpm notify:feishu:research-preview
 
       - name: Close stale issues
         env:

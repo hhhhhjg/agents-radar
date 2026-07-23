@@ -238,10 +238,72 @@ export interface ArxivReportOptions {
   audience?: "web" | "chat";
 }
 
+function normalizeForKeywordMatch(value: string): string {
+  return value
+    .toLocaleLowerCase("en")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .trim();
+}
+
+export function scorePaperForTopic(paper: ArxivPaper, keywords: string[]): number {
+  const title = normalizeForKeywordMatch(paper.title);
+  const summary = normalizeForKeywordMatch(paper.summary);
+
+  return keywords.reduce((score, rawKeyword) => {
+    const keyword = normalizeForKeywordMatch(rawKeyword);
+    if (!keyword) return score;
+
+    let keywordScore = 0;
+    if (title.includes(keyword)) keywordScore += 100;
+    if (summary.includes(keyword)) keywordScore += 30;
+
+    const terms = keyword.split(" ").filter((term) => term.length >= 2);
+    keywordScore += terms.filter((term) => title.includes(term)).length * 10;
+    keywordScore += terms.filter((term) => summary.includes(term)).length * 3;
+    return score + keywordScore;
+  }, 0);
+}
+
 export function selectArxivDataForAudience(arxivData: ArxivData, audience: "web" | "chat"): ArxivData {
-  return audience === "chat"
-    ? { ...arxivData, papers: arxivData.papers.filter((paper) => !paper.seenBefore) }
-    : arxivData;
+  const sourcePapers =
+    audience === "chat" ? arxivData.papers.filter((paper) => !paper.seenBefore) : arxivData.papers;
+  const perTopicLimit = audience === "chat" ? 3 : 10;
+  const selected = new Map<string, ArxivPaper>();
+  for (const topic of arxivData.topics) {
+    for (const paper of sourcePapers
+      .filter((item) => item.topicIds.includes(topic.id))
+      .sort(
+        (a, b) =>
+          Number(a.seenBefore) - Number(b.seenBefore) ||
+          scorePaperForTopic(b, topic.keywords) - scorePaperForTopic(a, topic.keywords) ||
+          new Date(b.published).getTime() - new Date(a.published).getTime(),
+      )
+      .slice(0, perTopicLimit)) {
+      selected.set(paper.id, paper);
+    }
+  }
+
+  const topicById = new Map(arxivData.topics.map((topic) => [topic.id, topic]));
+  const bestRelevance = (paper: ArxivPaper): number =>
+    Math.max(
+      0,
+      ...paper.topicIds.map((topicId) => {
+        const topic = topicById.get(topicId);
+        return topic ? scorePaperForTopic(paper, topic.keywords) : 0;
+      }),
+    );
+
+  return {
+    ...arxivData,
+    papers: sourcePapers
+      .filter((paper) => selected.has(paper.id))
+      .sort(
+        (a, b) =>
+          Number(a.seenBefore) - Number(b.seenBefore) ||
+          bestRelevance(b) - bestRelevance(a) ||
+          new Date(b.published).getTime() - new Date(a.published).getTime(),
+      ),
+  };
 }
 
 export function enforceArxivHeadingHierarchy(markdown: string, arxivData: ArxivData): string {
@@ -339,16 +401,13 @@ export async function saveArxivReport(
       `${newPaperCount} new, ${repeatedPapers.length} repeated.`,
   );
   try {
-    let summary: string;
-    if (audience === "chat" && reportData.papers.length === 0) {
-      summary =
-        lang === "en"
-          ? "## No new papers today\n\nNo newly discovered papers matched the configured research topics."
-          : "## 今日暂无新论文\n\n本次检索没有发现尚未在过去14天内推送过的高相关论文。";
-    } else {
-      summary = await callLlm(buildArxivPrompt(reportData, dateStr, lang));
-      summary = enforceArxivHeadingHierarchy(summary, reportData);
-    }
+    let summary = await callLlm(
+      buildArxivPrompt(reportData, dateStr, lang, {
+        maxPapersPerTopic: audience === "chat" ? 3 : 10,
+        includeEmptyTopics: audience === "chat",
+      }),
+    );
+    summary = enforceArxivHeadingHierarchy(summary, reportData);
 
     if (audience === "web" && repeatedPapers.length > 0) {
       summary = annotateRepeatedArxivEntries(summary, repeatedPapers, lang);
