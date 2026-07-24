@@ -153,6 +153,24 @@ research_topics:
     arxiv_categories: [cs.CV, cs.RO]
     max_items: 15
 
+  - id: point-cloud-tracking
+    group: 视觉感知
+    name: 3D 点云感知与跟踪
+    name_en: 3D Point Cloud Perception and Tracking
+    keywords:
+      - 3D single object tracking
+      - 3D object tracking
+      - point cloud tracking
+      - LiDAR object tracking
+      - point cloud representation learning
+      - spatio-temporal point cloud modeling
+      - state space models Mamba
+      - Mamba point cloud
+      - sparse point cloud tracking
+      - multi-frame feature fusion
+    arxiv_categories: [cs.CV, cs.RO, cs.LG]
+    max_items: 15
+
 # ── AI CLI tools ──────────────────────────────────────────────────────────────
 # Tracked for per-tool digests and cross-tool comparison.
 # Each entry requires: id (filename slug), repo (owner/repo), name (display name).

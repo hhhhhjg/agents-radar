@@ -117,3 +117,26 @@ openclaw:
     expect(config.openclaw.id).toBe("openclaw"); // default
   });
 });
+
+describe("repository research configuration", () => {
+  it("includes the point-cloud tracking direction and its tracking-focused keywords", () => {
+    const topic = loadConfig("config.yml").researchTopics.find((item) => item.id === "point-cloud-tracking");
+
+    expect(topic).toMatchObject({
+      group: "视觉感知",
+      name: "3D 点云感知与跟踪",
+      nameEn: "3D Point Cloud Perception and Tracking",
+      maxItems: 15,
+    });
+    expect(topic?.keywords).toEqual(
+      expect.arrayContaining([
+        "3D single object tracking",
+        "point cloud tracking",
+        "spatio-temporal point cloud modeling",
+        "state space models Mamba",
+        "sparse point cloud tracking",
+        "multi-frame feature fusion",
+      ]),
+    );
+  });
+});
