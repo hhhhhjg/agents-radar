@@ -6,7 +6,314 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 23 Jul 2026 22:53:39 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 24 Jul 2026 22:59:57 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-07-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-07-25/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-25/ai-arxiv</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-07-25 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 24 篇新文献 + 16 篇过去14天内已出现 | 生成时间：2026-07-24 22:56 UTC 好的，科研情报分析师为您呈上今日的研究方向雷达。 研究方向 Radar (2026-07-25) 1. 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：该方向今日热度极高，涌现了8篇新工作，研究重点从框架构建转向了深层次的能力与可靠性问题。核心议题包括：如何通过强化学习 (PATS) 或归因反馈 (AttriMem) 构建更有效的智能体学习策略；如何审计智能体决策过程中的证据溯源 (Auditing)；以及如何解决密集奖励在长程任务中的崩溃问题 (Dark Room)。此外，还出现了面向特定场景的智能体平台 (HiMe) 和评估基准 (Tencent WorkBuddy Bench)。 - LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：该方向有1篇新工作，提出了一个新颖的“定位-修复”范式 (Tes...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-07-25</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 24 篇新文献 + 16 篇过去14天内已出现 | 生成时间：2026-07-24 22:56 UTC</p>
+</blockquote>
+<hr>
+<p>好的，科研情报分析师为您呈上今日的研究方向雷达。</p>
+<hr>
+<h3>研究方向 Radar (2026-07-25)</h3>
+<h4>1. 今日总览</h4>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent 工程</strong>：该方向今日热度极高，涌现了8篇新工作，研究重点从框架构建转向了深层次的能力与可靠性问题。核心议题包括：如何通过强化学习 (PATS) 或归因反馈 (AttriMem) 构建更有效的智能体学习策略；如何审计智能体决策过程中的证据溯源 (Auditing)；以及如何解决密集奖励在长程任务中的崩溃问题 (Dark Room)。此外，还出现了面向特定场景的智能体平台 (HiMe) 和评估基准 (Tencent WorkBuddy Bench)。</li>
+</ul>
+<h4>- <strong>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进</strong>：该方向有1篇新工作，提出了一个新颖的“定位-修复”范式 (Test-Time Scaling via Error Localization)，旨在通过在 token 级别的错误定位来提升推理时扩展的效率，而不是简单地进行采样或回合制修正。</h4>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Society</strong>：今日暂无新论文。</li>
+<li><strong>具身智能 / 视觉-语言-动作模型</strong>：该方向有3篇新论文，呈现出从基础模型 (VoLN) 到大规模数据引擎 (AXIS) 的多元化发展。新工作关注于提升VLA模型在长程任务中的规划能力、通过混合世界建模增强鲁棒性，以及通过社区驱动的方式规模化数据采集。</li>
+<li><strong>具身智能 / 具身导航</strong>：今日有4篇新论文，主要集中在解决真实世界导航的复杂性问题。包括跨楼层、动态障碍物场景下的零样本物体导航 (ZONDA)；使用纯视觉进行长程导航 (VoLN)；以及通过帧间线索进行密集预测 (Unified Video Dense Prediction) 来增强场景理解。可微分渲染 (Scene Parameter Saliency) 也被提出作为一种新的导航可解释性工具。</li>
+<li><strong>模型压缩与持续学习 / LLM 剪枝与推理优化</strong>：该方向有1篇新论文，揭示了生产级语言模型的一个重要安全风险。研究表明，仅通过 token 生成时间这一侧信道，就能窃取模型的架构和推理优化细节 (Leaky Language Models)，这为推理优化和安全防护提出了新的挑战。</li>
+<li><strong>模型压缩与持续学习 / 多模态大模型剪枝</strong>：该方向有1篇综述性质的新论文，系统性分析了多模态边缘智能中，模型压缩、MoE路由和量化技术之间的相互影响 (Beyond Independent Optimization)，为边缘侧多模态推理的优化提供了全局视角。</li>
+<li><strong>模型压缩与持续学习 / 持续学习</strong>：该方向有4篇新论文，研究热点集中在参数高效微调 (PEFT) 的内部机理。新工作深入探讨了LoRA适配器在非IID场景下的频谱不稳定问题 (Three-Pronged Spectral Control)、其真正的信息容量与记忆风险 (How Many Bits Can an Adapter Write?)，并提出了选择性微调策略以保留基础模型生成能力 (Source-Prior-Driven Selective Adaptation)。同时，在强化学习领域，提出了一种自适应多视界方法 (Adaptive Multi-Horizon RL)。</li>
+<li><strong>视觉感知 / 事件相机视觉感知</strong>：今日暂无新论文。</li>
+<li><strong>视觉感知 / 3D 点云视觉感知</strong>：今日有3篇新论文。其中一篇解释了为何简单的基线模型在点云分割中能抗衡复杂的类别不平衡处理方法 (Loss Landscape Topology)，为算法选择提供了理论依据。另一篇提出了路边3D检测中对相机外参扰动的区域感知补偿方法 (RECO)，提高了系统的实际部署鲁棒性。此外，还有一篇用神经ODE学习形状连续变形的新方法 (ODeform)。</li>
+<li><strong>视觉感知 / 3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
+</ul>
+<h4>2. 分方向情报</h4>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent 工程</h3>
+<h4><a href="http://arxiv.org/abs/2607.21419v1">PATS: Policy-Aware Training Scaffolding for Agentic Reinforcement Learning</a></h4>
+<p>Yipeng Shi et al. | 2026-07-23
+核心贡献：提出一种策略感知的训练脚手架，通过提供最优的“脚手架策略”来引导智能体探索，解决弱策略在长程强化学习中重复失败的问题。
+关联：为训练更鲁棒的LLM智能体提供了一种新的强化学习训练框架。</p>
+<h4><a href="http://arxiv.org/abs/2607.20827v1">Auditing Provenance Sensitivity in LLM Agent Action Selection</a></h4>
+<p>Junchi Liao | 2026-07-23
+核心贡献：提出一种审计方法，用于检测LLM智能体在行动选择时，其决策是否受到来自无关来源但证据相关的信息影响。
+关联：直接针对LLM智能体决策的可审计性和可靠性提出了核心技术和评估指标。</p>
+<h4><a href="http://arxiv.org/abs/2607.21273v1">The Dark Room in the Reward Channel: Dense Prediction Rewards Collapse GRPO-Trained LLM Agents -- and What Actually Works</a></h4>
+<p>Yu Wang | 2026-07-23
+核心贡献：揭示在GRPO框架下，使用密集预测奖励（如预测下一观测）进行训练会导致策略崩溃。
+关联：对当前LLM智能体强化学习中广泛使用的奖励设计思路提出了警示，并指明了正确方向。</p>
+<h4><a href="http://arxiv.org/abs/2607.21106v1">AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning</a></h4>
+<p>Qinfeng Li et al. | 2026-07-23
+核心贡献：提出AttriMem，通过归因引导的过程反馈来学习信息提取、存储和更新的记忆策略，而非依赖启发式规则。
+关联：解决了LLM智能体核心能力——记忆构建，从人工规则升级为数据驱动学习，具有普遍意义。</p>
+<h4><a href="http://arxiv.org/abs/2607.20630v1">Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents</a></h4>
+<p>Jiale Lao, Immanuel Trummer | 2026-07-22
+核心贡献：展示了一个利用LLM Agent为数据库查询生成实例优化、高度定制化代码的系统GenDB。
+关联：是一个LLM Agent在系统工程领域应用的典型案例，展示了其在代码生成和优化方面的工程能力。</p>
+<h4><a href="http://arxiv.org/abs/2607.21019v1">HiMe: Real-Time Self-Hosted Personal Agent Platform for Health Insights with Wearable Devices</a></h4>
+<p>Wei Liu et al. | 2026-07-23
+核心贡献：介绍了一个基于可穿戴设备的自托管、实时个人健康智能体平台。
+关联：展示了LLM Agent在个人健康领域的具体应用实例，解决了隐私、个性化和实时性等实际问题。</p>
+<h4><a href="http://arxiv.org/abs/2607.20911v1">Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction</a></h4>
+<p>Tencent WorkBuddy Bench Team et al. | 2026-07-23
+核心贡献：发布了多领域编码智能体评测基准，并重点介绍了其抗数据污染的构建方法。
+关联：为编码智能体提供了新的、更可靠的评估基准，对推动该子领域发展有重要作用。</p>
+<h4><a href="http://arxiv.org/abs/2607.21324v1">GRADRAG: Cross-Component Prompt Adaptation for Coordinated Multi-Agent RAG</a></h4>
+<p>Paolo Pedinotti, Enrico Santus | 2026-07-23
+核心贡献：提出一个跨组件的提示词自适应框架，用于协调多智能体RAG系统中不同环节的优化。
+关联：将RAG优化的视角从孤立组件提升到系统级协调优化，是RAG系统工程的重要进展。</p>
+<h3>Agent 测试时扩展与自我改进</h3>
+<h4><a href="http://arxiv.org/abs/2607.21453v1">Test-Time Scaling via Error Localization</a></h4>
+<p>Rajiv Shailesh Chitale et al. | 2026-07-23
+核心贡献：提出通过精确的错误定位来指导推理时计算资源的分配，而不是无差别地增加采样或对话轮次。
+关联：为测试时扩展提供了更高效的路径，将该子方向的重点从“扩展计算量”转向“扩展计算效率”。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> #### <a href="http://arxiv.org/abs/2607.19691v1">SLPO: Scaling Latent Reasoning via a Surrogate Policy</a></h4>
+<p>Runyang You et al. | 2026-07-22
+核心贡献：提出通过一个代理策略来学习无token的潜在推理，从而在避免高昂解码成本的同时实现推理时扩展。
+关联：提供了一个不同于显式CoT的、以计算效率为目标的推理时扩展新范式。</p>
+<h2>具身智能</h2>
+<h3>视觉-语言-动作模型</h3>
+<h4><a href="http://arxiv.org/abs/2607.21400v1">VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method</a></h4>
+<p>Jiabin Lou et al. | 2026-07-23
+核心贡献：提出了一个纯视觉的长程导航范式，并发布了对应的基准和方法，解决在无GPS环境下仅依赖视觉传感器进行长程VLN的挑战。
+关联：直接推动了VLA模型在长距离、无定位信号的实际导航任务中的应用能力。</p>
+<h4><a href="http://arxiv.org/abs/2607.20988v1">HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving</a></h4>
+<p>Quanfu Yu et al. | 2026-07-23
+核心贡献：提出混合世界建模策略，结合像素级和潜在级世界模型，用于增强端到端自动驾驶VLA模型在噪声场景下的鲁棒性。
+关联：探索了VLA模型与世界模型结合的新方法，解决了纯像素预测鲁棒性差的问题，是VLA模型在自动驾驶应用中的重要改进。</p>
+<h4><a href="http://arxiv.org/abs/2607.21588v1">AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation</a></h4>
+<p>Mengfei Zhao et al. | 2026-07-23
+核心贡献：提出了一个可成长、社区驱动的数据引擎，用于规模化采集机器人操作的高质量演示数据。
+关联：为VLA模型的预训练/微调解决了数据瓶颈问题，改变了高质量数据采集的范式。</p>
+<h3>具身导航</h3>
+<h4><a href="http://arxiv.org/abs/2607.21025v1">ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments</a></h4>
+<p>Shaomin Liang et al. | 2026-07-23
+核心贡献：提出零样本物体导航方法，能够应对跨楼层和动态行人等复杂真实世界环境。
+关联：解决了现有导航方法在真实部署中面临的两大关键挑战：跨楼层拓扑和动态障碍物。</p>
+<h4><a href="http://arxiv.org/abs/2607.21400v1">VoLN: Vision-Only Long-Horizon Navigation---Paradigm, Benchmark, and Method</a></h4>
+<p>Jiabin Lou et al. | 2026-07-23
+核心贡献：提出了纯视觉长程导航的新范式，在没有显式空间先验的情况下，依靠视觉观测进行导航决策。
+关联：为依赖有限传感（如仅有摄像头）的导航任务提供了新的解决方案。</p>
+<h4><a href="http://arxiv.org/abs/2607.21592v1">Unified Video Dense Prediction from Disjoint Data</a></h4>
+<p>Yihong Sun et al. | 2026-07-23
+核心贡献：提出一个从碎片化、不相交的数据中训练统一视频密集预测模型的方法，同时预测几何、外观和语义。
+关联：能输出更丰富的场景理解信息，对导航任务的规划与避障有直接帮助。</p>
+<h4><a href="http://arxiv.org/abs/2607.21562v1">Scene Parameter Saliency via Differentiable Light Transport</a></h4>
+<p>Linas Beresna, Eugene Fiume | 2026-07-23
+核心贡献：提出可微渲染器可用于生成场景参数的显著性图，以了解哪些场景参数对网络输出最敏感。
+关联：为具身导航中的“场景可解释性”提供了新工具，有助于理解智能体是如何根据场景特征进行决策的。</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM 剪枝与推理优化</h3>
+<h4><a href="http://arxiv.org/abs/2607.20723v1">Leaky Language Models: Stealing Architecture and Inference Optimizations via Per-Token Timing</a></h4>
+<p>Sadegh Majidi et al. | 2026-07-22
+核心贡献：首次展示仅通过观察 token 生成的时间序列（侧信道攻击），即可推断出生产语言模型的架构、部署和推理优化细节。
+关联：为LLM推理优化指出了新的安全挑战，即优化手段本身可能成为信息泄露的载体。</p>
+<h3>多模态大模型剪枝</h3>
+<h4><a href="http://arxiv.org/abs/2607.20981v1">Beyond Independent Optimization: Compression, MoE Routing, and Quantization Interactions in Multimodal Edge Intelligence</a></h4>
+<p>Jay Gor et al. | 2026-07-23
+核心贡献：综述了在多模态边缘智能场景下，模型压缩、MoE路由和量化技术之间的复杂相互作用。
+关联：为多模态大模型在边缘设备上的剪枝与优化提供了系统性的全局视野，指出不能孤立地看待各优化技术。</p>
+<h3>持续学习</h3>
+<h4><a href="http://arxiv.org/abs/2607.21351v1">How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning</a></h4>
+<p>Kaizhen Tan et al. | 2026-07-23
+核心贡献：通过压缩分析，直接量化了LoRA适配器的信息容量和数据记忆风险，揭示其并非纯粹的“技能”载体。
+关联：对持续学习中“以LoRA存储新知识是否安全”这一核心假设提出了质疑和量化验证。</p>
+<h4><a href="http://arxiv.org/abs/2607.20914v1">Three-Pronged Spectral Control for Federated Parameter Efficient Fine Tuning</a></h4>
+<p>Shiva Raj Pokhrel et al. | 2026-07-23
+核心贡献：提出一种三管齐下的频谱控制方法，解决联邦PEFT中因数据非IID导致的客户端局部LoRA奇异性问题。
+关联：推动了异构数据下持续学习与联邦学习的结合，解决了分布式持续学习中的关键难题。</p>
+<h4><a href="http://arxiv.org/abs/2607.20913v1">Source-Prior-Driven Selective Adaptation for Efficient Diffusion Model Finetuning</a></h4>
+<p>Yi Xiong et al. | 2026-07-23
+核心贡献：提出一种源先验驱动的选择性微调策略，在微调扩散模型时，只更新与目标域最相关的部分参数，以保持预训练模型的生成能力。
+关联：为扩散模型的持续学习提供了一种高效的、且能避免灾难性遗忘的新方法。</p>
+<h4><a href="http://arxiv.org/abs/2607.20656v1">Adaptive Multi-Horizon Reinforcement Learning</a></h4>
+<p>Manoosh Samiei et al. | 2026-07-22
+核心贡献：提出一种自适应多视界的强化学习方法，允许智能体根据状态动态权衡短期和长期回报，而不是使用固定折扣因子。
+关联：提供了一种新的强化学习范式，对涉及持续学习和适应的智能体决策问题有潜在启发。</p>
+<h2>视觉感知</h2>
+<h3>3D 点云视觉感知</h3>
+<h4><a href="http://arxiv.org/abs/2607.21089v1">Loss Landscape Topology Reveals Why Simple Baselines are Competitive at 3D Point Cloud Segmentation Under Class Imbalance</a></h4>
+<p>Antonis Savva et al. | 2026-07-23
+核心贡献：通过分析损失景观拓扑结构，解释了在3D点云语义分割中，面对严重的类别不平衡时，简单基线方法反而能与复杂的专用方法匹敌的原因。
+关联：为3D点云感知中的类别不平衡问题提供了理论洞见，有助于研究者选择更简单有效的基线。</p>
+<h4><a href="http://arxiv.org/abs/2607.20947v1">RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection</a></h4>
+<p>Junsheng Du et al. | 2026-07-23
+核心贡献：提出一种区域感知补偿方法，用于解决路边3D检测中因相机外参微小扰动（如振动）导致的性能下降问题。
+关联：提升了3D点云感知模型在真实部署场景（如智能交通）中的鲁棒性和实用性。</p>
+<h4><a href="http://arxiv.org/abs/2607.20670v1">ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs</a></h4>
+<p>Yordanka Velikova et al. | 2026-07-22
+核心贡献：利用神经ODE学习物体变形的连续4D运动表示，突破了离散时间步的限制。
+关联：为动态3D点云场景中的形变建模提供了新颖且连续的表示方法。</p>
+<h4>3. 跨方向信号</h4>
+<ol>
+<li><strong>强化学习成为Agent能力升级的核心引擎</strong>：无论是LLM智能体的训练（PATS）、自身改进（SLPO），还是测试时行为优化（The Dark Room），强化学习（尤其是GRPO）范式正被广泛应用于解决长程任务和可靠性等核心问题。这表明，从“预训练+提示”到“交互中学习”是Agent技术发展的关键趋势。</li>
+<li><strong>参数高效微调（PEFT）的深度机理研究成为热点</strong>：多篇新工作（How Many Bits、Three-Pronged Spectral Control、Source-Prior-Driven）不再仅仅追求PEFT方法的效率，而是开始系统性地研究其信息容量、记忆风险、频谱特性及对基础模型能力的影响。这反映了社区对该工具理解的深化，从“如何使用”进入到“如何安全、高效地使用”。</li>
+<li><strong>从静态测试到动态、真实场景的评估与基准</strong>：出现了大量针对动态环境（ZONDA）、多楼层（ZONDA）、多领域（Tencent WorkBuddy Bench）、跨域（Closing the Lab-to-Store Gap）的真实场景基准和平台。同时，对模型鲁棒性的评估也超越了传统的精度指标，开始关注外参扰动（RECO）、噪声场景（HyWorldVLA）等实际部署问题。</li>
+<li><strong>可解释性与安全性议题在Agent领域凸显</strong>：对LLM Agent决策的溯源审计（Auditing）、对模型信息的侧信道窃取（Leaky Language Models）、以及对PEFT方法记忆风险的量化（How Many Bits）等工作的出现，标志着该领域开始严肃关注Agent的安全性和可解释性，从追求性能转向追求可信赖。</li>
+</ol>
+<h4>4. 优先精读</h4>
+<ol>
+<li><strong>The Dark Room in the Reward Channel: Dense Prediction Rewards Collapse GRPO-Trained LLM Agents</strong><ul>
+<li><strong>理由</strong>：该论文发现了一个反直觉且对当前研究非常重要的现象：在基于GRPO的LLM Agent训练中，流行且看似合理的“密集预测奖励”设计会导致训练崩溃。这一发现可能动摇当前许多Agent训练工作的基础假设，对于任何从事Agent RL训练的研究者而言，都必须阅读以规避类似陷阱。</li>
+</ul>
+</li>
+</ol>
+<h4><strong>How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning</strong></h4>
+<pre><code>- **理由**：该工作对PEFT（特别是LoRA）的本质提出了深刻质疑。如果LoRA并非只是存储“技能”，而可能记忆了大量训练数据，那么其在端侧部署、联邦学习以及持续学习中的安全性、隐私性和能力边界将需要被重新审视。这项工作提供了量化实验证据，是理解PEFT能力上限和风险的关键读物。
+</code></pre>
+<h4><strong>Leaky Language Models: Stealing Architecture and Inference Optimizations via Per-Token Timing</strong></h4>
+<pre><code>- **理由**：从一个新的安全视角——侧信道攻击——审视了生产级LLM的推理服务。该工作证明了仅通过token生成时间即可推断模型架构和优化细节，这为推理优化服务（包括剪枝、量化等）的部署带来了新的安全风险。对于从事LLM推理优化和模型安全的研究人员，此文具有警示和指导意义。
+</code></pre>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-07-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-07-25/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-25/ai-arxiv-en</guid>
+      <pubDate>Sat, 25 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-07-25 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 24 new + 16 seen in the last 14 days | Generated: 2026-07-24 22:56 UTC Today&amp;#39;s Overview LLM Agent Engineering: 8 new papers on memory (AttriMem), RL training (PATS, Dark Room), multi‑agent RAG (GRADRAG), benchmarking (Tencent WorkBuddy Bench, GenDB), provenance auditing, and health agents (HiMe). Progress in agent memory optimization and RL stability. Agent Test‑Time Scaling and Self‑...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-07-25</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 24 new + 16 seen in the last 14 days | Generated: 2026-07-24 22:56 UTC</p>
+</blockquote>
+<hr>
+<h2>Today&#39;s Overview</h2>
+<ul>
+<li><strong>LLM Agent Engineering</strong>: 8 new papers on memory (AttriMem), RL training (PATS, Dark Room), multi‑agent RAG (GRADRAG), benchmarking (Tencent WorkBuddy Bench, GenDB), provenance auditing, and health agents (HiMe). Progress in agent memory optimization and RL stability.</li>
+<li><strong>Agent Test‑Time Scaling and Self‑Improvement</strong>: 1 new paper (Test‑Time Scaling via Error Localization) introducing token‑level credit assignment for scaling inference compute. 2 repeated papers on latent reasoning and self‑evolution.</li>
+<li><strong>LLM Agent Societies</strong>: No new papers today.</li>
+<li><strong>Vision‑Language‑Action Models</strong>: 3 new papers: HyWorldVLA with hybrid world modelling, VoLN for long‑horizon VLN (also navigation), AXIS for scalable data engines. Emphasis on world models and data scalability.</li>
+<li><strong>Embodied Navigation</strong>: 4 new papers: VoLN (long‑horizon VLN), ZONDA (zero‑shot multi‑floor), Scene Parameter Saliency (interpretability), Unified Video Dense Prediction. Advances in zero‑shot and dense prediction.</li>
+<li><strong>LLM Pruning and Inference Optimization</strong>: 1 new paper (Leaky Language Models) on timing attacks to leak model architecture and deployment details. Security‑focused.</li>
+<li><strong>Multimodal LLM Pruning</strong>: 1 new paper (Beyond Independent Optimization) reviewing compression, MoE routing, quantization for multimodal edge intelligence.</li>
+<li><strong>Continual Learning</strong>: 4 new papers: federated PEFT spectral control (Three‑Pronged), LoRA memorisation capacity (How Many Bits), diffusion model adaptation (Source‑Prior‑Driven), adaptive multi‑horizon RL. Repeated papers on ECRAM hardware, LoRA rank allocation, and backdoor defences.</li>
+<li><strong>Event‑Based Vision</strong>: No new papers today.</li>
+<li><strong>3D Point Cloud Perception</strong>: 3 new papers: loss landscape topology for class imbalance, RECO for roadside detection, ODeform for 4D deformation. Repeated paper on view‑synthesis segmentation.</li>
+<li><strong>3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
+</ul>
+<h2>Research Areas</h2>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent Engineering</h3>
+<h4><a href="http://arxiv.org/abs/2607.20630v1">Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents</a></h4>
+<p>Jiale Lao, Immanuel Trummer | 2026-07-22 | Contribution: Proposes using LLM agents to generate instance‑optimised query processing code, bypassing traditional engine extensions. | Relevance: Directly addresses agent‑based automation for database tasks, a core LLM agent engineering challenge.</p>
+<h5><a href="http://arxiv.org/abs/2607.21273v1">The Dark Room in the Reward Channel: Dense Prediction Rewards Collapse GRPO-Trained LLM Agents — and What Actually Works</a></h5>
+<p>Yu Wang | 2026-07-23 | Contribution: Shows that dense per‑step prediction rewards under GRPO destroy LLM agent policy and identifies effective alternatives. | Relevance: Critical insights for designing reward functions in long‑horizon agent RL training.</p>
+<h4><a href="http://arxiv.org/abs/2607.20827v1">Auditing Provenance Sensitivity in LLM Agent Action Selection</a></h4>
+<p>Junchi Liao | 2026-07-23 | Contribution: Introduces a targeted auditing approach to measure whether an LLM agent’s action is grounded only in permitted evidence. | Relevance: Addresses trust and safety in agent tool use, a key engineering requirement.</p>
+<h4><a href="http://arxiv.org/abs/2607.21419v1">PATS: Policy-Aware Training Scaffolding for Agentic Reinforcement Learning</a></h4>
+<p>Yipeng Shi, Zhipeng Ma, Yue Wang et al. | 2026-07-23 | Contribution: Proposes a policy‑aware scaffolding method that provides failure‑guided exploration for weakly performing agent policies. | Relevance: Directly improves RL training efficiency for LLM agents with sparse rewards.</p>
+<h4><a href="http://arxiv.org/abs/2607.21106v1">AttriMem: Attribution-Guided Process Feedback for Agent Memory Learning</a></h4>
+<p>Qinfeng Li, Yuntai Bao, Xinyan Yu et al. | 2026-07-23 | Contribution: Learns memory construction policy via attribution‑guided process feedback, replacing heuristic rules. | Relevance: Advances memory management in LLM agents, a core engineering challenge.</p>
+<h4><a href="http://arxiv.org/abs/2607.21019v1">HiMe: Real-Time Self-Hosted Personal Agent Platform for Health Insights with Wearable Devices</a></h4>
+<p>Wei Liu, Siya Qi, Linhai Zhang et al. | 2026-07-23 | Contribution: Builds a personal health agent platform using wearable data and LLM agents for adaptive, privacy‑preserving insights. | Relevance: Demonstrates real‑world deployment of LLM agents in sensitive health domain.</p>
+<h4><a href="http://arxiv.org/abs/2607.21324v1">GRADRAG: Cross-Component Prompt Adaptation for Coordinated Multi-Agent RAG</a></h4>
+<p>Paolo Pedinotti, Enrico Santus | 2026-07-23 | Contribution: Proposes cross‑component prompt adaptation to coordinate optimisation across the entire multi‑agent RAG pipeline. | Relevance: Tackles system‑level coordination in multi‑agent RAG, an emerging agent engineering topic.</p>
+<h4><a href="http://arxiv.org/abs/2607.20911v1">Tencent WorkBuddy Bench: A Multi-Domain Coding-Agent Benchmark with Contamination-Resistant Task Construction</a></h4>
+<p>Tencent WorkBuddy Bench Team, Siqi Cai, Shaopeng Chen et al. | 2026-07-23 | Contribution: Introduces a benchmark for coding agents with contamination‑resistant task construction and cross‑model leaderboard. | Relevance: Provides standardised evaluation for coding agent capabilities, essential for engineering progress.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20064v2">PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning</a></h4>
+<p>Alexis Fox, Junlin Wang, Paul Rosu et al. | 2026-07-22 | Contribution: Proposes programmatic memory for LLM agents to improve performance on continual‑learning benchmarks like ARC‑AGI‑3. | Relevance: Combines agent memory with continual learning, relevant to both engineering and learning.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19653v1">PerfAgent: Profiler-Guided Iterative Refinement for Repository-Level Code Optimization</a></h4>
+<p>Ryan Deng, Yuanzhe Liu, Bastian Lipka et al. | 2026-07-22 | Contribution: Uses LLM agents with profiler feedback to iteratively optimise repository‑level code without breaking functionality. | Relevance: Applies agent engineering to practical code optimisation, demonstrating iterative refinement.</p>
+<h3>Agent Test-Time Scaling and Self-Improvement</h3>
+<h4><a href="http://arxiv.org/abs/2607.21453v1">Test-Time Scaling via Error Localization</a></h4>
+<p>Rajiv Shailesh Chitale, Rahul Madhavan, Taneesh Gupta et al. | 2026-07-23 | Contribution: Introduces token‑level error localisation to guide test‑time scaling, improving LLM performance on reasoning tasks. | Relevance: Directly advances test‑time scaling methods, a key research area for agent self‑improvement.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20166v1">Audio-Zero: Label-Free Self-Evolution for Fine-Grained Audio Reasoning</a></h4>
+<p>Siqian Tong, Xuan Li, Chaozhuo Li et al. | 2026-07-22 | Contribution: Proposes a label‑free self‑evolution framework for audio language models to improve fine‑grained reasoning. | Relevance: Extends self‑improvement to audio domain, offering cross‑modal agent scaling insights.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19691v1">SLPO: Scaling Latent Reasoning via a Surrogate Policy</a></h4>
+<p>Runyang You, Zhiyuan Liu, Yongqi Li et al. | 2026-07-22 | Contribution: Uses a surrogate policy to scale latent reasoning without per‑token decoding, reducing test‑time cost. | Relevance: Proposes a novel approach to test‑time scaling for latent reasoning, applicable to agent inference.</p>
+<h2>具身智能</h2>
+<h3>Vision-Language-Action Models</h3>
+<h4><a href="http://arxiv.org/abs/2607.20988v1">HyWorldVLA: A Vision-Language-Action Model with Hybrid World Modeling for Autonomous Driving</a></h4>
+<p>Quanfu Yu, Xian Wu, Hao Xu et al. | 2026-07-23 | Contribution: Combines pixel‑level and latent world modelling in a VLA model for robust autonomous driving prediction. | Relevance: Advances VLA models with world modelling, directly applicable to embodied driving agents.</p>
+<h4><a href="http://arxiv.org/abs/2607.21588v1">AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation</a></h4>
+<p>Mengfei Zhao, Dihong Huang, Yikai Tang et al. | 2026-07-23 | Contribution: Proposes a community‑driven data pipeline for collecting diverse robot manipulation demonstrations without specialised hardware. | Relevance: Addresses data scalability for VLA policy learning, a critical bottleneck.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20061v1">ReferTrack: Referring Then Tracking for Embodied Visual Tracking</a></h4>
+<p>Hanjing Ye, Tianle Zeng, Jiazhao Zhang et al. | 2026-07-22 | Contribution: Improves embodied visual tracking by decomposing VLA policy into referring and tracking stages with chain‑of‑thought. | Relevance: Enhances VLA policy interpretability and accuracy for target following.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20345v1">Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids</a></h4>
+<p>Roger Sala Sisó, Tiago Silvério, Jakob Sand et al. | 2026-07-22 | Contribution: Develops a data‑efficient post‑training framework for VLA humanoid robots in retail environments using experience replay. | Relevance: Bridges simulation‑to‑reality gap for VLA agents in real‑world deployment.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19633v1">LENS: LLM-guided Environment Simplification for Planning and Control in Clutter</a></h4>
+<p>Aileen Liao, Rachel Holladay, Dinesh Jayaraman et al. | 2026-07-22 | Contribution: Uses LLM to simplify cluttered environments (e.g., remove or rearrange objects) to aid downstream planning and control. | Relevance: Demonstrates synergy between LLM reasoning and robotic manipulation, relevant to VLA systems.</p>
+<h3>Embodied Navigation</h3>
+<h5><a href="http://arxiv.org/abs/2607.21400v1">VoLN: Vision-Only Long-Horizon Navigation—Paradigm, Benchmark, and Method</a></h5>
+<p>Jiabin Lou, Haopeng Wang, Yuanshuai Wang et al. | 2026-07-23 | Contribution: Introduces a vision‑only long‑horizon VLN benchmark and method without relying on spatial priors from GPS or depth. | Relevance: Shifts VLN toward more realistic, GPS‑denied settings, extending embodied navigation capabilities.</p>
+<h4><a href="http://arxiv.org/abs/2607.21025v1">ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments</a></h4>
+<p>Shaomin Liang, Xuanhong Liao, Shiyao Zhang | 2026-07-23 | Contribution: Proposes a zero‑shot object navigation method that handles cross‑floor topology and dynamic obstacles without prior training. | Relevance: Addresses critical real‑world deployment challenges for object goal navigation.</p>
+<h4><a href="http://arxiv.org/abs/2607.21562v1">Scene Parameter Saliency via Differentiable Light Transport</a></h4>
+<p>Linas Beresna, Eugene Fiume | 2026-07-23 | Contribution: Applies differentiable rendering to produce saliency maps over scene parameters, enabling interpretable navigation‑relevant features. | Relevance: Provides a novel interpretability tool for embodied navigation policies.</p>
+<h4><a href="http://arxiv.org/abs/2607.21592v1">Unified Video Dense Prediction from Disjoint Data</a></h4>
+<p>Yihong Sun, Seoung Wug Oh, Jiahui Huang et al. | 2026-07-23 | Contribution: Unifies geometry, appearance, and semantic prediction from disjointly annotated video data, enabling dense scene understanding. | Relevance: Dense prediction is crucial for navigation; this reduces annotation burden.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19695v1">NavVerse: Benchmarking Indoor-to-Outdoor Embodied Navigation in Continuous Robot Simulation</a></h4>
+<p>Junzhe Wu, Yue Hu, Zeyu Han et al. | 2026-07-22 | Contribution: Proposes a benchmark for continuous indoor‑to‑outdoor navigation, including exit finding and boundary crossing. | Relevance: Fills a gap in navigation evaluation for real‑world deployment scenarios.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19880v1">EA-Nav: Learning Safe Visual Navigation Policies with Embodiment Awareness</a></h4>
+<p>Jialu Zhang, Yong Du, Xianda Guo et al. | 2026-07-22 | Contribution: Learns cross‑embodiment navigation policies that are aware of different robot physical properties to ensure safety. | Relevance: Advances safe, generalisable navigation across diverse embodied agents.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20284v1">Multimodal Large Language Models for Remote Sensing Image Understanding: Domain-Specific or General-Purpose?</a></h4>
+<p>Qiwei Ma, Chunping Qiu, Xinjun Cheng et al. | 2026-07-22 | Contribution: Systematically evaluates MLLMs for remote sensing, revealing cross‑task generalisation gaps relevant to aerial navigation. | Relevance: Provides insights for using MLLMs in navigation‑oriented remote sensing.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19951v1">OffNadirLoc: Benchmark and Framework for Challenging UAV-to-Satellite Geo-Localization under Large Off-Nadir Views</a></h4>
+<p>Qian Qiao, Wenye Liu, Ting Liu et al. | 2026-07-22 | Contribution: Introduces a benchmark and framework for UAV geo‑localisation under large off‑nadir views, addressing a challenging navigation perception task. | Relevance: Directly relevant to UAV navigation under extreme viewpoint changes.</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM Pruning and Inference Optimization</h3>
+<h4><a href="http://arxiv.org/abs/2607.20723v1">Leaky Language Models: Stealing Architecture and Inference Optimizations via Per-Token Timing</a></h4>
+<p>Sadegh Majidi, Niloofar Mireshghallah, Kazem Taram | 2026-07-22 | Contribution: Demonstrates that timing attacks can leak proprietary model architecture and deployment details from production LLMs. | Relevance: Highlights security risks in LLM inference optimisation pipelines, important for deployment.</p>
+<h3>Multimodal LLM Pruning</h3>
+<h4><a href="http://arxiv.org/abs/2607.20981v1">Beyond Independent Optimization: Compression, MoE Routing, and Quantization Interactions in Multimodal Edge Intelligence</a></h4>
+<p>Jay Gor, Karm Dave, Akshita Abrol et al. | 2026-07-23 | Contribution: Reviews and analyses interactions between compression, MoE routing, and quantisation for efficient multimodal inference on edge devices. | Relevance: Provides a holistic view of pruning and optimisation for multimodal LLMs, directly relevant to the sub‑topic.</p>
+<h3>Continual Learning</h3>
+<h4><a href="http://arxiv.org/abs/2607.20914v1">Three-Pronged Spectral Control for Federated Parameter Efficient Fine Tuning</a></h4>
+<p>Shiva Raj Pokhrel, Dipsan Bhattarai, Anwar Walid | 2026-07-23 | Contribution: Proposes spectral regularisation for LoRA in federated settings to mitigate client heterogeneity. | Relevance: Ties continual learning with federated PEFT, addressing catastrophic forgetting on non‑IID data.</p>
+<h4><a href="http://arxiv.org/abs/2607.21351v1">How Many Bits Can an Adapter Write? Measuring the Capacity and Memorization of Parameter-Efficient Fine-Tuning</a></h4>
+<p>Kaizhen Tan, Heqing Du, Yang Feng | 2026-07-23 | Contribution: Measures the information capacity of LoRA adapters, revealing that they can memorise training data beyond “skill” representations. | Relevance: Directly addresses memorisation in continual learning with PEFT, important for privacy and forgetting.</p>
+<h4><a href="http://arxiv.org/abs/2607.20913v1">Source-Prior-Driven Selective Adaptation for Efficient Diffusion Model Finetuning</a></h4>
+<p>Yi Xiong, Yuan-Yuan Cheng, Xiao-Ming Fu | 2026-07-23 | Contribution: Uses source‑prior signals to selectively adapt only relevant weights during diffusion model fine‑tuning, preserving generalisation. | Relevance: Provides a principled approach to trade‑off between adaptation and forgetting in generative models.</p>
+<h4><a href="http://arxiv.org/abs/2607.20656v1">Adaptive Multi-Horizon Reinforcement Learning</a></h4>
+<p>Manoosh Samiei, Doina Precup, Paul Masset | 2026-07-22 | Contribution: Learns to dynamically adjust discount factors across multiple temporal horizons for better adaptation to changing environments. | Relevance: Offers a novel RL perspective on continual learning by balancing short‑term and long‑term adaptation.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19661v1">Leveraging ECRAM for Edge Continual Learning</a></h4>
+<p>Nabila Tasnim, Haoran Liu, Qing Cao et al. | 2026-07-22 | Contribution: Explores analog ECRAM devices for energy‑efficient continual learning on edge platforms. | Relevance: Hardware–algorithm co‑design for continual learning, relevant to efficiency.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20301v1">The Blessing of Dimensionality: How Near-Orthogonality in High-Dimensional Spaces Explains Temporal Portability</a></h4>
+<p>Abigail Woodring, Adrian Chan, Rana Muhammad Shahroz Khan et al. | 2026-07-22 | Contribution: Provides a theoretical explanation for the temporal portability of PEFT methods like LoRA using high‑dimensional near‑orthogonality. | Relevance: Theoretical underpinning for why LoRA adapters generalise over time in continual learning.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.20205v1">Statistical Inference for Rank Allocation in Low-Rank Adaptation</a></h4>
+<p>Yihang Gao, Vincent Y. F. Tan | 2026-07-22 | Contribution: Develops a statistical framework to allocate ranks across LoRA modules under a fixed budget, improving adaptation efficiency. | Relevance: Addresses resource allocation in continual PEFT, directly impacting capacity and forgetting.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19894v1">Defense Against LLM Backdoors using Critical Neuron Isolation Pruning</a></h4>
+<p>Yuxi Li, Zhibo Zhang, Kailong Wang et al. | 2026-07-22 | Contribution: Proposes pruning critical neurons to defend against backdoor attacks in LLMs, including those via PEFT. | Relevance: Connects pruning (compression) with continual learning security, relevant to robust adaptation.</p>
+<h2>视觉感知</h2>
+<h3>3D Point Cloud Perception</h3>
+<h4><a href="http://arxiv.org/abs/2607.21089v1">Loss Landscape Topology Reveals Why Simple Baselines are Competitive at 3D Point Cloud Segmentation Under Class Imbalance</a></h4>
+<p>Antonis Savva, Christos Kyrkou, Theocharis Theocharides | 2026-07-23 | Contribution: Uses loss landscape topology to explain why simple baselines often match complex imbalance‑aware methods on 3D segmentation. | Relevance: Provides theoretical insight for designing robust 3D perception models under data imbalance.</p>
+<h4><a href="http://arxiv.org/abs/2607.20947v1">RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection</a></h4>
+<p>Junsheng Du, Zhaocheng He, Yuhuan Lu | 2026-07-23 | Contribution: Compensates for camera extrinsic perturbations in roadside 3D detection using region‑aware correction. | Relevance: Improves robustness of 3D detection in real‑world intelligent transportation systems.</p>
+<h4><a href="http://arxiv.org/abs/2607.20670v1">ODeform: Learning Continuous 4D Motion for Shape Deformation with Neural ODEs</a></h4>
+<p>Yordanka Velikova, Mahdi Saleh, Liming Kuang et al. | 2026-07-22 | Contribution: Models continuous 4D shape deformation using neural ODEs, enabling smooth temporal interpolation for 3D point clouds. | Relevance: Advances dynamic 3D perception, applicable to tracking and manipulation.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2607.19765v1">Extending a Large View Synthesis Model for Multi-view Panoptic Segmentation</a></h4>
+<p>Kwonyoung Ryu, In-Jae Lee, Jonghyun Jin et al. | 2026-07-22 | Contribution: Extends a large view synthesis model to perform multi‑view panoptic segmentation without explicit 3D representations. | Relevance: Demonstrates cross‑task generalisation of view synthesis to 3D scene understanding, relevant to point cloud perception.</p>
+<h2>Cross‑Topic Signals</h2>
+<ul>
+<li><strong>Token‑level credit assignment</strong> appears in both “Test‑Time Scaling via Error Localization” (Agent Test‑Time Scaling) and “PATS” (LLM Agent Engineering), suggesting a growing trend to provide fine‑grained feedback for agent improvement.</li>
+<li><strong>Memory systems</strong> are central in “AttriMem” and “PRO‑LONG” (LLM Agent Engineering) and also underpin “Source‑Prior‑Driven Selective Adaptation” (Continual Learning), indicating cross‑pollination between agent memory and model adaptation.</li>
+<li><strong>Federated and edge continual learning</strong> are linked via “Three‑Pronged Spectral Control” (Continual Learning) and “Leveraging ECRAM” (Continual Learning), while “Beyond Independent Optimization” (Multimodal LLM Pruning) also addresses edge constraints—a convergence of privacy, efficiency, and adaptation.</li>
+<li><strong>Robustness to distribution shifts</strong> unites “HyWorldVLA” (VLA), “RECO” (3D Detection), and “Adaptive Multi‑Horizon RL” (Continual Learning), each tackling dynamic environments from different angles.</li>
+<li><strong>Security and safety</strong> topics span “Leaky Language Models” (Inference Optimization), “Defense Against LLM Backdoors” (Continual Learning), and “Auditing Provenance Sensitivity” (LLM Agent Engineering), reflecting a holistic concern for trustworthy deployed systems.</li>
+</ul>
+<h2>Priority Reading</h2>
+<ol>
+<li><strong>“The Dark Room in the Reward Channel”</strong> — Exposes a critical failure mode in GRPO‑trained LLM agents: dense prediction rewards collapse the policy. Essential for anyone designing reward schemes for long‑horizon agent RL.</li>
+<li><strong>“Test‑Time Scaling via Error Localization”</strong> — Proposes token‑level error localisation for targeted test‑time compute scaling. Provides a principled method to improve agent reasoning without brute‑force sampling.</li>
+<li><strong>“How Many Bits Can an Adapter Write?”</strong> — Quantifies the memorisation capacity of LoRA adapters, challenging the assumption that adapters only learn “skills”. Critical for understanding privacy and forgetting in continual learning and agent fine‑tuning.</li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-07-24</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-07-24/ai-arxiv</link>
