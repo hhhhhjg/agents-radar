@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-24T22:56:50.334Z",
+  "updatedAt": "2026-07-25T22:48:21.268Z",
   "papers": {
     "2607.20345": {
       "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
@@ -305,7 +305,7 @@
     "2607.21089": {
       "title": "Loss Landscape Topology Reveals Why Simple Baselines are Competitive at 3D Point Cloud Segmentation Under Class Imbalance",
       "firstSeenAt": "2026-07-24T22:56:50.334Z",
-      "lastSeenAt": "2026-07-24T22:56:50.334Z"
+      "lastSeenAt": "2026-07-25T22:48:21.268Z"
     },
     "2607.21025": {
       "title": "ZONDA: Zero-shot Object Navigation with Dynamic Avoidance in Multi-floor Environments",
@@ -330,7 +330,7 @@
     "2607.20947": {
       "title": "RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection",
       "firstSeenAt": "2026-07-24T22:56:50.334Z",
-      "lastSeenAt": "2026-07-24T22:56:50.334Z"
+      "lastSeenAt": "2026-07-25T22:48:21.268Z"
     },
     "2607.20914": {
       "title": "Three-Pronged Spectral Control for Federated Parameter Efficient Fine Tuning",
