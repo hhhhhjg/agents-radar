@@ -6,7 +6,109 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 25 Jul 2026 23:26:08 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 27 Jul 2026 03:25:35 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-07-27</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-07-27/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-27/ai-arxiv</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-07-27 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 2 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-07-27 02:56 UTC 好的，科研情报分析师。这是根据您提供的定向检索结果生成的研究方向雷达报告。 研究方向 Radar 报告日期: 2026-07-27 数据覆盖: 截至 2026-07-27 的 ArXiv 新论文 今日总览 LLM Agent 与多智能体 / LLM Agent 工程: 今日暂无新论文。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进: 今日有 2 篇新论文。研究聚焦于通过“自我博弈”和强化学习等机制，推动大语言模型在交互环境中自主进化核心技能和元技能，以突破能力边界。 LLM Agent 与多智能体 / LLM Agent Society: 今日暂无新论文。 具身智能 / 视觉-语言-动作模型: 今日暂无新论文。 具身智能 / 具身导航: 今日暂无新论文。 模型压缩与持续学习 / LLM 剪枝与推理优化: 今日暂无新论文。 模型...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-07-27</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 2 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-07-27 02:56 UTC</p>
+</blockquote>
+<hr>
+<p>好的，科研情报分析师。这是根据您提供的定向检索结果生成的研究方向雷达报告。</p>
+<hr>
+<h3>研究方向 Radar</h3>
+<p><strong>报告日期</strong>: 2026-07-27
+<strong>数据覆盖</strong>: 截至 2026-07-27 的 ArXiv 新论文</p>
+<h4>今日总览</h4>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent 工程</strong>: 今日暂无新论文。</li>
+<li><strong>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进</strong>: 今日有 2 篇新论文。研究聚焦于通过“自我博弈”和强化学习等机制，推动大语言模型在交互环境中自主进化核心技能和元技能，以突破能力边界。</li>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Society</strong>: 今日暂无新论文。</li>
+<li><strong>具身智能 / 视觉-语言-动作模型</strong>: 今日暂无新论文。</li>
+<li><strong>具身智能 / 具身导航</strong>: 今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 / LLM 剪枝与推理优化</strong>: 今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 / 多模态大模型剪枝</strong>: 今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 / 持续学习</strong>: 今日暂无新论文。</li>
+<li><strong>视觉感知 / 事件相机视觉感知</strong>: 今日暂无新论文。</li>
+<li><strong>视觉感知 / 3D 点云视觉感知</strong>: 今日暂无新论文。</li>
+<li><strong>视觉感知 / 3D 点云感知与跟踪</strong>: 今日暂无新论文。</li>
+</ul>
+<h4>分方向情报</h4>
+<h2>LLM Agent 与多智能体</h2>
+<h3>Agent 测试时扩展与自我改进</h3>
+<h4><a href="http://arxiv.org/abs/2607.22529v1">Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills</a></h4>
+<p>S. Huang et al., 2026-07-24 | <strong>核心贡献</strong>: 提出技能自我博弈（Skill Self-Play）框架，让LLM在不同复杂度级别的任务中与进化出的技能集进行交互式自我博弈，以不断扩增其能力边界。 | <strong>与方向关联</strong>: 直接为Agent测试时自我进化提供了一种新型互动范式，通过技能协同进化来提升扩展能力。</p>
+<h4><a href="http://arxiv.org/abs/2607.21971v1">Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning</a></h4>
+<p>S. Wu et al., 2026-07-24 | <strong>核心贡献</strong>: 提出用强化学习培养LLM的“元技能”，包括自我反思、利用环境反馈等，使模型能够在推理时进行更有效的迭代自我进化。 | <strong>与方向关联</strong>: 直接研究Agent测试时扩展的核心机制，通过训练元技能来增强模型在推理阶段自我改进的能力。</p>
+<h3>跨方向信号</h3>
+<ol>
+<li><strong>自我进化范式的兴起</strong>: 两篇论文共同指向一个趋势，即LLM的训练正从“人工标注-微调”的静态范式，转向“交互-反馈-自我进化”的动态范式。这既影响了<strong>Agent测试时扩展</strong>，也预示着未来<strong>LLM Agent工程</strong>的构建方法可能发生转变。</li>
+<li><strong>强化学习成为核心训练框架</strong>: 强化学习（RL）被证明是培养Agent自我进化能力（包括技能协同和元技能）的有效手段。这一趋势跨越了自我改进的多个子问题，也潜在影响着<strong>LLM Agent Society</strong>中的协作与竞争演化。</li>
+<li><strong>环境反馈与多样性的平衡</strong>: 研究指出，环境反馈的可靠性（如Skill Self-Play中提到）与任务多样性之间存在根本性矛盾。如何设计既能提供精确反馈又能保证任务多样性的环境，是所有<strong>Agent自我进化</strong>方法面临的共同挑战。</li>
+</ol>
+<h3>优先精读</h3>
+<h4><strong><a href="http://arxiv.org/abs/2607.22529v1">Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills</a></strong></h4>
+<pre><code>*   **理由**: 提出了一种新颖的“博弈”视角和能力边界扩展方法，通过技能协同进化而非单纯的任务求解，思路更具创新性，可能为Agent自我改进开辟新路径。
+</code></pre>
+<h4><strong><a href="http://arxiv.org/abs/2607.21971v1">Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning</a></strong></h4>
+<pre><code>*   **理由**: 直指“测试时扩展”的核心——元技能。通过RL训练元技能以增强自我反思和利用反馈的能力，这种方法更具普适性和可迁移性，对理解Agent如何实现根本性自我改进至关重要。
+</code></pre>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-07-27</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-07-27/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-07-27/ai-arxiv-en</guid>
+      <pubDate>Mon, 27 Jul 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-07-27 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 2 new + 0 seen in the last 14 days | Generated: 2026-07-27 02:56 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today. LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: 2 new papers published 2026-07-24, both exploring self-evolution frameworks for LLMs. Skill Self-Play proposes a co-evolution strategy between skills and environment feedback,...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-07-27</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 2 new + 0 seen in the last 14 days | Generated: 2026-07-27 02:56 UTC</p>
+</blockquote>
+<hr>
+<h2>Today&#39;s Overview</h2>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Engineering</strong>: No new papers today.</li>
+<li><strong>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement</strong>: 2 new papers published 2026-07-24, both exploring self-evolution frameworks for LLMs. Skill Self-Play proposes a co-evolution strategy between skills and environment feedback, while Teaching LLMs to Self-Evolve cultivates meta-skills using reinforcement learning.</li>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Societies</strong>: No new papers today.</li>
+<li><strong>具身智能 / Vision-Language-Action Models</strong>: No new papers today.</li>
+<li><strong>具身智能 / Embodied Navigation</strong>: No new papers today.</li>
+<li><strong>模型压缩与持续学习 / LLM Pruning and Inference Optimization</strong>: No new papers today.</li>
+<li><strong>模型压缩与持续学习 / Multimodal LLM Pruning</strong>: No new papers today.</li>
+<li><strong>模型压缩与持续学习 / Continual Learning</strong>: No new papers today.</li>
+<li><strong>视觉感知 / Event-Based Vision</strong>: No new papers today.</li>
+<li><strong>视觉感知 / 3D Point Cloud Perception</strong>: No new papers today.</li>
+<li><strong>视觉感知 / 3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
+</ul>
+<h2>Research Areas</h2>
+<h2>LLM Agent 与多智能体</h2>
+<h3>Agent Test-Time Scaling and Self-Improvement</h3>
+<h4><a href="http://arxiv.org/abs/2607.22529v1">Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills</a></h4>
+<p>Siyuan Huang, Pengyu Cheng, Haotian Liu et al. | 2026-07-24<br><strong>Contribution</strong>: Introduces a training paradigm where an LLM and a set of skills co-evolve through self-play, allowing the model to dynamically acquire and refine skills without human annotation.<br><strong>Relevance</strong>: Directly addresses test-time scaling and self-improvement by enabling continual skill expansion through iterative interaction and environment feedback.</p>
+<h4><a href="http://arxiv.org/abs/2607.21971v1">Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning</a></h4>
+<p>Shujin Wu, Cheng Qian, Xiusi Chen et al. | 2026-07-24<br><strong>Contribution</strong>: Proposes a reinforcement learning framework to train meta-skills (e.g., self-reflection, environment-driven correction) that enable LLMs to autonomously evolve when interacting with feedback.<br><strong>Relevance</strong>: Strengthens the self-evolution paradigm central to agent test-time scaling by explicitly targeting the acquisition of transferable meta-skills, extending the AlphaEvolve line of work.</p>
+<h2>Cross-Topic Signals</h2>
+<ul>
+<li>Both papers converge on the theme of <strong>self-evolution as a scalable alternative to manual data creation</strong>, a concept that may later influence multi-agent societies (e.g., agents that evolve their social strategies) and continual learning (e.g., model updates from environment interactions).</li>
+<li>The use of <strong>reinforcement learning to shape meta-skills</strong> (second paper) could be adapted to improve test-time scaling in embodied navigation and vision-language-action models, where environment feedback is rich but sparse.</li>
+<li><strong>Skill co-evolution</strong> (first paper) hints at a framework where multiple independent skills emerge and interact, potentially applicable to modular architectures for LLM pruning (e.g., selectively evolving pruned sub-networks) or multi-modal systems.</li>
+</ul>
+<h2>Priority Reading</h2>
+<ol>
+<li><strong>Skill Self-Play</strong> – Offers a concrete algorithm for continuous skill acquisition that directly maps to the lab’s interest in agent self-improvement; likely to inspire new training pipelines.</li>
+<li><strong>Teaching LLMs to Self-Evolve</strong> – Explicitly ties reinforcement learning to meta-skill cultivation, providing a principled method to bootstrap self-evolution; highly relevant for the AlphaEvolve-based research trajectory.</li>
+<li><em>(No third paper – only two matched the lab’s configuration)</em></li>
+</ol>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-07-26</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-07-26/ai-arxiv</link>
