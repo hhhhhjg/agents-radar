@@ -48,6 +48,8 @@ const CATEGORIES = ["cs.AI", "cs.CL", "cs.LG"];
 /** Be more conservative than ArXiv's minimum request interval. */
 export const ARXIV_REQUEST_DELAY_MS = 6000;
 export const ARXIV_RETRY_BASE_DELAY_MS = 15_000;
+export const ARXIV_MAX_RETRY_DELAY_MS = 60_000;
+export const ARXIV_REQUEST_TIMEOUT_MS = 30_000;
 export const ARXIV_MAX_ATTEMPTS = 4;
 export const ARXIV_LOOKBACK_DAYS = 3;
 
@@ -133,6 +135,8 @@ export interface ArxivRequestOptions {
   sleepImpl?: (ms: number) => Promise<void>;
   maxAttempts?: number;
   retryBaseDelayMs?: number;
+  maxRetryDelayMs?: number;
+  requestTimeoutMs?: number;
 }
 
 function retryAfterMs(response: Response): number {
@@ -159,11 +163,14 @@ export async function fetchArxivResponse(
   const sleepImpl = options.sleepImpl ?? sleep;
   const maxAttempts = options.maxAttempts ?? ARXIV_MAX_ATTEMPTS;
   const retryBaseDelayMs = options.retryBaseDelayMs ?? ARXIV_RETRY_BASE_DELAY_MS;
+  const maxRetryDelayMs = options.maxRetryDelayMs ?? ARXIV_MAX_RETRY_DELAY_MS;
+  const requestTimeoutMs = options.requestTimeoutMs ?? ARXIV_REQUEST_TIMEOUT_MS;
 
   for (let attempt = 1; attempt <= maxAttempts; attempt++) {
     try {
       const response = await fetchImpl(url, {
         headers: { "User-Agent": "agents-radar/1.0" },
+        signal: AbortSignal.timeout(requestTimeoutMs),
       });
       if (response.ok) return response;
 
@@ -172,7 +179,10 @@ export async function fetchArxivResponse(
         return null;
       }
 
-      const delayMs = Math.max(retryBaseDelayMs * 2 ** (attempt - 1), retryAfterMs(response));
+      const delayMs = Math.min(
+        maxRetryDelayMs,
+        Math.max(retryBaseDelayMs * 2 ** (attempt - 1), retryAfterMs(response)),
+      );
       console.warn(
         `  [arxiv] ${label}: HTTP ${response.status}; retry ${attempt + 1}/${maxAttempts} ` +
           `in ${Math.ceil(delayMs / 1000)}s`,
