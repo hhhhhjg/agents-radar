@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-25T22:48:21.268Z",
+  "updatedAt": "2026-07-27T02:56:52.773Z",
   "papers": {
     "2607.20345": {
       "title": "Closing the Lab-to-Store Gap: A Data-Efficient Post-Training and Experience-Driven Learning VLA Framework for Retail Humanoids",
@@ -371,6 +371,16 @@
       "title": "Demonstrating GenDB: Instance-Optimized and Customized Query Processing Code Generation via LLM Agents",
       "firstSeenAt": "2026-07-24T22:56:50.334Z",
       "lastSeenAt": "2026-07-24T22:56:50.334Z"
+    },
+    "2607.22529": {
+      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
+      "firstSeenAt": "2026-07-27T02:56:52.773Z",
+      "lastSeenAt": "2026-07-27T02:56:52.773Z"
+    },
+    "2607.21971": {
+      "title": "Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning",
+      "firstSeenAt": "2026-07-27T02:56:52.773Z",
+      "lastSeenAt": "2026-07-27T02:56:52.773Z"
     }
   }
 }
