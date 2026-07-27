@@ -28,9 +28,6 @@ async function main(): Promise<void> {
   if (!arxivData.fetchSuccess) {
     throw new Error("ArXiv fetch failed");
   }
-  if (!arxivData.papers.length) {
-    throw new Error("ArXiv returned no papers matching the configured topics");
-  }
 
   console.log(`[research-radar] Generating reports from ${arxivData.papers.length} matched paper(s)...`);
   await Promise.all([
