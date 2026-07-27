@@ -41,6 +41,34 @@ describe("ArXiv request retry", () => {
     expect(sleepImpl).toHaveBeenCalledWith(9000);
   });
 
+  it("caps an excessively long Retry-After value", async () => {
+    const fetchImpl = vi
+      .fn<typeof fetch>()
+      .mockResolvedValueOnce(new Response("", { status: 429, headers: { "retry-after": "3600" } }))
+      .mockResolvedValueOnce(new Response("<feed />", { status: 200 }));
+    const sleepImpl = vi.fn(async () => undefined);
+
+    await fetchArxivResponse("https://export.arxiv.org/api/query", "navigation", {
+      fetchImpl,
+      sleepImpl,
+      retryBaseDelayMs: 1000,
+      maxRetryDelayMs: 60_000,
+    });
+
+    expect(sleepImpl).toHaveBeenCalledWith(60_000);
+  });
+
+  it("sets a timeout on every ArXiv request", async () => {
+    const fetchImpl = vi.fn<typeof fetch>().mockResolvedValue(new Response("<feed />", { status: 200 }));
+
+    await fetchArxivResponse("https://export.arxiv.org/api/query", "navigation", {
+      fetchImpl,
+      requestTimeoutMs: 1234,
+    });
+
+    expect(fetchImpl.mock.calls[0]?.[1]?.signal).toBeInstanceOf(AbortSignal);
+  });
+
   it("stops after the configured maximum attempts", async () => {
     const fetchImpl = vi.fn<typeof fetch>().mockResolvedValue(new Response("", { status: 429 }));
     const sleepImpl = vi.fn(async () => undefined);
