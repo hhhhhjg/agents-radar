@@ -3,6 +3,7 @@ import type { ArxivData } from "../arxiv.ts";
 import { buildArxivPrompt } from "../prompts-data.ts";
 import {
   annotateRepeatedArxivEntries,
+  buildEmptyArxivSummary,
   enforceArxivHeadingHierarchy,
   scorePaperForTopic,
   selectArxivDataForAudience,
@@ -89,6 +90,16 @@ describe("research topics radar prompt", () => {
 
     expect(selectArxivDataForAudience(repeatedData, "web").papers).toHaveLength(1);
     expect(selectArxivDataForAudience(repeatedData, "chat").papers).toHaveLength(0);
+  });
+
+  it("builds a complete no-new-papers report instead of failing on an empty result", () => {
+    const summary = buildEmptyArxivSummary({ ...data, papers: [] }, "zh");
+
+    expect(summary).toContain("### 今日总览");
+    expect(summary).toContain("**具身智能 / 具身导航**：今日暂无新论文。");
+    expect(summary).toContain("**视觉感知 / 事件相机视觉感知**：今日暂无新论文。");
+    expect(summary).toContain("## 具身智能\n\n### 具身导航\n\n今日暂无新论文。");
+    expect(summary).toContain("## 视觉感知\n\n### 事件相机视觉感知\n\n今日暂无新论文。");
   });
 
   it("caps Feishu at three new papers and the web at ten papers per topic", () => {

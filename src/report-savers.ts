@@ -238,6 +238,34 @@ export interface ArxivReportOptions {
   audience?: "web" | "chat";
 }
 
+export function buildEmptyArxivSummary(arxivData: ArxivData, lang: Lang): string {
+  const groups = [...new Set(arxivData.topics.map((topic) => topic.group))];
+  const overview = arxivData.topics
+    .map((topic) =>
+      lang === "en"
+        ? `- **${topic.group} / ${topic.nameEn}**: No new papers today.`
+        : `- **${topic.group} / ${topic.name}**：今日暂无新论文。`,
+    )
+    .join("\n");
+  const directions = groups
+    .map((group) => {
+      const topics = arxivData.topics
+        .filter((topic) => topic.group === group)
+        .map(
+          (topic) =>
+            `### ${lang === "en" ? topic.nameEn : topic.name}\n\n` +
+            (lang === "en" ? "No new papers today." : "今日暂无新论文。"),
+        )
+        .join("\n\n");
+      return `## ${group}\n\n${topics}`;
+    })
+    .join("\n\n");
+
+  return lang === "en"
+    ? `### Today's Overview\n\n${overview}\n\n---\n\n### Research Areas\n\n${directions}`
+    : `### 今日总览\n\n${overview}\n\n---\n\n### 分方向情报\n\n${directions}`;
+}
+
 function normalizeForKeywordMatch(value: string): string {
   return value
     .toLocaleLowerCase("en")
@@ -401,13 +429,18 @@ export async function saveArxivReport(
       `${newPaperCount} new, ${repeatedPapers.length} repeated.`,
   );
   try {
-    let summary = await callLlm(
-      buildArxivPrompt(reportData, dateStr, lang, {
-        maxPapersPerTopic: audience === "chat" ? 3 : 10,
-        includeEmptyTopics: audience === "chat",
-      }),
-    );
-    summary = enforceArxivHeadingHierarchy(summary, reportData);
+    let summary: string;
+    if (reportData.papers.length === 0) {
+      summary = buildEmptyArxivSummary(reportData, lang);
+    } else {
+      summary = await callLlm(
+        buildArxivPrompt(reportData, dateStr, lang, {
+          maxPapersPerTopic: audience === "chat" ? 3 : 10,
+          includeEmptyTopics: audience === "chat",
+        }),
+      );
+      summary = enforceArxivHeadingHierarchy(summary, reportData);
+    }
 
     if (audience === "web" && repeatedPapers.length > 0) {
       summary = annotateRepeatedArxivEntries(summary, repeatedPapers, lang);
