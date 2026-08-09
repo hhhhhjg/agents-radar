@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-08T22:22:07.822Z",
+  "updatedAt": "2026-08-09T22:23:28.827Z",
   "papers": {
-    "2607.21089": {
-      "title": "Loss Landscape Topology Reveals Why Simple Baselines are Competitive at 3D Point Cloud Segmentation Under Class Imbalance",
-      "firstSeenAt": "2026-07-24T22:56:50.334Z",
-      "lastSeenAt": "2026-07-25T22:48:21.268Z"
-    },
-    "2607.20947": {
-      "title": "RECO: Region-Aware Compensation for Extrinsic Perturbations in Roadside 3D Detection",
-      "firstSeenAt": "2026-07-24T22:56:50.334Z",
-      "lastSeenAt": "2026-07-25T22:48:21.268Z"
-    },
     "2607.22529": {
       "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
       "firstSeenAt": "2026-07-27T02:56:52.773Z",
