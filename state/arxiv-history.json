@@ -1,17 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-09T22:23:28.827Z",
+  "updatedAt": "2026-08-10T22:31:14.676Z",
   "papers": {
-    "2607.22529": {
-      "title": "Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills",
-      "firstSeenAt": "2026-07-27T02:56:52.773Z",
-      "lastSeenAt": "2026-07-27T02:56:52.773Z"
-    },
-    "2607.21971": {
-      "title": "Teaching LLMs to Self-Evolve: Cultivating Core Meta-Skills with Reinforcement Learning",
-      "firstSeenAt": "2026-07-27T02:56:52.773Z",
-      "lastSeenAt": "2026-07-27T02:56:52.773Z"
-    },
     "2607.24744": {
       "title": "Data Pyramid for Embodied Manipulation",
       "firstSeenAt": "2026-07-28T22:54:21.579Z",
