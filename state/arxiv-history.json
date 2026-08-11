@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-10T22:31:14.676Z",
+  "updatedAt": "2026-08-11T22:35:32.866Z",
   "papers": {
     "2607.24744": {
       "title": "Data Pyramid for Embodied Manipulation",
@@ -1481,6 +1481,206 @@
       "title": "AV-AIVAT: 74x Cheaper Agent Evaluation with Certified Anytime-Valid Stopping in Imperfect-Information Games",
       "firstSeenAt": "2026-08-07T22:29:03.847Z",
       "lastSeenAt": "2026-08-08T22:22:07.822Z"
+    },
+    "2608.09876": {
+      "title": "Energy-Structured Latent World Models with Neural Time Fields for Physically Constistent Open-World Motion Planning",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09848": {
+      "title": "CEAA: A Cognitive Embodied Agents Architecture for Interactive Computing Systems",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09819": {
+      "title": "Macaron-V1: Towards Open Continual Learning with Self-Improvement and Mixture-of-LoRA",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09779": {
+      "title": "KGCaRe: Explainable Complex Conditional Question Answering using Automatic Knowledge Graph Construction and Context Retrieval with LLMs",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09771": {
+      "title": "SLIM-0.5B: Learning Action-Grounded Predictive Latents for Robot Manipulation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09730": {
+      "title": "World Tokens: Enhancing Embodied Policies with Training-Time World Modeling",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09591": {
+      "title": "FactorDrive: Adaptive Multi-Step Reasoning Driven by Planning-Critical Factors for End-to-End Autonomous Driving",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09572": {
+      "title": "Hyperbolic Multimodal Continual Learning",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09564": {
+      "title": "From Semantic Grounding to Decision Optimization: A Unified Framework for Long-Horizon UAV Vision-Language Navigation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09520": {
+      "title": "A Height-Constrained 2-Point Minimal Solver for Pose Estimation from Active LED Markers with Event Cameras",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09467": {
+      "title": "RecoverFly: A Failure-Aware Reinforcement Learning Post-Training Framework for Aerial Vision-Language Navigation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09449": {
+      "title": "Sekai2: From World Exploration to Interactive World Modeling",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09448": {
+      "title": "VANE: Reliable Test-Time Training for Vision-Language-Action Models via Future Visual Representation Prediction",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09410": {
+      "title": "Skills in Weights, Memory in Code: Hybrid Learning for Memory-Dependent Robot Manipulation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09381": {
+      "title": "JEPA-WAM: Learning Vision-Language-Action Policies with Joint-Embedding World Modeling",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09333": {
+      "title": "DH-VLM: Dual-Horizon Cooperative Latent Reasoning for Autonomous Driving",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09298": {
+      "title": "WorldSimProbe: Diagnosing Simulator Faithfulness in Action-Conditioned World Models for Embodied Manipulation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09270": {
+      "title": "GRASP: Granularity-Aware Region Alignment and Semantic Prototype Learning for Fine-Grained Cross-Modal Understanding in Drone Views",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09227": {
+      "title": "Omni2LoRA: Coherence-Preserving Parametric Memory for Efficient Omni Language Models",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09196": {
+      "title": "SAIN: Structure-Aware Interactive Navigation with Active Dialogue Grounding for Mobile Robot",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09184": {
+      "title": "Agentic Router: An Execution-Grounded Continual Learning Approach With Memory",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09147": {
+      "title": "RefineAny3D: Depth Refinement as Semantic Alignment for Monocular 3D Detection",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09145": {
+      "title": "Right Answer, Wrong Heat: Explanation-Aware Evaluation and Thermal-Grounded Feedback for MLLMs on Infrared Images",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.09125": {
+      "title": "Trajectory Divergence Horizon Decision for Reliable Dual-Arm Surgical Subtask Manipulation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08955": {
+      "title": "Damage Classification for 3D Point Cloud Data via 3D Data Analysis and Vision Foundation Model-based 2D Projections",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08904": {
+      "title": "From Recovery to Drop-off: How Action Post-training Reduces a VLM's Late-Layer Depth Decodability",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08896": {
+      "title": "From Manuals to Maintenance: Fine-Tuning MedGemma for Multi-Modal Imaging System Support in Low-Resource Settings",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08878": {
+      "title": "DistillCache: KL-Guided Adaptive KV-Cache Eviction for Memory-Efficient LLM Inference",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08814": {
+      "title": "360CityArena: A Realistic Virtual Urban Navigation Benchmark for Embodied Agents",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08730": {
+      "title": "Measuring and Reducing WebGPU Dispatch Overhead for LLM Inference",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08725": {
+      "title": "WA-SpecDec: World-Aware Speculative Decoding for Vision-Language-Action Models",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08696": {
+      "title": "OccAnyScene: Towards Unified Indoor-Outdoor 3D Occupancy Predictio",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08673": {
+      "title": "Catastrophic Forgetting in Continual Reinforcement Learning",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08596": {
+      "title": "Goal-oriented Navigation Instruction Generation with Tour Video Priors",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08585": {
+      "title": "EvTrajGS: Accurate and Efficient 3D Gaussian Splatting from Unposed Event Streams",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08523": {
+      "title": "Discovering Diverse Planning Policies for Multimodal Embodied Agents with Quality-Diversity Optimization",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08522": {
+      "title": "EsaacSim: A Multimodal Event Camera Add-on for NVIDIA Isaac Sim",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08491": {
+      "title": "TrustRoboReward: Preference-Ordered Isotonic Score Editing for Multi-Paradigm Robot Reward Models",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08476": {
+      "title": "RayLift: Lifting Complementary Ray-Wise Evidence with 3D Geometry Priors for Semantic Scene Completion",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
+    },
+    "2608.08446": {
+      "title": "TRACE-Memory: Public-Conditioned Retrieval and Utility-Aware Evidence Admission for Personalized Generation",
+      "firstSeenAt": "2026-08-11T22:35:32.866Z",
+      "lastSeenAt": "2026-08-11T22:35:32.866Z"
     }
   }
 }
