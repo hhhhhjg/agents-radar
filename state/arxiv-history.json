@@ -1,77 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-14T22:16:23.824Z",
+  "updatedAt": "2026-08-15T22:14:36.005Z",
   "papers": {
-    "2607.27205": {
-      "title": "TurboVLA: Real-Time Vision-Language-Action Model at 32 Hz on an RTX 4090 with &lt;1 GB VRAM",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.27194": {
-      "title": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.27145": {
-      "title": "Explainable and Resource-Efficient Spatial Reasoning in Multimodal LLMs for Decision-Critical Applications",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.27138": {
-      "title": "DLAM: Distributional Latent Actions with Temporal Constraints",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.27130": {
-      "title": "AgentMap: Joint Equivalence and Subsumption Discovery for Ontology Matching",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26991": {
-      "title": "RL$^2$-VLA: Adaptive RL Latent Compositional Steering with Test-Time Scaling for Vision-Language-Action Models",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26914": {
-      "title": "BioVLN: A Simulation Platform for Visual Language Navigation in Biomedical Laboratories",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26763": {
-      "title": "Long-Tailed 3D Point Cloud Dataset Distillation",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26703": {
-      "title": "Sequence-SOD: Bio-inspired Sequence-aware Spiking ObjectDetection for Event Cameras",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26618": {
-      "title": "FedWeave: Rethinking the Unit of Specialization in Heterogeneous Federated MoE-LoRA",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26595": {
-      "title": "SpatialQ: Understanding 3D Gaussian Splatting Scene Quality via Visual-based MLLM",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26523": {
-      "title": "The Art of Not Forgetting A Local Learning Architecture for Continual Learning",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26520": {
-      "title": "A Graph-Native Bitemporal Memory Store for Conversational AI Agents",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.26358": {
-      "title": "Post-Training at the Edge of Detectability: A Game-Theoretic Approach to Fine-Tuning",
-      "firstSeenAt": "2026-07-30T22:59:36.695Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
     "2607.28625": {
       "title": "ACE-Data-0: Human-Centric Ambient Capture as Embodied Data Engine",
       "firstSeenAt": "2026-07-31T22:54:38.028Z",
@@ -271,16 +201,6 @@
       "title": "Cross-Embodiment Transfer via Behavior-Aligned Representations",
       "firstSeenAt": "2026-07-31T22:54:38.028Z",
       "lastSeenAt": "2026-08-01T22:48:26.271Z"
-    },
-    "2607.27443": {
-      "title": "Leveraging Trajectory Graphs for Pre-Execution Error Diagnosis in Agentic LLM Systems",
-      "firstSeenAt": "2026-07-31T22:54:38.028Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
-    },
-    "2607.27260": {
-      "title": "Regularizing modality contribution drift in multimodal continual learning",
-      "firstSeenAt": "2026-07-31T22:54:38.028Z",
-      "lastSeenAt": "2026-07-31T22:54:38.028Z"
     },
     "2608.02585": {
       "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
@@ -1615,157 +1535,157 @@
     "2608.13492": {
       "title": "AlayaWorld: Interactive Long-Horizon World Modeling - Full Technical Report (v1.1)",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13474": {
       "title": "Decoding Task Progress from VLA Representations",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13453": {
       "title": "UniTexture: Cross-Task Universal Adversarial Textures for Vision-Language-Action Models",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13420": {
       "title": "Enhancing Virtual Agents through SLMs and Edge-Computing: An Exploratory Evaluation of Think and Memory Processes",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13395": {
       "title": "FIRE-VLA: Failure-Informed Self-Evolution for Vision-Language-Action Models in Autonomous Driving",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13228": {
       "title": "Capability Sheaves for Compositional Agent-Harness Repair: Controlled Quotients and a Real-Repository Stress Test",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13226": {
       "title": "CoverPrune: Coverage-Driven Token Pruning for 3D VLMs via Optimal Transport",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13200": {
       "title": "GEM: A Generative Embedding Model Bridging Reasoning and Retrieval",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13179": {
       "title": "Teach the Magnitude, Not the Direction: Verifier-Bounded Credit Assignment for Multi-Turn Multi-step LLM Agents",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13173": {
       "title": "SkillShapley: Boundary-Adaptive Shapley Valuation for Skill Step Attribution in LLM Agents",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13147": {
       "title": "Geometry-Grounded Unified 3D Perception for Autonomous Driving",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13095": {
       "title": "Semantic Radiance Fields as Simulators for Spatial Reasoning in Real-World Scenes",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13069": {
       "title": "Behavioral Reprogramming of Open-Weights Models: Cognitive Plasticity and Alignment Bounds",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.13026": {
       "title": "Temporal GRPO: Beyond Trajectory-Level Credit in Vision-Language-Action Reinforcement Learning",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12990": {
       "title": "LycheeMemory V2: Efficient Long-Term Memory for LLM Agents via Semantic Segment-Level Consolidation",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12977": {
       "title": "Beyond Handcrafted Security: Towards Self-Evolving Defense for LLM Agents",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12932": {
       "title": "FlashDrive: Flash Vision-Language-Action Inference for Autonomous Driving",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12874": {
       "title": "Sustaining Plasticity via Learnable Wavelet Activations in Continual Learning",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12860": {
       "title": "HumanoidVLN: A Physics-Grounded Simulator and Benchmark for Vision-Language Navigation Across Diverse Humanoid Embodiments",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12854": {
       "title": "BrainWAM: Action-Space Coordination of Semantic Priors and Predictive Dynamics for Autonomous Driving",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12851": {
       "title": "Practice Makes Unsafe: Skill Misevolution in Self-Improving LLM Agents",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12835": {
       "title": "AirForesight: Current-to-Future Spatial Map Imagination with Cross-Space Planning Consistency for UAV-VLN",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12743": {
       "title": "Spatial Memory Agent: Experience-Grounded Procedure Memory for Spatial Intelligence",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12720": {
       "title": "ERSkill: Evolving for Skill-Guided Adaptive Memory Retrieval",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12707": {
       "title": "SAP-Nav: Spatial Semantic Representation Meets Active Perception for Hierarchical Open-Vocabulary Object Navigation",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12683": {
       "title": "FUSE: Active Functional Affordance Grounding through Adaptive Semantic-Geometric Evidence Acquisition",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12679": {
       "title": "Beyond the Best Guess: Improving LLM Solution Coverage with Evolution Strategies",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12674": {
       "title": "Lines and Ladders: A Context-Aware Multi-Agent Framework for Large-Scale Retail Price Taxonomy",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12654": {
       "title": "SteerBench-Work: A Benchmark for Agent Steering at Action Boundaries",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12627": {
       "title": "EgoCITE: Context-Augmented Indexing and Time-Aware Retrieval for Long-Horizon Egocentric Memory",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12626": {
       "title": "LLMs Are Not Good Strategists, Yet Memory-Enhanced Agency Boosts Reasoning",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
-      "lastSeenAt": "2026-08-14T22:16:23.824Z"
+      "lastSeenAt": "2026-08-15T22:14:36.005Z"
     },
     "2608.12593": {
       "title": "DiG-bench: Discovery in Games",
