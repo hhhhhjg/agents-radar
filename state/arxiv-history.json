@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-17T22:17:50.786Z",
+  "updatedAt": "2026-08-18T22:16:20.845Z",
   "papers": {
     "2608.02585": {
       "title": "GradCuit: Credit-Assigned Gradient Flow Enables Robust and Interpretable Test-Time Latent Reasoning",
@@ -1496,6 +1496,191 @@
       "title": "Can Vision-Language Models Assess Proxemic Risk from Egocentric Robot Images?",
       "firstSeenAt": "2026-08-14T22:16:23.824Z",
       "lastSeenAt": "2026-08-14T22:16:23.824Z"
+    },
+    "2608.16889": {
+      "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16885": {
+      "title": "$τ_0$-VLA: a Hierarchical Robot Foundation Model with World-Model-Guided Test-Time Computation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16843": {
+      "title": "Security of Foundation-Model-Powered Embodied Agents: Attack Surfaces, Attacks, Defenses, and Evaluation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16837": {
+      "title": "HAF: Adapting Generalist VLAs to Humanoid Whole-Body Loco-manipulation via Hierarchical Action Flow and Spectral Latent RL",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16806": {
+      "title": "When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16798": {
+      "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16794": {
+      "title": "Neurosymbolic Embodied Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16707": {
+      "title": "Semantic Bandits: In-Context Exploration-Exploitation is Biased by Semantic Priors",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16697": {
+      "title": "FabriMAE I Trust Myself? Self-Evaluating VLA Action Generation with Markov Attention Entropy",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16590": {
+      "title": "Zetta $ζ$: An Efficient Closed-Loop Embodied Harness for Self-Evolving Physical Intelligence",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16555": {
+      "title": "Co-design of Neural and Muscle Network based on Embodied Perceptron Representation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16523": {
+      "title": "FLEET: Token-Based Feature Extraction for Event Camera-based Reinforcement Learning",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16503": {
+      "title": "NebulaVLA: A Dual-Frequency Vision-Language-Action Model With Guide Action for Robotic Manipulation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16476": {
+      "title": "Exposing the Long-tail in Embodied Urban Navigation via Scalable Learning from In-the-Wild Videos",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16469": {
+      "title": "Sterilizable Scene Graph Generation for Operating Rooms",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16447": {
+      "title": "HaReCAP: Habitual-action Grounding for Recursive Large Language Model Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16409": {
+      "title": "SoftModel: A Neural Model That Grows Its Own Topology -- Governed Structural Growth for Continual In-Service Learning",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16384": {
+      "title": "Self-Routed Tensor Adapters for Parameter-Efficient Universal Visual Adaptation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16349": {
+      "title": "AeroCopilotBench: A Two-Tier Benchmark for Evaluating LLM Agents as Aviation Copilots in an Interactive Virtual Cockpit Environment",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16345": {
+      "title": "Task-Anchored Representation Shaping for Pre-Trained Model-Based Continual Learning",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16269": {
+      "title": "Domain-Agnostic Neural Topic Modeling with Contextual Token-Level Semantic Graph Representation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16246": {
+      "title": "CompoSkill: Compositional Skill Chain Attacks from Individually Scanner-Passing LLM Agent Skills",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16234": {
+      "title": "GaussianDWM++: Language-Grounded 3D Gaussian Driving World Model for Unified Scene Understanding, Editing, and Multi-Modal Generation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16185": {
+      "title": "LENS: In-Context Search via Latent Evidence Exploration over Dynamic Raw Documents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16172": {
+      "title": "SparkVLA: Stop-Aware Hierarchical VLA with Adaptive Action Chunking for Long-Horizon Manipulation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16168": {
+      "title": "QUMem: Personalized Memory for Query-Conditioned User-State Inference in LLM Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16156": {
+      "title": "TRCA: Transition-wise Rubric Credit Assignment for Long-horizon LLM Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16114": {
+      "title": "HyperSkill: Self-Evolving LLM Agents via Hypergraph-Structured Skill Memory",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16074": {
+      "title": "US-VLA: An Ultrasound Vision-Language-Action Model for Embodied Abdomina",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16068": {
+      "title": "CAPO: Constraint-Aware Prompt Optimization for LLM Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.16002": {
+      "title": "From Sequence to Structure: Relational Uncertainty Propagation for LLM Agents",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.15931": {
+      "title": "PLSQLBench: Benchmarking LLM Systems for Executable Procedural Database Programming",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.15901": {
+      "title": "Layers Matter: Why Continual Learning Regularization Should Be Layer-Adaptive",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.15881": {
+      "title": "Deploying Frontier Agentic Technology in MOOSEnger, a Multiphysics-Capable AI Assistant",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.15875": {
+      "title": "GigaBrain-0.7: Scaling Embodied Foundation Models to Emergent Capabilities with a Three-System Architecture",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.15854": {
+      "title": "Geometry of Forgetting: Representation Flux in Continual Learning",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
+    },
+    "2608.15816": {
+      "title": "ViTaR: Visuo-Tactile Residual Adaptation for Foundation VLA Manipulation",
+      "firstSeenAt": "2026-08-18T22:16:20.845Z",
+      "lastSeenAt": "2026-08-18T22:16:20.845Z"
     }
   }
 }
