@@ -6,7 +6,261 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 20 Aug 2026 22:27:09 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 22:22:56 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-08-22</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-22/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-22/ai-arxiv</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-08-22 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 24 篇新文献 + 12 篇过去14天内已出现 | 生成时间：2026-08-21 22:17 UTC 研究方向 Radar 今日总览 LLM Agent 与多智能体 — LLM Agent 工程：今日 10 篇新论文，聚焦技能选择与迁移、策略合规、记忆澄清、工具缓存、信用分配等工程化问题。 LLM Agent 与多智能体 — Agent 测试时扩展与自我改进：今日 1 篇新论文，关注自适应测试时计算分配；另有 2 篇过去 14 天内已出现的相关文献。 LLM Agent 与多智能体 — LLM Agent Society：今日暂无新论文。 具身智能 — 视觉-语言-动作模型：今日 7 篇新论文，集中在 VLA 安全、高效微调、持续技能学习、驾驶规划与手部动作数据。 具身智能 — 具身导航：今日暂无新论文；过去 14 天内已有场景记忆、驾驶表示、视障导航等重复文献。 模型压缩与持续学习 — LLM 剪枝与推理优化：今日 1 篇新论文，面向 VLM ...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-08-22</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 24 篇新文献 + 12 篇过去14天内已出现 | 生成时间：2026-08-21 22:17 UTC</p>
+</blockquote>
+<hr>
+<h1>研究方向 Radar</h1>
+<h2>今日总览</h2>
+<ul>
+<li><strong>LLM Agent 与多智能体 — LLM Agent 工程</strong>：今日 10 篇新论文，聚焦技能选择与迁移、策略合规、记忆澄清、工具缓存、信用分配等工程化问题。</li>
+<li><strong>LLM Agent 与多智能体 — Agent 测试时扩展与自我改进</strong>：今日 1 篇新论文，关注自适应测试时计算分配；另有 2 篇过去 14 天内已出现的相关文献。</li>
+<li><strong>LLM Agent 与多智能体 — LLM Agent Society</strong>：今日暂无新论文。</li>
+<li><strong>具身智能 — 视觉-语言-动作模型</strong>：今日 7 篇新论文，集中在 VLA 安全、高效微调、持续技能学习、驾驶规划与手部动作数据。</li>
+<li><strong>具身智能 — 具身导航</strong>：今日暂无新论文；过去 14 天内已有场景记忆、驾驶表示、视障导航等重复文献。</li>
+<li><strong>模型压缩与持续学习 — LLM 剪枝与推理优化</strong>：今日 1 篇新论文，面向 VLM 视觉 token 聚类与去噪加速。</li>
+<li><strong>模型压缩与持续学习 — 多模态大模型剪枝</strong>：今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 — 持续学习</strong>：今日 4 篇新论文，覆盖联邦持续学习、LLM 适配、类脑机制等；另有 2 篇过去 14 天内已出现的文献。</li>
+<li><strong>视觉感知 — 事件相机视觉感知</strong>：今日暂无新论文。</li>
+<li><strong>视觉感知 — 3D 点云视觉感知</strong>：今日 1 篇新论文，关于开放词汇 3D 检测；另有 2 篇过去 14 天内已出现的文献。</li>
+<li><strong>视觉感知 — 3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
+</ul>
+<h2>分方向情报</h2>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent 工程</h3>
+<h4><a href="http://arxiv.org/abs/2608.19861v1">PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents</a></h4>
+<p>S. Kang et al. ｜ 2026-08-20 ｜ 核心贡献：将策略合规从单动作守卫扩展为全工作流引导。 ｜ 关联：客服 LLM Agent 的策略执行与流程控制。</p>
+<h4><a href="http://arxiv.org/abs/2608.19993v1">Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees</a></h4>
+<p>Y. Chen et al. ｜ 2026-08-20 ｜ 核心贡献：在有界上下文中为技能选择提供可证明双目标保证。 ｜ 关联：技能装载与选择是 LLM Agent 工程的核心环节。</p>
+<h4><a href="http://arxiv.org/abs/2608.20274v1">Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents</a></h4>
+<p>Y. Feng et al. ｜ 2026-08-20 ｜ 核心贡献：分析 Agent 归纳技能跨任务迁移的可靠条件，减少负迁移。 ｜ 关联：决定 Agent 经验复用的安全性。</p>
+<h4><a href="http://arxiv.org/abs/2608.19662v1">ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents</a></h4>
+<p>Y. Fang et al. ｜ 2026-08-20 ｜ 核心贡献：独立缓存工具与 skill schema 的 KV 状态并压缩复用。 ｜ 关联：提升工具型 Agent 的推理效率。</p>
+<h4><a href="http://arxiv.org/abs/2608.19760v1">Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay</a></h4>
+<p>H. Zhang ｜ 2026-08-20 ｜ 核心贡献：用执行回放作为因果基准，审计 Agent 步骤级信用信号。 ｜ 关联：为 Agent 训练中的信用分配提供审计方法。</p>
+<h4><a href="http://arxiv.org/abs/2608.19564v1">Remember, Verify, or Ask? Cross-Family Evaluation of Memory Commitment in LLM Agents</a></h4>
+<p>B. Li et al. ｜ 2026-08-20 ｜ 核心贡献：提出记忆-澄清边界，判断交互信息应持久化、核验还是询问用户。 ｜ 关联：Agent 持久记忆的可靠更新机制。</p>
+<h4><a href="http://arxiv.org/abs/2608.19974v1">ReguSim: Evaluating LLM Agent Rule Grounding in Financial Compliance</a></h4>
+<p>Y. Luo et al. ｜ 2026-08-20 ｜ 核心贡献：构造金融合规环境，分离规则引用、可执行约束与监督证据。 ｜ 关联：金融 Agent 的规则落地与行为合规。</p>
+<h4><a href="http://arxiv.org/abs/2608.19803v1">MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents</a></h4>
+<p>B. Qian et al. ｜ 2026-08-20 ｜ 核心贡献：用里程碑推断和局部证据改进长程 Agent 的稀疏奖励信用分配。 ｜ 关联：长程任务强化学习是 Agent 工程难题。</p>
+<h4><a href="http://arxiv.org/abs/2608.20318v1">AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement</a></h4>
+<p>Y. Chi et al. ｜ 2026-08-20 ｜ 核心贡献：提出递归自我改进基准，让 Agent 改进训练算法本身。 ｜ 关联：Agent 自改进能力评测。</p>
+<h4><a href="http://arxiv.org/abs/2608.19621v1">Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories</a></h4>
+<p>H. Wang et al. ｜ 2026-08-20 ｜ 核心贡献：用纵向生活轨迹构造 Agent，缓解身份本质主义并提升社会模拟多样性。 ｜ 关联：Agent 个体建模与社会模拟工程。</p>
+<h3>Agent 测试时扩展与自我改进</h3>
+<h4><a href="http://arxiv.org/abs/2608.20256v1">Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation</a></h4>
+<p>G. Kassenaar et al. ｜ 2026-08-20 ｜ 核心贡献：让推理模型学习自适应分配自身测试时计算预算。 ｜ 关联：直接研究测试时扩展中的自适应计算分配。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18931v1">Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ D. Romano et al. ｜ 2026-08-19 ｜ 核心贡献：指出真实世界任务中 TTS 的主要瓶颈是利用而非探索。 ｜ 关联：为测试时扩展的适用范围提供实证边界。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.19197v1">SPADE: Self-Play in Adaptive Synthetic Executable Environments</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ B. Liu et al. ｜ 2026-08-19 ｜ 核心贡献：用自适应合成可执行环境中的自博弈持续生成新目标。 ｜ 关联：属于 Agent 自我改进与自博弈训练环境。</p>
+<h2>具身智能</h2>
+<h3>视觉-语言-动作模型</h3>
+<h4><a href="http://arxiv.org/abs/2608.19891v1">EXIMO: VLM Guided Exploration of VLA Policies</a></h4>
+<p>B. Sukhija et al. ｜ 2026-08-20 ｜ 核心贡献：用 VLM 引导探索在线微调 VLA 策略，快速学习新任务。 ｜ 关联：面向 VLA 的高效少样本/在线微调。</p>
+<h4><a href="http://arxiv.org/abs/2608.19589v1">OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation</a></h4>
+<p>J. Wang et al. ｜ 2026-08-20 ｜ 核心贡献：用梯度信息子空间适配实现 VLA 持续技能学习并缓解灾难性遗忘。 ｜ 关联：VLA 与持续学习的交叉方向。</p>
+<h4><a href="http://arxiv.org/abs/2608.19490v1">Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation</a></h4>
+<p>P. Garg et al. ｜ 2026-08-19 ｜ 核心贡献：用自演示生成控制信号微调 VLA，适配新机器人硬件。 ｜ 关联：VLA 跨本体部署与微调。</p>
+<h4><a href="http://arxiv.org/abs/2608.19729v1">SafeBranch: Branch-Pair Safety Alignment for Embodied Agents</a></h4>
+<p>H. Lee et al. ｜ 2026-08-20 ｜ 核心贡献：通过分支对安全对齐训练具身 Agent，在保证任务成功的同时满足安全约束。 ｜ 关联：VLA 具身 Agent 的安全对齐。</p>
+<h4><a href="http://arxiv.org/abs/2608.20111v1">Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms</a></h4>
+<p>Y. Guan et al. ｜ 2026-08-20 ｜ 核心贡献：综述端到端自动驾驶从行为克隆到规划导向架构的演进。 ｜ 关联：VLA 在驾驶规划与具身决策中的应用。</p>
+<h4><a href="http://arxiv.org/abs/2608.20308v1">DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery</a></h4>
+<p>Y. Liu et al. ｜ 2026-08-20 ｜ 核心贡献：复用视频扩散模型从遮挡第一视角视频恢复 3D 手部轨迹。 ｜ 关联：为 VLA 提供可扩展的具身操纵数据。</p>
+<h4><a href="http://arxiv.org/abs/2608.19375v1">Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control</a></h4>
+<p>H. Zhang et al. ｜ 2026-08-19 ｜ 核心贡献：用数据驱动降阶动力学仿真加速机器人强化学习。 ｜ 关联：可为 VLA 策略训练提供低成本仿真抽象。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18410v1">Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ W. Jiang et al. ｜ 2026-08-19 ｜ 核心贡献：按角色对子 token 进行路由，避免激进剪枝丢失完整表示。 ｜ 关联：直接降低 VLA 长多模态序列推理开销。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18671v1">Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ M. Zamani et al. ｜ 2026-08-19 ｜ 核心贡献：综述第一视角视频中的手物交互、VLM 与具身 AI 的关联。 ｜ 关联：为 VLA 提供第一视角数据理解基础。</p>
+<h3>具身导航</h3>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18993v1">ForeSightGuide: An Anticipatory Framework toward Accurate and Low-Redundancy Guidance for the Visually Impaired</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ Z. Wang et al. ｜ 2026-08-19 ｜ 核心贡献：面向视障导航提出低冗余前瞻性引导，抑制 VLM 误报。 ｜ 关联：具身导航与辅助移动智能体。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.19059v1">LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ Y. Lee et al. ｜ 2026-08-19 ｜ 核心贡献：用波动性感知时空记忆保持跨会话物体身份一致。 ｜ 关联：长期导航中的场景理解与记忆维护。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.19036v1">USR-Drive: Unified Driving Scene Representation via Joint Denoising of 3D Gaussians and Boxes</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ L.-H. Chen et al. ｜ 2026-08-19 ｜ 核心贡献：联合去噪 3D 高斯与 3D 框，统一驾驶场景表示。 ｜ 关联：自动驾驶与具身导航的场景表示。</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM 剪枝与推理优化</h3>
+<h4><a href="http://arxiv.org/abs/2608.19285v1">Clustering and Token Denoising for Faster and More Robust VLMs</a></h4>
+<p>B. Rossigneux et al. ｜ 2026-08-19 ｜ 核心贡献：用聚类与 token 去噪减少 VLM 视觉 token 数量，加速边缘部署。 ｜ 关联：VLM/LLM 推理优化与 token 级压缩。</p>
+<h3>持续学习</h3>
+<h4><a href="http://arxiv.org/abs/2608.19680v1">Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models</a></h4>
+<p>T. Huang et al. ｜ 2026-08-20 ｜ 核心贡献：面向顺序到达的漏洞类别，用频率感知参数高效适配避免全量重训。 ｜ 关联：LLM 在垂直任务中的持续学习。</p>
+<h4><a href="http://arxiv.org/abs/2608.20038v1">An Inclusive and Lightweight Approach to Federated Continual Learning for Cultural Heritage</a></h4>
+<p>I. Theologitis et al. ｜ 2026-08-20 ｜ 核心贡献：为分布式文化遗产数据提出轻量联邦持续学习方案。 ｜ 关联：分布式场景下的持续学习与数据隐私。</p>
+<h4><a href="http://arxiv.org/abs/2608.19514v1">In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models</a></h4>
+<p>B. Smith et al. ｜ 2026-08-20 ｜ 核心贡献：借鉴大脑半球冗余与特化机制，探索神经模型终身学习。 ｜ 关联：持续学习与灾难性遗忘的类脑结构方案。</p>
+<h4><a href="http://arxiv.org/abs/2608.19794v1">Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents</a></h4>
+<p>F. Yuan et al. ｜ 2026-08-20 ｜ 核心贡献：综述 LLM、知识库与推理能力融合的通用具身智能体演进路线。 ｜ 关联：系统匹配至持续学习，为智能体持续演化提供宏观框架背景。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.19013v1">Harness Continual Learning: Continual Adaptation Beyond Model Parameters</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ B. Kang et al. ｜ 2026-08-19 ｜ 核心贡献：将持续学习从模型参数扩展到 prompt、记忆、工具、技能与路由规则。 ｜ 关联：连接持续学习与 LLM Agent 的非参数状态。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18803v1">Forgetting, plasticity, and co-observation: a third facet of continual learning</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ T. Hess et al. ｜ 2026-08-19 ｜ 核心贡献：提出“共观测”缺失是除遗忘和塑性丧失之外的第三个持续学习障碍。 ｜ 关联：深化持续学习理论解释。</p>
+<h2>视觉感知</h2>
+<h3>3D 点云视觉感知</h3>
+<h4><a href="http://arxiv.org/abs/2608.19973v1">Open-Vocabulary 3D Object Detection with Co-Distillation Discovery and Dual Guidance Robust Training</a></h4>
+<p>S. Yuan et al. ｜ 2026-08-20 ｜ 核心贡献：用共蒸馏发现未见物体，并引入双引导鲁棒训练实现开放词汇 3D 检测。 ｜ 关联：开放词汇 3D 感知前沿。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18627v1">PCQA-R1: Advancing Generalized 3D Point Cloud Quality Assessment with Reinforcement Learning</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ K. Ye et al. ｜ 2026-08-19 ｜ 核心贡献：将强化学习引入无参考点云质量评估，提升跨域泛化。 ｜ 关联：3D 点云视觉质量感知。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.18734v1">CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> ｜ K. Hewagamage et al. ｜ 2026-08-19 ｜ 核心贡献：提出语言-4D 对比预训练，使表示同时具备时间建模与几何深度。 ｜ 关联：动态点云/4D 场景的语言对齐视觉感知。</p>
+<h2>跨方向信号</h2>
+<ul>
+<li><strong>工作流级合规与安全</strong>：PolicyGuide、SafeBranch、ReguSim 共同把安全/合规从“单点动作”推向“全过程引导”。</li>
+<li><strong>测试时计算的自适应分配</strong>：Learning When to Think 与 Test-Time Scaling in the Wild 都指向“何时投入算力”比“固定增加算力”更关键。</li>
+<li><strong>技能与经验成为可复用对象</strong>：Optimal Skill Selection、ReCache、Cross-Task Skill Transfer、Harness Continual Learning 将技能/工具/记忆视为可缓存、可迁移的一等状态。</li>
+<li><strong>持续学习从参数扩展到多模态状态</strong>：Frequency-Aware CL、OrthoSkillVLA、LT-Mem 显示持续适配已不限于权重，而是延伸到适配器、技能子空间和空间记忆。</li>
+<li><strong>具身表示趋向 4D/动态统一</strong>：CL4D、DreamHand、Planning-Oriented E2E Driving 共同指向时间、几何与语言对齐的动态场景表示。</li>
+</ul>
+<h2>优先精读</h2>
+<ul>
+<li><strong>PolicyGuide</strong>：代表“工作流级合规”这一 Agent 工程新方向，对安全落地有强参考价值。</li>
+<li><strong>Learning When to Think</strong>：直接讨论测试时计算的自适应分配，是推理成本与能力扩展的关键问题。</li>
+<li><strong>EXIMO</strong>：解决 VLA“在线学习新任务”的高效微调难题，与具身策略部署高度相关。</li>
+</ul>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-08-22</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-22/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-22/ai-arxiv-en</guid>
+      <pubDate>Sat, 22 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-08-22 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 24 new + 12 seen in the last 14 days | Generated: 2026-08-21 22:17 UTC Today&amp;#39;s Overview LLM Agent Engineering — 10 new: skill selection/transfer, workflow policy compliance, step-level credit assignment, memory-clarification, financial rule grounding, KV-cache reuse, recursive self-improvement, and social-sim identity. Agent Test-Time Scaling and Self-Improvement — 1 new (adaptive com...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-08-22</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 24 new + 12 seen in the last 14 days | Generated: 2026-08-21 22:17 UTC</p>
+</blockquote>
+<hr>
+<h2>Today&#39;s Overview</h2>
+<ul>
+<li><strong>LLM Agent Engineering</strong> — 10 new: skill selection/transfer, workflow policy compliance, step-level credit assignment, memory-clarification, financial rule grounding, KV-cache reuse, recursive self-improvement, and social-sim identity.</li>
+<li><strong>Agent Test-Time Scaling and Self-Improvement</strong> — 1 new (adaptive compute allocation) plus 2 repeated (test-time scaling exploitation bottleneck, adaptive self-play environments).</li>
+<li><strong>LLM Agent Societies</strong> — No new papers today.</li>
+<li><strong>Vision-Language-Action Models</strong> — 7 new: safety alignment, VLA finetuning/continual skill learning, an end-to-end driving survey, hand-data recovery, and reduced-dynamics simulation; 3 repeated efficiency/egocentric/4D papers.</li>
+<li><strong>Embodied Navigation</strong> — No new papers today; 3 relevant repeats remain (lifelong scene memory, driving representation, assistive guidance).</li>
+<li><strong>LLM Pruning and Inference Optimization</strong> — 1 new (visual-token clustering/denoising); the related VLA token-routing paper is covered under VLA.</li>
+<li><strong>Multimodal LLM Pruning</strong> — No new papers today.</li>
+<li><strong>Continual Learning</strong> — 4 new: hemispheric redundancy, federated CL, frequency-aware LLM adapters, embodied-intelligence survey; 2 repeated on harness adaptation and co-observation.</li>
+<li><strong>Event-Based Vision</strong> — No new papers today.</li>
+<li><strong>3D Point Cloud Perception</strong> — 1 new (open-vocabulary 3D object detection); 1 repeated PCQA paper; CL4D is covered under VLA.</li>
+<li><strong>3D Point Cloud Perception and Tracking</strong> — No new papers today.</li>
+</ul>
+<hr>
+<h2>LLM Agent and Multi-Agent</h2>
+<h3>LLM Agent Engineering</h3>
+<h4><a href="http://arxiv.org/abs/2608.19993v1">Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees</a></h4>
+<p>Chen et al. — 2026-08-20. Contribution: Formulates reusable-skill selection for bounded contexts as combinatorial optimization with provable trade-offs between task performance and token cost. Relevance: Directly addresses the core agent-engineering problem of loading the right skills under context limits.</p>
+<h4><a href="http://arxiv.org/abs/2608.19861v1">PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents</a></h4>
+<p>Kang et al. — 2026-08-20. Contribution: Extends runtime safeguards from single-action checks to whole-workflow guidance, covering forbidden actions and omitted procedural requirements. Relevance: Targets a practical compliance failure mode in customer-service LLM agents.</p>
+<h4><a href="http://arxiv.org/abs/2608.20274v1">Break It Down, Pass It On: Cross-Task Skill Transfer in LLM Agents</a></h4>
+<p>Feng et al. — 2026-08-20. Contribution: Investigates when LLM-agent-induced skills transfer reliably across tasks and when they harm downstream behavior. Relevance: Informs safe skill accumulation and reuse for self-improving agents.</p>
+<h4><a href="http://arxiv.org/abs/2608.19803v1">MileGPO: Milestone Inference with Local Evidence for Graph-Based Policy Optimization of Long-Horizon LLM Agents</a></h4>
+<p>Qian et al. — 2026-08-20. Contribution: Improves credit assignment in long-horizon agentic RL using local milestone inference and graph-based advantage estimation. Relevance: Directly addresses sparse-final-reward supervision in LLM agent training.</p>
+<h4><a href="http://arxiv.org/abs/2608.19760v1">Credit Without Ground Truth: Auditing Step-Level Credit Assignment in LLM Agents Against Executed Replay</a></h4>
+<p>Zhang — 2026-08-20. Contribution: Audits step-level credit signals against executed replay and finds none identifies causally important steps. Relevance: Highlights a fundamental weakness in current LLM agent RL training signals.</p>
+<h4><a href="http://arxiv.org/abs/2608.19564v1">Remember, Verify, or Ask? Cross-Family Evaluation of Memory Commitment in LLM Agents</a></h4>
+<p>Li et al. — 2026-08-20. Contribution: Proposes a memory-clarification boundary for deciding whether interaction-derived information should be persisted, reused locally, re-verified, or clarified. Relevance: Provides a principled framework for durable memory in personalized LLM agents.</p>
+<h4><a href="http://arxiv.org/abs/2608.19974v1">ReguSim: Evaluating LLM Agent Rule Grounding in Financial Compliance</a></h4>
+<p>Luo et al. — 2026-08-20. Contribution: Introduces a controlled financial-compliance environment that separates stated rule citation from executable constraint violations. Relevance: Improves evaluation of rule grounding in safety-sensitive financial LLM agents.</p>
+<h4><a href="http://arxiv.org/abs/2608.19662v1">ReCache: Efficient KV Cache Reuse and Compression for Tool-Augmented LLM Agents</a></h4>
+<p>Fang et al. — 2026-08-20. Contribution: Caches and compresses KV representations of recurring tool and skill schemas to avoid repeated encoding. Relevance: Reduces inference cost for agentic workflows that repeatedly combine reusable schemas.</p>
+<h4><a href="http://arxiv.org/abs/2608.20318v1">AI4AI-Bench: Benchmarking LLM Agents in Algorithmic Design for Recursive Self-Improvement</a></h4>
+<p>Chi et al. — 2026-08-20. Contribution: Benchmarks LLM agents on improving training algorithms themselves for recursive self-improvement. Relevance: Connects LLM agent engineering to the broader goal of self-improving AI systems.</p>
+<h4><a href="http://arxiv.org/abs/2608.19621v1">Mitigating Identity Essentialism in LLM Agents with Longitudinal Life Trajectories</a></h4>
+<p>Wang et al. — 2026-08-20. Contribution: Uses longitudinal life trajectories to reduce identity essentialism and improve diversity in LLM-based social-simulation agents. Relevance: Makes simulated LLM agent populations more human-like and credible.</p>
+<h3>Agent Test-Time Scaling and Self-Improvement</h3>
+<h4><a href="http://arxiv.org/abs/2608.20256v1">Learning When to Think: Adaptive Reasoning for Test-Time Compute Allocation</a></h4>
+<p>Kassenaar et al. — 2026-08-20. Contribution: Studies whether a reasoning model can learn to allocate its own limited test-time compute adaptively across easy and hard problems. Relevance: Extends test-time scaling toward explicitly adaptive token budgets.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18931v1">Test-Time Scaling in the Wild: Why Exploitation, Not Exploration, Is the Bottleneck</a></h4>
+<p>Romano et al. — 2026-08-19. Contribution: Finds that on open-domain tasks, exploiting useful existing candidates rather than exploring more is the key bottleneck for test-time scaling. Relevance: Reframes TTS research priorities outside math and code.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.19197v1">SPADE: Self-Play in Adaptive Synthetic Executable Environments</a></h4>
+<p>Liu et al. — 2026-08-19. Contribution: Generates adaptive synthetic executable environments through self-play to continuously expand agent goal distributions. Relevance: Supports continuous self-improvement of language agents with diverse goals.</p>
+<hr>
+<h2>Embodied Intelligence</h2>
+<h3>Vision-Language-Action Models</h3>
+<h4><a href="http://arxiv.org/abs/2608.19729v1">SafeBranch: Branch-Pair Safety Alignment for Embodied Agents</a></h4>
+<p>Lee et al. — 2026-08-20. Contribution: Aligns VLM-based embodied agents to satisfy interactive safety constraints using branch-pair safety alignment. Relevance: Addresses safety as a distinct objective alongside task success in VLA policies.</p>
+<h4><a href="http://arxiv.org/abs/2608.19891v1">EXIMO: VLM Guided Exploration of VLA Policies</a></h4>
+<p>Sukhija et al. — 2026-08-20. Contribution: Uses a VLM to guide exploration when finetuning VLA policies for new tasks. Relevance: Reduces the teleoperation and finetuning cost for acquiring new manipulation skills.</p>
+<h4><a href="http://arxiv.org/abs/2608.19589v1">OrthoSkillVLA: Continual Skill Learning via Gradient-Informed Skill Subspace Adaptation</a></h4>
+<p>Wang et al. — 2026-08-20. Contribution: Adapts pretrained VLA models to new skills in gradient-informed skill subspaces to reduce catastrophic forgetting. Relevance: Directly targets continual skill acquisition for robot learning.</p>
+<h4><a href="http://arxiv.org/abs/2608.19490v1">Fine-Tuning VLAs with Self-Demonstrated Generative Control for Multi-Task Manipulation</a></h4>
+<p>Garg et al. — 2026-08-19. Contribution: Fine-tunes VLAs using self-demonstrated generative control to compensate for hardware mismatches in multi-task manipulation. Relevance: Solves deployment adaptation of large VLA models to new robots.</p>
+<h4><a href="http://arxiv.org/abs/2608.20111v1">Planning-Oriented End-to-End Autonomous Driving: Architectures, Evaluation, and Emerging Paradigms</a></h4>
+<p>Guan et al. — 2026-08-20. Contribution: Surveys planning-oriented end-to-end autonomous driving, covering architectures, evaluation protocols, and emerging paradigms. Relevance: Maps the VLA/planning landscape for embodied driving agents.</p>
+<h4><a href="http://arxiv.org/abs/2608.20308v1">DreamHand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery</a></h4>
+<p>Liu et al. — 2026-08-20. Contribution: Repurposes video diffusion models for occlusion-robust egocentric 3D hand motion recovery. Relevance: Provides scalable manipulation data for embodied and VLA training.</p>
+<h4><a href="http://arxiv.org/abs/2608.19375v1">Learning the Right Abstraction: Neural Reduced Dynamics for Complex Robot Control</a></h4>
+<p>Zhang &amp; Negrut — 2026-08-19. Contribution: Advocates data-driven reduced-dynamics simulators as cheaper alternatives to high-fidelity embodied simulators for RL. Relevance: Could accelerate VLA/embodied policy training and evaluation.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18410v1">Role-Conditioned Sub-Token Routing for Efficient Vision-Language-Action Policies</a></h4>
+<p>Jiang &amp; Wang — 2026-08-19. Contribution: Introduces role-conditioned sub-token routing to reduce VLA inference cost without discarding entire visual token representations. Relevance: Improves efficiency of long multimodal token sequences in VLA models.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18671v1">Vision-Language Models for Egocentric Video: From Hand-Object Interaction to Embodied AI</a></h4>
+<p>Zamani &amp; Ziaeetabar — 2026-08-19. Contribution: Reviews egocentric video understanding spanning hand-object interaction and embodied AI. Relevance: Grounds VLA perception and action in human-centric egocentric data.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18734v1">CL4D: Contrastive Language-4D Pretraining for Vision-Language Reasoning in Dynamic Scenes</a></h4>
+<p>Hewagamage et al. — 2026-08-19. Contribution: Proposes contrastive language-4D pretraining to add temporal-geometric reasoning to vision-language models in dynamic scenes. Relevance: Enhances embodied/VLA reasoning about 4D environments.</p>
+<h3>Embodied Navigation</h3>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.19059v1">LT-Mem: Volatility-Aware Spatio-Temporal Memory for Lifelong Scene Understanding</a></h4>
+<p>Lee et al. — 2026-08-19. Contribution: Builds volatility-aware spatio-temporal memory with consistent object identity across repeated robot revisits. Relevance: Solves persistence and identity in long-term robot navigation and mapping.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.19036v1">USR-Drive: Unified Driving Scene Representation via Joint Denoising of 3D Gaussians and Boxes</a></h4>
+<p>Chen et al. — 2026-08-19. Contribution: Jointly denoises 3D Gaussians and object boxes to create a unified driving scene representation. Relevance: Improves structured perception for autonomous driving and navigation.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18993v1">ForeSightGuide: An Anticipatory Framework toward Accurate and Low-Redundancy Guidance for the Visually Impaired</a></h4>
+<p>Wang et al. — 2026-08-19. Contribution: Proposes anticipatory guidance that reduces false positives in VLM-based navigation aids for visually impaired users. Relevance: Applies embodied navigation principles to assistive mobility.</p>
+<hr>
+<h2>Model Compression and Continual Learning</h2>
+<h3>LLM Pruning and Inference Optimization</h3>
+<h4><a href="http://arxiv.org/abs/2608.19285v1">Clustering and Token Denoising for Faster and More Robust VLMs</a></h4>
+<p>Rossigneux et al. — 2026-08-19. Contribution: Clusters and denoises visual tokens to speed up VLMs while improving robustness. Relevance: Enables edge deployment of multimodal LLMs by reducing visual-token compute.</p>
+<h3>Continual Learning</h3>
+<h4><a href="http://arxiv.org/abs/2608.19514v1">In Two Minds about Lifelong Learning: Exploring Hemispheric Redundancy and Specialisation in Neural Models</a></h4>
+<p>Smith et al. — 2026-08-20. Contribution: Explores hemispheric redundancy and specialization as a brain-inspired way to manage the plasticity-retention trade-off. Relevance: Offers a new architectural direction for continual learning systems.</p>
+<h4><a href="http://arxiv.org/abs/2608.20038v1">An Inclusive and Lightweight Approach to Federated Continual Learning for Cultural Heritage</a></h4>
+<p>Theologitis et al. — 2026-08-20. Contribution: Presents a lightweight federated continual learning method for distributed, access-constrained cultural heritage data. Relevance: Handles non-stationary data across institutions without centralizing sensitive collections.</p>
+<h4><a href="http://arxiv.org/abs/2608.19680v1">Frequency-Aware Continual Learning for Smart Contract Vulnerability Detection with Large Language Models</a></h4>
+<p>Huang et al. — 2026-08-20. Contribution: Uses frequency-aware per-task adapters to adapt LLMs to sequentially arriving vulnerability categories. Relevance: Demonstrates parameter-efficient continual adaptation for security-domain LLMs.</p>
+<h4><a href="http://arxiv.org/abs/2608.19794v1">Towards general embodied intelligence: integrating large language models, knowledge bases, and reasoning capabilities to build the next generation of AI agents</a></h4>
+<p>Yuan et al. — 2026-08-20. Contribution: Reviews the convergence of LLMs, structured knowledge bases, and reasoning for general embodied intelligence. Relevance: Contextualizes continual system-level adaptation for embodied agents.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.19013v1">Harness Continual Learning: Continual Adaptation Beyond Model Parameters</a></h4>
+<p>Kang et al. — 2026-08-19. Contribution: Argues that continual learning should adapt an entire harness of prompts, memories, tools, skills, and routing rules, not just parameters. Relevance: Broadens CL beyond parameter state for agent-based systems.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18803v1">Forgetting, plasticity, and co-observation: a third facet of continual learning</a></h4>
+<p>Hess et al. — 2026-08-19. Contribution: Identifies co-observation as a third factor, alongside forgetting and plasticity, explaining the gap in naive sequential training. Relevance: Provides a more complete explanation of continual learning failure modes.</p>
+<hr>
+<h2>Visual Perception</h2>
+<h3>3D Point Cloud Perception</h3>
+<h4><a href="http://arxiv.org/abs/2608.19973v1">Open-Vocabulary 3D Object Detection with Co-Distillation Discovery and Dual Guidance Robust Training</a></h4>
+<p>Yuan et al. — 2026-08-20. Contribution: Combines co-distillation discovery with dual-guidance robust training for open-vocabulary 3D object detection. Relevance: Improves detection of unseen objects in 3D scenes for embodied perception.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> 🔁 [SEEN IN THE LAST 14 DAYS] <a href="http://arxiv.org/abs/2608.18627v1">PCQA-R1: Advancing Generalized 3D Point Cloud Quality Assessment with Reinforcement Learning</a></h4>
+<p>Ye et al. — 2026-08-19. Contribution: Advances no-reference point cloud quality assessment using reinforcement learning and large multimodal models. Relevance: Adds quality-assessment capability to point cloud perception pipelines.</p>
+<hr>
+<h2>Cross-Topic Signals</h2>
+<ul>
+<li>Skill reuse/transfer appears across LLM agents and VLA policies: Optimal Skill Selection and Cross-Task Skill Transfer parallel OrthoSkillVLA and EXIMO, suggesting shared principles for composable skills.</li>
+<li>Inference-efficiency methods attack recurring-embedding redundancy at multiple levels: ReCache caches tool schemas in agents, while Clustering and Token Denoising and Role-Conditioned Sub-Token Routing reduce visual token costs.</li>
+<li>Safety and compliance are shifting from single-action guardrails to whole-workflow constraints across SafeBranch (embodied), PolicyGuide (customer service), and ReguSim (finance).</li>
+<li>Credit assignment and self-improvement are converging: MileGPO and Credit Without Ground Truth critique step-level training signals, while Learning When to Think and SPADE explore adaptive compute and self-generated environments.</li>
+</ul>
+<h2>Priority Reading</h2>
+<h4>- <strong>Optimal Skill Selection for LLM Agents with Provable Bicriteria Guarantees</strong> — directly addresses the central agent-engineering bottleneck of bounded context, with concrete performance/cost guarantees.</h4>
+<h4>- <strong>EXIMO: VLM Guided Exploration of VLA Policies</strong> — efficient VLA finetuning for new tasks is a high-value practical problem; the VLM-guided exploration approach is immediately actionable.</h4>
+<ul>
+<li><strong>Credit Without Ground Truth</strong> — provides rare empirical auditing of step-level credit signals used in LLM agent training, with direct implications for RL supervision design.</li>
+</ul>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-08-21</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-21/ai-arxiv</link>
@@ -3129,446 +3383,6 @@ Contribution: Extends 3D language Gaussian splatting to large-scale UAV outdoor 
 <li><strong>AV-AIVAT</strong> — A principled way to cut agent evaluation cost dramatically; highly relevant to agent engineering and resource-aware deployment.</li>
 </ol>
 <h4><strong>Continual Learning in Transition</strong> — A broad reframing of continual learning that can help position the lab&#39;s CL work relative to emerging paradigms.</h4>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>实验室研究方向 Radar 2026-08-07</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-07/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-07/ai-arxiv</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>实验室研究方向 Radar 2026-08-07 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 43 篇新文献 + 13 篇过去14天内已出现 | 生成时间：2026-08-07 01:28 UTC 研究方向 Radar 1. 今日总览 LLM Agent 与多智能体 LLM Agent 工程：新增 10 篇。围绕可进化 harness、环境状态建模、运行时 guardrail、图记忆、技能污染与技能使用审计，Agent 工程正从单任务正确性转向长期运行稳定性。 Agent 测试时扩展与自我改进：新增 2 篇。测试时自校正与协作式 harness 进化出现，说明“测试时算力”与“自进化”正在合流。 LLM Agent Society：今日暂无新论文；近期 1 篇多智能体委托研究仍值得跟踪。 具身智能 视觉-语言-动作模型：新增 10 篇。VLA 从行为克隆式动作生成，转向上下文后训练、语言记忆、指令感知空间对齐、分层后训练和测试时接地检测。 具身导航：新增 6 篇。新论文聚焦脉冲神经策略、动态模态编排、开放场景语言表示和 VLM 物理提示注入...</description>
-      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-08-07</h1>
-<blockquote>
-<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 43 篇新文献 + 13 篇过去14天内已出现 | 生成时间：2026-08-07 01:28 UTC</p>
-</blockquote>
-<hr>
-<h1>研究方向 Radar</h1>
-<h2>1. 今日总览</h2>
-<ul>
-<li><strong>LLM Agent 与多智能体</strong><ul>
-<li><strong>LLM Agent 工程</strong>：新增 10 篇。围绕可进化 harness、环境状态建模、运行时 guardrail、图记忆、技能污染与技能使用审计，Agent 工程正从单任务正确性转向长期运行稳定性。</li>
-<li><strong>Agent 测试时扩展与自我改进</strong>：新增 2 篇。测试时自校正与协作式 harness 进化出现，说明“测试时算力”与“自进化”正在合流。</li>
-<li><strong>LLM Agent Society</strong>：今日暂无新论文；近期 1 篇多智能体委托研究仍值得跟踪。</li>
-</ul>
-</li>
-<li><strong>具身智能</strong><ul>
-<li><strong>视觉-语言-动作模型</strong>：新增 10 篇。VLA 从行为克隆式动作生成，转向上下文后训练、语言记忆、指令感知空间对齐、分层后训练和测试时接地检测。</li>
-<li><strong>具身导航</strong>：新增 6 篇。新论文聚焦脉冲神经策略、动态模态编排、开放场景语言表示和 VLM 物理提示注入，鲁棒性与安全性信号增强。</li>
-</ul>
-</li>
-<li><strong>模型压缩与持续学习</strong><ul>
-<li><strong>LLM 剪枝与推理优化</strong>：新增 2 篇。边缘 LLM 推理硬件设计与视觉 token 动态证据构建共同指向推理成本瓶颈。</li>
-<li><strong>多模态大模型剪枝</strong>：新增 3 篇。视觉 token 角色分析、3D token 聚类压缩和迭代证据构建，使剪枝从 2D 走向 3D/多模态。</li>
-<li><strong>持续学习</strong>：新增 10 篇。主流趋势从简单参数更新扩展到神经调制、拓扑后继、双适配器与科学计算持续学习。</li>
-</ul>
-</li>
-<li><strong>视觉感知</strong><ul>
-<li><strong>事件相机视觉感知</strong>：新增 2 篇。事件数据开始用于厨房场景数据集与反射去除，应用面拓宽。</li>
-<li><strong>3D 点云视觉感知</strong>：新增 4 篇。点云生成、轻量检测、BEV 鲁棒性与零样本 3D 接地均有新进展。</li>
-<li><strong>3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
-</ul>
-</li>
-</ul>
-<h2>2. 分方向情报</h2>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent 工程</h3>
-<h4><a href="http://arxiv.org/abs/2608.05446v1">EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents</a></h4>
-<ul>
-<li>X. Ning et al. · 2026-08-05 | 贡献：提出可自进化的运行时 harness，将噪声交互轨迹转化为可复用状态。 | 关联：直指长程 Agent 工程中的状态管理与工具执行基础问题。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04934v1">State2State: Environment-Derived Mid-Training for LLM Agents</a></h4>
-<ul>
-<li>X. Lei et al. · 2026-08-05 | 贡献：用环境派生状态进行中间训练，降低对外部专家轨迹与人工验证器的依赖。 | 关联：扩展 Agent 训练信号来源，是工程范式的关键创新。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05695v1">DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model</a></h4>
-<ul>
-<li>W. Lin et al. · 2026-08-06 | 贡献：基于风险感知世界模型在动作执行前进行高效 guardrail 检查。 | 关联：提升 Agent 运行时安全，属于工程基础设施方向。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05519v1">EcoAgent-Bench: Evaluating Economic Decision-Making in Budget-Constrained LLM Agents</a></h4>
-<ul>
-<li>J. Wu et al. · 2026-08-06 | 贡献：提出将资源预算视为任务内决策的 Agent 评测基准。 | 关联：为 Agent 经济性决策提供新的评测维度。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05095v1">Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite</a></h4>
-<ul>
-<li>X. Yue et al. · 2026-08-05 | 贡献：提出路径级定位与重写的层级图记忆。 | 关联：解决长时 Agent 记忆动态更新与多跳检索问题。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05810v1">When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents</a></h4>
-<ul>
-<li>L. Shang et al. · 2026-08-06 | 贡献：发现自进化技能存在“能力污染”相变，并提出 pre-commit gating。 | 关联：直接约束 Agent 技能库增长策略，防止性能退化。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04828v1">Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?</a></h4>
-<ul>
-<li>J. Han et al. · 2026-08-05 | 贡献：评测 LLM 在 harness 中是否真正按技能文档执行。 | 关联：填补技能质量与任务成功之间的“使用性”缺口。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.06153v1">Learning Globally Reusable Skills for Coding Agents</a></h4>
-<ul>
-<li>C. Yang et al. · 2026-08-06 | 贡献：建模技能间关系，学习全局可复用的编码技能。 | 关联：推动技能进化从局部更新走向全局泛化。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05026v1">ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation</a></h4>
-<ul>
-<li>X. Gu et al. · 2026-08-05 | 贡献：用 LLM Agent 驱动双向人机增强，标注艺术作品的隐性语义。 | 关联：展示 Agent 工程在专业人机协同场景中的应用。</li>
-</ul>
-<h3>Agent 测试时扩展与自我改进</h3>
-<h4><a href="http://arxiv.org/abs/2608.04968v1">EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement</a></h4>
-<ul>
-<li>J. Nie et al. · 2026-08-05 | 贡献：将 harness 视为可协同进化的程序，在不动模型权重的情况下持续提升 Agent 能力。 | 关联：为自我改进提供不依赖重训的轻量路径。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05643v1">Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning</a></h4>
-<ul>
-<li>A. Bilal et al. · 2026-08-06 | 贡献：提出用测试时精炼/自校正替代宽采样，避免答案模式重复。 | 关联：改进测试时扩展的收益递减问题。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03961v1">Interpretable Adaptive Sampling for LLM Test-Time Scaling</a></h4>
-<ul>
-<li>M. Kashaniyan et al. · 2026-08-04 | 贡献：提出可解释的自适应采样，避免固定预算浪费。 | 关联：让测试时扩展资源分配更透明高效。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.04001v1">Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility</a></h4>
-<ul>
-<li>M. Hariri et al. · 2026-08-04 | 贡献：系统梳理测试时扩展的推理模式、评测与可复现性。 | 关联：为测试时扩展研究提供统一框架。</li>
-</ul>
-<h3>LLM Agent Society</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03833v1">History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning</a></h4>
-<ul>
-<li>Z. Lu et al. · 2026-08-04 | 贡献：研究异构多智能体系统考虑历史交互的元策略委托。 | 关联：多智能体社会中基于历史的委托决策机制。</li>
-</ul>
-<h2>具身智能</h2>
-<h3>视觉-语言-动作模型</h3>
-<h4><a href="http://arxiv.org/abs/2608.05738v1">In-Context VLA: Endowing Vision-Language-Action Models with Language via In-Context Post-Training and Agentic Tool Use</a></h4>
-<ul>
-<li>J. Yang et al. · 2026-08-06 | 贡献：将上下文后训练与智能体工具调用结合，使 VLA 获得显式语言推理能力。 | 关联：直接挑战 VLA 行为克隆范式，属子方向核心突破。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05042v1">BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation</a></h4>
-<ul>
-<li>P. Li et al. · 2026-08-05 | 贡献：构建数据高效、可泛化且带显式记忆的 3D 操作 VLA 框架。 | 关联：同时回应 VLA 数据依赖、分布偏移和缺乏记忆三大痛点。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04765v1">Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models</a></h4>
-<ul>
-<li>H. Xu et al. · 2026-08-05 | 贡献：引入显式语言记忆缓解长时程跨任务组合泛化不足。 | 关联：将语言记忆与 VLA 长时程规划直接绑定。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04633v1">Mind-VLA: Instruction-Aware Spatial Representation Alignment for Vision-Language-Action Models</a></h4>
-<ul>
-<li>X. Ding et al. · 2026-08-05 | 贡献：提出指令感知的 3D 空间表征对齐，关注目标物几何。 | 关联：修正 VLA 中“全局场景对齐”而忽视指令目标的缺陷。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05999v1">Beyond Flat Policies: Hierarchical Post-Training for Embodied Agents in Robotic Manipulation</a></h4>
-<ul>
-<li>H. Kong et al. · 2026-08-06 | 贡献：提出分层后训练，显式建模任务推进过程。 | 关联：突破 VLA 扁平策略表达局限。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04933v1">Mimir: A Neuro-Symbolic Memory System with Dynamic Grounding for Embodied Agents in Interactive Environments</a></h4>
-<ul>
-<li>H. Xu et al. · 2026-08-05 | 贡献：提出带动态接地的神经符号记忆系统。 | 关联：为具身 VLA 提供可解释、可更新的世界记忆接口。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05970v1">SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation</a></h4>
-<ul>
-<li>C. Wang et al. · 2026-08-06 | 贡献：用专家引导技能记忆支持组合式具身操作。 | 关联：缓解 VLA/DP 依赖大规模轨迹数据的问题。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05369v1">World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation</a></h4>
-<ul>
-<li>Y. Pan et al. · 2026-08-05 | 贡献：用任务条件建模未来腕部局部交互，区分主视角与腕部视角。 | 关联：提升 VLA 对精细操作的预测能力。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04510v1">GUARD: Grounding Uncertainty and Ablation-Based Risk Detection for Diffusion-Based VLAs</a></h4>
-<ul>
-<li>S. Hegde et al. · 2026-08-05 | 贡献：在不修改扩散 VLA 策略的前提下检测“弱接地”动作风险。 | 关联：为 VLA 提供测试时失败检测与安全机制。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04692v1">Suppression Sticks, Locality Is Fragile: A Closed-Loop Target-and-Control Audit of Task-Vector Negation in VLA Policies</a></h4>
-<ul>
-<li>S. Wang et al. · 2026-08-05 | 贡献：系统审计任务向量减法在闭环 VLA 策略中的行为局部性。 | 关联：提示 VLA 可编辑性与安全审计的脆弱边界。</li>
-</ul>
-<h3>具身导航</h3>
-<h4><a href="http://arxiv.org/abs/2608.05078v1">SpikingNav: Robust Embodied Navigation with Spiking Neural Policies</a></h4>
-<ul>
-<li>J. Zhang et al. · 2026-08-05 | 贡献：用脉冲神经策略实现低功耗且抗视觉扰动的具身导航。 | 关联：为导航鲁棒性和边缘部署提供新路线。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05137v1">SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding</a></h4>
-<ul>
-<li>Y. Zhang et al. · 2026-08-05 | 贡献：根据查询动态编排视觉与几何模态。 | 关联：提升具身智能体在复杂 3D 场景中的多模态推理效率。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04560v1">OutLangSplat: 3D Language Gaussian Splatting for UAV Outdoor Scenes</a></h4>
-<ul>
-<li>X. Yan et al. · 2026-08-05 | 贡献：将 3D 语言高斯溅射扩展到户外无人机场景。 | 关联：拓展开放环境下语言引导的具身场景理解能力。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.05715v1">Hijacking Robots with a Piece of Paper: A Systematic Study of Physical Prompt Injection in VLM-Controlled Robots</a></h4>
-<ul>
-<li>S. Samarakoon et al. · 2026-08-06 | 贡献：系统研究 VLM 机器人面临的物理提示注入攻击。 | 关联：揭示具身导航决策链中的新型安全漏洞。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03084v1">SUV: Future Scene Understanding as Video Generation for End-to-End Driving</a></h4>
-<ul>
-<li>Y. Yuan et al. · 2026-08-04 | 贡献：用视频生成统一端到端驾驶的未来场景预测。 | 关联：为具身导航提供生成式场景理解范式。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03323v1">PolyLayout: Multi-room Manhattan Layout Estimation</a></h4>
-<ul>
-<li>G. Hanning et al. · 2026-08-04 | 贡献：估计多房间曼哈顿布局，提升跨数据集泛化。 | 关联：为室内导航提供结构化布局先验。</li>
-</ul>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM 剪枝与推理优化</h3>
-<h4><a href="http://arxiv.org/abs/2608.05303v1">EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding</a></h4>
-<ul>
-<li>S. Ha et al. · 2026-08-05 | 贡献：面向边缘设备设计 MoE + 投机解码的存储高效 LLM 推理硬件。 | 关联：直击 FFN 层内存访问瓶颈，属 LLM 推理优化。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03036v1">LLM Serving in the Wild: An Empirical Study of Frameworks, Methods, and System Designs</a></h4>
-<ul>
-<li>F. Majidi et al. · 2026-08-04 | 贡献：对 LLM serving 框架、方法与系统设计做实证研究。 | 关联：为推理优化提供部署侧的系统性证据。</li>
-</ul>
-<h3>多模态大模型剪枝</h3>
-<h4><a href="http://arxiv.org/abs/2608.04483v1">Not All Redundant Tokens Are Alike: Analyzing Visual Token Pruning through Token Roles</a></h4>
-<ul>
-<li>H. Kim et al. · 2026-08-05 | 贡献：用 token 角色解释视觉 token 剪枝决策。 | 关联：为多模态大模型剪枝提供可解释性基础。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04610v1">HiSC: Hierarchical Spatial Clustering Token Compression for Efficient 3D Scene Understanding</a></h4>
-<ul>
-<li>J. Qu et al. · 2026-08-05 | 贡献：通过层级空间聚类压缩 3D VLM 冗余 token。 | 关联：将 token 压缩从 2D 视觉扩展到 3D 场景。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04496v1">DIVE: Dynamic Iterative Visual Evidence Construction for Efficient Vision-Language Models</a></h4>
-<ul>
-<li>C. Zhong et al. · 2026-08-05 | 贡献：动态迭代构建视觉证据，避免单次剪枝误删关键 token。 | 关联：改进 VLM 视觉 token 高效推理。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03112v1">Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models</a></h4>
-<ul>
-<li>P. Regmi et al. · 2026-08-04 | 贡献：提出自适应两阶段视频视觉 token 剪枝。 | 关联：面向视频语言模型的推理加速。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03083v1">GSTEP: Global Spatio-Temporal Density-Driven Visual Token Pruning for Efficient Video Large Language Models</a></h4>
-<ul>
-<li>M. Zhang et al. · 2026-08-04 | 贡献：用全局时空密度驱动视频 token 剪枝。 | 关联：降低视频 LLM 的冗余计算。</li>
-</ul>
-<h3>持续学习</h3>
-<h4><a href="http://arxiv.org/abs/2608.06216v1">Continual Learning in Transition</a></h4>
-<ul>
-<li>Z. Hou et al. · 2026-08-06 | 贡献：系统梳理持续学习新范式的扩展边界。 | 关联：为持续学习提供转型视角的总览。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04778v1">Continual-Learning Physics-Informed Neural Networks for Parameterized Partial Differential Equations</a></h4>
-<ul>
-<li>X. Chen et al. · 2026-08-05 | 贡献：将持续学习用于参数化 PDE 的 PINN 训练。 | 关联：拓展持续学习到科学计算任务。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04358v1">NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning</a></h4>
-<ul>
-<li>S. Razavi Rohani et al. · 2026-08-05 | 贡献：用端到端神经调制控制可塑性与适应性。 | 关联：从生物机制出发解决持续学习遗忘。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.04334v1">ATLAS: Adaptive Topological Learning with Abstract Successors for Continual Learning</a></h4>
-<ul>
-<li>R. B. Lawlor et al. · 2026-08-05 | 贡献：用抽象后继者进行自适应拓扑学习，应对环境变化。 | 关联：面向持续 RL 的迁移与鲁棒性问题。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.06059v1">DARAD: Dual Adapters and Ranking-Aware Distillation for Continual Remote Sensing Image-Text Retrieval</a></h4>
-<ul>
-<li>X. Chen et al. · 2026-08-06 | 贡献：用双适配器和排序感知蒸馏解决遥感图文检索的持续学习。 | 关联：将持续学习应用于多模态分布漂移场景。</li>
-</ul>
-<h2>视觉感知</h2>
-<h3>事件相机视觉感知</h3>
-<h4><a href="http://arxiv.org/abs/2608.04865v1">Cooking beyond Frames: A Stereo Event Camera Dataset in the Kitchen</a></h4>
-<ul>
-<li>C. Feng et al. · 2026-08-05 | 贡献：发布厨房场景立体事件相机数据集。 | 关联：拓展事件相机到人类活动与细粒度动作感知。</li>
-</ul>
-<h4><a href="http://arxiv.org/abs/2608.06184v1">EvReflection: Event-Driven Micro-Dynamics for Reflection Removal</a></h4>
-<ul>
-<li>J. Wang et al. · 2026-08-06 | 贡献：利用事件信号中的微动态去除反射。 | 关联：展示事件相机在底层视觉任务中的新价值。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03296v1">PLS-Calib: A Partial Least Squares Framework for Event Camera and Odometry Calibration under Ground Motion Constraints</a></h4>
-<ul>
-<li>G. Li et al. · 2026-08-04 | 贡献：提出地面运动约束下事件相机与里程计的外参标定框架。 | 关联：解决事件相机实际部署中的标定瓶颈。</li>
-</ul>
-<h3>3D 点云视觉感知</h3>
-<h4><a href="http://arxiv.org/abs/2608.05557v1">Hierarchical Flow Matching for 3D Point Cloud Generation</a></h4>
-<ul>
-<li>L. Wang et al. · 2026-08-06 | 贡献：提出层级流匹配，同时建模全局拓扑与局部细节。 | 关联：改进 3D 点云生成的质量与效率。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03490v1">Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation</a></h4>
-<ul>
-<li>Q. C. Ninh et al. · 2026-08-04 | 贡献：用 Mamba 知识蒸馏得到轻量 LiDAR 3D 检测器。 | 关联：兼顾点云检测精度与车载计算约束。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03895v1">NCGR: Noise-Conditional Gated Rectification for Camera Extrinsic Perturbations in BEV 3D Object Detection</a></h4>
-<ul>
-<li>W. Pan et al. · 2026-08-04 | 贡献：针对外参扰动设计噪声条件门控修正。 | 关联：提升 BEV 3D 检测对外参噪声的鲁棒性。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2608.03763v1">TDVR: Joint Text Disambiguation and Viewpoint Reasoning for Zero-Shot 3D Visual Grounding</a></h4>
-<ul>
-<li>Q. Du et al. · 2026-08-04 | 贡献：训练-free 联合消解文本歧义与视角推理。 | 关联：推动零样本 3D 视觉接地与点云语义理解。</li>
-</ul>
-<h2>3. 跨方向信号</h2>
-<ul>
-<li><strong>记忆成为共同基础设施</strong>：LLM Agent 图记忆、VLA 显式语言记忆、具身神经符号记忆同时出现，说明长期状态管理不再是单个方向的附加模块。</li>
-<li><strong>自进化与测试时决策合流</strong>：harness 进化、自校正、自适应采样与 VLA 接地检测，正被统一为“推理期可扩展”的系统能力。</li>
-<li><strong>token 压缩从 2D 走向 3D 与多模态</strong>：视觉 token 角色分析、3D 聚类压缩和迭代证据构建，共同推动剪枝技术的跨模态泛化。</li>
-<li><strong>具身安全与风险检测升温</strong>：物理提示注入、VLA 接地风险、任务向量审计表明，具身系统不仅追求能力，也日益关注可控性和攻击面。</li>
-</ul>
-<h2>4. 优先精读</h2>
-<ul>
-<li><strong><a href="http://arxiv.org/abs/2608.05738v1">In-Context VLA</a></strong>：最可能改变 VLA 训练范式；将语言推理注入行为克隆式策略，与实验室 VLA 方向高度直接相关。</li>
-<li><strong><a href="http://arxiv.org/abs/2608.05810v1">When Self-Evolution Backfires</a></strong>：揭示自进化“技能污染”相变，对 Agent 自我改进的安全设计与资源阈值判断有重要预警价值。</li>
-<li><strong><a href="http://arxiv.org/abs/2608.04483v1">Not All Redundant Tokens Are Alike</a></strong>：为视觉 token 剪枝提供角色级解释，支撑多模态大模型剪枝从“删冗余”走向“删哪类、为何删”。</li>
-</ul>
-<hr>
-<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lab Research Topics Radar 2026-08-07</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-07/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-07/ai-arxiv-en</guid>
-      <pubDate>Fri, 07 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Lab Research Topics Radar 2026-08-07 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 43 new + 13 seen in the last 14 days | Generated: 2026-08-07 01:28 UTC Today&amp;#39;s Overview LLM Agent Engineering (LLM Agent 与多智能体): 10 new papers; harness evolution, runtime guardrails, graph memory, skill-use evaluation, and self-evolution failure analysis are the active threads. Agent Test-Time Scaling and Self-Improvement (LLM Agent 与多智能体): 2 new papers; test-time refinement and colla...</description>
-      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-08-07</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 43 new + 13 seen in the last 14 days | Generated: 2026-08-07 01:28 UTC</p>
-</blockquote>
-<hr>
-<h2>Today&#39;s Overview</h2>
-<ul>
-<li><strong>LLM Agent Engineering</strong> (LLM Agent 与多智能体): 10 new papers; harness evolution, runtime guardrails, graph memory, skill-use evaluation, and self-evolution failure analysis are the active threads.</li>
-<li><strong>Agent Test-Time Scaling and Self-Improvement</strong> (LLM Agent 与多智能体): 2 new papers; test-time refinement and collaborative harness evolution join repeated adaptive-sampling and survey work.</li>
-<li><strong>LLM Agent Societies</strong> (LLM Agent 与多智能体): No new papers today.</li>
-<li><strong>Vision-Language-Action Models</strong> (具身智能): 10 new papers; in-context post-training, memory-augmented long-horizon control, hierarchical policies, risk detection, and task-vector audits progress substantially.</li>
-<li><strong>Embodied Navigation</strong> (具身智能): 6 new papers; spiking policies and physical prompt-injection attacks stand out, alongside repeated driving/layout papers.</li>
-<li><strong>LLM Pruning and Inference Optimization</strong> (模型压缩与持续学习): 2 new papers; edge MoE/speculative decoding and VLM efficiency methods, with one repeated serving study.</li>
-<li><strong>Multimodal LLM Pruning</strong> (模型压缩与持续学习): 3 new papers; token-role analysis, iterative evidence construction, and 3D token compression, plus two repeated video token-pruning papers.</li>
-<li><strong>Continual Learning</strong> (模型压缩与持续学习): 10 new papers; paradigm redefinition, neuromodulatory control, PINN continual learning, and continual retrieval are the strongest signals.</li>
-<li><strong>Event-Based Vision</strong> (视觉感知): 2 new papers; a kitchen stereo-event dataset and event-driven reflection removal, plus a repeated calibration paper.</li>
-<li><strong>3D Point Cloud Perception</strong> (视觉感知): 4 new papers; point-cloud generation, dynamic 3D modality orchestration, and outdoor language splatting, plus repeated detection/grounding papers.</li>
-<li><strong>3D Point Cloud Perception and Tracking</strong> (视觉感知): No new papers today.</li>
-</ul>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent Engineering</h3>
-<h4><a href="http://arxiv.org/abs/2608.05446v1">EvoHarness-RL: Learning Self-Evolving Runtime Harness for Long-Horizon LLM Agents</a></h4>
-<p>X. Ning et al. (2026-08-05). Introduce an RL-learned, self-evolving runtime harness that manages state, tools, verification, and experience reuse for long-horizon agents. Directly targets agent harness engineering at the system level.</p>
-<h4><a href="http://arxiv.org/abs/2608.04934v1">State2State: Environment-Derived Mid-Training for LLM Agents</a></h4>
-<p>X. Lei et al. (2026-08-05). Propose environment-derived mid-training on state transitions to reduce dependence on expert trajectories and handcrafted verifiers. Relevant to scalable agent training beyond human-specified supervision.</p>
-<h4><a href="http://arxiv.org/abs/2608.05695v1">DreamGuard: Efficient Runtime Guardrail for LLM Agents via Risk-Aware World Model</a></h4>
-<p>W. Lin et al. (2026-08-06). Present a runtime guardrail that uses a risk-aware world model to check unsafe tool actions before execution. Highly relevant to safe deployment of tool-using LLM agents.</p>
-<h4><a href="http://arxiv.org/abs/2608.05095v1">Hierarchical Graph Memory for LLM Agents with Path-level Localization and Rewrite</a></h4>
-<p>X. Yue et al. (2026-08-05). Propose hierarchical graph memory with path-level localization and rewrite for updatable long-term agent memory. Relevant to persistent, structurally organized agent memory.</p>
-<h4><a href="http://arxiv.org/abs/2608.05810v1">When Self-Evolution Backfires: Pre-Commit Gating against Skill Contamination in LLM Agents</a></h4>
-<p>L. Shang et al. (2026-08-06). Formalize a capability-contamination phase transition in self-evolving agents and propose pre-commit gating against harmful skills. Important for preventing skill accumulation from degrading agent performance.</p>
-<h4><a href="http://arxiv.org/abs/2608.05519v1">EcoAgent-Bench: Evaluating Economic Decision-Making in Budget-Constrained LLM Agents</a></h4>
-<p>J. Wu et al. (2026-08-06). Introduce a benchmark where resource-use choices are part of task success for budget-constrained agents. Relevant to cost-aware agent evaluation.</p>
-<h4><a href="http://arxiv.org/abs/2608.04828v1">Skill-Use: Can LLMs Actually Use Skills in Agentic Harnesses?</a></h4>
-<p>J. Han et al. (2026-08-05). Evaluate whether agents can correctly retrieve and apply structured skills inside agentic harnesses. Relevant to skill-based agent engineering and evaluation.</p>
-<h4><a href="http://arxiv.org/abs/2608.06153v1">Learning Globally Reusable Skills for Coding Agents</a></h4>
-<p>C. Yang et al. (2026-08-06). Propose global skill evolution that models relationships among skills to avoid overfitted local updates. Relevant to reusable skill accumulation in coding agents.</p>
-<h4><a href="http://arxiv.org/abs/2608.05026v1">ArtAnno: Annotating Implicit Semantics in Artworks through LLM Agent-Driven Bidirectional Human-AI Augmentation</a></h4>
-<p>X. Gu et al. (2026-08-05). Present an LLM-agent-driven bidirectional human-AI augmentation pipeline for implicit art annotation. Relevant to agent-driven data annotation workflows.</p>
-<h3>Agent Test-Time Scaling and Self-Improvement</h3>
-<h4><a href="http://arxiv.org/abs/2608.05643v1">Refining Over Resampling: Test-Time Self-Correction for LLM Reasoning</a></h4>
-<p>A. Bilal et al. (2026-08-06). Show that refining existing rollouts can outperform wider sampling for test-time LLM reasoning. Directly relevant to compute-efficient self-correction.</p>
-<h4><a href="http://arxiv.org/abs/2608.04968v1">EvolveNet: Collaborative Harness Evolution for Agent Self-Improvement</a></h4>
-<p>J. Nie et al. (2026-08-05). Evolve executable agent harnesses collaboratively to improve agent performance without updating model weights. Bridges self-improvement and harness design.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03961v1">Interpretable Adaptive Sampling for LLM Test-Time Scaling</a></h4>
-<p>M. Kashaniyan, A. Jannesari (2026-08-04). Propose interpretable, adaptive per-query sampling budgets for test-time scaling. Relevant to efficient and inspectable test-time compute allocation.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03284v1">Test-Time Scaling for Safe Text-Guided Image Generation via Intermediate Clean Estimates</a></h4>
-<p>J. Sakurai et al. (2026-08-04). Apply test-time scaling to avoid unsafe image generations via intermediate clean estimates. Relevant to test-time safety methods beyond reasoning.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.04001v1">Test-Time Scaling in Reasoning LLMs: Inference Regimes, Evaluation, and Reproducibility</a></h4>
-<p>M. Hariri et al. (2026-08-04). Survey inference regimes, evaluation, and reproducibility of test-time scaling. Useful as a reference for the test-time scaling research line.</p>
-<h3>LLM Agent Societies</h3>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03833v1">History Matters: Meta-policy Delegation with Heterogeneous Multi-agent Reinforcement Learning</a></h4>
-<p>Z. Lu et al. (2026-08-04). Study history-based meta-policy delegation in heterogeneous multi-agent systems. Relevant to agent societies with asymmetric capabilities.</p>
-<h2>具身智能</h2>
-<h3>Vision-Language-Action Models</h3>
-<h4><a href="http://arxiv.org/abs/2608.05738v1">In-Context VLA: Endowing Vision-Language-Action Models with Language via In-Context Post-Training and Agentic Tool Use</a></h4>
-<p>J. Yang et al. (2026-08-06). Use in-context post-training and agentic tool use to inject explicit reasoning into VLA policies. Directly extends VLA models beyond static behavior cloning.</p>
-<h4><a href="http://arxiv.org/abs/2608.05999v1">Beyond Flat Policies: Hierarchical Post-Training for Embodied Agents in Robotic Manipulation</a></h4>
-<p>H. Kong et al. (2026-08-06). Propose hierarchical post-training that explicitly models task progression in VLA manipulation. Relevant to structured policy decomposition for long-horizon tasks.</p>
-<h4><a href="http://arxiv.org/abs/2608.05970v1">SkillMemo: Expert-guided Skill Memory Framework for Compositional Embodied Manipulation</a></h4>
-<p>C. Wang et al. (2026-08-06). Introduce expert-guided skill memory to improve compositional manipulation in DP/VLA models. Relevant to reusable skill accumulation in embodied policies.</p>
-<h4><a href="http://arxiv.org/abs/2608.05042v1">BridgeVLA++: A Data-Efficient, Generalizable, and Memory-Augmented Vision-Language-Action Framework for 3D Manipulation</a></h4>
-<p>P. Li et al. (2026-08-05). Present a memory-augmented 3D VLA framework for data-efficient manipulation under distribution shifts. Relevant to 3D VLA generalization.</p>
-<h4><a href="http://arxiv.org/abs/2608.04765v1">Explicit Language Memory for Long-Horizon Planning in Vision-Language-Action Models</a></h4>
-<p>H. Xu et al. (2026-08-05). Introduce explicit language memory to improve long-horizon compositional generalization in VLA. Relevant to VLA memory and planning.</p>
-<h4><a href="http://arxiv.org/abs/2608.04633v1">Mind-VLA: Instruction-Aware Spatial Representation Alignment for Vision-Language-Action Models</a></h4>
-<p>X. Ding et al. (2026-08-05). Align VLA representations with instruction-relevant 3D object geometry rather than the whole scene. Relevant to instruction-conditioned 3D grounding in VLA.</p>
-<h4><a href="http://arxiv.org/abs/2608.04933v1">Mimir: A Neuro-Symbolic Memory System with Dynamic Grounding for Embodied Agents in Interactive Environments</a></h4>
-<p>H. Xu et al. (2026-08-05). Build a neuro-symbolic memory system with dynamic grounding for long-horizon embodied tasks. Relevant to explicit memory interfaces in embodied VLA/agents.</p>
-<h4><a href="http://arxiv.org/abs/2608.05369v1">World-to-Wrist: Task-Conditioned Future Wrist Modeling for Fine-Grained Robot Manipulation</a></h4>
-<p>Y. Pan et al. (2026-08-05). Model future wrist-local interactions conditioned on global task context for fine-grained VLA manipulation. Relevant to multi-view VLA policy design.</p>
-<h4><a href="http://arxiv.org/abs/2608.04510v1">GUARD: Grounding Uncertainty and Ablation-Based Risk Detection for Diffusion-Based VLAs</a></h4>
-<p>S. Hegde, J. Y. B. Katta (2026-08-05). Detect weakly grounded VLA action predictions at test time without modifying the policy. Relevant to risk detection for diffusion-based VLA policies.</p>
-<h4><a href="http://arxiv.org/abs/2608.04692v1">Suppression Sticks, Locality Is Fragile: A Closed-Loop Target-and-Control Audit of Task-Vector Negation in VLA Policies</a></h4>
-<p>S. Wang et al. (2026-08-05). Audit task-vector subtraction in multitask VLA policies, showing fragile behavioral locality in closed-loop control. Relevant to interpretability and controllable VLA modification.</p>
-<h3>Embodied Navigation</h3>
-<h4><a href="http://arxiv.org/abs/2608.05078v1">SpikingNav: Robust Embodied Navigation with Spiking Neural Policies</a></h4>
-<p>J. Zhang et al. (2026-08-05). Use spiking neural policies for embodied navigation robust to visual corruptions. Relevant to efficient, robust navigation policies.</p>
-<h4><a href="http://arxiv.org/abs/2608.05715v1">Hijacking Robots with a Piece of Paper: A Systematic Study of Physical Prompt Injection in VLM-Controlled Robots</a></h4>
-<p>S. M. B. P. Samarakoon et al. (2026-08-06). Systematically study physical prompt-injection attacks on VLM-controlled robots. Relevant to security of VLM-based robot perception and planning.</p>
-<h4><a href="http://arxiv.org/abs/2608.04676v1">SurgNarrator: A Generative Retrieval Framework for Surgical Video Understanding</a></h4>
-<p>Y. Feng et al. (2026-08-05). Combine generative and retrieval mechanisms for real-time surgical video understanding. Relevant to embodied perception in structured, procedural environments.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03084v1">SUV: Future Scene Understanding as Video Generation for End-to-End Driving</a></h4>
-<p>Y. Yuan et al. (2026-08-04). Use video generation as a shared predictor for future scenes in end-to-end driving. Relevant to predictive embodied navigation.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03323v1">PolyLayout: Multi-room Manhattan Layout Estimation</a></h4>
-<p>G. Hanning et al. (2026-08-04). Estimate multi-room Manhattan layouts from multi-view imagery. Relevant to indoor scene understanding for navigation.</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM Pruning and Inference Optimization</h3>
-<h4><a href="http://arxiv.org/abs/2608.05303v1">EdgeXpert: An Edge Device for Memory-Efficient LLM Inference with Mixture-of-Experts and Speculative Decoding</a></h4>
-<p>S. Ha et al. (2026-08-05). Combine MoE and speculative decoding in an edge device to reduce external memory access for LLM inference. Relevant to memory-bound edge LLM deployment.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03036v1">LLM Serving in the Wild: An Empirical Study of Frameworks, Methods, and System Designs</a></h4>
-<p>F. Majidi et al. (2026-08-04). Empirically study LLM serving frameworks and system designs. Useful for practical inference optimization choices.</p>
-<h3>Multimodal LLM Pruning</h3>
-<h4><a href="http://arxiv.org/abs/2608.04483v1">Not All Redundant Tokens Are Alike: Analyzing Visual Token Pruning through Token Roles</a></h4>
-<p>H. Kim et al. (2026-08-05). Analyze how visual token pruning decisions relate to token roles in vision-language models. Relevant to principled multimodal token pruning.</p>
-<h4><a href="http://arxiv.org/abs/2608.04496v1">DIVE: Dynamic Iterative Visual Evidence Construction for Efficient Vision-Language Models</a></h4>
-<p>C. Zhong et al. (2026-08-05). Build visual evidence iteratively instead of one-shot pruning for efficient VLM inference. Relevant to dynamic visual token reduction.</p>
-<h4><a href="http://arxiv.org/abs/2608.04610v1">HiSC: Hierarchical Spatial Clustering Token Compression for Efficient 3D Scene Understanding</a></h4>
-<p>J. Qu et al. (2026-08-05). Compress 3D VLM tokens via hierarchical spatial clustering. Relevant to efficiency of 3D vision-language models.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03112v1">Adaptive Two-Stage Visual Token Pruning for Efficient Inference in Video-Language Models</a></h4>
-<p>P. Regmi et al. (2026-08-04). Propose adaptive two-stage pruning for video-language model tokens. Relevant to efficient video VLM inference.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03083v1">GSTEP: Global Spatio-Temporal Density-Driven Visual Token Pruning for Efficient Video Large Language Models</a></h4>
-<p>M. Zhang et al. (2026-08-04). Use global spatio-temporal density for visual token pruning in VideoLLMs. Relevant to redundancy reduction in long-video LLMs.</p>
-<h3>Continual Learning</h3>
-<h4><a href="http://arxiv.org/abs/2608.06216v1">Continual Learning in Transition</a></h4>
-<p>Z. Hou et al. (2026-08-06). Argue that continual learning is being reshaped beyond parameter-centric mechanisms by emerging paradigms. Highly relevant for positioning the lab’s CL research agenda.</p>
-<h4><a href="http://arxiv.org/abs/2608.04358v1">NeuMoSync: End-to-End Neuromodulatory Control for Plasticity and Adaptability in Continual Learning</a></h4>
-<p>S. R. Razavi Rohani et al. (2026-08-05). Introduce end-to-end neuromodulatory control for plasticity and knowledge transfer in CL. Relevant to biologically inspired CL.</p>
-<h4><a href="http://arxiv.org/abs/2608.04778v1">Continual-Learning Physics-Informed Neural Networks for Parameterized Partial Differential Equations</a></h4>
-<p>X. Chen et al. (2026-08-05). Apply continual learning to parameterized PINNs for PDE solution approximation. Relevant to CL in scientific ML.</p>
-<h4><a href="http://arxiv.org/abs/2608.06059v1">DARAD: Dual Adapters and Ranking-Aware Distillation for Continual Remote Sensing Image-Text Retrieval</a></h4>
-<p>X. Chen et al. (2026-08-06). Use dual adapters and ranking-aware distillation for continual cross-modal retrieval. Relevant to continual learning in retrieval tasks.</p>
-<h4><a href="http://arxiv.org/abs/2608.04334v1">ATLAS: Adaptive Topological Learning with Abstract Successors for Continual Learning</a></h4>
-<p>R. B. Lawlor, D. S. Brown (2026-08-05). Combine adaptive topological learning and abstract successors for continual model-based RL. Relevant to continual RL under environment shifts.</p>
-<h4><a href="http://arxiv.org/abs/2608.04488v1">Energy- and Memory-Efficient PEFT Methods for Personalized On-Device SLMs on Consumer GPUs</a></h4>
-<p>K. Akhmetzhanov, J.-G. Park (2026-08-05). Evaluate parameter-efficient fine-tuning for personalized on-device small language models under energy/memory constraints. Relevant to resource-constrained continual personalization.</p>
-<h2>视觉感知</h2>
-<h3>Event-Based Vision</h3>
-<h4><a href="http://arxiv.org/abs/2608.04865v1">Cooking beyond Frames: A Stereo Event Camera Dataset in the Kitchen</a></h4>
-<p>C. Feng et al. (2026-08-05). Introduce a stereo event-camera dataset for human-centric kitchen scenes. Relevant to event-based robust perception.</p>
-<h4><a href="http://arxiv.org/abs/2608.06184v1">EvReflection: Event-Driven Micro-Dynamics for Reflection Removal</a></h4>
-<p>J. Wang et al. (2026-08-06). Leverage event signals to model micro-dynamics for reflection removal. Relevant to event-camera image enhancement.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03296v1">PLS-Calib: A Partial Least Squares Framework for Event Camera and Odometry Calibration under Ground Motion Constraints</a></h4>
-<p>G. Li et al. (2026-08-04). Calibrate event cameras and odometry under constrained ground motion using partial least squares. Relevant to event-camera system calibration.</p>
-<h3>3D Point Cloud Perception</h3>
-<h4><a href="http://arxiv.org/abs/2608.05557v1">Hierarchical Flow Matching for 3D Point Cloud Generation</a></h4>
-<p>L. Wang et al. (2026-08-06). Propose hierarchical flow matching to generate high-quality point clouds while avoiding expensive ODE solving. Relevant to efficient 3D point-cloud generation.</p>
-<h4><a href="http://arxiv.org/abs/2608.05137v1">SmartMage: Dynamic Modality Orchestration for 3D Scene Understanding</a></h4>
-<p>Y. Zhang et al. (2026-08-05). Dynamically orchestrate visual and geometric modalities for 3D scene understanding. Relevant to multimodal 3D perception.</p>
-<h4><a href="http://arxiv.org/abs/2608.04560v1">OutLangSplat: 3D Language Gaussian Splatting for UAV Outdoor Scenes</a></h4>
-<p>X. Yan et al. (2026-08-05). Extend 3D language Gaussian splatting to outdoor UAV-scale scenes. Relevant to open-vocabulary 3D scene understanding.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03490v1">Lightweight 3D Object Detection via Mamba-Based Knowledge Distillation</a></h4>
-<p>Q. C. Ninh et al. (2026-08-04). Distill Mamba-based 3D detectors into lightweight models for LiDAR perception. Relevant to efficient point-cloud detection.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03895v1">NCGR: Noise-Conditional Gated Rectification for Camera Extrinsic Perturbations in BEV 3D Object Detection</a></h4>
-<p>W. Pan et al. (2026-08-04). Rectify camera extrinsic perturbations in BEV 3D detection with noise-conditional gating. Relevant to robust 3D detection.</p>
-<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2608.03763v1">TDVR: Joint Text Disambiguation and Viewpoint Reasoning for Zero-Shot 3D Visual Grounding</a></h4>
-<p>Q. Du et al. (2026-08-04). Improve zero-shot 3D visual grounding with text disambiguation and viewpoint reasoning. Relevant to language-driven point-cloud grounding.</p>
-<h2>Cross-Topic Signals</h2>
-<ul>
-<li><strong>Memory is becoming a shared bottleneck</strong> across LLM agents, VLA policies, and embodied navigation: hierarchical graph memory, neuro-symbolic memory, explicit language memory, and skill memory all emphasize structured, updatable memory for long-horizon tasks.</li>
-<li><strong>Self-improvement is moving beyond model weights</strong>: harness evolution, skill memory, and skill contamination gating show that persistent improvement is increasingly engineered at the system/skill level rather than through retraining.</li>
-<li><strong>Token/context compression is the common efficiency lever</strong> across 2D/3D and video VLMs: iterative evidence construction, hierarchical clustering, and spatio-temporal density pruning are converging on similar ideas.</li>
-<li><strong>Test-time methods are expanding from pure sampling</strong> into refinement, grounding checks, and risk-aware world models, bridging LLM reasoning and robot policy safety.</li>
-<li><strong>Event/neuromorphic sensors appear in both perception and control</strong> — spiking navigation, event-driven reflection removal, and event-camera calibration indicate growing interest in robustness beyond conventional frame-based pipelines.</li>
-</ul>
-<h2>Priority Reading</h2>
-<h4><strong>Continual Learning in Transition</strong> — useful as a framework-level redefinition of continual learning; worth reading in full to align the lab’s CL research direction with emerging paradigms.</h4>
-<ol start="2">
-<li><strong>EvolveNet</strong> — directly connects agent harness engineering with self-improvement, a high-leverage intersection of two configured research topics.</li>
-<li><strong>In-Context VLA</strong> — represents a clear shift from static VLA behavior cloning toward language-mediated reasoning and tool use; highly actionable for the lab’s VLA work.</li>
-</ol>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
