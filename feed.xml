@@ -6,7 +6,121 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sun, 23 Aug 2026 22:16:17 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 22:20:32 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-08-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-25/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-25/ai-arxiv</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-08-25 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-08-24 22:19 UTC 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文。 LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文。 具身智能 / 视觉-语言-动作模型：今日暂无新论文。 具身智能 / 具身导航：今日暂无新论文。 模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文。 模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文。 模型压缩与持续学习 / 持续学习：今日暂无新论文。 视觉感知 / 事件相机视觉感知：今日暂无新论文。 视觉感知 / 3D 点云视觉感知：今日暂无新论文。 视觉感知 / 3D 点云感知与跟踪：今日暂无新论文。 分方向情报 LLM Agent 与多智能体 LLM Agent...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-08-25</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-08-24 22:19 UTC</p>
+</blockquote>
+<hr>
+<h3>今日总览</h3>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent 工程</strong>：今日暂无新论文。</li>
+<li><strong>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进</strong>：今日暂无新论文。</li>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Society</strong>：今日暂无新论文。</li>
+<li><strong>具身智能 / 视觉-语言-动作模型</strong>：今日暂无新论文。</li>
+<li><strong>具身智能 / 具身导航</strong>：今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 / LLM 剪枝与推理优化</strong>：今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 / 多模态大模型剪枝</strong>：今日暂无新论文。</li>
+<li><strong>模型压缩与持续学习 / 持续学习</strong>：今日暂无新论文。</li>
+<li><strong>视觉感知 / 事件相机视觉感知</strong>：今日暂无新论文。</li>
+<li><strong>视觉感知 / 3D 点云视觉感知</strong>：今日暂无新论文。</li>
+<li><strong>视觉感知 / 3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
+</ul>
+<hr>
+<h3>分方向情报</h3>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent 工程</h3>
+<p>今日暂无新论文。</p>
+<h3>Agent 测试时扩展与自我改进</h3>
+<p>今日暂无新论文。</p>
+<h3>LLM Agent Society</h3>
+<p>今日暂无新论文。</p>
+<h2>具身智能</h2>
+<h3>视觉-语言-动作模型</h3>
+<p>今日暂无新论文。</p>
+<h3>具身导航</h3>
+<p>今日暂无新论文。</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM 剪枝与推理优化</h3>
+<p>今日暂无新论文。</p>
+<h3>多模态大模型剪枝</h3>
+<p>今日暂无新论文。</p>
+<h3>持续学习</h3>
+<p>今日暂无新论文。</p>
+<h2>视觉感知</h2>
+<h3>事件相机视觉感知</h3>
+<p>今日暂无新论文。</p>
+<h3>3D 点云视觉感知</h3>
+<p>今日暂无新论文。</p>
+<h3>3D 点云感知与跟踪</h3>
+<p>今日暂无新论文。</p>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-08-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-08-25/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-25/ai-arxiv-en</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-08-25 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-08-24 22:19 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today. LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: No new papers today. LLM Agent 与多智能体 / LLM Agent Societies: No new papers today. 具身智能 / Vision-Language-Action Models: No new papers today. 具身智能 / Embodied Navigation: No new ...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-08-25</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-08-24 22:19 UTC</p>
+</blockquote>
+<hr>
+<h3>Today&#39;s Overview</h3>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Engineering</strong>: No new papers today.</li>
+<li><strong>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement</strong>: No new papers today.</li>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Societies</strong>: No new papers today.</li>
+<li><strong>具身智能 / Vision-Language-Action Models</strong>: No new papers today.</li>
+<li><strong>具身智能 / Embodied Navigation</strong>: No new papers today.</li>
+<li><strong>模型压缩与持续学习 / LLM Pruning and Inference Optimization</strong>: No new papers today.</li>
+<li><strong>模型压缩与持续学习 / Multimodal LLM Pruning</strong>: No new papers today.</li>
+<li><strong>模型压缩与持续学习 / Continual Learning</strong>: No new papers today.</li>
+<li><strong>视觉感知 / Event-Based Vision</strong>: No new papers today.</li>
+<li><strong>视觉感知 / 3D Point Cloud Perception</strong>: No new papers today.</li>
+<li><strong>视觉感知 / 3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
+</ul>
+<hr>
+<h3>Research Areas</h3>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent Engineering</h3>
+<p>No new papers today.</p>
+<h3>Agent Test-Time Scaling and Self-Improvement</h3>
+<p>No new papers today.</p>
+<h3>LLM Agent Societies</h3>
+<p>No new papers today.</p>
+<h2>具身智能</h2>
+<h3>Vision-Language-Action Models</h3>
+<p>No new papers today.</p>
+<h3>Embodied Navigation</h3>
+<p>No new papers today.</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM Pruning and Inference Optimization</h3>
+<p>No new papers today.</p>
+<h3>Multimodal LLM Pruning</h3>
+<p>No new papers today.</p>
+<h3>Continual Learning</h3>
+<p>No new papers today.</p>
+<h2>视觉感知</h2>
+<h3>Event-Based Vision</h3>
+<p>No new papers today.</p>
+<h3>3D Point Cloud Perception</h3>
+<p>No new papers today.</p>
+<h3>3D Point Cloud Perception and Tracking</h3>
+<p>No new papers today.</p>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-08-24</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-08-24/ai-arxiv</link>
@@ -3087,120 +3201,6 @@ Relevance: Provides a geometric prior for 3D detection without depth sensors.</p
       <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-08-11</h1>
 <blockquote>
 <p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-08-10 22:31 UTC</p>
-</blockquote>
-<hr>
-<h3>Today&#39;s Overview</h3>
-<ul>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Engineering</strong>: No new papers today.</li>
-<li><strong>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement</strong>: No new papers today.</li>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Societies</strong>: No new papers today.</li>
-<li><strong>具身智能 / Vision-Language-Action Models</strong>: No new papers today.</li>
-<li><strong>具身智能 / Embodied Navigation</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / LLM Pruning and Inference Optimization</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / Multimodal LLM Pruning</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / Continual Learning</strong>: No new papers today.</li>
-<li><strong>视觉感知 / Event-Based Vision</strong>: No new papers today.</li>
-<li><strong>视觉感知 / 3D Point Cloud Perception</strong>: No new papers today.</li>
-<li><strong>视觉感知 / 3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
-</ul>
-<hr>
-<h3>Research Areas</h3>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent Engineering</h3>
-<p>No new papers today.</p>
-<h3>Agent Test-Time Scaling and Self-Improvement</h3>
-<p>No new papers today.</p>
-<h3>LLM Agent Societies</h3>
-<p>No new papers today.</p>
-<h2>具身智能</h2>
-<h3>Vision-Language-Action Models</h3>
-<p>No new papers today.</p>
-<h3>Embodied Navigation</h3>
-<p>No new papers today.</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM Pruning and Inference Optimization</h3>
-<p>No new papers today.</p>
-<h3>Multimodal LLM Pruning</h3>
-<p>No new papers today.</p>
-<h3>Continual Learning</h3>
-<p>No new papers today.</p>
-<h2>视觉感知</h2>
-<h3>Event-Based Vision</h3>
-<p>No new papers today.</p>
-<h3>3D Point Cloud Perception</h3>
-<p>No new papers today.</p>
-<h3>3D Point Cloud Perception and Tracking</h3>
-<p>No new papers today.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>实验室研究方向 Radar 2026-08-10</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-10/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-10/ai-arxiv</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-      <description>实验室研究方向 Radar 2026-08-10 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-08-09 22:23 UTC 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文。 LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文。 具身智能 / 视觉-语言-动作模型：今日暂无新论文。 具身智能 / 具身导航：今日暂无新论文。 模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文。 模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文。 模型压缩与持续学习 / 持续学习：今日暂无新论文。 视觉感知 / 事件相机视觉感知：今日暂无新论文。 视觉感知 / 3D 点云视觉感知：今日暂无新论文。 视觉感知 / 3D 点云感知与跟踪：今日暂无新论文。 分方向情报 LLM Agent 与多智能体 LLM Agent...</description>
-      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-08-10</h1>
-<blockquote>
-<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-08-09 22:23 UTC</p>
-</blockquote>
-<hr>
-<h3>今日总览</h3>
-<ul>
-<li><strong>LLM Agent 与多智能体 / LLM Agent 工程</strong>：今日暂无新论文。</li>
-<li><strong>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进</strong>：今日暂无新论文。</li>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Society</strong>：今日暂无新论文。</li>
-<li><strong>具身智能 / 视觉-语言-动作模型</strong>：今日暂无新论文。</li>
-<li><strong>具身智能 / 具身导航</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / LLM 剪枝与推理优化</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / 多模态大模型剪枝</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / 持续学习</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 事件相机视觉感知</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 3D 点云视觉感知</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
-</ul>
-<hr>
-<h3>分方向情报</h3>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent 工程</h3>
-<p>今日暂无新论文。</p>
-<h3>Agent 测试时扩展与自我改进</h3>
-<p>今日暂无新论文。</p>
-<h3>LLM Agent Society</h3>
-<p>今日暂无新论文。</p>
-<h2>具身智能</h2>
-<h3>视觉-语言-动作模型</h3>
-<p>今日暂无新论文。</p>
-<h3>具身导航</h3>
-<p>今日暂无新论文。</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM 剪枝与推理优化</h3>
-<p>今日暂无新论文。</p>
-<h3>多模态大模型剪枝</h3>
-<p>今日暂无新论文。</p>
-<h3>持续学习</h3>
-<p>今日暂无新论文。</p>
-<h2>视觉感知</h2>
-<h3>事件相机视觉感知</h3>
-<p>今日暂无新论文。</p>
-<h3>3D 点云视觉感知</h3>
-<p>今日暂无新论文。</p>
-<h3>3D 点云感知与跟踪</h3>
-<p>今日暂无新论文。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lab Research Topics Radar 2026-08-10</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-08-10/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-08-10/ai-arxiv-en</guid>
-      <pubDate>Mon, 10 Aug 2026 00:00:00 +0000</pubDate>
-      <description>Lab Research Topics Radar 2026-08-10 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-08-09 22:23 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today. LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: No new papers today. LLM Agent 与多智能体 / LLM Agent Societies: No new papers today. 具身智能 / Vision-Language-Action Models: No new papers today. 具身智能 / Embodied Navigation: No new ...</description>
-      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-08-10</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-08-09 22:23 UTC</p>
 </blockquote>
 <hr>
 <h3>Today&#39;s Overview</h3>
