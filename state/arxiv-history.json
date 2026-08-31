@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-29T23:50:16.366Z",
+  "updatedAt": "2026-08-31T00:08:28.206Z",
   "papers": {
     "2608.16889": {
       "title": "Don't Drop the BATON: Long-Horizon Robot Manipulation via Agentic Subtask Exploration and Transition-aware Memory",
