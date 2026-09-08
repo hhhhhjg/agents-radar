@@ -1,6 +1,13 @@
 {
-  "generated": "2026-09-07T23:55:31.794Z",
+  "generated": "2026-09-08T23:48:24.121Z",
   "dates": [
+    {
+      "date": "2026-09-09",
+      "reports": [
+        "ai-arxiv",
+        "ai-arxiv-en"
+      ]
+    },
     {
       "date": "2026-09-08",
       "reports": [
