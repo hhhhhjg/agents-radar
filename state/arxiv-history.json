@@ -1,57 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-09T23:45:50.500Z",
+  "updatedAt": "2026-09-10T23:37:24.199Z",
   "papers": {
-    "2608.23552": {
-      "title": "Prime Agent: A Self-Improving RLM Harness",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23536": {
-      "title": "Adapter-Based Few-Shot Continual Learning for Malicious Packet Recognition",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23452": {
-      "title": "Reward-Free Continual Adaptation for Resilient Space Robots",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23354": {
-      "title": "OptiSight: Bridging Semantic Reasoning and Geometric Control for Embodied Navigation",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23253": {
-      "title": "E2S-Pruner: Progressive Two-Stage Evidence Fusion for Visual Token Pruning in Vision-Language Models",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23173": {
-      "title": "BenthicFlow: Generating Extensible Underwater Environments via Flow Matching",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.22971": {
-      "title": "ParallelWorld: Test-Time Scaling for Embodied Reasoning",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.22869": {
-      "title": "UniMem: Unifying Multimodal Memory and Control for Vision-Language-Action Models",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.22767": {
-      "title": "The Retriever Should Remember: Experience-Amortized Reranking for Long-Term Agent Memory",
-      "firstSeenAt": "2026-08-25T22:19:50.604Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.26081": {
-      "title": "SwarmWorld: Stigmergic technological evolution in societies of language-model agents",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.26070": {
       "title": "Prefix Sliding for efficient test-time scaling",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
@@ -72,20 +22,10 @@
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-29T03:26:55.514Z"
     },
-    "2608.25992": {
-      "title": "ProgRouter: Online Progress-Guided Orchestration for Multi-Agent LLM Workflows under Quality-Cost Tradeoffs",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.25932": {
       "title": "Continually learning neural-operator surrogate for three-dimensional airborne electromagnetic Bayesian inversion",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-29T03:26:55.514Z"
-    },
-    "2608.25869": {
-      "title": "Anchoring Bias in LLM-as-a-Judge Systems: Prior Scores Compromise Evaluation Independence",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
     },
     "2608.25864": {
       "title": "MA-VLA: Multi-Arm Vision-Language-Action Model for Collaboration and Compositional Generalization",
@@ -112,200 +52,45 @@
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-29T03:26:55.514Z"
     },
-    "2608.25659": {
-      "title": "GaussianDream++: Efficient 3D Gaussian World Modeling for Robotic Manipulation",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.25648": {
       "title": "MAMA-FLUX.2: Image-to-Image Synthesis of Post-Contrast Breast DCE-MRI for the MAMA-SYNTH Challenge",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-29T03:26:55.514Z"
-    },
-    "2608.25593": {
-      "title": "JIT-Agent: Scaling Harness Intelligence via Just-in-Time Harness Evolution",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.25585": {
-      "title": "RA-VLA: Retrieval-Augmented VLA for Test-Time Adaptation",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.25570": {
-      "title": "Beyond Scaling: Self-Evolving LLM Agents for Hardware Kernel Optimization via an Experience-Driven Workflow and Experience Graph Memory",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
     },
     "2608.25568": {
       "title": "CrossMambaTuning: Synergistic Spatial and Cross-Layer Adaptation for Machine Vision Compression",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-29T03:26:55.514Z"
     },
-    "2608.25500": {
-      "title": "CaSKG: Counterfactual-Causal Skill Graphs for Scalable Agent Skill Retrieval",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.25479": {
-      "title": "4DStreamCtrl: Interactive Video Generation with Online 4D Control",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.25418": {
       "title": "Bootstrapping a 4D LiDAR Annotation Tool from Video Foundation Models",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-29T03:26:55.514Z"
-    },
-    "2608.25395": {
-      "title": "A Taxonomy of Construction Task Activities for Robot Workers",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
     },
     "2608.25332": {
       "title": "Not All Attention Heads Contribute to Critical Visual Token Selection: Head-Aware Pruning Matters More",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-28T05:54:19.272Z"
     },
-    "2608.25308": {
-      "title": "V-Link: Recovering Lost Visual Representations in Action DiT for Vision-Language-Action Models",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.25246": {
       "title": "ShuttleArena: Interpretable Self-Play in Physics-Based Badminton",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-28T05:54:19.272Z"
-    },
-    "2608.25198": {
-      "title": "Tunable Tool-Call Rates in LLM Agents via Representation Steering",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.25152": {
-      "title": "Belief Cascades Drive Persuasion in LLM Agent Networks",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
     },
     "2608.25068": {
       "title": "SHIFT-LLM: Distribution Shift Correction in Depth-Pruned LLMs",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-28T05:54:19.272Z"
     },
-    "2608.25039": {
-      "title": "LifePlanner: Evaluating LLM Agents for Geo-spatial Planning with Social Media Data",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24876": {
-      "title": "Recursive Experiential-Working Memory Evolution for Long-Horizon Agent Harnesses",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24804": {
-      "title": "StarHarness: Evolving Harnesses with Stratified Search for Enterprise Environments",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24747": {
-      "title": "SkillForge: Evolving Verifiable Skills for Reinforcement Learning Agents",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24735": {
-      "title": "Meta$^n$: Recursive Self-Improvement through Emergent Depth",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.24974": {
       "title": "Clearing the Underbrush: AI-Enhanced RF Interference Suppression",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-28T05:54:19.272Z"
     },
-    "2608.24603": {
-      "title": "Gripper-aware Vision Language Action Models",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24588": {
-      "title": "IAPO: Influence-Aware Policy Optimization for Credit Assignment in Multi-Turn Service Agents",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24570": {
-      "title": "EviDx: Evidence-Aware Active Diagnosis with Scaffolded LLM Agents",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
     "2608.24541": {
       "title": "Hierarchical Prototype-Memory Adaptation of SAM for Surgical Instrument Segmentation",
       "firstSeenAt": "2026-08-27T02:47:52.387Z",
       "lastSeenAt": "2026-08-28T05:54:19.272Z"
-    },
-    "2608.24212": {
-      "title": "NeoWorld-Pro: Programming Interactive Scenes from Monocular Images for Embodied Simulation",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24959": {
-      "title": "GaussVLA: Geometry-Aware Spatial Reasoning for Vision-Language-Action Model",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24115": {
-      "title": "PonderPounce: A Pretrained MLLM as an Episode Context Engine for Robot Control",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24101": {
-      "title": "TrAct: Bridging Robot Control and Visual Prediction with Visual Tracks",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24094": {
-      "title": "SIREN-Bench: Behavior-Driven Generation and Evaluation of Emergency-Vehicle Interactions",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.24024": {
-      "title": "Beyond Confidence: Test-Time Scaling for Multi-Turn Search Agents via Retrieval Grounding",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23956": {
-      "title": "Recursive Agentic Reasoning",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23921": {
-      "title": "HAP: Head-Adaptive Visual Token Pruning via Cross-Modal Alignment",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23903": {
-      "title": "Continual Visual Learning under Evolving Semantic Concept Shift",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23889": {
-      "title": "Dimensionless Controls of Plasticity Under Alternating Tasks: From Evolutionary Biology to Continual Learning",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23845": {
-      "title": "Object Counting Across Modalities: Taxonomies, Benchmarks, Applications, and Open Challenges",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23799": {
-      "title": "Restoring Without Forgetting: Continual Learning Across Image Degradations",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
-    },
-    "2608.23782": {
-      "title": "GAP-Prompt: Gated Adaptive Prompting for Efficient Continual Learning",
-      "firstSeenAt": "2026-08-27T02:47:52.387Z",
-      "lastSeenAt": "2026-08-27T02:47:52.387Z"
     },
     "2608.27455": {
       "title": "CritICL: Inference-Time Weak-to-Strong Generalization from Small Language Model Failure Modes",
@@ -1295,57 +1080,57 @@
     "2609.09158": {
       "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09153": {
       "title": "Procedural Graphs: Self-Evolving Execution Structures for LLM Agents",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09134": {
       "title": "Co-Evolving Harnesses and Models: On-Policy Correction Helps Weaker Models Catch Up Where Imitation Fails",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09119": {
       "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09115": {
       "title": "MeClear: Cooperative Game-Theoretic Attribution and Risk-Aware Memory Clearance for Long-Horizon LLM Agents",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09094": {
       "title": "The Surprising Effectiveness of Approximate Value Iteration in Self-Play",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09082": {
       "title": "GoDeep: Annotation-Free Open-Vocabulary 3D Scene Understanding via Language-Space Lifting",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.09012": {
       "title": "Spheriverse: 3D Scene Understanding from Spherical Observations in the Wild",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08965": {
       "title": "PlannerForge: LLM Agents for Scenario-Based Testing of Motion Planners in Autonomous Driving",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08919": {
       "title": "Experience Funnel: A State-Policy Alternating Loop for Self-Evolving Agents",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08650": {
       "title": "Difficulty-Adaptive Tree-Structured Policy Optimization for Expanding Reasoning Coverage in RLVR",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08599": {
       "title": "Graph-Based Personalized Memory for LLM Agents: Representation, Evolution, Retrieval, and Evaluation",
@@ -1365,7 +1150,7 @@
     "2609.08583": {
       "title": "Estimating Semantic Ambiguity via Gaussian Context Distributions for VLM-Driven Traversability Analysis",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08566": {
       "title": "BIO-MEMART: Biometric-Aware KV Cache Memory for Multi-User LLM Agents",
@@ -1385,37 +1170,37 @@
     "2609.08444": {
       "title": "Safe Task Planning with Long-Term Graph Memory for Embodied Agents",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08442": {
       "title": "AirAnchor: Bridging Local and Global Spatial Information for Zero-Shot Aerial Vision-and-Language Navigation",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08402": {
       "title": "Towards Embodied Air-Ground Cooperative Object Search: Benchmark, Dataset and Agentic Method",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08391": {
       "title": "From Coordinates to Candidate Regions: Temporal Change Localization via Region Selection in Remote Sensing Multimodal LLMs",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08354": {
       "title": "Geometry-Aware Bayesian Parameter-Efficient Fine-Tuning on the Stiefel Manifold via Stein Variational Gradient Descent",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08345": {
       "title": "CoVeR: Coverage-Based Token Pruning for Multi-View 3D Reasoning in VLMs",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08292": {
       "title": "EvoNav-Bench: Benchmarking Lifelong Navigation in Evolving Environments",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08248": {
       "title": "Agentic ML Exploration (A-MLE) for Ads Ranking",
@@ -1430,17 +1215,17 @@
     "2609.08189": {
       "title": "Do Dynamic Routers Need Memory? HeRo: History-Aware Routing for Efficient LLM Inference",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08162": {
       "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08159": {
       "title": "OmniNav: Robust Long-Horizon Target Navigation in Dynamic Environments",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08126": {
       "title": "SchemeArena: Factorized Stress Testing of Scheming in LLM Agents",
@@ -1450,7 +1235,7 @@
     "2609.08059": {
       "title": "MI-PEFT: Mixture-of-Experts Integrated Parameter-Efficient Fine-Tuning Protein Language Models Improves Acidophilic Proteins Classification",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
-      "lastSeenAt": "2026-09-09T23:45:50.500Z"
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     },
     "2609.08040": {
       "title": "VEX-Bench: Benchmarking LLM Agents for Assessing Exploitability of Software Supply Chain Vulnerabilities",
@@ -1581,6 +1366,126 @@
       "title": "Emo-DVS: A Multimodal Benchmark for Privacy-Aware Emotion Recognition with Event Cameras",
       "firstSeenAt": "2026-09-09T23:45:50.500Z",
       "lastSeenAt": "2026-09-09T23:45:50.500Z"
+    },
+    "2609.10405": {
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10397": {
+      "title": "Retrofitting Code Using LLMs to Support Exceptional Behavior",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10346": {
+      "title": "Beyond One-Size-Fits-All: Sample-Adaptive Strategy Routing for Vision Token Pruning in MLLMs",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10297": {
+      "title": "TRACE: Trajectory-robust Admission with Evidence Ordering for Efficient GUI Agents",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10243": {
+      "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10092": {
+      "title": "RAP: Research Attention Prediction Reveals Target-Conditioned Evidence Acquisition Biases",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10052": {
+      "title": "Direct Diversity Optimization for Diverse Successful Trajectories in Preference Post-Training",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10036": {
+      "title": "Belief-State Engine: Augmenting LLMs for Principled Planning Under Partial Observability",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10021": {
+      "title": "RoboDrop: Curating VLA Post-Training Data via Local Gradient Compatibility",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.10016": {
+      "title": "MetroLLM-Bench: Evaluating Language Models as Transit Kiosk Runtimes",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09964": {
+      "title": "5-Dialects-BN: Unmasking the Impact of Transliteration on Bangla Dialectal LLMs",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09925": {
+      "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09853": {
+      "title": "The Era by Eon Benchmark: A Generated Enterprise Estate with Exact Ground Truth for Benchmarking LLM Agents",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09776": {
+      "title": "Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09646": {
+      "title": "RobustSGPO: Search-Space Control for Agent Harness Evolution",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09628": {
+      "title": "Who Are They to Each Other? Multi-Agent Reasoning for Speaker Relationship Inference",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09591": {
+      "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09578": {
+      "title": "CityPlanner: A Sandbox Agent for Executable Urban Planning",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09565": {
+      "title": "Multi-Agent Agentic Graph Learning via Structural Signatures",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09468": {
+      "title": "Building the Harness Automatically: Self-Play in Code Distills a Text Harness for Black-Box Optimization",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09458": {
+      "title": "ContractEval: Query-Conditioned Execution Matching for Procedural Instruction Conformance",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09418": {
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09396": {
+      "title": "VANTAGE-Bench: Evaluating the Infrastructure AI Gap in Vision-Language Models",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
+    },
+    "2609.09250": {
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "firstSeenAt": "2026-09-10T23:37:24.199Z",
+      "lastSeenAt": "2026-09-10T23:37:24.199Z"
     }
   }
 }
