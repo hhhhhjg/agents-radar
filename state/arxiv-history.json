@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-22T00:29:48.178Z",
+  "updatedAt": "2026-09-22T23:57:17.468Z",
   "papers": {
     "2609.09158": {
       "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
@@ -1196,6 +1196,266 @@
       "title": "REACT: A Fully Spiking State-Space Model for Real-Time Event-Driven Temporal Perception",
       "firstSeenAt": "2026-09-18T23:48:17.387Z",
       "lastSeenAt": "2026-09-18T23:48:17.387Z"
+    },
+    "2609.24979": {
+      "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24974": {
+      "title": "Harness-Zero: Harness Distillation via Agent-as-Harness",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24972": {
+      "title": "RRSI: Regularized Recursive Self-Improvement of Agent Harnesses",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24967": {
+      "title": "Emergent Collusion in Long-Horizon LLM Agent Interaction",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24894": {
+      "title": "SLICEChat: Progressive In-Encoder Token Pruning for Whole-Slide Pathology Language Models",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24815": {
+      "title": "Uranus: Building the Next-Generation Simulation Infrastructure for Embodied AI",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24787": {
+      "title": "Toward a foundation model for forest point clouds",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24682": {
+      "title": "Think Like a World Model, Act Like a VLA: Distilling World-Model Representations into Compact Robot Policies",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24678": {
+      "title": "Muon Can Outperform Dedicated Continual Learning Methods",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24662": {
+      "title": "DUMA-Bench: A Dual-Control Multi-Agent Benchmark for Evaluating LLM Agent Security",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24646": {
+      "title": "iSDFT: Information-Proximal Self-Distillation for Continual Learning in LLMs",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24576": {
+      "title": "What do VLM-Based Vision-Language Navigation Models Rely on: Interpreting and Steering Policy Behavior",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24552": {
+      "title": "Smoothness as a Constraint for Stable Humanoid Locomotion",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24526": {
+      "title": "ME-VLM:A Unified VLM for Embodied Cognition and Agent Coordination",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24525": {
+      "title": "Bridge3D: Enabling Vision-Language-Action Models to See and Act in 3D",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24510": {
+      "title": "0.5\\%&gt;100\\%: Bidirectional Reciprocal Learning for Referring Image Segmentation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24494": {
+      "title": "CMAMBADEPTH: Self-supervised Monocular Depth Estimation with Channel Mamba and Hybrid Attention",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24485": {
+      "title": "VPRune: Efficient Training-free Pre-LLM Visual Token Pruning",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24446": {
+      "title": "ActGov: Governing LLM Agent Actions via Policy-Constrained Validation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24433": {
+      "title": "FoldQuantVLA: Native Low-Bit Quantization of Vision-Language-Action Models via Consistent Folding",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24352": {
+      "title": "Few-Shot Demonstrations Elicit the Use of In-Context World Representations in LLMs",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24350": {
+      "title": "LIBERO-VPro: Benchmarking Closed-Loop Visual Robustness of Robotic Foundation Models",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24289": {
+      "title": "TTSE: A Two-Track Online Self-Evolution Framework",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24259": {
+      "title": "MemCalib: Benchmarking and Optimizing Memory Use in LLM Agents",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24189": {
+      "title": "A Topological Representation with Object-Path Graphs for Open-Vocabulary Instance Navigation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24187": {
+      "title": "StenoVLA-3D: 3D-Aware Reasoning VLA for Navigation Through Gastrointestinal Stenoses",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24170": {
+      "title": "An Unexpected Robot Policy: Early Evaluations of GPT-6 Astra on RoboDojo and Beyond",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24165": {
+      "title": "APEXA: Execution-Integrity Enforcement for Multi-Agent LLM Automation of Synchrotron Data Reduction",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24161": {
+      "title": "MCP-GRANITE Benchmark: GRANularity Interface TEsting for MCP-Based LLM Agents",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24144": {
+      "title": "Luck Is Not Skill: When Do Paired Rollouts Help Group-Relative RL of LLM Agents?",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24130": {
+      "title": "Self-Healing Harness for Runtime Oversight of Agent Self-Modification",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24124": {
+      "title": "ActiveArena: Benchmarking and Understanding Active Perception in Robotic Manipulation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24118": {
+      "title": "CARE: Experience-Guided Atomic Corrective Execution for Vision-Language-Action Policies",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24115": {
+      "title": "EDGEGEN: Improving Tool-Calling Agents Beyond Happy Paths with Synthetic Edge Case Generation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.24033": {
+      "title": "Imagine-RL: Residual-Confidence-Guided Cross-Attention for World-Model-Augmented VLA Reinforcement Learning",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23989": {
+      "title": "ACLArena: Agent Continue Learning in Multi-stage Post-training",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23968": {
+      "title": "Opt2VLA: Force-Aware Vision-Language-Action for Contact-Rich Humanoid Whole-Body Manipulation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23944": {
+      "title": "Topology-Informed Visual Prompting For Vision Language Action Policies",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23916": {
+      "title": "Time-Incremental Continued Pretraining of LLMs: Knowledge Updates Without Catastrophic Forgetting",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23910": {
+      "title": "ReVeal: A Reconstruction-Aware Real-to-Sim Framework for VLA Policy Evaluation",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23889": {
+      "title": "SyzHarness: Patch-Based Kernel Bug Reproduction with LLM-Synthesized Fuzzing Harnesses",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23883": {
+      "title": "Collaborative Streaming Anomaly Detection with Interactive Explanations and Ensemble Consensus",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23808": {
+      "title": "FLARE: A Full-Lifecycle Dense Supervision Paradigm for Long-Horizon Coding Agents via Generative Reward Model",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23715": {
+      "title": "Layer-Aware Position Embeddings for Visual Token Pruning in Multimodal Large Language Models",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23695": {
+      "title": "PhysAI-Bench: A Benchmark for LLM-Based Agentic Decision-Making in Autonomous UAV-Centric Physical AI",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23594": {
+      "title": "Bilinear Optimization Divergence: Diagnosing Factor-Constrained LoRA Continual Learning",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23541": {
+      "title": "Towards robust multimodal 3D object detection via visual foundation models",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23492": {
+      "title": "CE$^4$L: Continual Ego, Exo, and Ego-Exo Learning",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23463": {
+      "title": "Perplexity Predicts Protection: Choosing Pretrained Backbones for Worst-Client Fairness in Federated Parameter-Efficient Fine-Tuning",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23423": {
+      "title": "RiverVLN: Phase-Grounded Temporal Vision--Language Navigation for Unmanned Surface Vehicles",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23407": {
+      "title": "OmniEcho: Spatial Audio Understanding for Embodied Agents",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
+    },
+    "2609.23404": {
+      "title": "ScaleBlind: Point Cloud Completion under Unknown Scale",
+      "firstSeenAt": "2026-09-22T23:57:17.468Z",
+      "lastSeenAt": "2026-09-22T23:57:17.468Z"
     }
   }
 }
