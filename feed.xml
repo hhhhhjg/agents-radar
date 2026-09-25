@@ -6,7 +6,269 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Thu, 24 Sep 2026 00:14:15 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:15:37 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-09-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-09-25/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-25/ai-arxiv</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-09-25 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 33 篇新文献 + 11 篇过去14天内已出现 | 生成时间：2026-09-25 00:12 UTC 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：10 新，0 过去。今日进展集中在记忆策展、世界模型、状态接地、约束上下文与部署/领域 benchmark。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：2 新，3 过去。今日进展为协调推理路径、能力流形与扩展规律，替代朴素重复采样。 LLM Agent 与多智能体 / LLM Agent Society：0 新，0 过去。今日暂无新论文。 具身智能 / 视觉-语言-动作模型：10 新，1 过去。今日进展包括 VLA 记忆、优势后训练、TAMP 示范、残差治理、真实 RL、标注效率与视角不变性。 具身智能 / 具身导航：7 新，3 过去。今日进展为大规模语义地图、主动记忆检索、几何感知补足与基础模型部署。 模型压缩与持续学习 / LLM 剪枝与推理优...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-09-25</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 33 篇新文献 + 11 篇过去14天内已出现 | 生成时间：2026-09-25 00:12 UTC</p>
+</blockquote>
+<hr>
+<h1>今日总览</h1>
+<ul>
+<li>LLM Agent 与多智能体 / LLM Agent 工程：10 新，0 过去。今日进展集中在记忆策展、世界模型、状态接地、约束上下文与部署/领域 benchmark。</li>
+<li>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：2 新，3 过去。今日进展为协调推理路径、能力流形与扩展规律，替代朴素重复采样。</li>
+<li>LLM Agent 与多智能体 / LLM Agent Society：0 新，0 过去。今日暂无新论文。</li>
+<li>具身智能 / 视觉-语言-动作模型：10 新，1 过去。今日进展包括 VLA 记忆、优势后训练、TAMP 示范、残差治理、真实 RL、标注效率与视角不变性。</li>
+<li>具身智能 / 具身导航：7 新，3 过去。今日进展为大规模语义地图、主动记忆检索、几何感知补足与基础模型部署。</li>
+<li>模型压缩与持续学习 / LLM 剪枝与推理优化：2 新，0 过去。今日进展为运行时 slack 回收与 ViT 任务几何。</li>
+<li>模型压缩与持续学习 / 多模态大模型剪枝：0 新，1 过去。今日暂无新论文；过去聚焦视觉 token 条件可移除性。</li>
+<li>模型压缩与持续学习 / 持续学习：2 新，2 过去。今日进展为量化张量重整形与结构化矩阵优化。</li>
+<li>视觉感知 / 事件相机视觉感知：1 新，1 过去。今日进展为预测未来以抵消事件检测延迟。</li>
+<li>视觉感知 / 3D 点云视觉感知：1 新，2 过去。今日进展为 4D 雷达-相机几何接地语义检测。</li>
+<li>视觉感知 / 3D 点云感知与跟踪：0 新，0 过去。今日暂无新论文。</li>
+</ul>
+<h1>分方向情报</h1>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent 工程</h3>
+<h4><a href="http://arxiv.org/abs/2609.27334v1">Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents</a></h4>
+<p>Zhou 等，09-23：任务自适应记忆策展；关联：LLM agent 长期记忆。</p>
+<h4><a href="http://arxiv.org/abs/2609.28416v1">Agent-Editing World Model: Rethinking World Modeling for LLM Agents</a></h4>
+<p>Sun 等，09-23：为 LLM agent 重思世界模型；关联：环境建模与规划。</p>
+<h4><a href="http://arxiv.org/abs/2609.27606v1">State-Grounded Conditioning: Wrapping User-Facing LLM Agents Where Direction Depends on Live State</a></h4>
+<p>Liu 等，09-23：实时状态接地，抑制 direction drift；关联：用户态 agent 工程。</p>
+<h4><a href="http://arxiv.org/abs/2609.26891v1">Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity</a></h4>
+<p>Li 等，09-22：语言化最小 agent harness；关联：agent 编排框架。</p>
+<h4><a href="http://arxiv.org/abs/2609.27354v1">Constraint-Driven Context Engineering: Designing Domain Interfaces for AI Systems</a></h4>
+<p>Xu 等，09-23：约束驱动上下文工程；关联：合规领域 agent。</p>
+<h4><a href="http://arxiv.org/abs/2609.27571v1">FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration</a></h4>
+<p>Ding 等，09-23：部署环境配置 agent 评测；关联：运维 agent benchmark。</p>
+<h4><a href="http://arxiv.org/abs/2609.27349v1">MolDesignBench: Evaluating LLM-based Agent for Scenario-grounded Molecular Design</a></h4>
+<p>Jeong 等，09-23：场景分子设计 agent 评测；关联：领域 agent 评估。</p>
+<h4><a href="http://arxiv.org/abs/2609.27051v1">Propose, Don&#39;t Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors</a></h4>
+<p>Qu 等，09-22：anytime-valid referee 治理因子挖掘 agent；关联：自我进化边界。</p>
+<h4><a href="http://arxiv.org/abs/2609.27287v1">SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection</a></h4>
+<p>Tan 等，09-23：反思式 LLM agent 做支付欺诈；关联：非平稳流式决策。</p>
+<h3>Agent 测试时扩展与自我改进</h3>
+<h4><a href="http://arxiv.org/abs/2609.27374v1">Planned Test-Time Scaling with Coordinated Reasoning Paths</a></h4>
+<p>Wu 等，09-23：协调推理路径减少冗余；关联：测试时扩展。</p>
+<h4><a href="http://arxiv.org/abs/2609.27588v1">The Capability Manifold and ML Scaling Laws</a></h4>
+<p>Zaidi &amp; Hafeez，09-23：以能力流形刻画 agentic harness 下游性能；关联：扩展规律。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.26704v1">Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Labiad 等，09-22：学习搜索策略；关联：替代重复采样。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.25575v1">Direct Optimization of Generators for Search in Automated Theorem Proving</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Ousherovitch &amp; Tewari，09-22：优化搜索生成器；关联：定理证明测试时搜索。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.26779v1">CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Nguyen 等，09-22：长程编码 agent 自动压缩；关联：降本自我改进。</p>
+<h2>具身智能</h2>
+<h3>视觉-语言-动作模型</h3>
+<h4><a href="http://arxiv.org/abs/2609.28256v1">MemBodied: Recurrent Associative Memory for Vision-Language-Action Models</a></h4>
+<p>Pala 等，09-23：递归联想记忆；关联：历史依赖操作。</p>
+<h4><a href="http://arxiv.org/abs/2609.28161v1">Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies</a></h4>
+<p>Cao 等，09-23：优势引导后训练分解；关联：VLA 强化后训练。</p>
+<h4><a href="http://arxiv.org/abs/2609.28314v1">TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning</a></h4>
+<p>Sahoo 等，09-23：TAMP 按需示范；关联：VLA 微调数据效率。</p>
+<h4><a href="http://arxiv.org/abs/2609.27468v1">CereVLA: Cerebellum-Inspired Consequence-Aware Residual Governance for Efficient Vision-Language-Action Execution</a></h4>
+<p>Zeng 等，09-23：小脑启发残差治理；关联：动作块纠偏。</p>
+<h4><a href="http://arxiv.org/abs/2609.27450v1">BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models</a></h4>
+<p>Zhao 等，09-23：干预自适应真实 RL；关联：精度关键阶段。</p>
+<h4><a href="http://arxiv.org/abs/2609.27747v1">Less Language, More Latents: Annotation-Efficient VLAs for Driving</a></h4>
+<p>Zakharov 等，09-23：减少语言标注；关联：驾驶 VLA 标注效率。</p>
+<h4><a href="http://arxiv.org/abs/2609.28431v1">LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion</a></h4>
+<p>Chen 等，09-23：异步扩散长期想象；关联：灵巧操作。</p>
+<h4><a href="http://arxiv.org/abs/2609.27734v1">InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies</a></h4>
+<p>Gottam 等，09-23：无限新视角增强；关联：视角不变 VLA。</p>
+<h3>具身导航</h3>
+<h4><a href="http://arxiv.org/abs/2609.27218v1">NaviScale: Generating Large-Scale Semantic Map Datasets for Object Navigation</a></h4>
+<p>Lan 等，09-23：大规模语义地图数据集；关联：ObjectNav。</p>
+<h4><a href="http://arxiv.org/abs/2609.27526v1">NavProbe: Evidence-Grounded Reasoning with Active Memory Retrieval for Zero-Shot Navigation</a></h4>
+<p>Liu 等，09-23：主动记忆检索零样本导航；关联：长程导航。</p>
+<h4><a href="http://arxiv.org/abs/2609.28184v1">VLMs Can Describe, But Not Measure: Object-Centric Scene Understanding for Robotic Manipulation</a></h4>
+<p>Saccon 等，09-23：VLM 模块化感知补几何度量；关联：具身感知。</p>
+<h4><a href="http://arxiv.org/abs/2609.28159v1">Depth-Guided Contrastive Learning for 2D Representations with 3D Spatial Awareness</a></h4>
+<p>Zeng &amp; Vergauwen，09-23：深度引导对比学习；关联：3D 空间表征。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.26408v1">SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Chen 等，09-22：指令条件稀疏语义；关联：training-free VLN。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.25668v1">CDKF-Track: Cluster-aware Data-Driven Kalman Filtering for Cooperative 3D Multi-Object Tracking</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Damanaki 等，09-22：聚类 Kalman 协同 3D MOT；关联：导航感知。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.25666v1">Deploying Foundation Models for Embodied Navigation</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Dorbala &amp; Manocha，09-22：基础模型导航部署偏差/长上下文；关联：具身导航。</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM 剪枝与推理优化</h3>
+<h4><a href="http://arxiv.org/abs/2609.28064v1">SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference</a></h4>
+<p>Pei 等，09-23：运行时 slack 自适应驾驶推理；关联：推理加速。</p>
+<h4><a href="http://arxiv.org/abs/2609.27988v1">Task-Induced Riemannian Metrics for Vision Transformer Feature Spaces</a></h4>
+<p>Bond 等，09-23：ViT 特征任务几何；关联：剪枝/选择度量。</p>
+<h3>多模态大模型剪枝</h3>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.26484v1">From Token Importance to Conditional Removability: Rethinking Visual Token Pruning in Multimodal Large Language Models</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> He 等，09-22：条件可移除性重思视觉 token 剪枝；关联：多模态剪枝。</p>
+<h3>持续学习</h3>
+<h4><a href="http://arxiv.org/abs/2609.28358v1">MicroQonv: Reshaping Convolution Tensors for Efficient Microscaling in Training and Inference</a></h4>
+<p>Facq 等，09-23：卷积张量重整形显微缩放；关联：高效训练/推理。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.25655v1">From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Tan 等，09-22：MoE 细粒度 PEFT；关联：持续适配。</p>
+<h2>视觉感知</h2>
+<h3>事件相机视觉感知</h3>
+<h4><a href="http://arxiv.org/abs/2609.26919v1">Bend the Clock: Predicting Ahead to Beat Latency in Event-Based Object Detection</a></h4>
+<p>Sen 等，09-22：预测未来抵消事件检测延迟；关联：低延迟感知。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.25803v2">LiFR v2: Completion-Augmented Event Propagation for High-Rate Dense Prediction</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Wan 等，09-22：补全增强事件传播；关联：高帧率密集预测。</p>
+<h3>3D 点云视觉感知</h3>
+<h4><a href="http://arxiv.org/abs/2609.27671v1">SGDet3D++: Geometry-Grounded Semantics for 4D Radar and Camera 3D Object Detection</a></h4>
+<p>Bai 等，09-23：4D 雷达-相机几何接地语义；关联：3D 检测。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.26325v1">Leveraging Vision-Based Point Cloud Map Priors for Camera-Based 3D Object Detection and Online Vectorized HD Mapping</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Käppeler 等，09-22：点云地图先验辅助相机 3D 检测/HD 地图。</p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.25930v1">AT3D-AD: Anomaly Type-Aware 3D Anomaly Detection via Hierarchical Point-Language Alignment</a></h4>
+<p>🔁 <strong>【过去14天内已出现】</strong> Zeng 等，09-22：层级点-语言对齐 3D 异常检测。</p>
+<h1>跨方向信号</h1>
+<ul>
+<li>VLA、导航与 3D 感知加速融合：记忆、几何度量、视角不变性和 4D 雷达语义共同补足空间理解。</li>
+<li>LLM agent 工程从 prompt 转向状态、记忆、约束与世界模型，强调运行时治理。</li>
+<li>测试时扩展从独立重复采样转向协调路径、搜索策略与压缩降本。</li>
+<li>压缩与持续学习交叉：运行时 slack、量化张量重整形、MoE PEFT 共同服务高效适配。</li>
+<li>多模态剪枝强调 conditional removability；事件/点云感知强调低延迟与几何接地。</li>
+</ul>
+<h1>优先精读</h1>
+<h4>- <a href="http://arxiv.org/abs/2609.27374v1">Planned Test-Time Scaling with Coordinated Reasoning Paths</a>：协调路径替代重复采样，可能迁移到多 agent 推理与搜索。</h4>
+<h4>- <a href="http://arxiv.org/abs/2609.28256v1">MemBodied: Recurrent Associative Memory for Vision-Language-Action Models</a>：直击 VLA 历史依赖操作与记忆瓶颈。</h4>
+<h4>- <a href="http://arxiv.org/abs/2609.27334v1">Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents</a>：从写时记忆转向运行时策展，影响 agent 记忆架构。</h4>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-09-25</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-09-25/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-25/ai-arxiv-en</guid>
+      <pubDate>Fri, 25 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-09-25 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 33 new + 11 seen in the last 14 days | Generated: 2026-09-25 00:12 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: 10 new papers. Progress centers on live-state conditioning, constraint-driven context engineering, task-adaptive memory, agent-editing world models, deployment-config benchmarks, agent referees, reflective fraud detection, minimalist harnesses, and molecular...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-25</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 33 new + 11 seen in the last 14 days | Generated: 2026-09-25 00:12 UTC</p>
+</blockquote>
+<hr>
+<h2>Today&#39;s Overview</h2>
+<ul>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Engineering</strong>: 10 new papers. Progress centers on live-state conditioning, constraint-driven context engineering, task-adaptive memory, agent-editing world models, deployment-config benchmarks, agent referees, reflective fraud detection, minimalist harnesses, and molecular-design benchmarks.</li>
+<li><strong>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement</strong>: 2 new papers. Planned coordinated reasoning paths target redundant parallel branches, while capability-manifold scaling laws connect agentic harness performance to capability rather than loss alone.</li>
+<li><strong>LLM Agent 与多智能体 / LLM Agent Societies</strong>: No new papers today.</li>
+<li><strong>具身智能 / Vision-Language-Action Models</strong>: 10 new papers. Advances include recurrent associative memory, advantage-guided RL post-training, TAMP-assisted fine-tuning, cerebellar residual governance, intervention-adaptive real-world RL, annotation-efficient driving VLAs, asynchronous diffusion for dexterous manipulation, and viewpoint-invariant policies.</li>
+<li><strong>具身智能 / Embodied Navigation</strong>: 7 new papers. Strongest themes are large-scale semantic-map data, active memory retrieval for zero-shot navigation, and depth-guided spatial representations; several matched items are adjacent perception/IR papers.</li>
+<li><strong>模型压缩与持续学习 / LLM Pruning and Inference Optimization</strong>: 2 new papers. One reclaims runtime slack for adaptive driving inference; the other studies task-induced geometry in ViT feature spaces, with weaker direct pruning relevance.</li>
+<li><strong>模型压缩与持续学习 / Multimodal LLM Pruning</strong>: No new papers today; a prior visual-token conditional-removability paper remains relevant.</li>
+<li><strong>模型压缩与持续学习 / Continual Learning</strong>: 2 new papers. Both are adjacent efficiency/optimization works rather than core continual-learning methods.</li>
+<li><strong>视觉感知 / Event-Based Vision</strong>: 1 new paper. It predicts ahead to reduce latency in event-based object detection.</li>
+<li><strong>视觉感知 / 3D Point Cloud Perception</strong>: 1 new paper. SGDet3D++ improves geometry-grounded semantics for 4D radar-camera 3D detection.</li>
+<li><strong>视觉感知 / 3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
+</ul>
+<h2>Research Areas</h2>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent Engineering</h3>
+<h4><a href="http://arxiv.org/abs/2609.27606v1">State-Grounded Conditioning: Wrapping User-Facing LLM Agents Where Direction Depends on Live State</a></h4>
+<p>Liu et al., 2026-09-23. Proposes state-grounded conditioning and identifies direction drift for agents depending on live user state. Relevance: core engineering for stateful user-facing agents.</p>
+<h4><a href="http://arxiv.org/abs/2609.27354v1">Constraint-Driven Context Engineering: Designing Domain Interfaces for AI Systems</a></h4>
+<p>Xu et al., 2026-09-23. Frames domain constraints as context-engineering interfaces. Relevance: context engineering under regulatory and normative agent constraints.</p>
+<h4><a href="http://arxiv.org/abs/2609.27334v1">Just-in-Time Memory: Learning to Curate Task-Adaptive Memory for LLM Agents</a></h4>
+<p>Zhou et al., 2026-09-23. Learns to curate memory at inference time rather than only at write time. Relevance: long-horizon agent memory and adaptation.</p>
+<h4><a href="http://arxiv.org/abs/2609.28416v1">Agent-Editing World Model: Rethinking World Modeling for LLM Agents</a></h4>
+<p>Sun et al., 2026-09-23. Models agent edits and tool-result effects instead of reconstructing observations. Relevance: world models for long-horizon LLM agent planning.</p>
+<h4><a href="http://arxiv.org/abs/2609.27571v1">FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration</a></h4>
+<p>Ding et al., 2026-09-23. Introduces deployment-configuration tasks across Docker, Compose, and Kubernetes. Relevance: agent evaluation on real deployment workflows.</p>
+<h4><a href="http://arxiv.org/abs/2609.27287v1">SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection</a></h4>
+<p>Tan et al., 2026-09-23. Uses reflective outcome supervision for streaming payment fraud detection. Relevance: non-stationary agent deployment.</p>
+<h4><a href="http://arxiv.org/abs/2609.27349v1">MolDesignBench: Evaluating LLM-based Agent for Scenario-grounded Molecular Design</a></h4>
+<p>Jeong et al., 2026-09-23. Benchmarks multi-constraint molecular design with tool outputs. Relevance: scientific-domain agent evaluation.</p>
+<h4><a href="http://arxiv.org/abs/2609.27051v1">Propose, Don&#39;t Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors</a></h4>
+<p>Qu et al., 2026-09-22. Uses a frozen statistical referee for governed self-evolution of factor-mining agents. Relevance: reliable agent self-evolution and evaluation.</p>
+<h4><a href="http://arxiv.org/abs/2609.26891v1">Harness as a Language: A Minimalist Agent Framework With Maximal Expressivity</a></h4>
+<p>Li et al., 2026-09-22. Treats the agent harness as a language for workflow expressivity. Relevance: agent framework and orchestration design.</p>
+<h3>Agent Test-Time Scaling and Self-Improvement</h3>
+<h4><a href="http://arxiv.org/abs/2609.27374v1">Planned Test-Time Scaling with Coordinated Reasoning Paths</a></h4>
+<p>Wu et al., 2026-09-23. Plans coordinated reasoning paths instead of independent repeated sampling. Relevance: reduces redundancy in test-time scaling.</p>
+<h4><a href="http://arxiv.org/abs/2609.27588v1">The Capability Manifold and ML Scaling Laws</a></h4>
+<p>Zaidi &amp; Hafeez, 2026-09-23. Relates scaling to agentic downstream capability rather than loss alone. Relevance: scaling and evaluation for agentic harnesses.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.26704v1">Beyond Repeated Sampling: Learning Search Policies for LLM Reasoning</a></h4>
+<p>Labiad et al., 2026-09-22. Learns search policies for test-time reasoning. Relevance: directly improves over repeated sampling.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.25575v1">Direct Optimization of Generators for Search in Automated Theorem Proving</a></h4>
+<p>Ousherovitch &amp; Tewari, 2026-09-22. Optimizes generators for search in theorem proving. Relevance: test-time search for formal reasoning.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.26779v1">CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents</a></h4>
+<p>Nguyen et al., 2026-09-22. Autocompacts context to reduce cost under bounded context. Relevance: long-horizon agent self-management.</p>
+<h2>具身智能</h2>
+<h3>Vision-Language-Action Models</h3>
+<h4><a href="http://arxiv.org/abs/2609.28256v1">MemBodied: Recurrent Associative Memory for Vision-Language-Action Models</a></h4>
+<p>Pala et al., 2026-09-23. Adds recurrent associative memory to VLA policies for episode-level information. Relevance: history-dependent manipulation.</p>
+<h4><a href="http://arxiv.org/abs/2609.28161v1">Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies</a></h4>
+<p>Cao et al., 2026-09-23. Analyzes advantage construction and use for post-training VLA policies. Relevance: RL post-training of VLA.</p>
+<h4><a href="http://arxiv.org/abs/2609.28314v1">TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning</a></h4>
+<p>Sahoo et al., 2026-09-23. Uses TAMP to generate as-needed demonstrations for VLA fine-tuning. Relevance: data-efficient VLA fine-tuning.</p>
+<h4><a href="http://arxiv.org/abs/2609.27468v1">CereVLA: Cerebellum-Inspired Consequence-Aware Residual Governance for Efficient Vision-Language-Action Execution</a></h4>
+<p>Zeng et al., 2026-09-23. Uses consequence-aware residuals to correct action-chunk execution errors. Relevance: efficient VLA execution with feedback.</p>
+<h4><a href="http://arxiv.org/abs/2609.27450v1">BEE: Intervention-Adaptive Real-World Reinforcement Learning with Vision-Language-Action Models</a></h4>
+<p>Zhao et al., 2026-09-23. Enables intervention-adaptive real-world RL for precision-critical phases. Relevance: real-world RL with VLA models.</p>
+<h4><a href="http://arxiv.org/abs/2609.27747v1">Less Language, More Latents: Annotation-Efficient VLAs for Driving</a></h4>
+<p>Zakharov et al., 2026-09-23. Uses latent representations to reduce language annotation for driving VLAs. Relevance: annotation-efficient VLA training.</p>
+<h4><a href="http://arxiv.org/abs/2609.28431v1">LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion</a></h4>
+<p>Chen et al., 2026-09-23. Combines long-term imagination with asynchronous diffusion for dexterous control. Relevance: VLA/world-action models for manipulation.</p>
+<h4><a href="http://arxiv.org/abs/2609.27734v1">InfiNoVA: Infinite Novel View Augmentation for Viewpoint Invariant Robot Policies</a></h4>
+<p>Gottam et al., 2026-09-23. Generates novel views for viewpoint-invariant robot policies. Relevance: VLA robustness to camera viewpoint.</p>
+<h3>Embodied Navigation</h3>
+<h4><a href="http://arxiv.org/abs/2609.27218v1">NaviScale: Generating Large-Scale Semantic Map Datasets for Object Navigation</a></h4>
+<p>Lan et al., 2026-09-23. Generates large-scale semantic-map datasets for ObjectNav. Relevance: scalable navigation representation learning.</p>
+<h4><a href="http://arxiv.org/abs/2609.27526v1">NavProbe: Evidence-Grounded Reasoning with Active Memory Retrieval for Zero-Shot Navigation</a></h4>
+<p>Liu et al., 2026-09-23. Uses evidence-grounded reasoning and active memory retrieval for zero-shot navigation. Relevance: long-horizon navigation memory.</p>
+<h4><a href="http://arxiv.org/abs/2609.28159v1">Depth-Guided Contrastive Learning for 2D Representations with 3D Spatial Awareness</a></h4>
+<p>Zeng &amp; Vergauwen, 2026-09-23. Adds depth-guided objectives for 3D spatial awareness in 2D representations. Relevance: spatial scene understanding for embodied navigation.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.26408v1">SparseNav: Instruction-conditioned Sparse Semantic Perception for Training-Free Vision-Language Navigation</a></h4>
+<p>Chen et al., 2026-09-22. Uses instruction-conditioned sparse semantic perception for training-free VLN. Relevance: efficient vision-language navigation.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.25666v1">Deploying Foundation Models for Embodied Navigation</a></h4>
+<p>Dorbala &amp; Manocha, 2026-09-22. Tackles training bias and context limits in FM navigation. Relevance: deployment of foundation models for navigation.</p>
+<h2>模型压缩与持续学习</h2>
+<h3>LLM Pruning and Inference Optimization</h3>
+<h4><a href="http://arxiv.org/abs/2609.28064v1">SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference</a></h4>
+<p>Pei et al., 2026-09-23. Reclaims runtime slack for adaptive driving inference. Relevance: inference optimization for driving world-action models.</p>
+<h3>Multimodal LLM Pruning</h3>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.26484v1">From Token Importance to Conditional Removability: Rethinking Visual Token Pruning in Multimodal Large Language Models</a></h4>
+<p>He et al., 2026-09-22. Shows token removability depends on representation depth and deletion set. Relevance: improved visual-token pruning in MLLMs.</p>
+<h3>Continual Learning</h3>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.25655v1">From Experts to Sub-experts: Fine-grained Parameter-Efficient Fine-Tuning for MoE LLMs</a></h4>
+<p>Tan et al., 2026-09-22. Explores fine-grained PEFT for MoE LLMs. Relevance: modular parameter-efficient adaptation relevant to continual updates.</p>
+<h2>视觉感知</h2>
+<h3>Event-Based Vision</h3>
+<h4><a href="http://arxiv.org/abs/2609.26919v1">Bend the Clock: Predicting Ahead to Beat Latency in Event-Based Object Detection</a></h4>
+<p>Sen et al., 2026-09-22. Predicts ahead to reduce latency in event-based object detection. Relevance: low-latency event perception.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.25803v2">LiFR v2: Completion-Augmented Event Propagation for High-Rate Dense Prediction</a></h4>
+<p>Wan et al., 2026-09-22. Uses completion-augmented event propagation for high-rate dense prediction. Relevance: event-based dense perception.</p>
+<h3>3D Point Cloud Perception</h3>
+<h4><a href="http://arxiv.org/abs/2609.27671v1">SGDet3D++: Geometry-Grounded Semantics for 4D Radar and Camera 3D Object Detection</a></h4>
+<p>Bai et al., 2026-09-23. Grounds semantics for 4D radar-camera 3D object detection. Relevance: robust 3D perception.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.26325v1">Leveraging Vision-Based Point Cloud Map Priors for Camera-Based 3D Object Detection and Online Vectorized HD Mapping</a></h4>
+<p>Käppeler et al., 2026-09-22. Uses point-cloud map priors for camera-based 3D detection and HD mapping. Relevance: point-cloud priors for 3D perception.</p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.25930v1">AT3D-AD: Anomaly Type-Aware 3D Anomaly Detection via Hierarchical Point-Language Alignment</a></h4>
+<p>Zeng et al., 2026-09-22. Aligns point clouds and language for anomaly-type-aware 3D detection. Relevance: 3D point cloud perception.</p>
+<h2>Cross-Topic Signals</h2>
+<ul>
+<li>Memory and state are shifting from static context to live/task-adaptive mechanisms: MemBodied, Just-in-Time Memory, NavProbe, and State-Grounded Conditioning.</li>
+<li>Test-time planning/search is being coordinated rather than parallelized blindly: Planned Test-Time Scaling, Beyond Repeated Sampling, NavProbe, and Agent-Editing World Model.</li>
+<li>Runtime efficiency is addressed through residuals, slack, or pruning: CereVLA, BEE, SlackDrive, LiFR v2, and multimodal token pruning.</li>
+<li>Data and annotation bottlenecks are reduced via synthesis or selection: TANDEM, Less Language More Latents, NaviScale, and InfiNoVA.</li>
+<li>Evaluation is moving toward deployment and capability: FDE-Bench, MolDesignBench, Propose Don&#39;t Judge, and Capability Manifold.</li>
+</ul>
+<h2>Priority Reading</h2>
+<ul>
+<li><strong>MemBodied</strong> — central for VLA policies that must preserve episode-level memory in history-dependent manipulation.</li>
+</ul>
+<h4>- <strong>Planned Test-Time Scaling with Coordinated Reasoning Paths</strong> — directly targets redundant sampling, a core bottleneck in agent test-time scaling.</h4>
+<ul>
+<li><strong>Just-in-Time Memory</strong> — offers a concrete inference-time memory-curation approach for long-horizon LLM agents.</li>
+</ul>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-09-24</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-09-24/ai-arxiv</link>
@@ -3024,297 +3286,6 @@
 <p>No new papers today.</p>
 <h3>3D Point Cloud Perception and Tracking</h3>
 <p>No new papers today.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>实验室研究方向 Radar 2026-09-06</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-06/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-06/ai-arxiv</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-      <description>实验室研究方向 Radar 2026-09-06 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 25 篇过去14天内已出现 | 生成时间：2026-09-05 23:29 UTC 研究方向 Radar 今日总览 截至 2026-09-06，全部配置方向均无新论文；候选 25 篇均为过去 14 天内已出现文献。逐方向状态如下： LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文。 LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文。 具身智能 / 视觉-语言-动作模型：今日暂无新论文。 具身智能 / 具身导航：今日暂无新论文。 模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文。 模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文。 模型压缩与持续学习 / 持续学习：今日暂无新论文。 视觉感知 / 事件相机视觉感知：今日暂无新论文。 视觉感知 / 3D 点云视觉...</description>
-      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-09-06</h1>
-<blockquote>
-<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 25 篇过去14天内已出现 | 生成时间：2026-09-05 23:29 UTC</p>
-</blockquote>
-<hr>
-<h1>研究方向 Radar</h1>
-<h2>今日总览</h2>
-<p>截至 2026-09-06，全部配置方向均无新论文；候选 25 篇均为过去 14 天内已出现文献。逐方向状态如下：</p>
-<ul>
-<li>LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文。</li>
-<li>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文。</li>
-<li>LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文。</li>
-<li>具身智能 / 视觉-语言-动作模型：今日暂无新论文。</li>
-<li>具身智能 / 具身导航：今日暂无新论文。</li>
-<li>模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文。</li>
-<li>模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文。</li>
-<li>模型压缩与持续学习 / 持续学习：今日暂无新论文。</li>
-<li>视觉感知 / 事件相机视觉感知：今日暂无新论文。</li>
-<li>视觉感知 / 3D 点云视觉感知：今日暂无新论文。</li>
-<li>视觉感知 / 3D 点云感知与跟踪：今日暂无新论文。</li>
-</ul>
-<h2>分方向情报</h2>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent 工程</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03236v1">Speculative Macro Commit for Faster Tool-Using Agents</a></h4>
-<ul>
-<li>Liu Z et al. | 2026-09-03 | 核心：用双层运行时以低代价模型“投机提交”宏动作，减少工具型 Agent 串行 action-observation 延迟。关联：直接面向 LLM Agent 执行效率的工程优化。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03383v1">TIGPO: Temporal Instance-Graph Policy Optimization for Long-Horizon LLM Agents</a></h4>
-<ul>
-<li>Gan J | 2026-09-03 | 核心：跨策略更新保留 rollout 转场并构造时序实例图，改进长程 Agent 信用分配。关联：为 LLM Agent 长程策略训练提供图结构优化方法。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03340v1">Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory</a></h4>
-<ul>
-<li>Chen E et al. | 2026-09-03 | 核心：识别分布式 Agent “读到新事实却沿用旧计划”的失效模式，提出依赖范围校验。关联：解决多 Agent 共享记忆与计划一致性的关键工程问题。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03588v1">KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents</a></h4>
-<ul>
-<li>Lyu Y et al. | 2026-09-03 | 核心：构造多轮动态基准，测量 Agent 面对知识冲突时的行为调和能力。关联：为工具型 LLM Agent 提供评测基准。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03718v1">What Do CAE Simulation Agents Really Need Beyond a Generic Harness?</a></h4>
-<ul>
-<li>Shi J &amp; Zhang T | 2026-09-03 | 核心：分析通用 harness 在 CAE 仿真 Agent 上的不足，归纳领域特有需求。关联：为工程仿真类 LLM Agent 的架构设计提供方向。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03923v1">Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting</a></h4>
-<ul>
-<li>Khan M et al. | 2026-09-03 | 核心：让委托参会的 LLM Agent 通过追踪立场、覆盖度与发言权判断发言时机。关联：提升会话型 LLM Agent 的情境感知与参与能力。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.04159v1">SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center</a></h4>
-<ul>
-<li>Vallabhaneni U et al. | 2026-09-03 | 核心：将 SOC 大规模认证图拓扑推理从 LLM Agent 卸载到确定性机制，保证推荐可行。关联：针对安全运营 Agent 上下文限制的架构改造。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03884v1">A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors</a></h4>
-<ul>
-<li>Li P et al. | 2026-09-03 | 核心：揭示 Agent harness 生命周期钩子更新可被攻击者控制并劫持工具执行。关联：刻画 LLM Agent 系统运行时的安全攻击面。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.04128v1">Environment Evolution for Terminal Agents</a></h4>
-<ul>
-<li>Fan Z et al. | 2026-09-03 | 核心：让终端环境与 Agent 共同进化，持续合成有挑战性的可验证训练环境。关联：为终端 LLM Agent 规模化训练提供环境生成机制，同时涉及持续学习式分布演化。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03221v1">Counterfactual Fairness Audits of Multi-Step Clinical LLM Agents Require a Measured Per-Action Instability Floor</a></h4>
-<ul>
-<li>Bellibaltu R R et al. | 2026-09-02 | 核心：证明临床 Agent 反事实审计的“翻转率”不可直接解释，提出按动作计的不稳定性下限。关联：为多步临床 LLM Agent 建立公平审计指标。</li>
-</ul>
-<h3>Agent 测试时扩展与自我改进</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03254v1">What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</a></h4>
-<ul>
-<li>Kikuta D | 2026-09-03 | 核心：针对生成物的局部修改，识别依赖传播范围并低成本分配测试时计算。关联：与 LLM 生成后测试时扩展直接相关。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03660v1">Local Updates, Global Learning (LUGL): Playing Games with non-incremental Learners</a></h4>
-<ul>
-<li>Milec D et al. | 2026-09-03 | 核心：提出 LUGL，使 LightGBM 等非增量学习器也能在自博弈/非平稳 RL 中持续学习。关联：为非神经网络学习器在智能体自我改进训练中扩展适用性。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03880v1">Xiaomi-TabLDM: A Tabular Foundation Model Technical Report</a></h4>
-<ul>
-<li>Xiaomi-TabLDM Team | 2026-09-03 | 核心：在合成因果数据上预训练表格基础模型，以 ICL 免微调完成分类与回归。关联：体现“测试时通过上下文样例扩展能力”的通用技术路径。</li>
-</ul>
-<h2>具身智能</h2>
-<h3>视觉-语言-动作模型</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.04070v1">Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving</a></h4>
-<ul>
-<li>Yao R et al. | 2026-09-03 | 核心：提出 LaPla VLA 框架，以潜在对齐规划衔接 VLM 离散推理与连续驾驶动作。关联：直接推进 VLA 模型在自动驾驶端的动作连续性。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03889v1">FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation</a></h4>
-<ul>
-<li>Zhang Y et al. | 2026-09-03 | 核心：将力觉感知引入 VLA，以全身补偿支撑接触密集的移动操作。关联：扩展 VLA 从语义动作生成到物理交互控制。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03681v1">WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models</a></h4>
-<ul>
-<li>Zhang C et al. | 2026-09-03 | 核心：用世界模型对候选行为做想象调度，减少 VLA 后训练对真实探索/专家示范的依赖。关联：提升 VLA 策略后训练效率。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03715v1">MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?</a></h4>
-<ul>
-<li>Sendai K et al. | 2026-09-03 | 核心：构造极小视觉-运动策略家族，检验 LIBERO 任务所需的真实模型容量。关联：对 VLA 模型规模必要性提出实证挑战。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03276v1">R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models</a></h4>
-<ul>
-<li>Wang Y et al. | 2026-09-03 | 核心：用 VLM 进行 real-to-sim 标定，降低机器人策略真实评测成本。关联：为 VLA/操作策略提供可扩展评估方法。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.04193v1">GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation</a></h4>
-<ul>
-<li>Zheng Y et al. | 2026-09-03 | 核心：以动作导向结构监督中间特征，过滤与控制无关的视觉冗余。关联：改进 VLA/视觉预训练特征到动作策略的迁移。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03927v1">Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models</a></h4>
-<ul>
-<li>Mehta S A et al. | 2026-09-03 | 核心：梳理表示学习、VLA 与世界模型的统一框架及开放问题。关联：为 VLA 与具身智能研究提供总体路线图。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03565v1">Toward Physically Grounded JEPA World Models for Goal-Conditioned Robotic Planning</a></h4>
-<ul>
-<li>Liu M et al. | 2026-09-03 | 核心：以端到端 JEPA 世界模型保留机器人控制相关物理信息，用于目标条件规划。关联：为 VLA 提供无需重建像素的物理化世界模型底座。</li>
-</ul>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03591v1">Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections</a></h4>
-<ul>
-<li>Xu J et al. | 2026-09-03 | 核心：开源 1500 小时双手操作数据，并联合在线策略校正训练通用操作策略。关联：以数据规模与在线校正支撑 generalist VLA 策略。</li>
-</ul>
-<h3>具身导航</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03906v1">Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment</a></h4>
-<ul>
-<li>Ye S et al. | 2026-09-03 | 核心：用拓扑图宏动作将 VLN-CE 从模仿学习转为闭环 RL，缓解分布偏移。关联：直接面向连续环境中的视觉-语言导航闭环策略。</li>
-</ul>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM 剪枝与推理优化</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.04071v1">TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models</a></h4>
-<ul>
-<li>Hasan M et al. | 2026-09-03 | 核心：提出任务自适应的结构+Token 剪枝框架，压缩病理基础模型推理成本。关联：其基础模型压缩思路可迁移至 LLM/VLM 剪枝和推理优化。</li>
-</ul>
-<h3>持续学习</h3>
-<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.03406v1">Neural-Collapse-guided Task-Free Continual Anomaly Detection</a></h4>
-<ul>
-<li>Kong X et al. | 2026-09-03 | 核心：用神经坍缩指导无任务边界持续异常检测，适配不可预期的工业分布漂移。关联：推动持续学习在视觉异常检测场景中的任务无关设定。</li>
-</ul>
-<h2>跨方向信号</h2>
-<ul>
-<li>世界模型正在成为 VLA、机器人规划与 Agent 后训练的共同杠杆（WISE、Toward Unified Robot Learning、JEPA World Models）。</li>
-<li>效率优化从模型剪枝延伸到 Agent 执行层与推理期：TAP-Path 压缩基础模型、Speculative Macro Commit 加速工具调用、紧凑策略 MINERVA、低成本测试时计算分配。</li>
-<li>环境与评测呈现“可演化和动态化”趋势：Environment Evolution 合成训练环境、KC-Bench 构造动态知识冲突、R2S-Eval 做 real-to-sim 标定。</li>
-<li>可靠性、安全与公平审计成为跨 Agent 场景的共性议题：hook 攻击、stale-plan 校验、临床公平审计均指向“Agent 工程化落地”的系统性风险。</li>
-</ul>
-<h2>优先精读</h2>
-<h4>- 🔁 <a href="http://arxiv.org/abs/2609.04128v1">Environment Evolution for Terminal Agents</a>：同时连接 LLM Agent 工程与持续学习，涉及“环境与 Agent 共同进化”这一可复用训练范式。</h4>
-<h4>- 🔁 <a href="http://arxiv.org/abs/2609.03236v1">Speculative Macro Commit for Faster Tool-Using Agents</a>：把体系结构式“投机执行”引入 Agent 系统，对推理与执行延迟优化有直接价值。</h4>
-<h4>- 🔁 <a href="http://arxiv.org/abs/2609.03927v1">Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models</a>：系统性连接表示、VLA 与世界模型，适合作为校准具身智能研究方向的参照综述。</h4>
-<hr>
-<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lab Research Topics Radar 2026-09-06</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-06/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-06/ai-arxiv-en</guid>
-      <pubDate>Sun, 06 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Lab Research Topics Radar 2026-09-06 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 0 new + 25 seen in the last 14 days | Generated: 2026-09-05 23:29 UTC 1. Today&amp;#39;s Overview LLM Agent Engineering (LLM Agent 与多智能体): No new papers today. 10 papers seen in the last 14 days; all repeats. Agent Test-Time Scaling and Self-Improvement (LLM Agent 与多智能体): No new papers today. 3 papers seen in the last 14 days; all repeats, only one strongly on-topic. LLM Agent Societies (LLM ...</description>
-      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-06</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 25 seen in the last 14 days | Generated: 2026-09-05 23:29 UTC</p>
-</blockquote>
-<hr>
-<h2>1. Today&#39;s Overview</h2>
-<ul>
-<li><strong>LLM Agent Engineering</strong> (LLM Agent 与多智能体): No new papers today. 10 papers seen in the last 14 days; all repeats.</li>
-<li><strong>Agent Test-Time Scaling and Self-Improvement</strong> (LLM Agent 与多智能体): No new papers today. 3 papers seen in the last 14 days; all repeats, only one strongly on-topic.</li>
-<li><strong>LLM Agent Societies</strong> (LLM Agent 与多智能体): No new papers today. 0 papers seen in the last 14 days.</li>
-<li><strong>Vision-Language-Action Models</strong> (具身智能): No new papers today. 9 papers seen in the last 14 days; all repeats.</li>
-<li><strong>Embodied Navigation</strong> (具身智能): No new papers today. 1 paper seen in the last 14 days; repeat.</li>
-<li><strong>LLM Pruning and Inference Optimization</strong> (模型压缩与持续学习): No new papers today. 1 paper seen in the last 14 days; repeat.</li>
-<li><strong>Multimodal LLM Pruning</strong> (模型压缩与持续学习): No new papers today. 0 papers seen in the last 14 days.</li>
-<li><strong>Continual Learning</strong> (模型压缩与持续学习): No new papers today. 2 papers seen in the last 14 days; all repeats.</li>
-<li><strong>Event-Based Vision</strong> (视觉感知): No new papers today. 0 papers seen in the last 14 days.</li>
-<li><strong>3D Point Cloud Perception</strong> (视觉感知): No new papers today. 0 papers seen in the last 14 days.</li>
-<li><strong>3D Point Cloud Perception and Tracking</strong> (视觉感知): No new papers today. 0 papers seen in the last 14 days.</li>
-</ul>
-<h2>2. Research Areas</h2>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent Engineering</h3>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.04159v1">SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center</a></h4>
-<ul>
-<li>Vallabhaneni et al., 2026-09-03. Offloads topological-reasoning and containment-guarantee computation from SOC LLM agents to a dedicated graph-based engine. Directly applicable to enterprise-grade agent engineering: reducing dependence on finite context windows while adding verifiable reasoning.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03340v1">Fresh Memory, Stale Plans: Dependency-Scoped Validation for Distributed LLM-Agent Memory</a></h4>
-<ul>
-<li>Chen et al., 2026-09-03. Diagnoses stale-plan execution in distributed LLM-agent teams and proposes dependency-scoped memory validation so plans are invalidated when shared requirements change. Addresses a core consistency failure in multi-agent memory systems.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03236v1">Speculative Macro Commit for Faster Tool-Using Agents</a></h4>
-<ul>
-<li>Liu et al., 2026-09-03. Introduces a two-tier speculative mechanism that commits macro-actions while tool calls and observations are still in flight. Targets wall-clock latency, a practical bottleneck for tool-using agents.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03383v1">TIGPO: Temporal Instance-Graph Policy Optimization for Long-Horizon LLM Agents</a></h4>
-<ul>
-<li>Gan, 2026-09-03. Builds temporal instance graphs that carry transitions across policy updates, improving credit assignment for long-horizon LLM-agent rollouts. Relevant to agent-training methods that reuse experience across iterations.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03884v1">A Blind Trust, the Bloody Thrust: When Attacker-Controlled Hook Updates Steer AI Agent Harnesses towards Malicious Behaviors</a></h4>
-<ul>
-<li>Li et al., 2026-09-03. Shows that attacker-controlled lifecycle-hook updates can silently steer agent harnesses to execute malicious commands with host privileges. Highlights a novel attack surface for LLM-agent-harness security.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03588v1">KC-Bench: A Dynamic Interactive Benchmark for Evaluating Knowledge Conflicts in LLM Agents</a></h4>
-<ul>
-<li>Lyu et al., 2026-09-03. Provides a controlled multi-turn benchmark measuring how tool-using agents reconcile user instructions, parametric knowledge, and environmental observations. Useful for tracking agent reliability under contradiction.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03718v1">What Do CAE Simulation Agents Really Need Beyond a Generic Harness?</a></h4>
-<ul>
-<li>Shi &amp; Zhang, 2026-09-03. Analyzes which solver-setup and file-handling capabilities generic harnesses lack for CAE simulation agents. Guides domain-adapted agent design when porting generic scaffolds to expert workflows.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03923v1">Speak for Me: Giving LLMs the Situational Awareness to Participate in a Meeting</a></h4>
-<ul>
-<li>Khan et al., 2026-09-03. Adds mechanisms for tracking stances, coverage, and floor so delegated LLM agents know when to speak in meetings. Strongly reduces missed participation opportunities on the AMI corpus.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.04128v1">Environment Evolution for Terminal Agents</a></h4>
-<ul>
-<li>Fan et al., 2026-09-03. Co-evolves terminal environments in difficulty with agent capability so training signals remain useful as frontier models improve. Extends the evolving-environment paradigm to terminal-agent training and self-improvement.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03221v1">Counterfactual Fairness Audits of Multi-Step Clinical LLM Agents Require a Measured Per-Action Instability Floor</a></h4>
-<ul>
-<li>Bellibaltu et al., 2026-09-02. Shows counterfactual flip rates for clinical LLM agents are uninterpretable without a measured per-action instability floor. Tightens evaluation methodology for multi-step clinical-agent audits.</li>
-</ul>
-<h3>Agent Test-Time Scaling and Self-Improvement</h3>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03254v1">What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</a></h4>
-<ul>
-<li>Kikuta, 2026-09-03. Models when a user&#39;s local change requires propagating revisions to dependent artifact parts and allocates extra test-time compute only where needed. Provides a cost-aware lens on test-time scaling for LLM-driven iterative revision.</li>
-</ul>
-<h2>具身智能</h2>
-<h3>Vision-Language-Action Models</h3>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03681v1">WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models</a></h4>
-<ul>
-<li>Zhang et al., 2026-09-03. Uses world-model imagination scheduling to evaluate candidate VLA behaviors, reducing reliance on expert demonstrations and real-world exploration during post-training. A strong route to cheaper, safer VLA policy improvement.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03889v1">FWBC-VLA: Force-Aware Whole-Body Compensation for Contact-Rich Loco-Manipulation</a></h4>
-<ul>
-<li>Zhang et al., 2026-09-03. Adds force-aware whole-body compensation so VLA-generated actions can be grounded in contact dynamics. Extends VLA models from semantic task generation into closed-loop physical interaction.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.04193v1">GIFT: Guided Intermediate Feature Training via Action-Oriented Structural Supervision for Robotic Manipulation</a></h4>
-<ul>
-<li>Zheng et al., 2026-09-03. Supervises intermediate VLA features with action-oriented structure to remove control-irrelevant visual redundancy. Improves VLA policies&#39; use of pretrained semantic and dynamic features.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.04070v1">Continuous Actions from Discrete Minds: Latent-Aligned Planning for End-to-End Autonomous Driving</a></h4>
-<ul>
-<li>Yao et al., 2026-09-03. Unifies discrete VLM reasoning and continuous, physics-constrained control via latent-aligned planning in a VLA driving framework. Shows how to bridge VLM discrete reasoning with continuous action spaces.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03715v1">MINERVA: How Small Can a Manipulation Policy Be and Still Solve LIBERO?</a></h4>
-<ul>
-<li>Sendai et al., 2026-09-03. Identifies the minimal visuomotor policy capacity that can solve LIBERO, showing compact VLA policies rival billion-parameter models. Informs capacity-versus-cost decisions in VLA deployments.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03276v1">R2S-Eval: Robot Evaluation with Real-to-Sim Calibration via Vision-Language Models</a></h4>
-<ul>
-<li>Wang et al., 2026-09-03. Calibrates real-to-sim evaluation using VLMs to reduce labor, instability, and cost of physical robot policy evaluation. Provides a more scalable evaluation layer for VLA policy development.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03927v1">Toward Unified Robot Learning: Bridging Representation, Vision-Language-Action, and World Models</a></h4>
-<ul>
-<li>Mehta et al., 2026-09-03. Surveys how representation learning, VLA models, and world models can be combined for reliable real-world robot operation. Maps the landscape in which the individual VLA and world-model papers above sit.</li>
-</ul>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03591v1">Scaling Bimanual Household Manipulation from 1,500 hours of Demonstrations to On-Policy Corrections</a></h4>
-<ul>
-<li>Xu et al., 2026-09-03. Releases 1,500 hours of diverse bimanual household demonstrations and combines them with on-policy corrections for training robust generalist policies. Scales VLA training data in a notoriously data-scarce manipulation setting.</li>
-</ul>
-<h3>Embodied Navigation</h3>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03906v1">Revisiting Topological Graphs for Macro Action based Closed-loop Reinforcement Learning of Vision Language Navigation in Continuous Environment</a></h4>
-<ul>
-<li>Ye et al., 2026-09-03. Reintroduces topological-graph macro actions within closed-loop RL to overcome imitation-learning distribution shift in continuous VLN. Directly relevant to instruction-following embodied navigation agents in continuous environments.</li>
-</ul>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM Pruning and Inference Optimization</h3>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.04071v1">TAP-Path: Task-Adaptive Structural and Token Pruning for Efficient and Trustworthy Pathology Foundation Models</a></h4>
-<ul>
-<li>Hasan et al., 2026-09-03. Combines task-adaptive structural pruning with token pruning to reduce inference cost of large pathology foundation encoders. Demonstrates efficiency-preserving compression and token-selection techniques beyond the LLM domain.</li>
-</ul>
-<h3>Continual Learning</h3>
-<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.03406v1">Neural-Collapse-guided Task-Free Continual Anomaly Detection</a></h4>
-<ul>
-<li>Kong et al., 2026-09-03. Applies neural-collapse geometry to task-free continual anomaly detection under shifting industrial data distributions. Matches the lab&#39;s continual-learning interest in task-free, shift-robust adaptation.</li>
-</ul>
-<h2>3. Cross-Topic Signals</h2>
-<ul>
-<li><strong>All 25 candidates were repeats seen in the last 14 days</strong>: there are truly zero new papers across the 11 configured topics on this date, so this is a digestion/re-monitoring day rather than a novel-signal event.</li>
-<li><strong>Model-based supervision as the efficiency lever in robotics</strong>: WISE evaluates candidate VLA behaviors through imagined futures, while action-conditioned JEPA world models enable planning without pixel reconstruction—both reduce real-world rollouts and may lower VLA post-training costs.</li>
-<li><strong>Budget-aware compute for agents is emerging as a theme</strong>: Kikuta allocates test-time compute selectively for revision propagation, Speculative Macro Commit overlaps serial tool-observation turns, and MINERVA probes minimal sufficient policy capacity—all argue against spending compute uniformly.</li>
-<li><strong>Agent-harness reliability is becoming a first-class research problem</strong>: Blind Trust (lifecycle-hook exploitation), Fresh Memory (stale-plan validation), and Counterfactual Fairness (flip-rate instability floors) treat security, memory consistency, and evaluation robustness as infrastructure, not prompting questions.</li>
-<li><strong>Distribution shift by design vs. by accident</strong>: co-evolving terminal-agent environments and task-free continual anomaly detection both make non-stationarity an explicit design constraint, with potential cross-pollination for the lab&#39;s continual-learning and agent-society threads.</li>
-</ul>
-<h2>4. Priority Reading</h2>
-<h4>- <strong><a href="http://arxiv.org/abs/2609.03681v1">WISE: World-model-guided Imagination Scheduling for Efficient Post-training of Vision-Language-Action Models</a></strong> — The most concrete VLA improvement in this batch: world-model imagination may enable cheaper, safer VLA post-training than real-world RL or expert demos, which is central to the lab&#39;s VLA interest.</h4>
-<h4>- <strong><a href="http://arxiv.org/abs/2609.04159v1">SENTINEL-RL: Offloading Topological Reasoning from LLM Agents in the Security Operations Center</a></strong> — A transferable agent-engineering template: move a sub-task outside the LLM context window to gain guarantees and scale beyond context limits; directly useful for enterprise-grade LLM-agent design.</h4>
-<h4>- <strong><a href="http://arxiv.org/abs/2609.03254v1">What Else Needs Fixing? Exploring Cost-Effective Test-Time Compute for Revision Propagation in Artifacts Generated Through Conversation</a></strong> — The only candidate squarely on the Agent Test-Time Scaling thread, and it offers a concrete cost model for deciding when and where to spend additional test-time compute.</h4>
 <hr>
 <p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
 ]]></content:encoded>
