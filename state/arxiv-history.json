@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-25T00:12:17.199Z",
+  "updatedAt": "2026-09-26T00:19:06.005Z",
   "papers": {
     "2609.15983": {
       "title": "Stellar Colosseum: A Many-Agent Harness for Long-Horizon Research in Mathematics and Theoretical Computer Science",
@@ -1255,7 +1255,7 @@
     "2609.28431": {
       "title": "LiMA: Bridging Long-term Imagination to Real-time Dexterous Manipulation via Asynchronous Diffusion",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28416": {
       "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
@@ -1265,17 +1265,17 @@
     "2609.28366": {
       "title": "AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28358": {
       "title": "MicroQonv: Reshaping Convolution Tensors for Efficient Microscaling in Training and Inference",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28314": {
       "title": "TANDEM: Task and Motion Planning with As-Needed Demonstrations for Efficient Vision-Language-Action Model Fine-tuning",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28256": {
       "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
@@ -1285,7 +1285,7 @@
     "2609.28184": {
       "title": "VLMs Can Describe, But Not Measure: Object-Centric Scene Understanding for Robotic Manipulation",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28161": {
       "title": "Dissecting Advantage-Guided Post-Training for Vision-Language-Action Policies",
@@ -1295,27 +1295,27 @@
     "2609.28159": {
       "title": "Depth-Guided Contrastive Learning for 2D Representations with 3D Spatial Awareness",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28064": {
       "title": "SlackDrive: Reclaiming Runtime Slack for Adaptive Driving Inference",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.28048": {
       "title": "TEMPS: Temporal Sentence Embeddings for Temporal Information Retrieval",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27988": {
       "title": "Task-Induced Riemannian Metrics for Vision Transformer Feature Spaces",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27982": {
       "title": "Riemannian Structure and Optimization for a Class of Low-Parametric Orthogonal Matrices",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27747": {
       "title": "Less Language, More Latents: Annotation-Efficient VLAs for Driving",
@@ -1330,7 +1330,7 @@
     "2609.27671": {
       "title": "SGDet3D++: Geometry-Grounded Semantics for 4D Radar and Camera 3D Object Detection",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27606": {
       "title": "State-Grounded Conditioning: Wrapping User-Facing LLM Agents Where Direction Depends on Live State",
@@ -1340,7 +1340,7 @@
     "2609.27588": {
       "title": "The Capability Manifold and ML Scaling Laws",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27571": {
       "title": "FDE-Bench: Evaluating LLM Agents for Deployment Environment Configuration",
@@ -1350,7 +1350,7 @@
     "2609.27526": {
       "title": "NavProbe: Evidence-Grounded Reasoning with Active Memory Retrieval for Zero-Shot Navigation",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27468": {
       "title": "CereVLA: Cerebellum-Inspired Consequence-Aware Residual Governance for Efficient Vision-Language-Action Execution",
@@ -1365,7 +1365,7 @@
     "2609.27374": {
       "title": "Planned Test-Time Scaling with Coordinated Reasoning Paths",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27354": {
       "title": "Constraint-Driven Context Engineering: Designing Domain Interfaces for AI Systems",
@@ -1385,7 +1385,7 @@
     "2609.27297": {
       "title": "Large Knowledge Model: From Papers to a Scientific Reasoning Landscape",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27287": {
       "title": "SR-Fraud: An Outcome-Supervised Reflective LLM Agent Framework for Non-Stationary Payment Fraud Detection",
@@ -1405,7 +1405,7 @@
     "2609.27218": {
       "title": "NaviScale: Generating Large-Scale Semantic Map Datasets for Object Navigation",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
-      "lastSeenAt": "2026-09-25T00:12:17.199Z"
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     },
     "2609.27051": {
       "title": "Propose, Don't Judge: An Anytime-Valid Referee for LLM Agents That Mine Investment Factors",
@@ -1426,6 +1426,206 @@
       "title": "Backdoors in Learning-Based Industrial Robotic Arm Manipulation: An Empirical Security Study",
       "firstSeenAt": "2026-09-25T00:12:17.199Z",
       "lastSeenAt": "2026-09-25T00:12:17.199Z"
+    },
+    "2609.30266": {
+      "title": "LLM Agents Can Easily Tamper With Their Own Traces",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30217": {
+      "title": "Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30187": {
+      "title": "Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30092": {
+      "title": "Self-Adaptive VLA for Robust Robot Deployment",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30063": {
+      "title": "Self-Play Pretraining with Zero Data",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30059": {
+      "title": "KernelOPT: Dispatch-Aware Agentic Search for GPU Kernel Optimization",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30056": {
+      "title": "M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.30028": {
+      "title": "How does Adversarial Influence Scale in Multi-Agent Systems?",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29964": {
+      "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29861": {
+      "title": "GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29837": {
+      "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29800": {
+      "title": "Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29773": {
+      "title": "Breaking the Environment Wall: Evolving LLM Agent Environments for Recursive Self-Improvement",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29444": {
+      "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29389": {
+      "title": "Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29382": {
+      "title": "Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matching VLAs",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29347": {
+      "title": "SEE Challenge 2026: Event-Guided Brightness Adjustment Across a Broad Illumination Range",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29329": {
+      "title": "Hyperbolic Multimodal Continual Learning: A Closest-Admissible Solution",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29235": {
+      "title": "SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29204": {
+      "title": "AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29186": {
+      "title": "An Automated Georeferencing Technique for Multi-Temporal Stope Point Clouds for Downstream Geotechnical Analysis",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29166": {
+      "title": "HarnessPAI: An Evolving Harness for Physical AI",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29154": {
+      "title": "A Wrong Turn Does Not Ruin the Journey: Deviation-Guided Skill Self-Evolution for LLM Agents",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29095": {
+      "title": "Where Does Exactly-Once Live? Model, Harness, and Tool-Contract Effects on Duplicate Side Effects in LLM Agents",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29091": {
+      "title": "From Passive Execution to Active Exploration: Agentic Embodied Manipulation in Realistic Environments",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29073": {
+      "title": "Seeing Is Not Measuring: Tool-Augmented Metric Spatial Reasoning for Vision-Language Models",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29051": {
+      "title": "From Self-Distillation to Self-Practice: Privileged Information for Multi-Turn Agents",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29016": {
+      "title": "EvoTreeNAD: Genealogy-Guided Evolution for LLM-Driven Neural Architecture Discovery",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.29015": {
+      "title": "MeshHeal: Two-Timescale Self-Healing for Gray Failures in Decentralized LLM Agent Networks",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28998": {
+      "title": "Automatic Rank Allocation for Low-Rank Adaptation in Large Language Models via lp Regularization",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28991": {
+      "title": "Beneath the Scores: Rethinking Hallucination Evaluation for Video Understanding Models",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28984": {
+      "title": "CrossSafe: Towards Cross-Embodiment Latent Safety Filters",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28973": {
+      "title": "AquaMend: Minimal Re-probing and Conditional Rollback for Latent-Belief Failures in Embodied Agents",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28955": {
+      "title": "ActGaze: Learning Action-Grounded Gaze through Counterfactual Visual Interventions for High-Precision Manipulation",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28915": {
+      "title": "On the Effectiveness of Kernel-Level Evidence for Agent Security",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28865": {
+      "title": "Direction-Scale Decomposition in Action Representation: Rethinking What to Tokenize for Vision-Language-Action Models",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28851": {
+      "title": "Looks the Same, Answers Differently: Flip-Direction Steering for Robust Vision-Language Reasoning",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28838": {
+      "title": "Uncertainty-Gated Exploration Noise Suppresses Task Collapse in Online RL Fine-Tuning of a Flow-Matching Vision-Language-Action Policy",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28580": {
+      "title": "Token Clustering and Semantic Sequence Mamba for Hyperspectral Image Classification",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
+    },
+    "2609.28693": {
+      "title": "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Role-Scoped Capability Delivery",
+      "firstSeenAt": "2026-09-26T00:19:06.005Z",
+      "lastSeenAt": "2026-09-26T00:19:06.005Z"
     }
   }
 }
