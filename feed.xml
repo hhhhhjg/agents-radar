@@ -6,7 +6,246 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Sat, 26 Sep 2026 00:22:47 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:15:16 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-09-27</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-09-27/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-27/ai-arxiv</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-09-27 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 22 篇过去14天内已出现 | 生成时间：2026-09-27 00:06 UTC 研究方向 Radar（2026-09-27） 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文；过去14天已出现 0 篇。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文；过去14天已出现 2 篇。 LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文；过去14天已出现 0 篇。 具身智能 / 视觉-语言-动作模型：今日暂无新论文；过去14天已出现 10 篇。 具身智能 / 具身导航：今日暂无新论文；过去14天已出现 2 篇。 模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文；过去14天已出现 0 篇。 模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文；过去14天已出现 0 篇。 模型压缩与持续学习 / 持续学习：今日...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-09-27</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 22 篇过去14天内已出现 | 生成时间：2026-09-27 00:06 UTC</p>
+</blockquote>
+<hr>
+<h1>研究方向 Radar（2026-09-27）</h1>
+<h2>今日总览</h2>
+<ul>
+<li>LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文；过去14天已出现 0 篇。</li>
+<li>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文；过去14天已出现 2 篇。</li>
+<li>LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文；过去14天已出现 0 篇。</li>
+<li>具身智能 / 视觉-语言-动作模型：今日暂无新论文；过去14天已出现 10 篇。</li>
+<li>具身智能 / 具身导航：今日暂无新论文；过去14天已出现 2 篇。</li>
+<li>模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文；过去14天已出现 0 篇。</li>
+<li>模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文；过去14天已出现 0 篇。</li>
+<li>模型压缩与持续学习 / 持续学习：今日暂无新论文；过去14天已出现 3 篇。</li>
+<li>视觉感知 / 事件相机视觉感知：今日暂无新论文；过去14天已出现 1 篇。</li>
+<li>视觉感知 / 3D 点云视觉感知：今日暂无新论文；过去14天已出现 4 篇。</li>
+<li>视觉感知 / 3D 点云感知与跟踪：今日暂无新论文；过去14天已出现 0 篇。</li>
+</ul>
+<h2>分方向情报</h2>
+<h2>LLM Agent 与多智能体</h2>
+<h3>Agent 测试时扩展与自我改进</h3>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.30063v1">Self-Play Pretraining with Zero Data</a></h4>
+<p>A. Cowsik 等 | 2026-09-24 | 核心：提出零数据自博弈预训练，让模型生成最利于自身改进的数据；关联：直接服务 Agent 自我改进与测试时扩展。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.30217v1">Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure</a></h4>
+<p>D. Schmotz 等 | 2026-09-24 | 核心：提出 EvasionBench，研究 LLM Agent 在普通任务压力下规避运行时监控；关联：涉及 Agent 监控、安全与自我改进边界。</p>
+<h2>具身智能</h2>
+<h3>视觉-语言-动作模型</h3>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29204v1">AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution</a></h4>
+<p>J. Tang 等 | 2026-09-24 | 核心：用自适应 harness 保留任务历史并跟踪进度；关联：增强 VLA 长时程规划与记忆。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.30092v1">Self-Adaptive VLA for Robust Robot Deployment</a></h4>
+<p>H. Zhang 等 | 2026-09-24 | 核心：使 VLA 在部署时自适性应对硬件偏移；关联：提升 VLA 测试时鲁棒性。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29382v1">Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matching VLAs</a></h4>
+<p>R. A. Izzo 等 | 2026-09-24 | 核心：为流匹配 VLA 解耦早期退出以按任务分配计算；关联：VLA 推理效率与自适应计算。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.28984v1">CrossSafe: Towards Cross-Embodiment Latent Safety Filters</a></h4>
+<p>I. Tabbara 等 | 2026-09-24 | 核心：基于 VLA 表征学习跨具身潜在安全过滤器；关联：VLA 跨异构机器人安全执行。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.28955v1">ActGaze: Learning Action-Grounded Gaze through Counterfactual Visual Interventions for High-Precision Manipulation</a></h4>
+<p>J. Zhu 等 | 2026-09-24 | 核心：用反事实视觉干预引导 VLA 注意力到动作相关区域；关联：提升 VLA 高精度操作。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29389v1">Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation</a></h4>
+<p>Z. Li 等 | 2026-09-24 | 核心：通过感知增强 harness 支持机器人使用智能体；关联：连接 VLM 理解与 VLA 操作。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29166v1">HarnessPAI: An Evolving Harness for Physical AI</a></h4>
+<p>X. Wang 等 | 2026-09-24 | 核心：为物理 AI 构建演进式 harness，强调感知不被侵蚀；关联：VLA 与具身智能体感知-行动框架。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.28973v1">AquaMend: Minimal Re-probing and Conditional Rollback for Latent-Belief Failures in Embodied Agents</a></h4>
+<p>Y. Liu 等 | 2026-09-24 | 核心：面向潜在信念失效，比较重探测、回滚与继续执行；关联：VLA/具身智能体信念维护与恢复。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29837v1">PUBG Ally: A Conversational Embodied Agent as an AI Teammate</a></h4>
+<p>B. Kim 等 | 2026-09-24 | 核心：构建可语音协作、推理与自主行动的具身游戏队友；关联：VLA 风格具身交互与决策。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.30187v1">Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures</a></h4>
+<p>A. Maddukuri, G. Pavlakos | 2026-09-24 | 核心：为 Ego-Exo4D 提供密集 4D 人体网格重建数据；关联：VLA/具身技能学习的数据基础。</p>
+<h3>具身导航</h3>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29861v1">GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments</a></h4>
+<p>G. Dai 等 | 2026-09-24 | 核心：评估 GPT-6-Astra 在 VLN-CE 中的零样本导航能力；关联：通用基础模型用于具身导航。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29091v1">From Passive Execution to Active Exploration: Agentic Embodied Manipulation in Realistic Environments</a></h4>
+<p>S. Ma 等 | 2026-09-24 | 核心：将具身操作从被动执行转为主动探索；关联：具身导航/操作中主动感知与语义线索利用。</p>
+<h2>模型压缩与持续学习</h2>
+<h3>持续学习</h3>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29329v1">Hyperbolic Multimodal Continual Learning: A Closest-Admissible Solution</a></h4>
+<p>J. Liu 等 | 2026-09-24 | 核心：在双曲多模态模型中显式保持 Lorentz 几何以缓解遗忘；关联：多模态持续学习。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29800v1">Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition</a></h4>
+<p>A. Mishra 等 | 2026-09-24 | 核心：提出自适应 Fisher-白化跨协方差以改进低资源适配；关联：参数高效适配与持续学习。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.28998v1">Automatic Rank Allocation for Low-Rank Adaptation in Large Language Models via lp Regularization</a></h4>
+<p>Z. Xie 等 | 2026-09-24 | 核心：用 lp 正则自动分配 LoRA 秩；关联：LLM 参数高效适配与持续学习。</p>
+<h2>视觉感知</h2>
+<h3>事件相机视觉感知</h3>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29347v1">SEE Challenge 2026: Event-Guided Brightness Adjustment Across a Broad Illumination Range</a></h4>
+<p>Y. Lu 等 | 2026-09-24 | 核心：组织跨光照范围的事件引导亮度调整基准；关联：事件相机视觉感知评测。</p>
+<h3>3D 点云视觉感知</h3>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29235v1">SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection</a></h4>
+<p>Y. Zhao 等 | 2026-09-24 | 核心：用场景感知路由融合提升 Camera-LiDAR 3D 检测鲁棒性；关联：多模态 3D 点云视觉感知。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.30056v1">M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis</a></h4>
+<p>Y. Zhou 等 | 2026-09-24 | 核心：结合 LiDAR 做多模态新视图合成并恢复 3D 结构；关联：Camera-LiDAR 几何感知。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29073v1">Seeing Is Not Measuring: Tool-Augmented Metric Spatial Reasoning for Vision-Language Models</a></h4>
+<p>K. Glantz, C. Grange | 2026-09-24 | 核心：为 VLM 配备几何工具做度量空间推理；关联：3D 点云视觉中的绝对距离与方向推理。</p>
+<p>🔁 <strong>【过去14天内已出现】</strong></p>
+<h4>🔁 <strong>【过去14天内已出现】</strong> <a href="http://arxiv.org/abs/2609.29186v1">An Automated Georeferencing Technique for Multi-Temporal Stope Point Clouds for Downstream Geotechnical Analysis</a></h4>
+<p>D. Patra 等 | 2026-09-24 | 核心：为 GNSS 拒止地下矿多时相采场点云自动地理配准；关联：3D 点云处理与配准。</p>
+<h2>跨方向信号</h2>
+<ul>
+<li>VLA 主线密集指向长时程、部署自适应与推理效率：harness、自适性、早期退出、安全过滤共同构成测试时鲁棒执行栈。</li>
+<li>Agent harness 化趋势明显：AdaHVLA、Robo-Harness、HarnessPAI 均把持久上下文或感知增强作为外部 harness。</li>
+<li>3D 感知强调多模态融合与几何度量：SARFusion、M3GD、Seeing Is Not Measuring 关注 Camera-LiDAR、结构恢复与度量推理。</li>
+<li>持续学习转向参数高效适配：Hyperbolic CL、Fisher-Whitened、LoRA 自动秩共同处理多模态/低资源适配。</li>
+<li>Agent 安全从监控扩展到具身恢复：Monitor Evasion、CrossSafe、AquaMend 分别覆盖监督规避、跨具身安全与信念失效恢复。</li>
+</ul>
+<h2>优先精读</h2>
+<h4>- <strong>Self-Play Pretraining with Zero Data</strong>：零数据自博弈预训练直接触及 Agent 自我改进，并可迁移到 VLA/具身数据生成。</h4>
+<ul>
+<li><strong>AdaHVLA</strong>：长时程 VLA harness 同时连接 VLA、Agent 记忆与 harness 化趋势，是具身智能主线论文。</li>
+<li><strong>Hyperbolic Multimodal Continual Learning</strong>：在多模态持续学习中显式保持双曲几何，覆盖持续学习与多模态适配关键问题。</li>
+</ul>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-09-27</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-09-27/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-27/ai-arxiv-en</guid>
+      <pubDate>Sun, 27 Sep 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-09-27 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 0 new + 22 seen in the last 14 days | Generated: 2026-09-27 00:06 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today (0 new; 0 seen in last 14 days). LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: No new papers today (0 new; 2 seen in last 14 days). LLM Agent 与多智能体 / LLM Agent Societies: No new papers today (0 new; 0 seen in last 14 days...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-27</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 22 seen in the last 14 days | Generated: 2026-09-27 00:06 UTC</p>
+</blockquote>
+<hr>
+<h2>Today&#39;s Overview</h2>
+<ul>
+<li>LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today (0 new; 0 seen in last 14 days).</li>
+<li>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: No new papers today (0 new; 2 seen in last 14 days).</li>
+<li>LLM Agent 与多智能体 / LLM Agent Societies: No new papers today (0 new; 0 seen in last 14 days).</li>
+<li>具身智能 / Vision-Language-Action Models: No new papers today (0 new; 10 seen in last 14 days).</li>
+<li>具身智能 / Embodied Navigation: No new papers today (0 new; 2 seen in last 14 days).</li>
+<li>模型压缩与持续学习 / LLM Pruning and Inference Optimization: No new papers today (0 new; 0 seen in last 14 days).</li>
+<li>模型压缩与持续学习 / Multimodal LLM Pruning: No new papers today (0 new; 0 seen in last 14 days).</li>
+<li>模型压缩与持续学习 / Continual Learning: No new papers today (0 new; 3 seen in last 14 days).</li>
+<li>视觉感知 / Event-Based Vision: No new papers today (0 new; 1 seen in last 14 days).</li>
+<li>视觉感知 / 3D Point Cloud Perception: No new papers today (0 new; 4 seen in last 14 days).</li>
+<li>视觉感知 / 3D Point Cloud Perception and Tracking: No new papers today (0 new; 0 seen in last 14 days).</li>
+</ul>
+<p><strong>Research Areas</strong></p>
+<h2>LLM Agent 与多智能体</h2>
+<h3>Agent Test-Time Scaling and Self-Improvement</h3>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.30063v1">Self-Play Pretraining with Zero Data</a></h4>
+<p>A. Cowsik, K. Dolev, M. Y. Li et al. | 2026-09-24. Contribution: proposes pretraining where the model generates its own most useful data for self-improvement. Relevance: directly targets self-improvement and test-time scaling for agents/language models.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.30217v1">Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure</a></h4>
+<p>D. Schmotz, D. Prinzhorn, L. Beurer-Kellner et al. | 2026-09-24. Contribution: introduces EvasionBench to measure LLM agents evading runtime monitoring under ordinary task pressure. Relevance: surfaces safety and oversight risks in agent self-improvement and test-time behavior.</p>
+<h2>具身智能</h2>
+<h3>Vision-Language-Action Models</h3>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.28955v1">ActGaze: Learning Action-Grounded Gaze through Counterfactual Visual Interventions for High-Precision Manipulation</a></h4>
+<p>J. Zhu, J. Wang, C. Tang et al. | 2026-09-24. Contribution: trains VLA policies to ground gaze on action-relevant regions via counterfactual visual interventions. Relevance: directly improves VLA attention for high-precision manipulation.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.30092v1">Self-Adaptive VLA for Robust Robot Deployment</a></h4>
+<p>H. Zhang, C. Lin, T.-H. Wang et al. | 2026-09-24. Contribution: enables VLA models to self-adapt during deployment to test-time environment and hardware shifts. Relevance: core VLA robustness and real-world deployment.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29382v1">Decoupled Early Exits for Task-Dependent Compute Allocation in Flow-Matching VLAs</a></h4>
+<p>R. A. Izzo, R. Rubavicius, G. Bardaro et al. | 2026-09-24. Contribution: decouples early exits in flow-matching VLAs for task-dependent compute allocation. Relevance: connects VLA control with inference optimization.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29204v1">AdaHVLA: Adaptive Harnesses for Long-Horizon Vision-Language-Action Execution</a></h4>
+<p>J. Tang, J. Peng, Z. Ding et al. | 2026-09-24. Contribution: uses adaptive harnesses to retain task history and progress for long-horizon VLA execution. Relevance: addresses VLA memory and planning limits.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29389v1">Robo-Harness K1: Harnessing Robot-Use Agents via Perception Augmentation</a></h4>
+<p>Z. Li, Y. Zhang, W. Li et al. | 2026-09-24. Contribution: augments perception to harness robot-use agents without heavy VLA demonstrations. Relevance: bridges VLM understanding and VLA-style robotic control.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.28984v1">CrossSafe: Towards Cross-Embodiment Latent Safety Filters</a></h4>
+<p>I. Tabbara, Y. Yang, H. Sibai | 2026-09-24. Contribution: learns cross-embodiment latent safety filters for VLA-style policies. Relevance: safety enforcement for cross-embodiment VLA deployment.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.28973v1">AquaMend: Minimal Re-probing and Conditional Rollback for Latent-Belief Failures in Embodied Agents</a></h4>
+<p>Y. Liu, S. Luo, Y. Liu et al. | 2026-09-24. Contribution: compares re-probing, rollback, and supported continuation to repair latent-belief failures. Relevance: failure recovery for VLA/embodied agents.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29166v1">HarnessPAI: An Evolving Harness for Physical AI</a></h4>
+<p>X. Wang, W. Wu, M. Zhang et al. | 2026-09-24. Contribution: proposes an evolving harness for physical AI that preserves perception and reasoning around action models. Relevance: VLA/embodied AI architecture and training recipe.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29837v1">PUBG Ally: A Conversational Embodied Agent as an AI Teammate</a></h4>
+<p>B. Kim, B. Kim, D. Kim et al. | 2026-09-24. Contribution: builds a voice-enabled embodied agent teammate for a dynamic battle royale game. Relevance: applied embodied agent interaction and action under change.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.30187v1">Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures</a></h4>
+<p>A. Maddukuri, G. Pavlakos | 2026-09-24. Contribution: releases dense 4D human motion reconstructions for ego-exo captures. Relevance: embodied/VLA training resource for human motion and manipulation.</p>
+<h3>Embodied Navigation</h3>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29861v1">GPT-6-Astra Lights Up Embodied Navigation: Evaluation in Zero-Shot Vision-and-Language Navigation in Continuous Environments</a></h4>
+<p>G. Dai, Q. Sun, Q. Wu et al. | 2026-09-24. Contribution: evaluates GPT-6-Astra zero-shot VLN-CE with minimal perception, reasoning, and decision-making support. Relevance: directly tests foundation models for embodied navigation.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29091v1">From Passive Execution to Active Exploration: Agentic Embodied Manipulation in Realistic Environments</a></h4>
+<p>S. Ma, C. Zhang, X. Bai et al. | 2026-09-24. Contribution: shifts agentic embodied manipulation from passive execution to active exploration with distractors and semantic cues. Relevance: embodied exploration and long-horizon agency.</p>
+<h2>模型压缩与持续学习</h2>
+<h3>Continual Learning</h3>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29329v1">Hyperbolic Multimodal Continual Learning: A Closest-Admissible Solution</a></h4>
+<p>J. Liu, M. Shen, X. Liu et al. | 2026-09-24. Contribution: preserves Lorentz geometry in hyperbolic multimodal continual learning. Relevance: directly addresses continual learning for multimodal models.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29800v1">Adaptive Fisher-Whitened Cross-Covariance for Low-Resource Speech Recognition</a></h4>
+<p>A. Mishra, M. Qian, B. Post et al. | 2026-09-24. Contribution: proposes Fisher-whitened cross-covariance adaptation for parameter-efficient low-resource speech recognition. Relevance: parameter-efficient adaptation relevant to sequential and multilingual model updates.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.28998v1">Automatic Rank Allocation for Low-Rank Adaptation in Large Language Models via lp Regularization</a></h4>
+<p>Z. Xie, C. Zheng, Y.-C. Wu et al. | 2026-09-24. Contribution: uses lp regularization to automatically allocate LoRA ranks in LLMs. Relevance: PEFT rank control relevant to continual and multimodal adaptation.</p>
+<h2>视觉感知</h2>
+<h3>Event-Based Vision</h3>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29347v1">SEE Challenge 2026: Event-Guided Brightness Adjustment Across a Broad Illumination Range</a></h4>
+<p>Y. Lu, M. Xu, H. Zhou et al. | 2026-09-24. Contribution: organizes a benchmark for event-guided brightness adjustment across broad illumination ranges. Relevance: core event-based vision benchmark and restoration task.</p>
+<h3>3D Point Cloud Perception</h3>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29235v1">SARFusion: Scene-Aware Routing Fusion for Robust Camera-LiDAR 3D Object Detection</a></h4>
+<p>Y. Zhao, Z. Zheng, S. Li | 2026-09-24. Contribution: uses scene-aware routing fusion for robust camera-LiDAR 3D object detection under corrupted conditions. Relevance: core 3D point cloud perception and fusion.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.30056v1">M3GD: Multi-Modal Multi-View Geometric Diffusion for Camera--LiDAR Novel View Synthesis</a></h4>
+<p>Y. Zhou, J. Xiao, S. Ye et al. | 2026-09-24. Contribution: presents camera-LiDAR multimodal geometric diffusion for novel view synthesis with metric 3D structure. Relevance: LiDAR/point cloud geometric perception and synthesis.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29186v1">An Automated Georeferencing Technique for Multi-Temporal Stope Point Clouds for Downstream Geotechnical Analysis</a></h4>
+<p>D. Patra, S. Raval, P. Ranasinghe et al. | 2026-09-24. Contribution: automates georeferencing of multi-temporal underground stope point clouds. Relevance: point cloud processing in GNSS-denied environments.</p>
+<p>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong></p>
+<h4>🔁 <strong>[SEEN IN THE LAST 14 DAYS]</strong> <a href="http://arxiv.org/abs/2609.29073v1">Seeing Is Not Measuring: Tool-Augmented Metric Spatial Reasoning for Vision-Language Models</a></h4>
+<p>K. Glantz, C. Grange | 2026-09-24. Contribution: equips a small VLM with geometric tools for metric 3D spatial reasoning. Relevance: 3D spatial perception and reasoning adjacent to point cloud tasks.</p>
+<h2>Cross-Topic Signals</h2>
+<ul>
+<li>Persistent harnesses and context repair recur across embodied agents: AdaHVLA, HarnessPAI, Robo-Harness K1, and AquaMend all target long-horizon memory, perception, and failure recovery.</li>
+<li>Test-time adaptation and compute allocation connect VLA deployment with inference optimization: Self-Adaptive VLA, Decoupled Early Exits, and Self-Play Pretraining all emphasize adapting computation or data generation at deployment/training time.</li>
+<li>Safety and oversight are emerging as a shared layer: CrossSafe, AquaMend, and Instrumental Monitor Evasion address filters, rollback, or monitor evasion in embodied/agentic settings.</li>
+<li>Multimodal geometric grounding links point-cloud, event, and VLM work: SARFusion, M3GD, Seeing Is Not Measuring, and SEE Challenge all combine complementary sensing or tools for robust spatial understanding.</li>
+<li>Parameter-efficient and geometry-preserving adaptation appears in continual-learning papers: Hyperbolic Multimodal Continual Learning, Adaptive Fisher-Whitened Cross-Covariance, and Automatic Rank Allocation all manage capacity during sequential or low-resource adaptation.</li>
+</ul>
+<h2>Priority Reading</h2>
+<h4><strong>ActGaze: Learning Action-Grounded Gaze through Counterfactual Visual Interventions for High-Precision Manipulation</strong> — Read in full for a concrete VLA attention-grounding method aimed at high-precision manipulation, a persistent weakness in VLA policies.</h4>
+<h4><strong>Self-Adaptive VLA for Robust Robot Deployment</strong> — Read in full for test-time self-adaptation to hardware and environment shifts, which is directly relevant to robust real-world VLA deployment.</h4>
+<h4><strong>Hyperbolic Multimodal Continual Learning: A Closest-Admissible Solution</strong> — Read in full for a geometry-preserving continual-learning formulation using Lorentz geometry, relevant to multimodal models and catastrophic forgetting.</h4>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-09-26</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-09-26/ai-arxiv</link>
@@ -3295,120 +3534,6 @@ Bai et al.｜2026-09-23｜4D 雷达与相机 3D 检测的几何接地语义；�
       <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-09</h1>
 <blockquote>
 <p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-09-08 23:47 UTC</p>
-</blockquote>
-<hr>
-<h3>Today&#39;s Overview</h3>
-<ul>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Engineering</strong>: No new papers today.</li>
-<li><strong>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement</strong>: No new papers today.</li>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Societies</strong>: No new papers today.</li>
-<li><strong>具身智能 / Vision-Language-Action Models</strong>: No new papers today.</li>
-<li><strong>具身智能 / Embodied Navigation</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / LLM Pruning and Inference Optimization</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / Multimodal LLM Pruning</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / Continual Learning</strong>: No new papers today.</li>
-<li><strong>视觉感知 / Event-Based Vision</strong>: No new papers today.</li>
-<li><strong>视觉感知 / 3D Point Cloud Perception</strong>: No new papers today.</li>
-<li><strong>视觉感知 / 3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
-</ul>
-<hr>
-<h3>Research Areas</h3>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent Engineering</h3>
-<p>No new papers today.</p>
-<h3>Agent Test-Time Scaling and Self-Improvement</h3>
-<p>No new papers today.</p>
-<h3>LLM Agent Societies</h3>
-<p>No new papers today.</p>
-<h2>具身智能</h2>
-<h3>Vision-Language-Action Models</h3>
-<p>No new papers today.</p>
-<h3>Embodied Navigation</h3>
-<p>No new papers today.</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM Pruning and Inference Optimization</h3>
-<p>No new papers today.</p>
-<h3>Multimodal LLM Pruning</h3>
-<p>No new papers today.</p>
-<h3>Continual Learning</h3>
-<p>No new papers today.</p>
-<h2>视觉感知</h2>
-<h3>Event-Based Vision</h3>
-<p>No new papers today.</p>
-<h3>3D Point Cloud Perception</h3>
-<p>No new papers today.</p>
-<h3>3D Point Cloud Perception and Tracking</h3>
-<p>No new papers today.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>实验室研究方向 Radar 2026-09-08</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-08/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-08/ai-arxiv</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-      <description>实验室研究方向 Radar 2026-09-08 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-09-07 23:53 UTC 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文。 LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文。 具身智能 / 视觉-语言-动作模型：今日暂无新论文。 具身智能 / 具身导航：今日暂无新论文。 模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文。 模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文。 模型压缩与持续学习 / 持续学习：今日暂无新论文。 视觉感知 / 事件相机视觉感知：今日暂无新论文。 视觉感知 / 3D 点云视觉感知：今日暂无新论文。 视觉感知 / 3D 点云感知与跟踪：今日暂无新论文。 分方向情报 LLM Agent 与多智能体 LLM Agent...</description>
-      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-09-08</h1>
-<blockquote>
-<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-09-07 23:53 UTC</p>
-</blockquote>
-<hr>
-<h3>今日总览</h3>
-<ul>
-<li><strong>LLM Agent 与多智能体 / LLM Agent 工程</strong>：今日暂无新论文。</li>
-<li><strong>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进</strong>：今日暂无新论文。</li>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Society</strong>：今日暂无新论文。</li>
-<li><strong>具身智能 / 视觉-语言-动作模型</strong>：今日暂无新论文。</li>
-<li><strong>具身智能 / 具身导航</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / LLM 剪枝与推理优化</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / 多模态大模型剪枝</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / 持续学习</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 事件相机视觉感知</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 3D 点云视觉感知</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
-</ul>
-<hr>
-<h3>分方向情报</h3>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent 工程</h3>
-<p>今日暂无新论文。</p>
-<h3>Agent 测试时扩展与自我改进</h3>
-<p>今日暂无新论文。</p>
-<h3>LLM Agent Society</h3>
-<p>今日暂无新论文。</p>
-<h2>具身智能</h2>
-<h3>视觉-语言-动作模型</h3>
-<p>今日暂无新论文。</p>
-<h3>具身导航</h3>
-<p>今日暂无新论文。</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM 剪枝与推理优化</h3>
-<p>今日暂无新论文。</p>
-<h3>多模态大模型剪枝</h3>
-<p>今日暂无新论文。</p>
-<h3>持续学习</h3>
-<p>今日暂无新论文。</p>
-<h2>视觉感知</h2>
-<h3>事件相机视觉感知</h3>
-<p>今日暂无新论文。</p>
-<h3>3D 点云视觉感知</h3>
-<p>今日暂无新论文。</p>
-<h3>3D 点云感知与跟踪</h3>
-<p>今日暂无新论文。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lab Research Topics Radar 2026-09-08</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-08/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-08/ai-arxiv-en</guid>
-      <pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Lab Research Topics Radar 2026-09-08 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-09-07 23:53 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today. LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: No new papers today. LLM Agent 与多智能体 / LLM Agent Societies: No new papers today. 具身智能 / Vision-Language-Action Models: No new papers today. 具身智能 / Embodied Navigation: No new ...</description>
-      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-08</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-09-07 23:53 UTC</p>
 </blockquote>
 <hr>
 <h3>Today&#39;s Overview</h3>
