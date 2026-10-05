@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-04T00:17:47.375Z",
+  "updatedAt": "2026-10-05T00:22:45.727Z",
   "papers": {
     "2609.24979": {
       "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
