@@ -6,7 +6,244 @@
     <description>AI 开源生态每日简报 · Daily AI ecosystem digest</description>
     <language>zh-CN</language>
     <atom:link href="https://duanyytop.github.io/agents-radar/feed.xml" rel="self" type="application/rss+xml"/>
-    <lastBuildDate>Mon, 05 Oct 2026 00:49:42 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 02:15:50 +0000</lastBuildDate>
+    <item>
+      <title>实验室研究方向 Radar 2026-10-06</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-06/ai-arxiv</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-06/ai-arxiv</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>实验室研究方向 Radar 2026-10-06 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 23 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-10-06 02:01 UTC 今日总览 主方向：LLM Agent 与多智能体；子方向：LLM Agent 工程：10 篇新文献。核心信号是 agent harness 的评估、优化与自改进，以及长期记忆失效、状态修复、失败预测。 主方向：LLM Agent 与多智能体；子方向：Agent 测试时扩展与自我改进：今日暂无新论文。 主方向：LLM Agent 与多智能体；子方向：LLM Agent Society：今日暂无新论文。 主方向：具身智能；子方向：视觉-语言-动作模型：今日暂无新论文。 主方向：具身智能；子方向：具身导航：今日暂无新论文。 主方向：模型压缩与持续学习；子方向：LLM 剪枝与推理优化：今日暂无新论文。 主方向：模型压缩与持续学习；子方向：多模态大模型剪枝：1 篇新文献。关注面向 VLA 的阶段感知视觉 token 剪枝。 主方向：模型压缩与持续学习；子方向...</description>
+      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-10-06</h1>
+<blockquote>
+<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 23 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-10-06 02:01 UTC</p>
+</blockquote>
+<hr>
+<h2>今日总览</h2>
+<ul>
+<li>主方向：LLM Agent 与多智能体；子方向：LLM Agent 工程：10 篇新文献。核心信号是 agent harness 的评估、优化与自改进，以及长期记忆失效、状态修复、失败预测。</li>
+<li>主方向：LLM Agent 与多智能体；子方向：Agent 测试时扩展与自我改进：今日暂无新论文。</li>
+<li>主方向：LLM Agent 与多智能体；子方向：LLM Agent Society：今日暂无新论文。</li>
+<li>主方向：具身智能；子方向：视觉-语言-动作模型：今日暂无新论文。</li>
+<li>主方向：具身智能；子方向：具身导航：今日暂无新论文。</li>
+<li>主方向：模型压缩与持续学习；子方向：LLM 剪枝与推理优化：今日暂无新论文。</li>
+<li>主方向：模型压缩与持续学习；子方向：多模态大模型剪枝：1 篇新文献。关注面向 VLA 的阶段感知视觉 token 剪枝。</li>
+<li>主方向：模型压缩与持续学习；子方向：持续学习：10 篇新文献。LoRA 持续适配、任务向量、自蒸馏、联邦站点接入、图增量学习并进。</li>
+<li>主方向：视觉感知；子方向：事件相机视觉感知：1 篇新文献。事件传感器用于异步跟踪、光通信与 3D 运动捕捉。</li>
+<li>主方向：视觉感知；子方向：3D 点云视觉感知：1 篇新文献。选择性时空聚合提升 3D 占用与场景流预测。</li>
+<li>主方向：视觉感知；子方向：3D 点云感知与跟踪：今日暂无新论文。</li>
+</ul>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent 工程</h3>
+<h4><a href="http://arxiv.org/abs/2610.05300v1">MESH-Harness: Self-Improving Agent Harnesses via Bandit-Guided Compositional Evolution</a></h4>
+<p>Z. Shang 等，10-04。核心：将 harness 模块化，用 bandit 引导组合演化，在固定模型和有限评估预算下改进 harness。关联：直接对应 LLM Agent 工程中的运行时框架优化。</p>
+<h4><a href="http://arxiv.org/abs/2610.05039v1">Causal Improvement Graph for Agentic Harness Optimization</a></h4>
+<p>J. Zhang 等，10-04。核心：提出因果改进图，用于 agentic harness 的迭代提案—评估优化。关联：把 harness 优化形式化为可追踪的因果改进过程。</p>
+<h4><a href="http://arxiv.org/abs/2610.05382v1">Harness-Search: Guiding Long-Horizon Search through Multi-Agent Coordination</a></h4>
+<p>S. Wang 等，10-04。核心：用多智能体协调引导长程搜索，缓解长交互历史下单 agent harness 的负担。关联：面向 LLM Agent 工程中的长程搜索与多智能体协作。</p>
+<h4><a href="http://arxiv.org/abs/2610.05778v1">MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks</a></h4>
+<p>Z. Wang 等，10-05。核心：在医疗任务上控制评估 LLM 与 agent harness 的组合效应。关联：强调 agent 分数是模型—harness 配对属性，属工程评估关键问题。</p>
+<h4><a href="http://arxiv.org/abs/2610.05241v1">StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions</a></h4>
+<p>Y. Peng 等，10-04。核心：在 agent 行动前诊断并修复持久操作状态，处理环境或需求变化导致的失效记录。关联：提升 LLM Agent 工程中的状态可靠性与行动前校验。</p>
+<h4><a href="http://arxiv.org/abs/2610.05732v1">PACMI: Provenance-Aware Cascading Memory Invalidation for Long-Term LLM Agents</a></h4>
+<p>Y. Wang 等，10-05。核心：为长期记忆提供来源感知的级联失效机制，处理过时但语义仍相关的记忆。关联：对应 LLM Agent 工程中的长时记忆时效管理。</p>
+<h4><a href="http://arxiv.org/abs/2610.05223v1">Look Before You Leap: Thermodynamic Arbitration of Parametric and Non-Parametric Knowledge in LLM Agents via Self-Regulating Memory Architectures</a></h4>
+<p>A. Das 等，10-04。核心：用自调节记忆架构仲裁参数知识与外部非参数知识。关联：关联 LLM Agent 工程中的记忆架构与知识调用。</p>
+<h4><a href="http://arxiv.org/abs/2610.05303v1">ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience</a></h4>
+<p>H. Lu 等，10-04。核心：用已验证经验自蒸馏，在线测试时训练长程 agent。关联：为 LLM Agent 工程引入在线适应与经验复用机制。</p>
+<h4><a href="http://arxiv.org/abs/2610.05572v1">Disentangling Task Difficulty from Run-Level Failure in Agent Failure Prediction</a></h4>
+<p>M. EsfandyariDoulabi 等，10-04。核心：区分任务难度与运行级失败，改进 agent 失败预测。关联：服务 LLM Agent 工程中的执行干预与可靠性评估。</p>
+<h4><a href="http://arxiv.org/abs/2610.05566v1">LifeLong Digital Twin: A Unified Modeling Paradigm and Agent Harness for Event-Driven Lifelong Health State Trajectories</a></h4>
+<p>J. Jiang 等，10-04。核心：提出事件驱动终身健康轨迹建模范式与 agent harness。关联：展示 LLM Agent 工程在垂直终身状态建模中的应用。</p>
+<h2>模型压缩与持续学习</h2>
+<h3>多模态大模型剪枝</h3>
+<h4><a href="http://arxiv.org/abs/2610.05273v1">When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA</a></h4>
+<p>T. Shi 等，10-04。核心：提出阶段感知视觉 token 剪枝，决定何时与剪哪些 token，以加速 VLA 推理。关联：直接匹配多模态大模型剪枝与高效 VLA 方向。</p>
+<h3>持续学习</h3>
+<h4><a href="http://arxiv.org/abs/2610.04226v1">PaLoRA: Paced Low-Rank Adaptation for Continual Learning</a></h4>
+<p>Y. Li 等，10-03。核心：为 LoRA 持续学习引入有节奏的低秩适配，替代固定小学习率启发式。关联：LoRA 与持续学习结合的核心方法。</p>
+<h4><a href="http://arxiv.org/abs/2610.05872v1">Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning</a></h4>
+<p>C. H. Wu 等，10-05。核心：发现离策略合并优于在策略自蒸馏，用于持续学习。关联：挑战 on-policy 必需论，直接影响持续后训练策略。</p>
+<h4><a href="http://arxiv.org/abs/2610.04649v1">Gated Target Propagation for Compositional Generalization in Continual Learning</a></h4>
+<p>A. M. Njupoun 等，10-03。核心：用门控目标传播促进持续学习中的组合泛化与知识重组。关联：关注持续学习中的前向知识复用。</p>
+<h4><a href="http://arxiv.org/abs/2610.05598v1">When the Cross-Silo Federation Goes Offline: Continual Learning for Site Onboarding with Limited Unlabeled Data</a></h4>
+<p>A. Eslaminia 等，10-04。核心：面向跨孤岛联邦离线场景，用有限无标签数据持续接入新站点。关联：联邦持续学习与站点接入。</p>
+<h4><a href="http://arxiv.org/abs/2610.05200v1">Learning without Overwriting: A Theory of Self-Distillation and Supervised Fine-Tuning in Continual Reasoning</a></h4>
+<p>S. Uemura 等，10-04。核心：理论分析自蒸馏与 SFT 在持续推理中如何避免覆盖旧知识。关联：持续推理中的遗忘机制理论。</p>
+<h4><a href="http://arxiv.org/abs/2610.05402v1">Task Vector Descent: Learning from Non-IID Batches</a></h4>
+<p>A. Baumann 等，10-04。核心：提出任务向量下降，从非 IID 批次中持续学习。关联：面向语言模型训练中的不均匀分布持续学习。</p>
+<h4><a href="http://arxiv.org/abs/2610.04963v1">MAGIC: Topology-Aware Analytic Graph Few-Shot Class-Incremental Learning</a></h4>
+<p>J. Chen 等，10-04。核心：用拓扑感知分析图做图少样本类增量学习。关联：持续学习在图结构数据上的增量识别。</p>
+<h4><a href="http://arxiv.org/abs/2610.05800v1">Adaptive Utilization of Low-Rank Adaptation via Conditioned Gating</a></h4>
+<p>G. Yang 等，10-05。核心：用条件门控自适应利用 LoRA 子空间。关联：参数高效适配与持续学习中的低秩更新优化。</p>
+<h4><a href="http://arxiv.org/abs/2610.04287v1">VIGIL: Verifier-Informed Gated Improvement Loop for Spreadsheet Question Answering</a></h4>
+<p>K. Li 等，10-03。核心：面向表格问答的持续 harness 学习，用验证器信息门控改进。关联：持续学习在 agent harness 与延迟反馈场景中的落地。</p>
+<h4><a href="http://arxiv.org/abs/2610.05681v1">Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions</a></h4>
+<p>C. Dinuwan 等，10-05。核心：综述低资源僧伽罗语 ASR 的方法、挑战与方向。关联：为持续学习中的低资源领域适应提供背景。</p>
+<h2>视觉感知</h2>
+<h3>事件相机视觉感知</h3>
+<h4><a href="http://arxiv.org/abs/2610.04342v1">Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors</a></h4>
+<p>Z. Wang 等，10-03。核心：用事件传感器实现异步跟踪、光通信与 3D 运动捕捉。关联：事件相机视觉感知在机器人协同与运动捕捉中的应用。</p>
+<h3>3D 点云视觉感知</h3>
+<h4><a href="http://arxiv.org/abs/2610.04356v1">SelectOccFlow: Selective Spatiotemporal Aggregation for 3D Occupancy and Scene Flow Prediction</a></h4>
+<p>Y. Wang 等，10-03。核心：提出选择性时空聚合，提升 3D 占用与场景流预测。关联：面向自动驾驶的 3D 点云/占用感知与运动建模。</p>
+<h2>跨方向信号</h2>
+<ul>
+<li>Agent harness 正成为独立优化对象：MESH-Harness、Causal Improvement Graph、Harness-Search、MedicalHarness、VIGIL 均把运行时或评估框架与模型权重分离。</li>
+<li>持续学习与参数高效适配加速融合：PaLoRA、Adaptive LoRA Gating、Task Vector Descent、Off-Policy Merging 围绕遗忘、低秩更新和任务向量展开。</li>
+<li>记忆与状态时效性成为 agent 可靠性焦点：PACMI、StateWise、Look Before You Leap 处理过时记忆、失效状态与知识仲裁。</li>
+<li>自蒸馏、离策略合并与在线测试时训练形成持续改进路线：ASCENT、Off-Policy Merging、Learning without Overwriting 共同挑战“必须 on-policy”的旧假设。</li>
+<li>多模态/VLA 推理效率与时空感知协同：Stage-Aware token 剪枝、SelectOccFlow、事件相机运动捕捉均强调选择性时空聚合与高效感知。</li>
+</ul>
+<h2>优先精读</h2>
+<ul>
+<li><a href="http://arxiv.org/abs/2610.05300v1">MESH-Harness</a>：把 agent harness 作为可组合、可演化对象，固定模型下优化运行时，代表 LLM Agent 工程的核心转向。</li>
+</ul>
+<h4>- <a href="http://arxiv.org/abs/2610.05872v1">Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning</a>：直接挑战持续学习与后训练中的 on-policy 传统认知，方法结论具有跨 LLM 训练与持续学习影响。</h4>
+<h4>- <a href="http://arxiv.org/abs/2610.05273v1">When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA</a>：该子方向唯一新文献，连接多模态剪枝、VLA 推理加速与具身智能效率。</h4>
+<hr>
+<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Lab Research Topics Radar 2026-10-06</title>
+      <link>https://duanyytop.github.io/agents-radar/#2026-10-06/ai-arxiv-en</link>
+      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-10-06/ai-arxiv-en</guid>
+      <pubDate>Tue, 06 Oct 2026 00:00:00 +0000</pubDate>
+      <description>Lab Research Topics Radar 2026-10-06 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 23 new + 0 seen in the last 14 days | Generated: 2026-10-06 02:01 UTC Today&amp;#39;s Overview LLM Agent Engineering: 10 new papers; themes include agent-harness evaluation, self-improving harness optimization, long-horizon multi-agent search, memory invalidation, operational state repair, test-time training, and failure prediction. Agent Test-Time Scaling and Self-Improvement: No new papers ...</description>
+      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-10-06</h1>
+<blockquote>
+<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 23 new + 0 seen in the last 14 days | Generated: 2026-10-06 02:01 UTC</p>
+</blockquote>
+<hr>
+<p><strong>Today&#39;s Overview</strong></p>
+<ul>
+<li><strong>LLM Agent Engineering</strong>: 10 new papers; themes include agent-harness evaluation, self-improving harness optimization, long-horizon multi-agent search, memory invalidation, operational state repair, test-time training, and failure prediction.</li>
+<li><strong>Agent Test-Time Scaling and Self-Improvement</strong>: No new papers today.</li>
+<li><strong>LLM Agent Societies</strong>: No new papers today.</li>
+<li><strong>Vision-Language-Action Models</strong>: No new papers today.</li>
+<li><strong>Embodied Navigation</strong>: No new papers today.</li>
+<li><strong>LLM Pruning and Inference Optimization</strong>: No new papers today.</li>
+<li><strong>Multimodal LLM Pruning</strong>: 1 new paper on stage-aware visual token pruning for efficient VLA inference.</li>
+<li><strong>Continual Learning</strong>: 10 new papers; advances include LoRA pacing/gating, off-policy merging, target propagation, federated onboarding, self-distillation theory, task-vector descent, graph FSCIL, and continual harness learning.</li>
+<li><strong>Event-Based Vision</strong>: 1 new paper on asynchronous tracking, optical communication, and 3D motion capture with event-based sensors.</li>
+<li><strong>3D Point Cloud Perception</strong>: 1 new paper on selective spatiotemporal aggregation for 3D occupancy and scene flow prediction.</li>
+<li><strong>3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
+</ul>
+<p><strong>Research Areas</strong></p>
+<h2>LLM Agent 与多智能体</h2>
+<h3>LLM Agent Engineering</h3>
+<h4><a href="http://arxiv.org/abs/2610.05300v1">MESH-Harness: Self-Improving Agent Harnesses via Bandit-Guided Compositional Evolution</a></h4>
+<ul>
+<li>Authors: Z. Shang et al. | Published: 2026-10-04 | Contribution: Organizes agent harnesses into functional modules and improves them with bandit-guided compositional evolution under a fixed model. | Relevance: Directly advances automated LLM agent harness engineering without weight updates.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05778v1">MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks</a></h4>
+<ul>
+<li>Authors: Z. Wang et al. | Published: 2026-10-05 | Contribution: Evaluates LLM performance as a property of model-harness pairs on medical tasks. | Relevance: Provides controlled evidence that harness design materially affects agent evaluation.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05039v1">Causal Improvement Graph for Agentic Harness Optimization</a></h4>
+<ul>
+<li>Authors: J. Zhang et al. | Published: 2026-10-04 | Contribution: Builds a causal improvement graph to guide iterative proposal-evaluation optimization of agentic harnesses. | Relevance: Core method for automated harness optimization.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05382v1">Harness-Search: Guiding Long-Horizon Search through Multi-Agent Coordination</a></h4>
+<ul>
+<li>Authors: S. Wang et al. | Published: 2026-10-04 | Contribution: Uses multi-agent coordination in agent harnesses to handle growing interaction histories in long-horizon search. | Relevance: Connects harness engineering with multi-agent coordination for search agents.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05732v1">PACMI: Provenance-Aware Cascading Memory Invalidation for Long-Term LLM Agents</a></h4>
+<ul>
+<li>Authors: Y. Wang et al. | Published: 2026-10-05 | Contribution: Introduces provenance-aware cascading memory invalidation for outdated memories in long-term LLM agents. | Relevance: Addresses a key failure mode in persistent agent memory.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05241v1">StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions</a></h4>
+<ul>
+<li>Authors: Y. Peng et al. | Published: 2026-10-04 | Contribution: Diagnoses and repairs persistent operational records before agents act when environment or requirements change. | Relevance: Improves reliability of stateful LLM agents that reuse stored records.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05223v1">Look Before You Leap: Thermodynamic Arbitration of Parametric and Non-Parametric Knowledge in LLM Agents via Self-Regulating Memory Architectures</a></h4>
+<ul>
+<li>Authors: A. Das &amp; I. Roy | Published: 2026-10-04 | Contribution: Proposes a self-regulating memory architecture to arbitrate between parametric and non-parametric knowledge in LLM agents. | Relevance: Relevant to memory-centric agent architecture and knowledge conflict.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05303v1">ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience</a></h4>
+<ul>
+<li>Authors: H. Lu &amp; D. Gong | Published: 2026-10-04 | Contribution: Enables online test-time training for long-horizon agents by self-distilling verified experience. | Relevance: Bridges LLM agent engineering with test-time adaptation and self-improvement.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05572v1">Disentangling Task Difficulty from Run-Level Failure in Agent Failure Prediction</a></h4>
+<ul>
+<li>Authors: M. EsfandyariDoulabi et al. | Published: 2026-10-04 | Contribution: Separates task difficulty from run-level failure when training agent failure predictors. | Relevance: Supports intervention and monitoring in deployed LLM agents.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05566v1">LifeLong Digital Twin: A Unified Modeling Paradigm and Agent Harness for Event-Driven Lifelong Health State Trajectories</a></h4>
+<ul>
+<li>Authors: J. Jiang et al. | Published: 2026-10-04 | Contribution: Presents a unified modeling paradigm and agent harness for event-driven lifelong health state trajectories. | Relevance: Shows an application of agent harnesses to lifelong, event-driven health modeling.</li>
+</ul>
+<h2>模型压缩与持续学习</h2>
+<h3>Multimodal LLM Pruning</h3>
+<h4><a href="http://arxiv.org/abs/2610.05273v1">When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA</a></h4>
+<ul>
+<li>Authors: T. Shi et al. | Published: 2026-10-04 | Contribution: Proposes stage-aware visual token pruning for efficient vision-language-action inference. | Relevance: Fits multimodal LLM pruning and accelerates VLA inference.</li>
+</ul>
+<h3>Continual Learning</h3>
+<h4><a href="http://arxiv.org/abs/2610.05872v1">Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning</a></h4>
+<ul>
+<li>Authors: C. H. Wu et al. | Published: 2026-10-05 | Contribution: Finds off-policy merging outperforms on-policy self-distillation for continual learning on post-trained models. | Relevance: Challenges conventional on-policy requirements for continual learning.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05402v1">Task Vector Descent: Learning from Non-IID Batches</a></h4>
+<ul>
+<li>Authors: A. Baumann et al. | Published: 2026-10-04 | Contribution: Proposes task vector descent for continual learning from uneven, non-IID batches. | Relevance: Directly targets forgetting under distribution shift over time.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05200v1">Learning without Overwriting: A Theory of Self-Distillation and Supervised Fine-Tuning in Continual Reasoning</a></h4>
+<ul>
+<li>Authors: S. Uemura &amp; T. Suzuki | Published: 2026-10-04 | Contribution: Provides theory for on-policy self-distillation and SFT in continual reasoning preservation. | Relevance: Analyzes why self-distillation can reduce catastrophic forgetting in LLMs.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.04226v1">PaLoRA: Paced Low-Rank Adaptation for Continual Learning</a></h4>
+<ul>
+<li>Authors: Y. Li et al. | Published: 2026-10-03 | Contribution: Introduces paced low-rank adaptation with theoretically guided gradient scaling for continual learning. | Relevance: Improves LoRA-based continual learning beyond fixed small-learning-rate heuristics.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.04649v1">Gated Target Propagation for Compositional Generalization in Continual Learning</a></h4>
+<ul>
+<li>Authors: A. M. Njupoun et al. | Published: 2026-10-03 | Contribution: Uses gated target propagation to reuse and recombine prior knowledge for novel task compositions. | Relevance: Extends continual learning toward compositional generalization.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05800v1">Adaptive Utilization of Low-Rank Adaptation via Conditioned Gating</a></h4>
+<ul>
+<li>Authors: G. Yang et al. | Published: 2026-10-05 | Contribution: Conditions LoRA gates to adapt low-rank updates per token rather than sharing one update. | Relevance: Relevant to parameter-efficient continual adaptation via LoRA.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.04963v1">MAGIC: Topology-Aware Analytic Graph Few-Shot Class-Incremental Learning</a></h4>
+<ul>
+<li>Authors: J. Chen et al. | Published: 2026-10-04 | Contribution: Combines topology-aware and analytic graph learning for few-shot class-incremental node classification. | Relevance: Addresses catastrophic forgetting in graph continual learning.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.05598v1">When the Cross-Silo Federation Goes Offline: Continual Learning for Site Onboarding with Limited Unlabeled Data</a></h4>
+<ul>
+<li>Authors: A. Eslaminia et al. | Published: 2026-10-04 | Contribution: Studies continual learning for site onboarding in cross-silo federated settings with limited unlabeled data. | Relevance: Connects continual learning with federated, data-scarce deployment.</li>
+</ul>
+<h4><a href="http://arxiv.org/abs/2610.04287v1">VIGIL: Verifier-Informed Gated Improvement Loop for Spreadsheet Question Answering</a></h4>
+<ul>
+<li>Authors: K. Li et al. | Published: 2026-10-03 | Contribution: Adds a verifier-informed gated improvement loop for continual harness learning in spreadsheet QA. | Relevance: Shows continual improvement of agent harness behavior from delayed feedback.</li>
+</ul>
+<h2>视觉感知</h2>
+<h3>Event-Based Vision</h3>
+<h4><a href="http://arxiv.org/abs/2610.04342v1">Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors</a></h4>
+<ul>
+<li>Authors: Z. Wang et al. | Published: 2026-10-03 | Contribution: Uses event-based sensors for asynchronous tracking, optical communication, and 3D motion capture in cooperative robots. | Relevance: Core event-based vision for robotics and communication.</li>
+</ul>
+<h3>3D Point Cloud Perception</h3>
+<h4><a href="http://arxiv.org/abs/2610.04356v1">SelectOccFlow: Selective Spatiotemporal Aggregation for 3D Occupancy and Scene Flow Prediction</a></h4>
+<ul>
+<li>Authors: Y. Wang et al. | Published: 2026-10-03 | Contribution: Selectively aggregates spatiotemporal features for camera-based 3D occupancy and scene flow prediction. | Relevance: Directly targets 3D scene perception for autonomous driving.</li>
+</ul>
+<p><strong>Cross-Topic Signals</strong></p>
+<ul>
+<li>Agent harnesses are a shared abstraction across MedicalHarness, MESH-Harness, Harness-Search, Causal Improvement Graph, and VIGIL: they optimize or evaluate the runtime around a fixed LLM.</li>
+<li>Memory and state reliability connect PACMI, StateWise, Look Before You Leap, and VIGIL, which handle outdated memories, operational state repair, and delayed feedback.</li>
+<li>Continual learning methods increasingly target post-trained LLMs and parameter-efficient modules: off-policy merging, self-distillation theory, task-vector descent, PaLoRA, and conditioned LoRA.</li>
+<li>Efficiency/pruning connects to embodied/VLA work: stage-aware visual token pruning is designed for VLA inference, while event-based sensing and selective 3D aggregation support robot/autonomous perception.</li>
+<li>Test-time adaptation appears in ASCENT and continual reasoning/self-distillation, linking LLM agent self-improvement with continual learning.</li>
+</ul>
+<p><strong>Priority Reading</strong></p>
+<ul>
+<li><strong>MESH-Harness</strong> (<a href="http://arxiv.org/abs/2610.05300v1">http://arxiv.org/abs/2610.05300v1</a>): most directly addresses self-improving agent harnesses under fixed weights, a core LLM Agent Engineering problem.</li>
+</ul>
+<h4>- <strong>When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA</strong> (<a href="http://arxiv.org/abs/2610.05273v1">http://arxiv.org/abs/2610.05273v1</a>): the only new Multimodal LLM Pruning paper and bridges pruning with VLA inference.</h4>
+<h4>- <strong>Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning</strong> (<a href="http://arxiv.org/abs/2610.05872v1">http://arxiv.org/abs/2610.05872v1</a>): challenges a central assumption for continual learning on post-trained models and could reshape continual fine-tuning practice.</h4>
+<hr>
+<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
+]]></content:encoded>
+    </item>
     <item>
       <title>实验室研究方向 Radar 2026-10-05</title>
       <link>https://duanyytop.github.io/agents-radar/#2026-10-05/ai-arxiv</link>
@@ -3152,120 +3389,6 @@ Bai et al.｜2026-09-23｜4D 雷达与相机 3D 检测的几何接地语义；�
       <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-22</h1>
 <blockquote>
 <p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-09-22 00:29 UTC</p>
-</blockquote>
-<hr>
-<h3>Today&#39;s Overview</h3>
-<ul>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Engineering</strong>: No new papers today.</li>
-<li><strong>LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement</strong>: No new papers today.</li>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Societies</strong>: No new papers today.</li>
-<li><strong>具身智能 / Vision-Language-Action Models</strong>: No new papers today.</li>
-<li><strong>具身智能 / Embodied Navigation</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / LLM Pruning and Inference Optimization</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / Multimodal LLM Pruning</strong>: No new papers today.</li>
-<li><strong>模型压缩与持续学习 / Continual Learning</strong>: No new papers today.</li>
-<li><strong>视觉感知 / Event-Based Vision</strong>: No new papers today.</li>
-<li><strong>视觉感知 / 3D Point Cloud Perception</strong>: No new papers today.</li>
-<li><strong>视觉感知 / 3D Point Cloud Perception and Tracking</strong>: No new papers today.</li>
-</ul>
-<hr>
-<h3>Research Areas</h3>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent Engineering</h3>
-<p>No new papers today.</p>
-<h3>Agent Test-Time Scaling and Self-Improvement</h3>
-<p>No new papers today.</p>
-<h3>LLM Agent Societies</h3>
-<p>No new papers today.</p>
-<h2>具身智能</h2>
-<h3>Vision-Language-Action Models</h3>
-<p>No new papers today.</p>
-<h3>Embodied Navigation</h3>
-<p>No new papers today.</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM Pruning and Inference Optimization</h3>
-<p>No new papers today.</p>
-<h3>Multimodal LLM Pruning</h3>
-<p>No new papers today.</p>
-<h3>Continual Learning</h3>
-<p>No new papers today.</p>
-<h2>视觉感知</h2>
-<h3>Event-Based Vision</h3>
-<p>No new papers today.</p>
-<h3>3D Point Cloud Perception</h3>
-<p>No new papers today.</p>
-<h3>3D Point Cloud Perception and Tracking</h3>
-<p>No new papers today.</p>
-<hr>
-<p><em>This digest is auto-generated by <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a>.</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>实验室研究方向 Radar 2026-09-21</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-21/ai-arxiv</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-21/ai-arxiv</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description>实验室研究方向 Radar 2026-09-21 数据来源：ArXiv | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-09-20 23:46 UTC 今日总览 LLM Agent 与多智能体 / LLM Agent 工程：今日暂无新论文。 LLM Agent 与多智能体 / Agent 测试时扩展与自我改进：今日暂无新论文。 LLM Agent 与多智能体 / LLM Agent Society：今日暂无新论文。 具身智能 / 视觉-语言-动作模型：今日暂无新论文。 具身智能 / 具身导航：今日暂无新论文。 模型压缩与持续学习 / LLM 剪枝与推理优化：今日暂无新论文。 模型压缩与持续学习 / 多模态大模型剪枝：今日暂无新论文。 模型压缩与持续学习 / 持续学习：今日暂无新论文。 视觉感知 / 事件相机视觉感知：今日暂无新论文。 视觉感知 / 3D 点云视觉感知：今日暂无新论文。 视觉感知 / 3D 点云感知与跟踪：今日暂无新论文。 分方向情报 LLM Agent 与多智能体 LLM Agent...</description>
-      <content:encoded><![CDATA[<h1>实验室研究方向 Radar 2026-09-21</h1>
-<blockquote>
-<p>数据来源：<a href="https://arxiv.org/">ArXiv</a> | 统一检索近3天 | 配置 4 个板块 / 11 个研究方向 | 0 篇新文献 + 0 篇过去14天内已出现 | 生成时间：2026-09-20 23:46 UTC</p>
-</blockquote>
-<hr>
-<h3>今日总览</h3>
-<ul>
-<li><strong>LLM Agent 与多智能体 / LLM Agent 工程</strong>：今日暂无新论文。</li>
-<li><strong>LLM Agent 与多智能体 / Agent 测试时扩展与自我改进</strong>：今日暂无新论文。</li>
-<li><strong>LLM Agent 与多智能体 / LLM Agent Society</strong>：今日暂无新论文。</li>
-<li><strong>具身智能 / 视觉-语言-动作模型</strong>：今日暂无新论文。</li>
-<li><strong>具身智能 / 具身导航</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / LLM 剪枝与推理优化</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / 多模态大模型剪枝</strong>：今日暂无新论文。</li>
-<li><strong>模型压缩与持续学习 / 持续学习</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 事件相机视觉感知</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 3D 点云视觉感知</strong>：今日暂无新论文。</li>
-<li><strong>视觉感知 / 3D 点云感知与跟踪</strong>：今日暂无新论文。</li>
-</ul>
-<hr>
-<h3>分方向情报</h3>
-<h2>LLM Agent 与多智能体</h2>
-<h3>LLM Agent 工程</h3>
-<p>今日暂无新论文。</p>
-<h3>Agent 测试时扩展与自我改进</h3>
-<p>今日暂无新论文。</p>
-<h3>LLM Agent Society</h3>
-<p>今日暂无新论文。</p>
-<h2>具身智能</h2>
-<h3>视觉-语言-动作模型</h3>
-<p>今日暂无新论文。</p>
-<h3>具身导航</h3>
-<p>今日暂无新论文。</p>
-<h2>模型压缩与持续学习</h2>
-<h3>LLM 剪枝与推理优化</h3>
-<p>今日暂无新论文。</p>
-<h3>多模态大模型剪枝</h3>
-<p>今日暂无新论文。</p>
-<h3>持续学习</h3>
-<p>今日暂无新论文。</p>
-<h2>视觉感知</h2>
-<h3>事件相机视觉感知</h3>
-<p>今日暂无新论文。</p>
-<h3>3D 点云视觉感知</h3>
-<p>今日暂无新论文。</p>
-<h3>3D 点云感知与跟踪</h3>
-<p>今日暂无新论文。</p>
-<hr>
-<p><em>本日报由 <a href="https://github.com/hhhhhjg/agents-radar">agents-radar</a> 自动生成。</em></p>
-]]></content:encoded>
-    </item>
-    <item>
-      <title>Lab Research Topics Radar 2026-09-21</title>
-      <link>https://duanyytop.github.io/agents-radar/#2026-09-21/ai-arxiv-en</link>
-      <guid isPermaLink="true">https://duanyytop.github.io/agents-radar/#2026-09-21/ai-arxiv-en</guid>
-      <pubDate>Mon, 21 Sep 2026 00:00:00 +0000</pubDate>
-      <description>Lab Research Topics Radar 2026-09-21 Source: ArXiv | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-09-20 23:46 UTC Today&amp;#39;s Overview LLM Agent 与多智能体 / LLM Agent Engineering: No new papers today. LLM Agent 与多智能体 / Agent Test-Time Scaling and Self-Improvement: No new papers today. LLM Agent 与多智能体 / LLM Agent Societies: No new papers today. 具身智能 / Vision-Language-Action Models: No new papers today. 具身智能 / Embodied Navigation: No new ...</description>
-      <content:encoded><![CDATA[<h1>Lab Research Topics Radar 2026-09-21</h1>
-<blockquote>
-<p>Source: <a href="https://arxiv.org/">ArXiv</a> | 3-day search window | 4 groups / 11 configured topics | 0 new + 0 seen in the last 14 days | Generated: 2026-09-20 23:46 UTC</p>
 </blockquote>
 <hr>
 <h3>Today&#39;s Overview</h3>
