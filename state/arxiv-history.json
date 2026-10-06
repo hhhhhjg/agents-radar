@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-05T00:22:45.727Z",
+  "updatedAt": "2026-10-06T02:01:01.889Z",
   "papers": {
     "2609.24979": {
       "title": "LoRA-generating hypernetworks for efficient on-device LLM generative personalization",
@@ -2171,6 +2171,151 @@
       "title": "MoRA: MoE Pruning via Router Bias Learning and Expert Approximation",
       "firstSeenAt": "2026-10-03T00:52:36.914Z",
       "lastSeenAt": "2026-10-03T00:52:36.914Z"
+    },
+    "2610.05872": {
+      "title": "Off-Policy Merging Beats On-Policy Self-Distillation for Continual Learning",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05800": {
+      "title": "Adaptive Utilization of Low-Rank Adaptation via Conditioned Gating",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05778": {
+      "title": "MedicalHarness: A Controlled Evaluation of LLMs and Agent Harnesses on Medical Tasks",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05732": {
+      "title": "PACMI: Provenance-Aware Cascading Memory Invalidation for Long-Term LLM Agents",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05681": {
+      "title": "Automatic Speech Recognition for Low-Resource Sinhala: A Critical Review of Methods, Challenges, and Future Directions",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05598": {
+      "title": "When the Cross-Silo Federation Goes Offline: Continual Learning for Site Onboarding with Limited Unlabeled Data",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05572": {
+      "title": "Disentangling Task Difficulty from Run-Level Failure in Agent Failure Prediction",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05566": {
+      "title": "LifeLong Digital Twin: A Unified Modeling Paradigm and Agent Harness for Event-Driven Lifelong Health State Trajectories",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05540": {
+      "title": "SALUS: Automated Auditing of NL-to-SQL Benchmarks through Weak Supervision of Multi-Agent Output",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05402": {
+      "title": "Task Vector Descent: Learning from Non-IID Batches",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05398": {
+      "title": "MMPostTrainBench: Benchmarking Autonomous Research for Multimodal Post-Training",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05382": {
+      "title": "Harness-Search: Guiding Long-Horizon Search through Multi-Agent Coordination",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05303": {
+      "title": "ASCENT: Online Test-Time Training of Long-Horizon Agents via Self-Distillation of Verified Experience",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05300": {
+      "title": "MESH-Harness: Self-Improving Agent Harnesses via Bandit-Guided Compositional Evolution",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05295": {
+      "title": "Readable Before Actionable: Causal Tracing of Indirect Prompt Injection",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05273": {
+      "title": "When and What to Prune? Stage-Aware Visual Token Pruning for Efficient VLA",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05241": {
+      "title": "StateWise: Diagnosing and Repairing Persistent Operational State Before Agent Actions",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05223": {
+      "title": "Look Before You Leap: Thermodynamic Arbitration of Parametric and Non-Parametric Knowledge in LLM Agents via Self-Regulating Memory Architectures",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05200": {
+      "title": "Learning without Overwriting: A Theory of Self-Distillation and Supervised Fine-Tuning in Continual Reasoning",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05103": {
+      "title": "VulValidate: Auditing Function-Level Vulnerability Labels with Executable Evidence",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05039": {
+      "title": "Causal Improvement Graph for Agentic Harness Optimization",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.05030": {
+      "title": "EVISKILL: Grounding Skill Evolution in Replayable Evidence",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04963": {
+      "title": "MAGIC: Topology-Aware Analytic Graph Few-Shot Class-Incremental Learning",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04703": {
+      "title": "Learning Discriminative Geometry for Drifting Models",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04649": {
+      "title": "Gated Target Propagation for Compositional Generalization in Continual Learning",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04356": {
+      "title": "SelectOccFlow: Selective Spatiotemporal Aggregation for 3D Occupancy and Scene Flow Prediction",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04342": {
+      "title": "Asynchronous Tracking, Optical Communication and 3D Motion Capture using Event-based Sensors",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04287": {
+      "title": "VIGIL: Verifier-Informed Gated Improvement Loop for Spreadsheet Question Answering",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
+    },
+    "2610.04226": {
+      "title": "PaLoRA: Paced Low-Rank Adaptation for Continual Learning",
+      "firstSeenAt": "2026-10-06T02:01:01.889Z",
+      "lastSeenAt": "2026-10-06T02:01:01.889Z"
     }
   }
 }
